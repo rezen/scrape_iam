@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+  </head>
+  <body>
+    <section id="main" role="main" class="container">
+      {{ content }}
+    </section>
+  </body>
+</html>
