@@ -1,0 +1,1 @@
+{"lexicon*": ["polly:DeleteLexicon", "polly:GetLexicon", "polly:PutLexicon"], "?": ["polly:DescribeVoices", "polly:GetSpeechSynthesisTask", "polly:ListLexicons", "polly:ListSpeechSynthesisTasks"], "lexicon": ["polly:StartSpeechSynthesisTask", "polly:SynthesizeSpeech"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonpolly.html"}

@@ -1,0 +1,1 @@
+["airflow:CreateCliToken", "airflow:CreateEnvironment", "airflow:CreateWebLoginToken", "airflow:DeleteEnvironment", "airflow:GetEnvironment", "airflow:ListEnvironments", "airflow:ListTagsForResource", "airflow:PublishMetrics", "airflow:TagResource", "airflow:UntagResource", "airflow:UpdateEnvironment"]

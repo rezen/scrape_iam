@@ -1,0 +1,1 @@
+["scheduler:CreateSchedule", "scheduler:CreateScheduleGroup", "scheduler:DeleteSchedule", "scheduler:DeleteScheduleGroup", "scheduler:GetSchedule", "scheduler:GetScheduleGroup", "scheduler:ListScheduleGroups", "scheduler:ListSchedules", "scheduler:ListTagsForResource", "scheduler:TagResource", "scheduler:UntagResource", "scheduler:UpdateSchedule"]

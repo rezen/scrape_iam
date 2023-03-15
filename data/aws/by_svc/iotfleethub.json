@@ -1,0 +1,1 @@
+["iotfleethub:CreateApplication", "iotfleethub:DeleteApplication", "iotfleethub:DescribeApplication", "iotfleethub:ListApplications", "iotfleethub:ListTagsForResource", "iotfleethub:TagResource", "iotfleethub:UntagResource", "iotfleethub:UpdateApplication"]

@@ -1,0 +1,1 @@
+{"cluster*": ["rds-data:BatchExecuteStatement", "rds-data:BeginTransaction", "rds-data:CommitTransaction", "rds-data:ExecuteSql", "rds-data:ExecuteStatement", "rds-data:RollbackTransaction"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonrdsdataapi.html"}

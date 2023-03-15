@@ -1,0 +1,1 @@
+["codedeploy-commands-secure:GetDeploymentSpecification", "codedeploy-commands-secure:PollHostCommand", "codedeploy-commands-secure:PutHostCommandAcknowledgement", "codedeploy-commands-secure:PutHostCommandComplete"]

@@ -1,0 +1,1 @@
+["pi:DescribeDimensionKeys", "pi:GetDimensionKeyDetails", "pi:GetResourceMetadata", "pi:GetResourceMetrics", "pi:ListAvailableResourceDimensions", "pi:ListAvailableResourceMetrics"]

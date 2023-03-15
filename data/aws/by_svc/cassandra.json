@@ -1,0 +1,1 @@
+["cassandra:Alter", "cassandra:Create", "cassandra:Drop", "cassandra:Modify", "cassandra:Restore", "cassandra:Select", "cassandra:TagResource", "cassandra:UntagResource", "cassandra:UpdatePartitioner"]

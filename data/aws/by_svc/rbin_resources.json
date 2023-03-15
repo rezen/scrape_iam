@@ -1,0 +1,1 @@
+{"rule*": ["rbin:CreateRule", "rbin:DeleteRule", "rbin:GetRule", "rbin:ListTagsForResource", "rbin:LockRule", "rbin:TagResource", "rbin:UnlockRule", "rbin:UntagResource", "rbin:UpdateRule"], "?": ["rbin:ListRules"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsrecyclebin.html"}

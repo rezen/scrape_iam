@@ -1,0 +1,1 @@
+["pipes:CreatePipe", "pipes:DeletePipe", "pipes:DescribePipe", "pipes:ListPipes", "pipes:ListTagsForResource", "pipes:StartPipe", "pipes:StopPipe", "pipes:TagResource", "pipes:UntagResource", "pipes:UpdatePipe"]

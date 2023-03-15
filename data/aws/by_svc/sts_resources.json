@@ -1,0 +1,1 @@
+{"role*": ["sts:AssumeRole", "sts:AssumeRoleWithSAML", "sts:AssumeRoleWithWebIdentity"], "?": ["sts:DecodeAuthorizationMessage", "sts:GetAccessKeyInfo", "sts:GetCallerIdentity", "sts:GetSessionToken"], "user": ["sts:GetFederationToken"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awssecuritytokenservice.html"}

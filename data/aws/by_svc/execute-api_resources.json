@@ -1,0 +1,1 @@
+{"execute-api-general*": ["execute-api:InvalidateCache", "execute-api:Invoke", "execute-api:ManageConnections"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonapigateway.html"}

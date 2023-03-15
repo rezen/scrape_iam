@@ -1,0 +1,1 @@
+["sdb:BatchDeleteAttributes", "sdb:BatchPutAttributes", "sdb:CreateDomain", "sdb:DeleteAttributes", "sdb:DeleteDomain", "sdb:DomainMetadata", "sdb:GetAttributes", "sdb:ListDomains", "sdb:PutAttributes", "sdb:Select"]

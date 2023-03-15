@@ -1,0 +1,1 @@
+["autoscaling-plans:CreateScalingPlan", "autoscaling-plans:DeleteScalingPlan", "autoscaling-plans:DescribeScalingPlanResources", "autoscaling-plans:DescribeScalingPlans", "autoscaling-plans:GetScalingPlanResourceForecastData", "autoscaling-plans:UpdateScalingPlan"]

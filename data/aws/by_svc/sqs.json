@@ -1,0 +1,1 @@
+["sqs:AddPermission", "sqs:ChangeMessageVisibility", "sqs:CreateQueue", "sqs:DeleteMessage", "sqs:DeleteQueue", "sqs:GetQueueAttributes", "sqs:GetQueueUrl", "sqs:ListDeadLetterSourceQueues", "sqs:ListQueueTags", "sqs:ListQueues", "sqs:PurgeQueue", "sqs:ReceiveMessage", "sqs:RemovePermission", "sqs:SendMessage", "sqs:SetQueueAttributes", "sqs:TagQueue", "sqs:UntagQueue"]

@@ -1,0 +1,1 @@
+{"instance*": ["scn:AssignAdminPermissionsToUser", "scn:CreateInstance", "scn:CreateSSOApplication", "scn:DeleteInstance", "scn:DeleteSSOApplication", "scn:DescribeInstance", "scn:ListAdminUsers", "scn:ListInstances", "scn:RemoveAdminPermissionsForUser", "scn:UpdateInstance"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awssupplychain.html"}

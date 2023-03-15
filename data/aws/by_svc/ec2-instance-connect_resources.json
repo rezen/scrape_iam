@@ -1,0 +1,1 @@
+{"instance*": ["ec2-instance-connect:SendSSHPublicKey", "ec2-instance-connect:SendSerialConsoleSSHPublicKey"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonec2instanceconnect.html"}

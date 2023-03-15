@@ -1,0 +1,1 @@
+{"?": ["ec2messages:AcknowledgeMessage", "ec2messages:DeleteMessage", "ec2messages:FailMessage", "ec2messages:GetEndpoint", "ec2messages:GetMessages", "ec2messages:SendReply"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonmessagedeliveryservice.html"}

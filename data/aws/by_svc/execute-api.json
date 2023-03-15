@@ -1,0 +1,1 @@
+["execute-api:InvalidateCache", "execute-api:Invoke", "execute-api:ManageConnections"]

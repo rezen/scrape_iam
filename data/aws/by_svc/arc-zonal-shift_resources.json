@@ -1,0 +1,1 @@
+{"ALB*": ["arc-zonal-shift:CancelZonalShift", "arc-zonal-shift:GetManagedResource", "arc-zonal-shift:StartZonalShift", "arc-zonal-shift:UpdateZonalShift"], "?": ["arc-zonal-shift:ListManagedResources", "arc-zonal-shift:ListZonalShifts"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonroute53applicationrecoverycontroller-zonalshift.html"}

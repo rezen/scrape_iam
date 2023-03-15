@@ -1,0 +1,1 @@
+{"snapshot*": ["ebs:CompleteSnapshot", "ebs:GetSnapshotBlock", "ebs:ListChangedBlocks", "ebs:ListSnapshotBlocks", "ebs:PutSnapshotBlock"], "snapshot": ["ebs:StartSnapshot"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonelasticblockstore.html"}
