@@ -62,7 +62,7 @@ with futures.ThreadPoolExecutor(max_workers=20) as executor:
 actions = []
 services = []
 tree = {}
-data_dir = os.path.expanduser('~/vcs/scrape_iam/data')
+data_dir = os.path.expanduser('~/vcs/scrape_iam/docs')
 ensure_dir(f'{data_dir}/aws/by_svc/')
 
 for idx, promise in enumerate(promises):
