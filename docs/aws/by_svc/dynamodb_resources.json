@@ -1,1 +1,74 @@
-{"table*": ["dynamodb:BatchGetItem", "dynamodb:BatchWriteItem", "dynamodb:ConditionCheckItem", "dynamodb:CreateBackup", "dynamodb:CreateTable", "dynamodb:DeleteItem", "dynamodb:DeleteTable", "dynamodb:DescribeContinuousBackups", "dynamodb:DescribeContributorInsights", "dynamodb:DescribeKinesisStreamingDestination", "dynamodb:DescribeTable", "dynamodb:DescribeTableReplicaAutoScaling", "dynamodb:DescribeTimeToLive", "dynamodb:DisableKinesisStreamingDestination", "dynamodb:EnableKinesisStreamingDestination", "dynamodb:ExportTableToPointInTime", "dynamodb:GetItem", "dynamodb:ImportTable", "dynamodb:ListTagsOfResource", "dynamodb:PartiQLDelete", "dynamodb:PartiQLInsert", "dynamodb:PartiQLSelect", "dynamodb:PartiQLUpdate", "dynamodb:PutItem", "dynamodb:Query", "dynamodb:RestoreTableToPointInTime", "dynamodb:Scan", "dynamodb:TagResource", "dynamodb:UntagResource", "dynamodb:UpdateContinuousBackups", "dynamodb:UpdateContributorInsights", "dynamodb:UpdateItem", "dynamodb:UpdateTable", "dynamodb:UpdateTableReplicaAutoScaling", "dynamodb:UpdateTimeToLive"], "global-table*": ["dynamodb:CreateGlobalTable", "dynamodb:DescribeGlobalTable", "dynamodb:DescribeGlobalTableSettings", "dynamodb:UpdateGlobalTable", "dynamodb:UpdateGlobalTableSettings"], "backup*": ["dynamodb:DeleteBackup", "dynamodb:DescribeBackup", "dynamodb:RestoreTableFromBackup"], "?": ["dynamodb:DescribeEndpoints", "dynamodb:DescribeLimits", "dynamodb:ListBackups", "dynamodb:ListContributorInsights", "dynamodb:ListExports", "dynamodb:ListGlobalTables", "dynamodb:ListImports", "dynamodb:ListStreams", "dynamodb:ListTables"], "export*": ["dynamodb:DescribeExport"], "import*": ["dynamodb:DescribeImport"], "stream*": ["dynamodb:DescribeStream", "dynamodb:GetRecords", "dynamodb:GetShardIterator"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazondynamodb.html"}
+{
+ "table*": [
+  "dynamodb:BatchGetItem",
+  "dynamodb:BatchWriteItem",
+  "dynamodb:ConditionCheckItem",
+  "dynamodb:CreateBackup",
+  "dynamodb:CreateTable",
+  "dynamodb:DeleteItem",
+  "dynamodb:DeleteTable",
+  "dynamodb:DescribeContinuousBackups",
+  "dynamodb:DescribeContributorInsights",
+  "dynamodb:DescribeKinesisStreamingDestination",
+  "dynamodb:DescribeTable",
+  "dynamodb:DescribeTableReplicaAutoScaling",
+  "dynamodb:DescribeTimeToLive",
+  "dynamodb:DisableKinesisStreamingDestination",
+  "dynamodb:EnableKinesisStreamingDestination",
+  "dynamodb:ExportTableToPointInTime",
+  "dynamodb:GetItem",
+  "dynamodb:ImportTable",
+  "dynamodb:ListTagsOfResource",
+  "dynamodb:PartiQLDelete",
+  "dynamodb:PartiQLInsert",
+  "dynamodb:PartiQLSelect",
+  "dynamodb:PartiQLUpdate",
+  "dynamodb:PutItem",
+  "dynamodb:Query",
+  "dynamodb:RestoreTableToPointInTime",
+  "dynamodb:Scan",
+  "dynamodb:TagResource",
+  "dynamodb:UntagResource",
+  "dynamodb:UpdateContinuousBackups",
+  "dynamodb:UpdateContributorInsights",
+  "dynamodb:UpdateItem",
+  "dynamodb:UpdateTable",
+  "dynamodb:UpdateTableReplicaAutoScaling",
+  "dynamodb:UpdateTimeToLive"
+ ],
+ "global-table*": [
+  "dynamodb:CreateGlobalTable",
+  "dynamodb:DescribeGlobalTable",
+  "dynamodb:DescribeGlobalTableSettings",
+  "dynamodb:UpdateGlobalTable",
+  "dynamodb:UpdateGlobalTableSettings"
+ ],
+ "backup*": [
+  "dynamodb:DeleteBackup",
+  "dynamodb:DescribeBackup",
+  "dynamodb:RestoreTableFromBackup"
+ ],
+ "?": [
+  "dynamodb:DescribeEndpoints",
+  "dynamodb:DescribeLimits",
+  "dynamodb:ListBackups",
+  "dynamodb:ListContributorInsights",
+  "dynamodb:ListExports",
+  "dynamodb:ListGlobalTables",
+  "dynamodb:ListImports",
+  "dynamodb:ListStreams",
+  "dynamodb:ListTables"
+ ],
+ "export*": [
+  "dynamodb:DescribeExport"
+ ],
+ "import*": [
+  "dynamodb:DescribeImport"
+ ],
+ "stream*": [
+  "dynamodb:DescribeStream",
+  "dynamodb:GetRecords",
+  "dynamodb:GetShardIterator"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazondynamodb.html"
+}

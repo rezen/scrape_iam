@@ -1,1 +1,12 @@
-["rbin:CreateRule", "rbin:DeleteRule", "rbin:GetRule", "rbin:ListRules", "rbin:ListTagsForResource", "rbin:LockRule", "rbin:TagResource", "rbin:UnlockRule", "rbin:UntagResource", "rbin:UpdateRule"]
+[
+ "rbin:CreateRule",
+ "rbin:DeleteRule",
+ "rbin:GetRule",
+ "rbin:ListRules",
+ "rbin:ListTagsForResource",
+ "rbin:LockRule",
+ "rbin:TagResource",
+ "rbin:UnlockRule",
+ "rbin:UntagResource",
+ "rbin:UpdateRule"
+]

@@ -1,1 +1,4 @@
-["workmailmessageflow:GetRawMessageContent", "workmailmessageflow:PutRawMessageContent"]
+[
+ "workmailmessageflow:GetRawMessageContent",
+ "workmailmessageflow:PutRawMessageContent"
+]

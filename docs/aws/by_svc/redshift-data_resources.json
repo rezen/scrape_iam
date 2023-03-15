@@ -1,1 +1,17 @@
-{"cluster*": ["redshift-data:BatchExecuteStatement", "redshift-data:DescribeTable", "redshift-data:ExecuteStatement", "redshift-data:ListDatabases", "redshift-data:ListSchemas", "redshift-data:ListTables"], "?": ["redshift-data:CancelStatement", "redshift-data:DescribeStatement", "redshift-data:GetStatementResult", "redshift-data:ListStatements"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonredshiftdataapi.html"}
+{
+ "cluster*": [
+  "redshift-data:BatchExecuteStatement",
+  "redshift-data:DescribeTable",
+  "redshift-data:ExecuteStatement",
+  "redshift-data:ListDatabases",
+  "redshift-data:ListSchemas",
+  "redshift-data:ListTables"
+ ],
+ "?": [
+  "redshift-data:CancelStatement",
+  "redshift-data:DescribeStatement",
+  "redshift-data:GetStatementResult",
+  "redshift-data:ListStatements"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonredshiftdataapi.html"
+}

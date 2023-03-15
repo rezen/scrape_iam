@@ -1,1 +1,48 @@
-{"jobs*": ["dataexchange:CancelJob", "dataexchange:GetJob", "dataexchange:StartJob"], "?": ["dataexchange:CreateDataSet", "dataexchange:CreateEventAction", "dataexchange:CreateJob", "dataexchange:ListDataSets", "dataexchange:ListEventActions", "dataexchange:ListJobs"], "data-sets*": ["dataexchange:CreateRevision", "dataexchange:DeleteDataSet", "dataexchange:GetDataSet", "dataexchange:ListDataSetRevisions", "dataexchange:UpdateDataSet"], "assets*": ["dataexchange:DeleteAsset", "dataexchange:GetAsset", "dataexchange:SendApiAsset", "dataexchange:UpdateAsset"], "event-actions*": ["dataexchange:DeleteEventAction", "dataexchange:GetEventAction", "dataexchange:UpdateEventAction"], "revisions*": ["dataexchange:DeleteRevision", "dataexchange:RevokeRevision", "dataexchange:UpdateRevision"], "entitled-revisions*": ["dataexchange:GetRevision", "dataexchange:ListRevisionAssets"], "data-sets": ["dataexchange:ListTagsForResource", "dataexchange:TagResource", "dataexchange:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsdataexchange.html"}
+{
+ "jobs*": [
+  "dataexchange:CancelJob",
+  "dataexchange:GetJob",
+  "dataexchange:StartJob"
+ ],
+ "?": [
+  "dataexchange:CreateDataSet",
+  "dataexchange:CreateEventAction",
+  "dataexchange:CreateJob",
+  "dataexchange:ListDataSets",
+  "dataexchange:ListEventActions",
+  "dataexchange:ListJobs"
+ ],
+ "data-sets*": [
+  "dataexchange:CreateRevision",
+  "dataexchange:DeleteDataSet",
+  "dataexchange:GetDataSet",
+  "dataexchange:ListDataSetRevisions",
+  "dataexchange:UpdateDataSet"
+ ],
+ "assets*": [
+  "dataexchange:DeleteAsset",
+  "dataexchange:GetAsset",
+  "dataexchange:SendApiAsset",
+  "dataexchange:UpdateAsset"
+ ],
+ "event-actions*": [
+  "dataexchange:DeleteEventAction",
+  "dataexchange:GetEventAction",
+  "dataexchange:UpdateEventAction"
+ ],
+ "revisions*": [
+  "dataexchange:DeleteRevision",
+  "dataexchange:RevokeRevision",
+  "dataexchange:UpdateRevision"
+ ],
+ "entitled-revisions*": [
+  "dataexchange:GetRevision",
+  "dataexchange:ListRevisionAssets"
+ ],
+ "data-sets": [
+  "dataexchange:ListTagsForResource",
+  "dataexchange:TagResource",
+  "dataexchange:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsdataexchange.html"
+}

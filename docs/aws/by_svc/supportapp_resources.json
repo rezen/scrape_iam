@@ -1,1 +1,15 @@
-{"?": ["supportapp:CreateSlackChannelConfiguration", "supportapp:DeleteAccountAlias", "supportapp:DeleteSlackChannelConfiguration", "supportapp:DeleteSlackWorkspaceConfiguration", "supportapp:GetAccountAlias", "supportapp:ListSlackChannelConfigurations", "supportapp:ListSlackWorkspaceConfigurations", "supportapp:PutAccountAlias", "supportapp:RegisterSlackWorkspaceForOrganization", "supportapp:UpdateSlackChannelConfiguration"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awssupportappinslack.html"}
+{
+ "?": [
+  "supportapp:CreateSlackChannelConfiguration",
+  "supportapp:DeleteAccountAlias",
+  "supportapp:DeleteSlackChannelConfiguration",
+  "supportapp:DeleteSlackWorkspaceConfiguration",
+  "supportapp:GetAccountAlias",
+  "supportapp:ListSlackChannelConfigurations",
+  "supportapp:ListSlackWorkspaceConfigurations",
+  "supportapp:PutAccountAlias",
+  "supportapp:RegisterSlackWorkspaceForOrganization",
+  "supportapp:UpdateSlackChannelConfiguration"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awssupportappinslack.html"
+}

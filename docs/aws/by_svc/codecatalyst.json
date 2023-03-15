@@ -1,1 +1,13 @@
-["codecatalyst:AcceptConnection", "codecatalyst:AssociateIamRoleToConnection", "codecatalyst:DeleteConnection", "codecatalyst:DisassociateIamRoleFromConnection", "codecatalyst:GetBillingAuthorization", "codecatalyst:GetConnection", "codecatalyst:GetPendingConnection", "codecatalyst:ListConnections", "codecatalyst:ListIamRolesForConnection", "codecatalyst:PutBillingAuthorization", "codecatalyst:RejectConnection"]
+[
+ "codecatalyst:AcceptConnection",
+ "codecatalyst:AssociateIamRoleToConnection",
+ "codecatalyst:DeleteConnection",
+ "codecatalyst:DisassociateIamRoleFromConnection",
+ "codecatalyst:GetBillingAuthorization",
+ "codecatalyst:GetConnection",
+ "codecatalyst:GetPendingConnection",
+ "codecatalyst:ListConnections",
+ "codecatalyst:ListIamRolesForConnection",
+ "codecatalyst:PutBillingAuthorization",
+ "codecatalyst:RejectConnection"
+]

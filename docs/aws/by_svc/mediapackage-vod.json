@@ -1,1 +1,19 @@
-["mediapackage-vod:ConfigureLogs", "mediapackage-vod:CreateAsset", "mediapackage-vod:CreatePackagingConfiguration", "mediapackage-vod:CreatePackagingGroup", "mediapackage-vod:DeleteAsset", "mediapackage-vod:DeletePackagingConfiguration", "mediapackage-vod:DeletePackagingGroup", "mediapackage-vod:DescribeAsset", "mediapackage-vod:DescribePackagingConfiguration", "mediapackage-vod:DescribePackagingGroup", "mediapackage-vod:ListAssets", "mediapackage-vod:ListPackagingConfigurations", "mediapackage-vod:ListPackagingGroups", "mediapackage-vod:ListTagsForResource", "mediapackage-vod:TagResource", "mediapackage-vod:UntagResource", "mediapackage-vod:UpdatePackagingGroup"]
+[
+ "mediapackage-vod:ConfigureLogs",
+ "mediapackage-vod:CreateAsset",
+ "mediapackage-vod:CreatePackagingConfiguration",
+ "mediapackage-vod:CreatePackagingGroup",
+ "mediapackage-vod:DeleteAsset",
+ "mediapackage-vod:DeletePackagingConfiguration",
+ "mediapackage-vod:DeletePackagingGroup",
+ "mediapackage-vod:DescribeAsset",
+ "mediapackage-vod:DescribePackagingConfiguration",
+ "mediapackage-vod:DescribePackagingGroup",
+ "mediapackage-vod:ListAssets",
+ "mediapackage-vod:ListPackagingConfigurations",
+ "mediapackage-vod:ListPackagingGroups",
+ "mediapackage-vod:ListTagsForResource",
+ "mediapackage-vod:TagResource",
+ "mediapackage-vod:UntagResource",
+ "mediapackage-vod:UpdatePackagingGroup"
+]

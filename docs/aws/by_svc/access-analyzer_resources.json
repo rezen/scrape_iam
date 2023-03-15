@@ -1,1 +1,39 @@
-{"Analyzer*": ["access-analyzer:ApplyArchiveRule", "access-analyzer:CreateAccessPreview", "access-analyzer:CreateAnalyzer", "access-analyzer:DeleteAnalyzer", "access-analyzer:GetAccessPreview", "access-analyzer:GetAnalyzedResource", "access-analyzer:GetAnalyzer", "access-analyzer:GetFinding", "access-analyzer:ListAccessPreviewFindings", "access-analyzer:ListAccessPreviews", "access-analyzer:ListAnalyzedResources", "access-analyzer:ListArchiveRules", "access-analyzer:ListFindings", "access-analyzer:StartResourceScan", "access-analyzer:UpdateFindings"], "?": ["access-analyzer:CancelPolicyGeneration", "access-analyzer:GetGeneratedPolicy", "access-analyzer:ListAnalyzers", "access-analyzer:ListPolicyGenerations", "access-analyzer:StartPolicyGeneration", "access-analyzer:ValidatePolicy"], "ArchiveRule*": ["access-analyzer:CreateArchiveRule", "access-analyzer:DeleteArchiveRule", "access-analyzer:GetArchiveRule", "access-analyzer:UpdateArchiveRule"], "Analyzer": ["access-analyzer:ListTagsForResource", "access-analyzer:TagResource", "access-analyzer:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsiamaccessanalyzer.html"}
+{
+ "Analyzer*": [
+  "access-analyzer:ApplyArchiveRule",
+  "access-analyzer:CreateAccessPreview",
+  "access-analyzer:CreateAnalyzer",
+  "access-analyzer:DeleteAnalyzer",
+  "access-analyzer:GetAccessPreview",
+  "access-analyzer:GetAnalyzedResource",
+  "access-analyzer:GetAnalyzer",
+  "access-analyzer:GetFinding",
+  "access-analyzer:ListAccessPreviewFindings",
+  "access-analyzer:ListAccessPreviews",
+  "access-analyzer:ListAnalyzedResources",
+  "access-analyzer:ListArchiveRules",
+  "access-analyzer:ListFindings",
+  "access-analyzer:StartResourceScan",
+  "access-analyzer:UpdateFindings"
+ ],
+ "?": [
+  "access-analyzer:CancelPolicyGeneration",
+  "access-analyzer:GetGeneratedPolicy",
+  "access-analyzer:ListAnalyzers",
+  "access-analyzer:ListPolicyGenerations",
+  "access-analyzer:StartPolicyGeneration",
+  "access-analyzer:ValidatePolicy"
+ ],
+ "ArchiveRule*": [
+  "access-analyzer:CreateArchiveRule",
+  "access-analyzer:DeleteArchiveRule",
+  "access-analyzer:GetArchiveRule",
+  "access-analyzer:UpdateArchiveRule"
+ ],
+ "Analyzer": [
+  "access-analyzer:ListTagsForResource",
+  "access-analyzer:TagResource",
+  "access-analyzer:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsiamaccessanalyzer.html"
+}

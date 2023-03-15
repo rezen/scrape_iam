@@ -1,1 +1,9 @@
-{"?": ["a2c:GetContainerizationJobDetails", "a2c:GetDeploymentJobDetails", "a2c:StartContainerizationJob", "a2c:StartDeploymentJob"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsapp2container.html"}
+{
+ "?": [
+  "a2c:GetContainerizationJobDetails",
+  "a2c:GetDeploymentJobDetails",
+  "a2c:StartContainerizationJob",
+  "a2c:StartDeploymentJob"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsapp2container.html"
+}

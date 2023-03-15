@@ -1,1 +1,44 @@
-{"discoverer*": ["schemas:CreateDiscoverer", "schemas:DeleteDiscoverer", "schemas:DescribeDiscoverer", "schemas:ListDiscoverers", "schemas:StartDiscoverer", "schemas:StopDiscoverer", "schemas:UpdateDiscoverer"], "registry*": ["schemas:CreateRegistry", "schemas:DeleteRegistry", "schemas:DeleteResourcePolicy", "schemas:DescribeRegistry", "schemas:ExportSchema", "schemas:GetResourcePolicy", "schemas:ListRegistries", "schemas:PutResourcePolicy", "schemas:UpdateRegistry"], "schema*": ["schemas:CreateSchema", "schemas:DeleteSchema", "schemas:DeleteSchemaVersion", "schemas:DescribeCodeBinding", "schemas:DescribeSchema", "schemas:GetCodeBindingSource", "schemas:ListSchemaVersions", "schemas:ListSchemas", "schemas:PutCodeBinding", "schemas:SearchSchemas", "schemas:UpdateSchema"], "?": ["schemas:GetDiscoveredSchema"], "discoverer": ["schemas:ListTagsForResource", "schemas:TagResource", "schemas:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoneventbridgeschemas.html"}
+{
+ "discoverer*": [
+  "schemas:CreateDiscoverer",
+  "schemas:DeleteDiscoverer",
+  "schemas:DescribeDiscoverer",
+  "schemas:ListDiscoverers",
+  "schemas:StartDiscoverer",
+  "schemas:StopDiscoverer",
+  "schemas:UpdateDiscoverer"
+ ],
+ "registry*": [
+  "schemas:CreateRegistry",
+  "schemas:DeleteRegistry",
+  "schemas:DeleteResourcePolicy",
+  "schemas:DescribeRegistry",
+  "schemas:ExportSchema",
+  "schemas:GetResourcePolicy",
+  "schemas:ListRegistries",
+  "schemas:PutResourcePolicy",
+  "schemas:UpdateRegistry"
+ ],
+ "schema*": [
+  "schemas:CreateSchema",
+  "schemas:DeleteSchema",
+  "schemas:DeleteSchemaVersion",
+  "schemas:DescribeCodeBinding",
+  "schemas:DescribeSchema",
+  "schemas:GetCodeBindingSource",
+  "schemas:ListSchemaVersions",
+  "schemas:ListSchemas",
+  "schemas:PutCodeBinding",
+  "schemas:SearchSchemas",
+  "schemas:UpdateSchema"
+ ],
+ "?": [
+  "schemas:GetDiscoveredSchema"
+ ],
+ "discoverer": [
+  "schemas:ListTagsForResource",
+  "schemas:TagResource",
+  "schemas:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoneventbridgeschemas.html"
+}

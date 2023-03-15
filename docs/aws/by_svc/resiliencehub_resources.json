@@ -1,1 +1,63 @@
-{"application*": ["resiliencehub:AddDraftAppVersionResourceMappings", "resiliencehub:CreateAppVersionAppComponent", "resiliencehub:CreateAppVersionResource", "resiliencehub:CreateRecommendationTemplate", "resiliencehub:DeleteApp", "resiliencehub:DeleteAppAssessment", "resiliencehub:DeleteAppInputSource", "resiliencehub:DeleteAppVersionAppComponent", "resiliencehub:DeleteAppVersionResource", "resiliencehub:DeleteRecommendationTemplate", "resiliencehub:DescribeApp", "resiliencehub:DescribeAppAssessment", "resiliencehub:DescribeAppVersion", "resiliencehub:DescribeAppVersionAppComponent", "resiliencehub:DescribeAppVersionResource", "resiliencehub:DescribeAppVersionResourcesResolutionStatus", "resiliencehub:DescribeAppVersionTemplate", "resiliencehub:DescribeDraftAppVersionResourcesImportStatus", "resiliencehub:ImportResourcesToDraftAppVersion", "resiliencehub:ListAlarmRecommendations", "resiliencehub:ListAppComponentCompliances", "resiliencehub:ListAppComponentRecommendations", "resiliencehub:ListAppInputSources", "resiliencehub:ListAppVersionAppComponents", "resiliencehub:ListAppVersionResourceMappings", "resiliencehub:ListAppVersionResources", "resiliencehub:ListAppVersions", "resiliencehub:ListRecommendationTemplates", "resiliencehub:ListSopRecommendations", "resiliencehub:ListTestRecommendations", "resiliencehub:ListUnsupportedAppVersionResources", "resiliencehub:PublishAppVersion", "resiliencehub:PutDraftAppVersionTemplate", "resiliencehub:RemoveDraftAppVersionResourceMappings", "resiliencehub:ResolveAppVersionResources", "resiliencehub:StartAppAssessment", "resiliencehub:UpdateApp", "resiliencehub:UpdateAppVersion", "resiliencehub:UpdateAppVersionAppComponent", "resiliencehub:UpdateAppVersionResource"], "?": ["resiliencehub:CreateApp", "resiliencehub:CreateResiliencyPolicy", "resiliencehub:ListAppAssessments", "resiliencehub:ListApps", "resiliencehub:ListResiliencyPolicies", "resiliencehub:ListSuggestedResiliencyPolicies", "resiliencehub:ListTagsForResource"], "resiliency-policy*": ["resiliencehub:DeleteResiliencyPolicy", "resiliencehub:DescribeResiliencyPolicy", "resiliencehub:UpdateResiliencyPolicy"], "app-assessment": ["resiliencehub:TagResource", "resiliencehub:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsresiliencehubservice.html"}
+{
+ "application*": [
+  "resiliencehub:AddDraftAppVersionResourceMappings",
+  "resiliencehub:CreateAppVersionAppComponent",
+  "resiliencehub:CreateAppVersionResource",
+  "resiliencehub:CreateRecommendationTemplate",
+  "resiliencehub:DeleteApp",
+  "resiliencehub:DeleteAppAssessment",
+  "resiliencehub:DeleteAppInputSource",
+  "resiliencehub:DeleteAppVersionAppComponent",
+  "resiliencehub:DeleteAppVersionResource",
+  "resiliencehub:DeleteRecommendationTemplate",
+  "resiliencehub:DescribeApp",
+  "resiliencehub:DescribeAppAssessment",
+  "resiliencehub:DescribeAppVersion",
+  "resiliencehub:DescribeAppVersionAppComponent",
+  "resiliencehub:DescribeAppVersionResource",
+  "resiliencehub:DescribeAppVersionResourcesResolutionStatus",
+  "resiliencehub:DescribeAppVersionTemplate",
+  "resiliencehub:DescribeDraftAppVersionResourcesImportStatus",
+  "resiliencehub:ImportResourcesToDraftAppVersion",
+  "resiliencehub:ListAlarmRecommendations",
+  "resiliencehub:ListAppComponentCompliances",
+  "resiliencehub:ListAppComponentRecommendations",
+  "resiliencehub:ListAppInputSources",
+  "resiliencehub:ListAppVersionAppComponents",
+  "resiliencehub:ListAppVersionResourceMappings",
+  "resiliencehub:ListAppVersionResources",
+  "resiliencehub:ListAppVersions",
+  "resiliencehub:ListRecommendationTemplates",
+  "resiliencehub:ListSopRecommendations",
+  "resiliencehub:ListTestRecommendations",
+  "resiliencehub:ListUnsupportedAppVersionResources",
+  "resiliencehub:PublishAppVersion",
+  "resiliencehub:PutDraftAppVersionTemplate",
+  "resiliencehub:RemoveDraftAppVersionResourceMappings",
+  "resiliencehub:ResolveAppVersionResources",
+  "resiliencehub:StartAppAssessment",
+  "resiliencehub:UpdateApp",
+  "resiliencehub:UpdateAppVersion",
+  "resiliencehub:UpdateAppVersionAppComponent",
+  "resiliencehub:UpdateAppVersionResource"
+ ],
+ "?": [
+  "resiliencehub:CreateApp",
+  "resiliencehub:CreateResiliencyPolicy",
+  "resiliencehub:ListAppAssessments",
+  "resiliencehub:ListApps",
+  "resiliencehub:ListResiliencyPolicies",
+  "resiliencehub:ListSuggestedResiliencyPolicies",
+  "resiliencehub:ListTagsForResource"
+ ],
+ "resiliency-policy*": [
+  "resiliencehub:DeleteResiliencyPolicy",
+  "resiliencehub:DescribeResiliencyPolicy",
+  "resiliencehub:UpdateResiliencyPolicy"
+ ],
+ "app-assessment": [
+  "resiliencehub:TagResource",
+  "resiliencehub:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsresiliencehubservice.html"
+}

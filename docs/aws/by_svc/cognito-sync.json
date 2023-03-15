@@ -1,1 +1,19 @@
-["cognito-sync:BulkPublish", "cognito-sync:DeleteDataset", "cognito-sync:DescribeDataset", "cognito-sync:DescribeIdentityPoolUsage", "cognito-sync:DescribeIdentityUsage", "cognito-sync:GetBulkPublishDetails", "cognito-sync:GetCognitoEvents", "cognito-sync:GetIdentityPoolConfiguration", "cognito-sync:ListDatasets", "cognito-sync:ListIdentityPoolUsage", "cognito-sync:ListRecords", "cognito-sync:RegisterDevice", "cognito-sync:SetCognitoEvents", "cognito-sync:SetIdentityPoolConfiguration", "cognito-sync:SubscribeToDataset", "cognito-sync:UnsubscribeFromDataset", "cognito-sync:UpdateRecords"]
+[
+ "cognito-sync:BulkPublish",
+ "cognito-sync:DeleteDataset",
+ "cognito-sync:DescribeDataset",
+ "cognito-sync:DescribeIdentityPoolUsage",
+ "cognito-sync:DescribeIdentityUsage",
+ "cognito-sync:GetBulkPublishDetails",
+ "cognito-sync:GetCognitoEvents",
+ "cognito-sync:GetIdentityPoolConfiguration",
+ "cognito-sync:ListDatasets",
+ "cognito-sync:ListIdentityPoolUsage",
+ "cognito-sync:ListRecords",
+ "cognito-sync:RegisterDevice",
+ "cognito-sync:SetCognitoEvents",
+ "cognito-sync:SetIdentityPoolConfiguration",
+ "cognito-sync:SubscribeToDataset",
+ "cognito-sync:UnsubscribeFromDataset",
+ "cognito-sync:UpdateRecords"
+]

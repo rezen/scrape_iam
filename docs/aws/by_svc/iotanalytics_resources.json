@@ -1,1 +1,49 @@
-{"channel*": ["iotanalytics:BatchPutMessage", "iotanalytics:CreateChannel", "iotanalytics:DeleteChannel", "iotanalytics:DescribeChannel", "iotanalytics:SampleChannelData", "iotanalytics:UpdateChannel"], "pipeline*": ["iotanalytics:CancelPipelineReprocessing", "iotanalytics:CreatePipeline", "iotanalytics:DeletePipeline", "iotanalytics:DescribePipeline", "iotanalytics:StartPipelineReprocessing", "iotanalytics:UpdatePipeline"], "dataset*": ["iotanalytics:CreateDataset", "iotanalytics:CreateDatasetContent", "iotanalytics:DeleteDataset", "iotanalytics:DeleteDatasetContent", "iotanalytics:DescribeDataset", "iotanalytics:GetDatasetContent", "iotanalytics:ListDatasetContents", "iotanalytics:UpdateDataset"], "datastore*": ["iotanalytics:CreateDatastore", "iotanalytics:DeleteDatastore", "iotanalytics:DescribeDatastore", "iotanalytics:UpdateDatastore"], "?": ["iotanalytics:DescribeLoggingOptions", "iotanalytics:ListChannels", "iotanalytics:ListDatasets", "iotanalytics:ListDatastores", "iotanalytics:ListPipelines", "iotanalytics:PutLoggingOptions", "iotanalytics:RunPipelineActivity"], "channel": ["iotanalytics:ListTagsForResource", "iotanalytics:TagResource", "iotanalytics:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsiotanalytics.html"}
+{
+ "channel*": [
+  "iotanalytics:BatchPutMessage",
+  "iotanalytics:CreateChannel",
+  "iotanalytics:DeleteChannel",
+  "iotanalytics:DescribeChannel",
+  "iotanalytics:SampleChannelData",
+  "iotanalytics:UpdateChannel"
+ ],
+ "pipeline*": [
+  "iotanalytics:CancelPipelineReprocessing",
+  "iotanalytics:CreatePipeline",
+  "iotanalytics:DeletePipeline",
+  "iotanalytics:DescribePipeline",
+  "iotanalytics:StartPipelineReprocessing",
+  "iotanalytics:UpdatePipeline"
+ ],
+ "dataset*": [
+  "iotanalytics:CreateDataset",
+  "iotanalytics:CreateDatasetContent",
+  "iotanalytics:DeleteDataset",
+  "iotanalytics:DeleteDatasetContent",
+  "iotanalytics:DescribeDataset",
+  "iotanalytics:GetDatasetContent",
+  "iotanalytics:ListDatasetContents",
+  "iotanalytics:UpdateDataset"
+ ],
+ "datastore*": [
+  "iotanalytics:CreateDatastore",
+  "iotanalytics:DeleteDatastore",
+  "iotanalytics:DescribeDatastore",
+  "iotanalytics:UpdateDatastore"
+ ],
+ "?": [
+  "iotanalytics:DescribeLoggingOptions",
+  "iotanalytics:ListChannels",
+  "iotanalytics:ListDatasets",
+  "iotanalytics:ListDatastores",
+  "iotanalytics:ListPipelines",
+  "iotanalytics:PutLoggingOptions",
+  "iotanalytics:RunPipelineActivity"
+ ],
+ "channel": [
+  "iotanalytics:ListTagsForResource",
+  "iotanalytics:TagResource",
+  "iotanalytics:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsiotanalytics.html"
+}

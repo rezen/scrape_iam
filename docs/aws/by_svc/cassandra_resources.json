@@ -1,1 +1,16 @@
-{"keyspace": ["cassandra:Alter", "cassandra:Create", "cassandra:Drop", "cassandra:TagResource", "cassandra:UntagResource"], "table*": ["cassandra:Modify", "cassandra:Restore", "cassandra:Select", "cassandra:UpdatePartitioner"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonkeyspacesforapachecassandra.html"}
+{
+ "keyspace": [
+  "cassandra:Alter",
+  "cassandra:Create",
+  "cassandra:Drop",
+  "cassandra:TagResource",
+  "cassandra:UntagResource"
+ ],
+ "table*": [
+  "cassandra:Modify",
+  "cassandra:Restore",
+  "cassandra:Select",
+  "cassandra:UpdatePartitioner"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonkeyspacesforapachecassandra.html"
+}

@@ -1,1 +1,6 @@
-["ssmmessages:CreateControlChannel", "ssmmessages:CreateDataChannel", "ssmmessages:OpenControlChannel", "ssmmessages:OpenDataChannel"]
+[
+ "ssmmessages:CreateControlChannel",
+ "ssmmessages:CreateDataChannel",
+ "ssmmessages:OpenControlChannel",
+ "ssmmessages:OpenDataChannel"
+]

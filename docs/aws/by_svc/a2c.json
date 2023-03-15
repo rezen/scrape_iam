@@ -1,1 +1,6 @@
-["a2c:GetContainerizationJobDetails", "a2c:GetDeploymentJobDetails", "a2c:StartContainerizationJob", "a2c:StartDeploymentJob"]
+[
+ "a2c:GetContainerizationJobDetails",
+ "a2c:GetDeploymentJobDetails",
+ "a2c:StartContainerizationJob",
+ "a2c:StartDeploymentJob"
+]

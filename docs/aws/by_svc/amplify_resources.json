@@ -1,1 +1,54 @@
-{"apps*": ["amplify:CreateApp", "amplify:CreateBackendEnvironment", "amplify:CreateBranch", "amplify:CreateDomainAssociation", "amplify:DeleteApp", "amplify:DeleteBackendEnvironment", "amplify:GenerateAccessLogs", "amplify:GetApp", "amplify:GetArtifactUrl", "amplify:GetBackendEnvironment", "amplify:ListArtifacts", "amplify:ListBackendEnvironments", "amplify:ListBranches", "amplify:ListDomainAssociations", "amplify:ListWebHooks", "amplify:UpdateApp"], "branches*": ["amplify:CreateDeployment", "amplify:CreateWebHook", "amplify:DeleteBranch", "amplify:GetBranch", "amplify:ListJobs", "amplify:StartDeployment", "amplify:UpdateBranch"], "domains*": ["amplify:DeleteDomainAssociation", "amplify:GetDomainAssociation", "amplify:UpdateDomainAssociation"], "jobs*": ["amplify:DeleteJob", "amplify:GetJob", "amplify:StartJob", "amplify:StopJob"], "webhooks*": ["amplify:DeleteWebHook", "amplify:GetWebHook", "amplify:UpdateWebHook"], "?": ["amplify:ListApps"], "apps": ["amplify:ListTagsForResource", "amplify:TagResource", "amplify:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsamplify.html"}
+{
+ "apps*": [
+  "amplify:CreateApp",
+  "amplify:CreateBackendEnvironment",
+  "amplify:CreateBranch",
+  "amplify:CreateDomainAssociation",
+  "amplify:DeleteApp",
+  "amplify:DeleteBackendEnvironment",
+  "amplify:GenerateAccessLogs",
+  "amplify:GetApp",
+  "amplify:GetArtifactUrl",
+  "amplify:GetBackendEnvironment",
+  "amplify:ListArtifacts",
+  "amplify:ListBackendEnvironments",
+  "amplify:ListBranches",
+  "amplify:ListDomainAssociations",
+  "amplify:ListWebHooks",
+  "amplify:UpdateApp"
+ ],
+ "branches*": [
+  "amplify:CreateDeployment",
+  "amplify:CreateWebHook",
+  "amplify:DeleteBranch",
+  "amplify:GetBranch",
+  "amplify:ListJobs",
+  "amplify:StartDeployment",
+  "amplify:UpdateBranch"
+ ],
+ "domains*": [
+  "amplify:DeleteDomainAssociation",
+  "amplify:GetDomainAssociation",
+  "amplify:UpdateDomainAssociation"
+ ],
+ "jobs*": [
+  "amplify:DeleteJob",
+  "amplify:GetJob",
+  "amplify:StartJob",
+  "amplify:StopJob"
+ ],
+ "webhooks*": [
+  "amplify:DeleteWebHook",
+  "amplify:GetWebHook",
+  "amplify:UpdateWebHook"
+ ],
+ "?": [
+  "amplify:ListApps"
+ ],
+ "apps": [
+  "amplify:ListTagsForResource",
+  "amplify:TagResource",
+  "amplify:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsamplify.html"
+}

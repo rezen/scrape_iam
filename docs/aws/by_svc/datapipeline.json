@@ -1,1 +1,21 @@
-["datapipeline:ActivatePipeline", "datapipeline:AddTags", "datapipeline:CreatePipeline", "datapipeline:DeactivatePipeline", "datapipeline:DeletePipeline", "datapipeline:DescribeObjects", "datapipeline:DescribePipelines", "datapipeline:EvaluateExpression", "datapipeline:GetPipelineDefinition", "datapipeline:ListPipelines", "datapipeline:PollForTask", "datapipeline:PutPipelineDefinition", "datapipeline:QueryObjects", "datapipeline:RemoveTags", "datapipeline:ReportTaskProgress", "datapipeline:ReportTaskRunnerHeartbeat", "datapipeline:SetStatus", "datapipeline:SetTaskStatus", "datapipeline:ValidatePipelineDefinition"]
+[
+ "datapipeline:ActivatePipeline",
+ "datapipeline:AddTags",
+ "datapipeline:CreatePipeline",
+ "datapipeline:DeactivatePipeline",
+ "datapipeline:DeletePipeline",
+ "datapipeline:DescribeObjects",
+ "datapipeline:DescribePipelines",
+ "datapipeline:EvaluateExpression",
+ "datapipeline:GetPipelineDefinition",
+ "datapipeline:ListPipelines",
+ "datapipeline:PollForTask",
+ "datapipeline:PutPipelineDefinition",
+ "datapipeline:QueryObjects",
+ "datapipeline:RemoveTags",
+ "datapipeline:ReportTaskProgress",
+ "datapipeline:ReportTaskRunnerHeartbeat",
+ "datapipeline:SetStatus",
+ "datapipeline:SetTaskStatus",
+ "datapipeline:ValidatePipelineDefinition"
+]

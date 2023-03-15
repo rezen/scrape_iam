@@ -1,1 +1,17 @@
-["simspaceweaver:DeleteApp", "simspaceweaver:DeleteSimulation", "simspaceweaver:DescribeApp", "simspaceweaver:DescribeSimulation", "simspaceweaver:ListApps", "simspaceweaver:ListSimulations", "simspaceweaver:ListTagsForResource", "simspaceweaver:StartApp", "simspaceweaver:StartClock", "simspaceweaver:StartSimulation", "simspaceweaver:StopApp", "simspaceweaver:StopClock", "simspaceweaver:StopSimulation", "simspaceweaver:TagResource", "simspaceweaver:UntagResource"]
+[
+ "simspaceweaver:DeleteApp",
+ "simspaceweaver:DeleteSimulation",
+ "simspaceweaver:DescribeApp",
+ "simspaceweaver:DescribeSimulation",
+ "simspaceweaver:ListApps",
+ "simspaceweaver:ListSimulations",
+ "simspaceweaver:ListTagsForResource",
+ "simspaceweaver:StartApp",
+ "simspaceweaver:StartClock",
+ "simspaceweaver:StartSimulation",
+ "simspaceweaver:StopApp",
+ "simspaceweaver:StopClock",
+ "simspaceweaver:StopSimulation",
+ "simspaceweaver:TagResource",
+ "simspaceweaver:UntagResource"
+]

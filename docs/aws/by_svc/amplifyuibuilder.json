@@ -1,1 +1,23 @@
-["amplifyuibuilder:CreateComponent", "amplifyuibuilder:CreateForm", "amplifyuibuilder:CreateTheme", "amplifyuibuilder:DeleteComponent", "amplifyuibuilder:DeleteForm", "amplifyuibuilder:DeleteTheme", "amplifyuibuilder:ExportComponents", "amplifyuibuilder:ExportForms", "amplifyuibuilder:ExportThemes", "amplifyuibuilder:GetComponent", "amplifyuibuilder:GetForm", "amplifyuibuilder:GetMetadata", "amplifyuibuilder:GetTheme", "amplifyuibuilder:ListComponents", "amplifyuibuilder:ListForms", "amplifyuibuilder:ListThemes", "amplifyuibuilder:PutMetadataFlag", "amplifyuibuilder:ResetMetadataFlag", "amplifyuibuilder:UpdateComponent", "amplifyuibuilder:UpdateForm", "amplifyuibuilder:UpdateTheme"]
+[
+ "amplifyuibuilder:CreateComponent",
+ "amplifyuibuilder:CreateForm",
+ "amplifyuibuilder:CreateTheme",
+ "amplifyuibuilder:DeleteComponent",
+ "amplifyuibuilder:DeleteForm",
+ "amplifyuibuilder:DeleteTheme",
+ "amplifyuibuilder:ExportComponents",
+ "amplifyuibuilder:ExportForms",
+ "amplifyuibuilder:ExportThemes",
+ "amplifyuibuilder:GetComponent",
+ "amplifyuibuilder:GetForm",
+ "amplifyuibuilder:GetMetadata",
+ "amplifyuibuilder:GetTheme",
+ "amplifyuibuilder:ListComponents",
+ "amplifyuibuilder:ListForms",
+ "amplifyuibuilder:ListThemes",
+ "amplifyuibuilder:PutMetadataFlag",
+ "amplifyuibuilder:ResetMetadataFlag",
+ "amplifyuibuilder:UpdateComponent",
+ "amplifyuibuilder:UpdateForm",
+ "amplifyuibuilder:UpdateTheme"
+]

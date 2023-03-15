@@ -1,1 +1,53 @@
-{"workload*": ["wellarchitected:AssociateLenses", "wellarchitected:CreateMilestone", "wellarchitected:CreateWorkloadShare", "wellarchitected:DeleteWorkload", "wellarchitected:DeleteWorkloadShare", "wellarchitected:DisassociateLenses", "wellarchitected:GetAnswer", "wellarchitected:GetLensReview", "wellarchitected:GetLensReviewReport", "wellarchitected:GetMilestone", "wellarchitected:GetWorkload", "wellarchitected:ListAnswers", "wellarchitected:ListCheckDetails", "wellarchitected:ListCheckSummaries", "wellarchitected:ListLensReviewImprovements", "wellarchitected:ListLensReviews", "wellarchitected:ListMilestones", "wellarchitected:ListWorkloadShares", "wellarchitected:UpdateAnswer", "wellarchitected:UpdateLensReview", "wellarchitected:UpdateWorkload", "wellarchitected:UpdateWorkloadShare", "wellarchitected:UpgradeLensReview"], "lens*": ["wellarchitected:CreateLensShare", "wellarchitected:CreateLensVersion", "wellarchitected:DeleteLens", "wellarchitected:DeleteLensShare", "wellarchitected:ExportLens", "wellarchitected:GetLens", "wellarchitected:GetLensVersionDifference", "wellarchitected:ListLensShares"], "?": ["wellarchitected:CreateWorkload", "wellarchitected:ImportLens", "wellarchitected:ListLenses", "wellarchitected:ListNotifications", "wellarchitected:ListShareInvitations", "wellarchitected:ListWorkloads", "wellarchitected:UpdateGlobalSettings", "wellarchitected:UpdateShareInvitation"], "lens": ["wellarchitected:ListTagsForResource", "wellarchitected:TagResource", "wellarchitected:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awswell-architectedtool.html"}
+{
+ "workload*": [
+  "wellarchitected:AssociateLenses",
+  "wellarchitected:CreateMilestone",
+  "wellarchitected:CreateWorkloadShare",
+  "wellarchitected:DeleteWorkload",
+  "wellarchitected:DeleteWorkloadShare",
+  "wellarchitected:DisassociateLenses",
+  "wellarchitected:GetAnswer",
+  "wellarchitected:GetLensReview",
+  "wellarchitected:GetLensReviewReport",
+  "wellarchitected:GetMilestone",
+  "wellarchitected:GetWorkload",
+  "wellarchitected:ListAnswers",
+  "wellarchitected:ListCheckDetails",
+  "wellarchitected:ListCheckSummaries",
+  "wellarchitected:ListLensReviewImprovements",
+  "wellarchitected:ListLensReviews",
+  "wellarchitected:ListMilestones",
+  "wellarchitected:ListWorkloadShares",
+  "wellarchitected:UpdateAnswer",
+  "wellarchitected:UpdateLensReview",
+  "wellarchitected:UpdateWorkload",
+  "wellarchitected:UpdateWorkloadShare",
+  "wellarchitected:UpgradeLensReview"
+ ],
+ "lens*": [
+  "wellarchitected:CreateLensShare",
+  "wellarchitected:CreateLensVersion",
+  "wellarchitected:DeleteLens",
+  "wellarchitected:DeleteLensShare",
+  "wellarchitected:ExportLens",
+  "wellarchitected:GetLens",
+  "wellarchitected:GetLensVersionDifference",
+  "wellarchitected:ListLensShares"
+ ],
+ "?": [
+  "wellarchitected:CreateWorkload",
+  "wellarchitected:ImportLens",
+  "wellarchitected:ListLenses",
+  "wellarchitected:ListNotifications",
+  "wellarchitected:ListShareInvitations",
+  "wellarchitected:ListWorkloads",
+  "wellarchitected:UpdateGlobalSettings",
+  "wellarchitected:UpdateShareInvitation"
+ ],
+ "lens": [
+  "wellarchitected:ListTagsForResource",
+  "wellarchitected:TagResource",
+  "wellarchitected:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awswell-architectedtool.html"
+}

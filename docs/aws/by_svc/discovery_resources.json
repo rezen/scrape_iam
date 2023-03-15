@@ -1,1 +1,31 @@
-{"?": ["discovery:AssociateConfigurationItemsToApplication", "discovery:BatchDeleteImportData", "discovery:CreateApplication", "discovery:CreateTags", "discovery:DeleteApplications", "discovery:DeleteTags", "discovery:DescribeAgents", "discovery:DescribeConfigurations", "discovery:DescribeContinuousExports", "discovery:DescribeExportConfigurations", "discovery:DescribeExportTasks", "discovery:DescribeImportTasks", "discovery:DescribeTags", "discovery:DisassociateConfigurationItemsFromApplication", "discovery:ExportConfigurations", "discovery:GetDiscoverySummary", "discovery:GetNetworkConnectionGraph", "discovery:ListConfigurations", "discovery:ListServerNeighbors", "discovery:StartContinuousExport", "discovery:StartDataCollectionByAgentIds", "discovery:StartExportTask", "discovery:StartImportTask", "discovery:StopContinuousExport", "discovery:StopDataCollectionByAgentIds", "discovery:UpdateApplication"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsapplicationdiscoveryservice.html"}
+{
+ "?": [
+  "discovery:AssociateConfigurationItemsToApplication",
+  "discovery:BatchDeleteImportData",
+  "discovery:CreateApplication",
+  "discovery:CreateTags",
+  "discovery:DeleteApplications",
+  "discovery:DeleteTags",
+  "discovery:DescribeAgents",
+  "discovery:DescribeConfigurations",
+  "discovery:DescribeContinuousExports",
+  "discovery:DescribeExportConfigurations",
+  "discovery:DescribeExportTasks",
+  "discovery:DescribeImportTasks",
+  "discovery:DescribeTags",
+  "discovery:DisassociateConfigurationItemsFromApplication",
+  "discovery:ExportConfigurations",
+  "discovery:GetDiscoverySummary",
+  "discovery:GetNetworkConnectionGraph",
+  "discovery:ListConfigurations",
+  "discovery:ListServerNeighbors",
+  "discovery:StartContinuousExport",
+  "discovery:StartDataCollectionByAgentIds",
+  "discovery:StartExportTask",
+  "discovery:StartImportTask",
+  "discovery:StopContinuousExport",
+  "discovery:StopDataCollectionByAgentIds",
+  "discovery:UpdateApplication"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsapplicationdiscoveryservice.html"
+}

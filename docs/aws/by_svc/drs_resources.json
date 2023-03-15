@@ -1,1 +1,50 @@
-{"?": ["drs:CreateExtendedSourceServer", "drs:CreateReplicationConfigurationTemplate", "drs:DescribeJobs", "drs:DescribeRecoveryInstances", "drs:DescribeReplicationConfigurationTemplates", "drs:DescribeSourceServers", "drs:InitializeService", "drs:ListExtensibleSourceServers", "drs:ListStagingAccounts", "drs:ListTagsForResource"], "JobResource*": ["drs:DeleteJob", "drs:DescribeJobLogItems"], "RecoveryInstanceResource*": ["drs:DeleteRecoveryInstance", "drs:DisconnectRecoveryInstance", "drs:GetFailbackReplicationConfiguration", "drs:ReverseReplication", "drs:StartFailbackLaunch", "drs:StopFailback", "drs:TerminateRecoveryInstances", "drs:UpdateFailbackReplicationConfiguration"], "ReplicationConfigurationTemplateResource*": ["drs:DeleteReplicationConfigurationTemplate", "drs:UpdateReplicationConfigurationTemplate"], "SourceServerResource*": ["drs:DeleteSourceServer", "drs:DescribeRecoverySnapshots", "drs:DisconnectSourceServer", "drs:GetLaunchConfiguration", "drs:GetReplicationConfiguration", "drs:RetryDataReplication", "drs:StartRecovery", "drs:StartReplication", "drs:StopReplication", "drs:UpdateLaunchConfiguration", "drs:UpdateReplicationConfiguration"], "JobResource": ["drs:TagResource", "drs:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awselasticdisasterrecovery.html"}
+{
+ "?": [
+  "drs:CreateExtendedSourceServer",
+  "drs:CreateReplicationConfigurationTemplate",
+  "drs:DescribeJobs",
+  "drs:DescribeRecoveryInstances",
+  "drs:DescribeReplicationConfigurationTemplates",
+  "drs:DescribeSourceServers",
+  "drs:InitializeService",
+  "drs:ListExtensibleSourceServers",
+  "drs:ListStagingAccounts",
+  "drs:ListTagsForResource"
+ ],
+ "JobResource*": [
+  "drs:DeleteJob",
+  "drs:DescribeJobLogItems"
+ ],
+ "RecoveryInstanceResource*": [
+  "drs:DeleteRecoveryInstance",
+  "drs:DisconnectRecoveryInstance",
+  "drs:GetFailbackReplicationConfiguration",
+  "drs:ReverseReplication",
+  "drs:StartFailbackLaunch",
+  "drs:StopFailback",
+  "drs:TerminateRecoveryInstances",
+  "drs:UpdateFailbackReplicationConfiguration"
+ ],
+ "ReplicationConfigurationTemplateResource*": [
+  "drs:DeleteReplicationConfigurationTemplate",
+  "drs:UpdateReplicationConfigurationTemplate"
+ ],
+ "SourceServerResource*": [
+  "drs:DeleteSourceServer",
+  "drs:DescribeRecoverySnapshots",
+  "drs:DisconnectSourceServer",
+  "drs:GetLaunchConfiguration",
+  "drs:GetReplicationConfiguration",
+  "drs:RetryDataReplication",
+  "drs:StartRecovery",
+  "drs:StartReplication",
+  "drs:StopReplication",
+  "drs:UpdateLaunchConfiguration",
+  "drs:UpdateReplicationConfiguration"
+ ],
+ "JobResource": [
+  "drs:TagResource",
+  "drs:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awselasticdisasterrecovery.html"
+}

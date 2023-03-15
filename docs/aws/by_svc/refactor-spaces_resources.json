@@ -1,1 +1,39 @@
-{"?": ["refactor-spaces:CreateApplication", "refactor-spaces:CreateEnvironment", "refactor-spaces:CreateRoute", "refactor-spaces:CreateService", "refactor-spaces:DeleteResourcePolicy", "refactor-spaces:GetResourcePolicy", "refactor-spaces:ListEnvironments", "refactor-spaces:ListTagsForResource", "refactor-spaces:PutResourcePolicy"], "application*": ["refactor-spaces:DeleteApplication", "refactor-spaces:GetApplication"], "environment*": ["refactor-spaces:DeleteEnvironment", "refactor-spaces:GetEnvironment", "refactor-spaces:ListApplications", "refactor-spaces:ListEnvironmentVpcs", "refactor-spaces:ListRoutes", "refactor-spaces:ListServices"], "route*": ["refactor-spaces:DeleteRoute", "refactor-spaces:GetRoute", "refactor-spaces:UpdateRoute"], "service*": ["refactor-spaces:DeleteService", "refactor-spaces:GetService"], "application": ["refactor-spaces:TagResource", "refactor-spaces:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsmigrationhubrefactorspaces.html"}
+{
+ "?": [
+  "refactor-spaces:CreateApplication",
+  "refactor-spaces:CreateEnvironment",
+  "refactor-spaces:CreateRoute",
+  "refactor-spaces:CreateService",
+  "refactor-spaces:DeleteResourcePolicy",
+  "refactor-spaces:GetResourcePolicy",
+  "refactor-spaces:ListEnvironments",
+  "refactor-spaces:ListTagsForResource",
+  "refactor-spaces:PutResourcePolicy"
+ ],
+ "application*": [
+  "refactor-spaces:DeleteApplication",
+  "refactor-spaces:GetApplication"
+ ],
+ "environment*": [
+  "refactor-spaces:DeleteEnvironment",
+  "refactor-spaces:GetEnvironment",
+  "refactor-spaces:ListApplications",
+  "refactor-spaces:ListEnvironmentVpcs",
+  "refactor-spaces:ListRoutes",
+  "refactor-spaces:ListServices"
+ ],
+ "route*": [
+  "refactor-spaces:DeleteRoute",
+  "refactor-spaces:GetRoute",
+  "refactor-spaces:UpdateRoute"
+ ],
+ "service*": [
+  "refactor-spaces:DeleteService",
+  "refactor-spaces:GetService"
+ ],
+ "application": [
+  "refactor-spaces:TagResource",
+  "refactor-spaces:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsmigrationhubrefactorspaces.html"
+}

@@ -1,1 +1,15 @@
-["cloud9:CreateEnvironmentEC2", "cloud9:CreateEnvironmentMembership", "cloud9:DeleteEnvironment", "cloud9:DeleteEnvironmentMembership", "cloud9:DescribeEnvironmentMemberships", "cloud9:DescribeEnvironmentStatus", "cloud9:DescribeEnvironments", "cloud9:ListEnvironments", "cloud9:ListTagsForResource", "cloud9:TagResource", "cloud9:UntagResource", "cloud9:UpdateEnvironment", "cloud9:UpdateEnvironmentMembership"]
+[
+ "cloud9:CreateEnvironmentEC2",
+ "cloud9:CreateEnvironmentMembership",
+ "cloud9:DeleteEnvironment",
+ "cloud9:DeleteEnvironmentMembership",
+ "cloud9:DescribeEnvironmentMemberships",
+ "cloud9:DescribeEnvironmentStatus",
+ "cloud9:DescribeEnvironments",
+ "cloud9:ListEnvironments",
+ "cloud9:ListTagsForResource",
+ "cloud9:TagResource",
+ "cloud9:UntagResource",
+ "cloud9:UpdateEnvironment",
+ "cloud9:UpdateEnvironmentMembership"
+]

@@ -1,1 +1,77 @@
-{"environment*": ["elasticbeanstalk:AbortEnvironmentUpdate", "elasticbeanstalk:ApplyEnvironmentManagedAction", "elasticbeanstalk:AssociateEnvironmentOperationsRole", "elasticbeanstalk:CreateEnvironment", "elasticbeanstalk:DeleteEnvironmentConfiguration", "elasticbeanstalk:DisassociateEnvironmentOperationsRole", "elasticbeanstalk:RebuildEnvironment", "elasticbeanstalk:RequestEnvironmentInfo", "elasticbeanstalk:RestartAppServer", "elasticbeanstalk:RetrieveEnvironmentInfo", "elasticbeanstalk:SwapEnvironmentCNAMEs", "elasticbeanstalk:TerminateEnvironment", "elasticbeanstalk:UpdateEnvironment"], "application": ["elasticbeanstalk:AddTags", "elasticbeanstalk:DescribeApplications", "elasticbeanstalk:DescribeEvents", "elasticbeanstalk:ListTagsForResource", "elasticbeanstalk:RemoveTags", "elasticbeanstalk:UpdateTagsForResource"], "?": ["elasticbeanstalk:CheckDNSAvailability", "elasticbeanstalk:CreateStorageLocation", "elasticbeanstalk:DescribeAccountAttributes", "elasticbeanstalk:ListPlatformBranches"], "application*": ["elasticbeanstalk:ComposeEnvironments", "elasticbeanstalk:CreateApplication", "elasticbeanstalk:CreateApplicationVersion", "elasticbeanstalk:DeleteApplication", "elasticbeanstalk:PutInstanceStatistics", "elasticbeanstalk:UpdateApplication", "elasticbeanstalk:UpdateApplicationResourceLifecycle"], "configurationtemplate*": ["elasticbeanstalk:CreateConfigurationTemplate", "elasticbeanstalk:DeleteConfigurationTemplate", "elasticbeanstalk:UpdateConfigurationTemplate"], "platform*": ["elasticbeanstalk:CreatePlatformVersion", "elasticbeanstalk:DeletePlatformVersion"], "applicationversion*": ["elasticbeanstalk:DeleteApplicationVersion", "elasticbeanstalk:UpdateApplicationVersion"], "applicationversion": ["elasticbeanstalk:DescribeApplicationVersions"], "configurationtemplate": ["elasticbeanstalk:DescribeConfigurationOptions", "elasticbeanstalk:DescribeConfigurationSettings", "elasticbeanstalk:ValidateConfigurationSettings"], "environment": ["elasticbeanstalk:DescribeEnvironmentHealth", "elasticbeanstalk:DescribeEnvironmentManagedActionHistory", "elasticbeanstalk:DescribeEnvironmentManagedActions", "elasticbeanstalk:DescribeEnvironmentResources", "elasticbeanstalk:DescribeEnvironments", "elasticbeanstalk:DescribeInstancesHealth"], "platform": ["elasticbeanstalk:DescribePlatformVersion", "elasticbeanstalk:ListPlatformVersions"], "solutionstack": ["elasticbeanstalk:ListAvailableSolutionStacks"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awselasticbeanstalk.html"}
+{
+ "environment*": [
+  "elasticbeanstalk:AbortEnvironmentUpdate",
+  "elasticbeanstalk:ApplyEnvironmentManagedAction",
+  "elasticbeanstalk:AssociateEnvironmentOperationsRole",
+  "elasticbeanstalk:CreateEnvironment",
+  "elasticbeanstalk:DeleteEnvironmentConfiguration",
+  "elasticbeanstalk:DisassociateEnvironmentOperationsRole",
+  "elasticbeanstalk:RebuildEnvironment",
+  "elasticbeanstalk:RequestEnvironmentInfo",
+  "elasticbeanstalk:RestartAppServer",
+  "elasticbeanstalk:RetrieveEnvironmentInfo",
+  "elasticbeanstalk:SwapEnvironmentCNAMEs",
+  "elasticbeanstalk:TerminateEnvironment",
+  "elasticbeanstalk:UpdateEnvironment"
+ ],
+ "application": [
+  "elasticbeanstalk:AddTags",
+  "elasticbeanstalk:DescribeApplications",
+  "elasticbeanstalk:DescribeEvents",
+  "elasticbeanstalk:ListTagsForResource",
+  "elasticbeanstalk:RemoveTags",
+  "elasticbeanstalk:UpdateTagsForResource"
+ ],
+ "?": [
+  "elasticbeanstalk:CheckDNSAvailability",
+  "elasticbeanstalk:CreateStorageLocation",
+  "elasticbeanstalk:DescribeAccountAttributes",
+  "elasticbeanstalk:ListPlatformBranches"
+ ],
+ "application*": [
+  "elasticbeanstalk:ComposeEnvironments",
+  "elasticbeanstalk:CreateApplication",
+  "elasticbeanstalk:CreateApplicationVersion",
+  "elasticbeanstalk:DeleteApplication",
+  "elasticbeanstalk:PutInstanceStatistics",
+  "elasticbeanstalk:UpdateApplication",
+  "elasticbeanstalk:UpdateApplicationResourceLifecycle"
+ ],
+ "configurationtemplate*": [
+  "elasticbeanstalk:CreateConfigurationTemplate",
+  "elasticbeanstalk:DeleteConfigurationTemplate",
+  "elasticbeanstalk:UpdateConfigurationTemplate"
+ ],
+ "platform*": [
+  "elasticbeanstalk:CreatePlatformVersion",
+  "elasticbeanstalk:DeletePlatformVersion"
+ ],
+ "applicationversion*": [
+  "elasticbeanstalk:DeleteApplicationVersion",
+  "elasticbeanstalk:UpdateApplicationVersion"
+ ],
+ "applicationversion": [
+  "elasticbeanstalk:DescribeApplicationVersions"
+ ],
+ "configurationtemplate": [
+  "elasticbeanstalk:DescribeConfigurationOptions",
+  "elasticbeanstalk:DescribeConfigurationSettings",
+  "elasticbeanstalk:ValidateConfigurationSettings"
+ ],
+ "environment": [
+  "elasticbeanstalk:DescribeEnvironmentHealth",
+  "elasticbeanstalk:DescribeEnvironmentManagedActionHistory",
+  "elasticbeanstalk:DescribeEnvironmentManagedActions",
+  "elasticbeanstalk:DescribeEnvironmentResources",
+  "elasticbeanstalk:DescribeEnvironments",
+  "elasticbeanstalk:DescribeInstancesHealth"
+ ],
+ "platform": [
+  "elasticbeanstalk:DescribePlatformVersion",
+  "elasticbeanstalk:ListPlatformVersions"
+ ],
+ "solutionstack": [
+  "elasticbeanstalk:ListAvailableSolutionStacks"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awselasticbeanstalk.html"
+}

@@ -1,1 +1,24 @@
-{"AppMonitorResource*": ["rum:BatchCreateRumMetricDefinitions", "rum:BatchDeleteRumMetricDefinitions", "rum:BatchGetRumMetricDefinitions", "rum:CreateAppMonitor", "rum:DeleteAppMonitor", "rum:DeleteRumMetricsDestination", "rum:GetAppMonitor", "rum:GetAppMonitorData", "rum:ListRumMetricsDestinations", "rum:PutRumEvents", "rum:PutRumMetricsDestination", "rum:TagResource", "rum:UntagResource", "rum:UpdateAppMonitor", "rum:UpdateRumMetricDefinition"], "?": ["rum:ListAppMonitors", "rum:ListTagsForResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awscloudwatchrum.html"}
+{
+ "AppMonitorResource*": [
+  "rum:BatchCreateRumMetricDefinitions",
+  "rum:BatchDeleteRumMetricDefinitions",
+  "rum:BatchGetRumMetricDefinitions",
+  "rum:CreateAppMonitor",
+  "rum:DeleteAppMonitor",
+  "rum:DeleteRumMetricsDestination",
+  "rum:GetAppMonitor",
+  "rum:GetAppMonitorData",
+  "rum:ListRumMetricsDestinations",
+  "rum:PutRumEvents",
+  "rum:PutRumMetricsDestination",
+  "rum:TagResource",
+  "rum:UntagResource",
+  "rum:UpdateAppMonitor",
+  "rum:UpdateRumMetricDefinition"
+ ],
+ "?": [
+  "rum:ListAppMonitors",
+  "rum:ListTagsForResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awscloudwatchrum.html"
+}

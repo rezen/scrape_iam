@@ -1,1 +1,35 @@
-{"?": ["deeplens:AssociateServiceRoleToAccount", "deeplens:CreateDeviceCertificates", "deeplens:CreateModel", "deeplens:CreateProject", "deeplens:GetAssociatedResources", "deeplens:GetDeploymentStatus", "deeplens:ImportProjectFromTemplate", "deeplens:ListDeployments", "deeplens:ListDevices", "deeplens:ListModels", "deeplens:ListProjects", "deeplens:RegisterDevice"], "device*": ["deeplens:BatchGetDevice", "deeplens:DeployProject", "deeplens:DeregisterDevice", "deeplens:GetDevice", "deeplens:RemoveProject"], "model*": ["deeplens:BatchGetModel", "deeplens:DeleteModel", "deeplens:GetModel"], "project*": ["deeplens:BatchGetProject", "deeplens:DeleteProject", "deeplens:GetProject", "deeplens:UpdateProject"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsdeeplens.html"}
+{
+ "?": [
+  "deeplens:AssociateServiceRoleToAccount",
+  "deeplens:CreateDeviceCertificates",
+  "deeplens:CreateModel",
+  "deeplens:CreateProject",
+  "deeplens:GetAssociatedResources",
+  "deeplens:GetDeploymentStatus",
+  "deeplens:ImportProjectFromTemplate",
+  "deeplens:ListDeployments",
+  "deeplens:ListDevices",
+  "deeplens:ListModels",
+  "deeplens:ListProjects",
+  "deeplens:RegisterDevice"
+ ],
+ "device*": [
+  "deeplens:BatchGetDevice",
+  "deeplens:DeployProject",
+  "deeplens:DeregisterDevice",
+  "deeplens:GetDevice",
+  "deeplens:RemoveProject"
+ ],
+ "model*": [
+  "deeplens:BatchGetModel",
+  "deeplens:DeleteModel",
+  "deeplens:GetModel"
+ ],
+ "project*": [
+  "deeplens:BatchGetProject",
+  "deeplens:DeleteProject",
+  "deeplens:GetProject",
+  "deeplens:UpdateProject"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsdeeplens.html"
+}

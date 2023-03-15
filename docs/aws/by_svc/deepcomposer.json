@@ -1,1 +1,6 @@
-["deepcomposer:DeleteModel", "deepcomposer:ListTagsForResource", "deepcomposer:TagResource", "deepcomposer:UntagResource"]
+[
+ "deepcomposer:DeleteModel",
+ "deepcomposer:ListTagsForResource",
+ "deepcomposer:TagResource",
+ "deepcomposer:UntagResource"
+]

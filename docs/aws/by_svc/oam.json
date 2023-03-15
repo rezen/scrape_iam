@@ -1,1 +1,17 @@
-["oam:CreateLink", "oam:CreateSink", "oam:DeleteLink", "oam:DeleteSink", "oam:GetLink", "oam:GetSink", "oam:GetSinkPolicy", "oam:ListAttachedLinks", "oam:ListLinks", "oam:ListSinks", "oam:ListTagsForResource", "oam:PutSinkPolicy", "oam:TagResource", "oam:UntagResource", "oam:UpdateLink"]
+[
+ "oam:CreateLink",
+ "oam:CreateSink",
+ "oam:DeleteLink",
+ "oam:DeleteSink",
+ "oam:GetLink",
+ "oam:GetSink",
+ "oam:GetSinkPolicy",
+ "oam:ListAttachedLinks",
+ "oam:ListLinks",
+ "oam:ListSinks",
+ "oam:ListTagsForResource",
+ "oam:PutSinkPolicy",
+ "oam:TagResource",
+ "oam:UntagResource",
+ "oam:UpdateLink"
+]

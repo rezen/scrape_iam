@@ -1,1 +1,50 @@
-{"network-operation*": ["tnb:CancelSolNetworkOperation", "tnb:GetSolNetworkOperation", "tnb:ListSolNetworkOperations"], "function-package*": ["tnb:CreateSolFunctionPackage", "tnb:DeleteSolFunctionPackage", "tnb:GetSolFunctionPackage", "tnb:GetSolFunctionPackageContent", "tnb:GetSolFunctionPackageDescriptor", "tnb:ListSolFunctionPackages", "tnb:PutSolFunctionPackageContent", "tnb:UpdateSolFunctionPackage", "tnb:ValidateSolFunctionPackageContent"], "network-instance*": ["tnb:CreateSolNetworkInstance", "tnb:DeleteSolNetworkInstance", "tnb:GetSolNetworkInstance", "tnb:InstantiateSolNetworkInstance", "tnb:ListSolNetworkInstances", "tnb:TerminateSolNetworkInstance"], "network-package*": ["tnb:CreateSolNetworkPackage", "tnb:DeleteSolNetworkPackage", "tnb:GetSolNetworkPackage", "tnb:GetSolNetworkPackageContent", "tnb:GetSolNetworkPackageDescriptor", "tnb:ListSolNetworkPackages", "tnb:PutSolNetworkPackageContent", "tnb:UpdateSolNetworkPackage", "tnb:ValidateSolNetworkPackageContent"], "function-instance*": ["tnb:GetSolFunctionInstance", "tnb:ListSolFunctionInstances", "tnb:UpdateSolNetworkInstance"], "?": ["tnb:ListTagsForResource"], "function-instance": ["tnb:TagResource", "tnb:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awstelconetworkbuilder.html"}
+{
+ "network-operation*": [
+  "tnb:CancelSolNetworkOperation",
+  "tnb:GetSolNetworkOperation",
+  "tnb:ListSolNetworkOperations"
+ ],
+ "function-package*": [
+  "tnb:CreateSolFunctionPackage",
+  "tnb:DeleteSolFunctionPackage",
+  "tnb:GetSolFunctionPackage",
+  "tnb:GetSolFunctionPackageContent",
+  "tnb:GetSolFunctionPackageDescriptor",
+  "tnb:ListSolFunctionPackages",
+  "tnb:PutSolFunctionPackageContent",
+  "tnb:UpdateSolFunctionPackage",
+  "tnb:ValidateSolFunctionPackageContent"
+ ],
+ "network-instance*": [
+  "tnb:CreateSolNetworkInstance",
+  "tnb:DeleteSolNetworkInstance",
+  "tnb:GetSolNetworkInstance",
+  "tnb:InstantiateSolNetworkInstance",
+  "tnb:ListSolNetworkInstances",
+  "tnb:TerminateSolNetworkInstance"
+ ],
+ "network-package*": [
+  "tnb:CreateSolNetworkPackage",
+  "tnb:DeleteSolNetworkPackage",
+  "tnb:GetSolNetworkPackage",
+  "tnb:GetSolNetworkPackageContent",
+  "tnb:GetSolNetworkPackageDescriptor",
+  "tnb:ListSolNetworkPackages",
+  "tnb:PutSolNetworkPackageContent",
+  "tnb:UpdateSolNetworkPackage",
+  "tnb:ValidateSolNetworkPackageContent"
+ ],
+ "function-instance*": [
+  "tnb:GetSolFunctionInstance",
+  "tnb:ListSolFunctionInstances",
+  "tnb:UpdateSolNetworkInstance"
+ ],
+ "?": [
+  "tnb:ListTagsForResource"
+ ],
+ "function-instance": [
+  "tnb:TagResource",
+  "tnb:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awstelconetworkbuilder.html"
+}

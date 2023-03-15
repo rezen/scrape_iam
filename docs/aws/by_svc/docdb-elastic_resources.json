@@ -1,1 +1,24 @@
-{"?": ["docdb-elastic:CreateCluster", "docdb-elastic:ListClusterSnapshots", "docdb-elastic:ListClusters"], "cluster*": ["docdb-elastic:CreateClusterSnapshot", "docdb-elastic:DeleteCluster", "docdb-elastic:GetCluster", "docdb-elastic:UpdateCluster"], "cluster-snapshot*": ["docdb-elastic:DeleteClusterSnapshot", "docdb-elastic:GetClusterSnapshot", "docdb-elastic:RestoreClusterFromSnapshot"], "cluster": ["docdb-elastic:ListTagsForResource", "docdb-elastic:TagResource", "docdb-elastic:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazondocumentdbelasticclusters.html"}
+{
+ "?": [
+  "docdb-elastic:CreateCluster",
+  "docdb-elastic:ListClusterSnapshots",
+  "docdb-elastic:ListClusters"
+ ],
+ "cluster*": [
+  "docdb-elastic:CreateClusterSnapshot",
+  "docdb-elastic:DeleteCluster",
+  "docdb-elastic:GetCluster",
+  "docdb-elastic:UpdateCluster"
+ ],
+ "cluster-snapshot*": [
+  "docdb-elastic:DeleteClusterSnapshot",
+  "docdb-elastic:GetClusterSnapshot",
+  "docdb-elastic:RestoreClusterFromSnapshot"
+ ],
+ "cluster": [
+  "docdb-elastic:ListTagsForResource",
+  "docdb-elastic:TagResource",
+  "docdb-elastic:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazondocumentdbelasticclusters.html"
+}

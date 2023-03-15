@@ -1,1 +1,18 @@
-{"configuration*": ["freertos:CreateSoftwareConfiguration", "freertos:DeleteSoftwareConfiguration", "freertos:DescribeSoftwareConfiguration", "freertos:UpdateSoftwareConfiguration"], "?": ["freertos:DescribeHardwarePlatform", "freertos:GetSoftwareURL", "freertos:GetSoftwareURLForConfiguration", "freertos:ListFreeRTOSVersions", "freertos:ListHardwarePlatforms", "freertos:ListHardwareVendors", "freertos:ListSoftwareConfigurations"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonfreertos.html"}
+{
+ "configuration*": [
+  "freertos:CreateSoftwareConfiguration",
+  "freertos:DeleteSoftwareConfiguration",
+  "freertos:DescribeSoftwareConfiguration",
+  "freertos:UpdateSoftwareConfiguration"
+ ],
+ "?": [
+  "freertos:DescribeHardwarePlatform",
+  "freertos:GetSoftwareURL",
+  "freertos:GetSoftwareURLForConfiguration",
+  "freertos:ListFreeRTOSVersions",
+  "freertos:ListHardwarePlatforms",
+  "freertos:ListHardwareVendors",
+  "freertos:ListSoftwareConfigurations"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonfreertos.html"
+}

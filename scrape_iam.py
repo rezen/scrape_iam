@@ -64,18 +64,19 @@ services = []
 tree = {}
 data_dir = os.path.expanduser('~/vcs/scrape_iam/docs')
 ensure_dir(f'{data_dir}/aws/by_svc/')
-
+service_docs = {}
 for idx, promise in enumerate(promises):
     prefix, subset, by_resource, ref_url = promise.result()
     tree[prefix] = by_resource
     actions = actions + subset
     services.append(prefix)
     with open(f'{data_dir}/aws/by_svc/{prefix}.json', 'w+') as fh:
-        fh.write(json.dumps(subset))
+        fh.write(json.dumps(subset, indent=True))
 
     with open(f'{data_dir}/aws/by_svc/{prefix}_resources.json', 'w+') as fh:
         by_resource['_url'] = ref_url
-        fh.write(json.dumps(by_resource))
+        service_docs[prefix] = ref_url
+        fh.write(json.dumps(by_resource, indent=True))
 
 with open(f'{data_dir}/aws/services.json', 'w+') as fh:
     fh.write(json.dumps(sorted(services), indent=True))
@@ -84,4 +85,7 @@ with open(f'{data_dir}/aws/actions.json', 'w+') as fh:
     fh.write(json.dumps(sorted(actions), indent=True))
 
 with open(f'{data_dir}/aws/actions_by_resource.json', 'w+') as fh:
-    print(json.dump(tree, fh, indent=2))
+    json.dump(tree, fh, indent=2)
+
+with open(f'{data_dir}/aws/service_urls.json', 'w+') as fh:
+    json.dump(service_docs, fh, indent=2)

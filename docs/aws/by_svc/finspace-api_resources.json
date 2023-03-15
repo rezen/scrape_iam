@@ -1,1 +1,6 @@
-{"credential*": ["finspace-api:GetProgrammaticAccessCredentials"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonfinspaceapi.html"}
+{
+ "credential*": [
+  "finspace-api:GetProgrammaticAccessCredentials"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonfinspaceapi.html"
+}

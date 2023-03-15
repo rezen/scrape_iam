@@ -1,1 +1,8 @@
-["rds-data:BatchExecuteStatement", "rds-data:BeginTransaction", "rds-data:CommitTransaction", "rds-data:ExecuteSql", "rds-data:ExecuteStatement", "rds-data:RollbackTransaction"]
+[
+ "rds-data:BatchExecuteStatement",
+ "rds-data:BeginTransaction",
+ "rds-data:CommitTransaction",
+ "rds-data:ExecuteSql",
+ "rds-data:ExecuteStatement",
+ "rds-data:RollbackTransaction"
+]

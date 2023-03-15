@@ -1,1 +1,191 @@
-{"cluster*": ["rds:AddRoleToDBCluster", "rds:BacktrackDBCluster", "rds:CreateDBCluster", "rds:CreateDBClusterEndpoint", "rds:CreateDBClusterSnapshot", "rds:CreateGlobalCluster", "rds:DeleteDBCluster", "rds:DeregisterDBProxyTargets", "rds:DescribeDBClusterBacktracks", "rds:DescribeDBClusters", "rds:DescribeDBProxyTargets", "rds:FailoverDBCluster", "rds:FailoverGlobalCluster", "rds:ModifyCurrentDBClusterCapacity", "rds:ModifyDBCluster", "rds:PromoteReadReplicaDBCluster", "rds:RebootDBCluster", "rds:RemoveFromGlobalCluster", "rds:RemoveRoleFromDBCluster", "rds:RestoreDBClusterFromS3", "rds:RestoreDBClusterFromSnapshot", "rds:RestoreDBClusterToPointInTime", "rds:StartDBCluster", "rds:StopDBCluster"], "db*": ["rds:AddRoleToDBInstance", "rds:CreateDBInstance", "rds:CreateDBInstanceReadReplica", "rds:CreateDBSnapshot", "rds:DeleteDBInstance", "rds:DescribeDBInstances", "rds:DescribeDBLogFiles", "rds:DescribeValidDBInstanceModifications", "rds:DownloadCompleteDBLogFile", "rds:DownloadDBLogFilePortion", "rds:ModifyActivityStream", "rds:ModifyDBInstance", "rds:PromoteReadReplica", "rds:RebootDBInstance", "rds:RemoveRoleFromDBInstance", "rds:RestoreDBInstanceFromDBSnapshot", "rds:RestoreDBInstanceFromS3", "rds:RestoreDBInstanceToPointInTime", "rds:StartDBInstance", "rds:StartDBInstanceAutomatedBackupsReplication", "rds:StopDBInstance", "rds:StopDBInstanceAutomatedBackupsReplication", "rds:SwitchoverReadReplica"], "es*": ["rds:AddSourceIdentifierToSubscription", "rds:CreateEventSubscription", "rds:DeleteEventSubscription", "rds:DescribeEventSubscriptions", "rds:ModifyEventSubscription", "rds:RemoveSourceIdentifierFromSubscription"], "cev": ["rds:AddTagsToResource", "rds:ListTagsForResource", "rds:RemoveTagsFromResource"], "cluster": ["rds:ApplyPendingMaintenanceAction", "rds:DescribePendingMaintenanceActions", "rds:StartActivityStream", "rds:StopActivityStream"], "secgrp*": ["rds:AuthorizeDBSecurityGroupIngress", "rds:CreateDBSecurityGroup", "rds:DeleteDBSecurityGroup", "rds:DescribeDBSecurityGroups", "rds:RevokeDBSecurityGroupIngress"], "?": ["rds:CancelExportTask", "rds:CreateDBProxy", "rds:DeleteDBInstanceAutomatedBackup", "rds:DescribeAccountAttributes", "rds:DescribeCertificates", "rds:DescribeDBEngineVersions", "rds:DescribeEngineDefaultClusterParameters", "rds:DescribeEngineDefaultParameters", "rds:DescribeEventCategories", "rds:DescribeEvents", "rds:DescribeExportTasks", "rds:DescribeOrderableDBInstanceOptions", "rds:DescribeReservedDBInstancesOfferings", "rds:DescribeSourceRegions", "rds:ModifyCertificates", "rds:StartExportTask"], "cluster-pg*": ["rds:CopyDBClusterParameterGroup", "rds:CreateDBClusterParameterGroup", "rds:DeleteDBClusterParameterGroup", "rds:DescribeDBClusterParameterGroups", "rds:DescribeDBClusterParameters", "rds:ModifyDBClusterParameterGroup", "rds:ResetDBClusterParameterGroup"], "cluster-snapshot*": ["rds:CopyDBClusterSnapshot", "rds:DeleteDBClusterSnapshot", "rds:DescribeDBClusterSnapshotAttributes", "rds:DescribeDBClusterSnapshots", "rds:ModifyDBClusterSnapshotAttribute"], "pg*": ["rds:CopyDBParameterGroup", "rds:CreateDBParameterGroup", "rds:DeleteDBParameterGroup", "rds:DescribeDBParameterGroups", "rds:DescribeDBParameters", "rds:ModifyDBParameterGroup", "rds:ResetDBParameterGroup"], "snapshot*": ["rds:CopyDBSnapshot", "rds:DeleteDBSnapshot", "rds:DescribeDBSnapshotAttributes", "rds:DescribeDBSnapshots", "rds:ModifyDBSnapshot", "rds:ModifyDBSnapshotAttribute"], "og*": ["rds:CopyOptionGroup", "rds:CreateOptionGroup", "rds:DeleteOptionGroup", "rds:DescribeOptionGroupOptions", "rds:DescribeOptionGroups", "rds:ModifyOptionGroup"], "deployment*": ["rds:CreateBlueGreenDeployment", "rds:DeleteBlueGreenDeployment", "rds:SwitchoverBlueGreenDeployment"], "cev*": ["rds:CreateCustomDBEngineVersion", "rds:DeleteCustomDBEngineVersion", "rds:ModifyCustomDBEngineVersion"], "proxy*": ["rds:CreateDBProxyEndpoint", "rds:DeleteDBProxy", "rds:DescribeDBProxies", "rds:DescribeDBProxyEndpoints", "rds:DescribeDBProxyTargetGroups", "rds:ModifyDBProxy"], "subgrp*": ["rds:CreateDBSubnetGroup", "rds:DeleteDBSubnetGroup", "rds:DescribeDBSubnetGroups", "rds:ModifyDBSubnetGroup"], "cluster-endpoint*": ["rds:DeleteDBClusterEndpoint", "rds:DescribeDBClusterEndpoints", "rds:ModifyDBClusterEndpoint"], "proxy-endpoint*": ["rds:DeleteDBProxyEndpoint", "rds:ModifyDBProxyEndpoint"], "global-cluster*": ["rds:DeleteGlobalCluster", "rds:DescribeGlobalClusters", "rds:ModifyGlobalCluster"], "deployment": ["rds:DescribeBlueGreenDeployments"], "db": ["rds:DescribeDBInstanceAutomatedBackups"], "ri*": ["rds:DescribeReservedDBInstances", "rds:PurchaseReservedDBInstancesOffering"], "target-group*": ["rds:ModifyDBProxyTargetGroup", "rds:RegisterDBProxyTargets"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonrds.html"}
+{
+ "cluster*": [
+  "rds:AddRoleToDBCluster",
+  "rds:BacktrackDBCluster",
+  "rds:CreateDBCluster",
+  "rds:CreateDBClusterEndpoint",
+  "rds:CreateDBClusterSnapshot",
+  "rds:CreateGlobalCluster",
+  "rds:DeleteDBCluster",
+  "rds:DeregisterDBProxyTargets",
+  "rds:DescribeDBClusterBacktracks",
+  "rds:DescribeDBClusters",
+  "rds:DescribeDBProxyTargets",
+  "rds:FailoverDBCluster",
+  "rds:FailoverGlobalCluster",
+  "rds:ModifyCurrentDBClusterCapacity",
+  "rds:ModifyDBCluster",
+  "rds:PromoteReadReplicaDBCluster",
+  "rds:RebootDBCluster",
+  "rds:RemoveFromGlobalCluster",
+  "rds:RemoveRoleFromDBCluster",
+  "rds:RestoreDBClusterFromS3",
+  "rds:RestoreDBClusterFromSnapshot",
+  "rds:RestoreDBClusterToPointInTime",
+  "rds:StartDBCluster",
+  "rds:StopDBCluster"
+ ],
+ "db*": [
+  "rds:AddRoleToDBInstance",
+  "rds:CreateDBInstance",
+  "rds:CreateDBInstanceReadReplica",
+  "rds:CreateDBSnapshot",
+  "rds:DeleteDBInstance",
+  "rds:DescribeDBInstances",
+  "rds:DescribeDBLogFiles",
+  "rds:DescribeValidDBInstanceModifications",
+  "rds:DownloadCompleteDBLogFile",
+  "rds:DownloadDBLogFilePortion",
+  "rds:ModifyActivityStream",
+  "rds:ModifyDBInstance",
+  "rds:PromoteReadReplica",
+  "rds:RebootDBInstance",
+  "rds:RemoveRoleFromDBInstance",
+  "rds:RestoreDBInstanceFromDBSnapshot",
+  "rds:RestoreDBInstanceFromS3",
+  "rds:RestoreDBInstanceToPointInTime",
+  "rds:StartDBInstance",
+  "rds:StartDBInstanceAutomatedBackupsReplication",
+  "rds:StopDBInstance",
+  "rds:StopDBInstanceAutomatedBackupsReplication",
+  "rds:SwitchoverReadReplica"
+ ],
+ "es*": [
+  "rds:AddSourceIdentifierToSubscription",
+  "rds:CreateEventSubscription",
+  "rds:DeleteEventSubscription",
+  "rds:DescribeEventSubscriptions",
+  "rds:ModifyEventSubscription",
+  "rds:RemoveSourceIdentifierFromSubscription"
+ ],
+ "cev": [
+  "rds:AddTagsToResource",
+  "rds:ListTagsForResource",
+  "rds:RemoveTagsFromResource"
+ ],
+ "cluster": [
+  "rds:ApplyPendingMaintenanceAction",
+  "rds:DescribePendingMaintenanceActions",
+  "rds:StartActivityStream",
+  "rds:StopActivityStream"
+ ],
+ "secgrp*": [
+  "rds:AuthorizeDBSecurityGroupIngress",
+  "rds:CreateDBSecurityGroup",
+  "rds:DeleteDBSecurityGroup",
+  "rds:DescribeDBSecurityGroups",
+  "rds:RevokeDBSecurityGroupIngress"
+ ],
+ "?": [
+  "rds:CancelExportTask",
+  "rds:CreateDBProxy",
+  "rds:DeleteDBInstanceAutomatedBackup",
+  "rds:DescribeAccountAttributes",
+  "rds:DescribeCertificates",
+  "rds:DescribeDBEngineVersions",
+  "rds:DescribeEngineDefaultClusterParameters",
+  "rds:DescribeEngineDefaultParameters",
+  "rds:DescribeEventCategories",
+  "rds:DescribeEvents",
+  "rds:DescribeExportTasks",
+  "rds:DescribeOrderableDBInstanceOptions",
+  "rds:DescribeReservedDBInstancesOfferings",
+  "rds:DescribeSourceRegions",
+  "rds:ModifyCertificates",
+  "rds:StartExportTask"
+ ],
+ "cluster-pg*": [
+  "rds:CopyDBClusterParameterGroup",
+  "rds:CreateDBClusterParameterGroup",
+  "rds:DeleteDBClusterParameterGroup",
+  "rds:DescribeDBClusterParameterGroups",
+  "rds:DescribeDBClusterParameters",
+  "rds:ModifyDBClusterParameterGroup",
+  "rds:ResetDBClusterParameterGroup"
+ ],
+ "cluster-snapshot*": [
+  "rds:CopyDBClusterSnapshot",
+  "rds:DeleteDBClusterSnapshot",
+  "rds:DescribeDBClusterSnapshotAttributes",
+  "rds:DescribeDBClusterSnapshots",
+  "rds:ModifyDBClusterSnapshotAttribute"
+ ],
+ "pg*": [
+  "rds:CopyDBParameterGroup",
+  "rds:CreateDBParameterGroup",
+  "rds:DeleteDBParameterGroup",
+  "rds:DescribeDBParameterGroups",
+  "rds:DescribeDBParameters",
+  "rds:ModifyDBParameterGroup",
+  "rds:ResetDBParameterGroup"
+ ],
+ "snapshot*": [
+  "rds:CopyDBSnapshot",
+  "rds:DeleteDBSnapshot",
+  "rds:DescribeDBSnapshotAttributes",
+  "rds:DescribeDBSnapshots",
+  "rds:ModifyDBSnapshot",
+  "rds:ModifyDBSnapshotAttribute"
+ ],
+ "og*": [
+  "rds:CopyOptionGroup",
+  "rds:CreateOptionGroup",
+  "rds:DeleteOptionGroup",
+  "rds:DescribeOptionGroupOptions",
+  "rds:DescribeOptionGroups",
+  "rds:ModifyOptionGroup"
+ ],
+ "deployment*": [
+  "rds:CreateBlueGreenDeployment",
+  "rds:DeleteBlueGreenDeployment",
+  "rds:SwitchoverBlueGreenDeployment"
+ ],
+ "cev*": [
+  "rds:CreateCustomDBEngineVersion",
+  "rds:DeleteCustomDBEngineVersion",
+  "rds:ModifyCustomDBEngineVersion"
+ ],
+ "proxy*": [
+  "rds:CreateDBProxyEndpoint",
+  "rds:DeleteDBProxy",
+  "rds:DescribeDBProxies",
+  "rds:DescribeDBProxyEndpoints",
+  "rds:DescribeDBProxyTargetGroups",
+  "rds:ModifyDBProxy"
+ ],
+ "subgrp*": [
+  "rds:CreateDBSubnetGroup",
+  "rds:DeleteDBSubnetGroup",
+  "rds:DescribeDBSubnetGroups",
+  "rds:ModifyDBSubnetGroup"
+ ],
+ "cluster-endpoint*": [
+  "rds:DeleteDBClusterEndpoint",
+  "rds:DescribeDBClusterEndpoints",
+  "rds:ModifyDBClusterEndpoint"
+ ],
+ "proxy-endpoint*": [
+  "rds:DeleteDBProxyEndpoint",
+  "rds:ModifyDBProxyEndpoint"
+ ],
+ "global-cluster*": [
+  "rds:DeleteGlobalCluster",
+  "rds:DescribeGlobalClusters",
+  "rds:ModifyGlobalCluster"
+ ],
+ "deployment": [
+  "rds:DescribeBlueGreenDeployments"
+ ],
+ "db": [
+  "rds:DescribeDBInstanceAutomatedBackups"
+ ],
+ "ri*": [
+  "rds:DescribeReservedDBInstances",
+  "rds:PurchaseReservedDBInstancesOffering"
+ ],
+ "target-group*": [
+  "rds:ModifyDBProxyTargetGroup",
+  "rds:RegisterDBProxyTargets"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonrds.html"
+}

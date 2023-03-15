@@ -1,1 +1,27 @@
-["private-networks:AcknowledgeOrderReceipt", "private-networks:ActivateDeviceIdentifier", "private-networks:ActivateNetworkSite", "private-networks:ConfigureAccessPoint", "private-networks:CreateNetwork", "private-networks:CreateNetworkSite", "private-networks:DeactivateDeviceIdentifier", "private-networks:DeleteNetwork", "private-networks:DeleteNetworkSite", "private-networks:GetDeviceIdentifier", "private-networks:GetNetwork", "private-networks:GetNetworkResource", "private-networks:GetNetworkSite", "private-networks:GetOrder", "private-networks:ListDeviceIdentifiers", "private-networks:ListNetworkResources", "private-networks:ListNetworkSites", "private-networks:ListNetworks", "private-networks:ListOrders", "private-networks:ListTagsForResource", "private-networks:Ping", "private-networks:TagResource", "private-networks:UntagResource", "private-networks:UpdateNetworkSite", "private-networks:UpdateNetworkSitePlan"]
+[
+ "private-networks:AcknowledgeOrderReceipt",
+ "private-networks:ActivateDeviceIdentifier",
+ "private-networks:ActivateNetworkSite",
+ "private-networks:ConfigureAccessPoint",
+ "private-networks:CreateNetwork",
+ "private-networks:CreateNetworkSite",
+ "private-networks:DeactivateDeviceIdentifier",
+ "private-networks:DeleteNetwork",
+ "private-networks:DeleteNetworkSite",
+ "private-networks:GetDeviceIdentifier",
+ "private-networks:GetNetwork",
+ "private-networks:GetNetworkResource",
+ "private-networks:GetNetworkSite",
+ "private-networks:GetOrder",
+ "private-networks:ListDeviceIdentifiers",
+ "private-networks:ListNetworkResources",
+ "private-networks:ListNetworkSites",
+ "private-networks:ListNetworks",
+ "private-networks:ListOrders",
+ "private-networks:ListTagsForResource",
+ "private-networks:Ping",
+ "private-networks:TagResource",
+ "private-networks:UntagResource",
+ "private-networks:UpdateNetworkSite",
+ "private-networks:UpdateNetworkSitePlan"
+]

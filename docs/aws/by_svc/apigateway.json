@@ -1,1 +1,7 @@
-["apigateway:DELETE", "apigateway:GET", "apigateway:PATCH", "apigateway:POST", "apigateway:PUT"]
+[
+ "apigateway:DELETE",
+ "apigateway:GET",
+ "apigateway:PATCH",
+ "apigateway:POST",
+ "apigateway:PUT"
+]

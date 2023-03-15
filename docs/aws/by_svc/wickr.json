@@ -1,1 +1,9 @@
-["wickr:CreateAdminSession", "wickr:CreateNetwork", "wickr:ListNetworks", "wickr:ListTagsForResource", "wickr:TagResource", "wickr:UntagResource", "wickr:UpdateNetworkDetails"]
+[
+ "wickr:CreateAdminSession",
+ "wickr:CreateNetwork",
+ "wickr:ListNetworks",
+ "wickr:ListTagsForResource",
+ "wickr:TagResource",
+ "wickr:UntagResource",
+ "wickr:UpdateNetworkDetails"
+]

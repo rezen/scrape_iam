@@ -1,1 +1,53 @@
-{"alarm*": ["cloudwatch:DeleteAlarms", "cloudwatch:DescribeAlarmHistory", "cloudwatch:DescribeAlarms", "cloudwatch:DisableAlarmActions", "cloudwatch:EnableAlarmActions", "cloudwatch:PutCompositeAlarm", "cloudwatch:PutMetricAlarm", "cloudwatch:SetAlarmState"], "?": ["cloudwatch:DeleteAnomalyDetector", "cloudwatch:DescribeAlarmsForMetric", "cloudwatch:DescribeAnomalyDetectors", "cloudwatch:DescribeInsightRules", "cloudwatch:GetMetricData", "cloudwatch:GetMetricStatistics", "cloudwatch:GetMetricWidgetImage", "cloudwatch:ListDashboards", "cloudwatch:ListManagedInsightRules", "cloudwatch:ListMetricStreams", "cloudwatch:ListMetrics", "cloudwatch:PutAnomalyDetector", "cloudwatch:PutManagedInsightRules", "cloudwatch:PutMetricData"], "dashboard*": ["cloudwatch:DeleteDashboards", "cloudwatch:GetDashboard", "cloudwatch:PutDashboard"], "insight-rule*": ["cloudwatch:DeleteInsightRules", "cloudwatch:DisableInsightRules", "cloudwatch:EnableInsightRules", "cloudwatch:GetInsightRuleReport", "cloudwatch:PutInsightRule"], "metric-stream*": ["cloudwatch:DeleteMetricStream", "cloudwatch:GetMetricStream", "cloudwatch:PutMetricStream", "cloudwatch:StartMetricStreams", "cloudwatch:StopMetricStreams"], "alarm": ["cloudwatch:ListTagsForResource", "cloudwatch:TagResource", "cloudwatch:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoncloudwatch.html"}
+{
+ "alarm*": [
+  "cloudwatch:DeleteAlarms",
+  "cloudwatch:DescribeAlarmHistory",
+  "cloudwatch:DescribeAlarms",
+  "cloudwatch:DisableAlarmActions",
+  "cloudwatch:EnableAlarmActions",
+  "cloudwatch:PutCompositeAlarm",
+  "cloudwatch:PutMetricAlarm",
+  "cloudwatch:SetAlarmState"
+ ],
+ "?": [
+  "cloudwatch:DeleteAnomalyDetector",
+  "cloudwatch:DescribeAlarmsForMetric",
+  "cloudwatch:DescribeAnomalyDetectors",
+  "cloudwatch:DescribeInsightRules",
+  "cloudwatch:GetMetricData",
+  "cloudwatch:GetMetricStatistics",
+  "cloudwatch:GetMetricWidgetImage",
+  "cloudwatch:ListDashboards",
+  "cloudwatch:ListManagedInsightRules",
+  "cloudwatch:ListMetricStreams",
+  "cloudwatch:ListMetrics",
+  "cloudwatch:PutAnomalyDetector",
+  "cloudwatch:PutManagedInsightRules",
+  "cloudwatch:PutMetricData"
+ ],
+ "dashboard*": [
+  "cloudwatch:DeleteDashboards",
+  "cloudwatch:GetDashboard",
+  "cloudwatch:PutDashboard"
+ ],
+ "insight-rule*": [
+  "cloudwatch:DeleteInsightRules",
+  "cloudwatch:DisableInsightRules",
+  "cloudwatch:EnableInsightRules",
+  "cloudwatch:GetInsightRuleReport",
+  "cloudwatch:PutInsightRule"
+ ],
+ "metric-stream*": [
+  "cloudwatch:DeleteMetricStream",
+  "cloudwatch:GetMetricStream",
+  "cloudwatch:PutMetricStream",
+  "cloudwatch:StartMetricStreams",
+  "cloudwatch:StopMetricStreams"
+ ],
+ "alarm": [
+  "cloudwatch:ListTagsForResource",
+  "cloudwatch:TagResource",
+  "cloudwatch:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoncloudwatch.html"
+}

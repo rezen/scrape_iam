@@ -1,1 +1,17 @@
-["app-integrations:CreateDataIntegration", "app-integrations:CreateEventIntegration", "app-integrations:DeleteDataIntegration", "app-integrations:DeleteEventIntegration", "app-integrations:GetDataIntegration", "app-integrations:GetEventIntegration", "app-integrations:ListDataIntegrationAssociations", "app-integrations:ListDataIntegrations", "app-integrations:ListEventIntegrationAssociations", "app-integrations:ListEventIntegrations", "app-integrations:ListTagsForResource", "app-integrations:TagResource", "app-integrations:UntagResource", "app-integrations:UpdateDataIntegration", "app-integrations:UpdateEventIntegration"]
+[
+ "app-integrations:CreateDataIntegration",
+ "app-integrations:CreateEventIntegration",
+ "app-integrations:DeleteDataIntegration",
+ "app-integrations:DeleteEventIntegration",
+ "app-integrations:GetDataIntegration",
+ "app-integrations:GetEventIntegration",
+ "app-integrations:ListDataIntegrationAssociations",
+ "app-integrations:ListDataIntegrations",
+ "app-integrations:ListEventIntegrationAssociations",
+ "app-integrations:ListEventIntegrations",
+ "app-integrations:ListTagsForResource",
+ "app-integrations:TagResource",
+ "app-integrations:UntagResource",
+ "app-integrations:UpdateDataIntegration",
+ "app-integrations:UpdateEventIntegration"
+]

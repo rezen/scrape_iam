@@ -8691,6 +8691,7 @@
     "?": [
       "inspector2:AssociateMember",
       "inspector2:BatchGetAccountStatus",
+      "inspector2:BatchGetCodeSnippet",
       "inspector2:BatchGetFreeTrialInfo",
       "inspector2:CancelFindingsReport",
       "inspector2:CreateFindingsReport",

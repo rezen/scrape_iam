@@ -1,1 +1,20 @@
-["translate:CreateParallelData", "translate:DeleteParallelData", "translate:DeleteTerminology", "translate:DescribeTextTranslationJob", "translate:GetParallelData", "translate:GetTerminology", "translate:ImportTerminology", "translate:ListLanguages", "translate:ListParallelData", "translate:ListTagsForResource", "translate:ListTerminologies", "translate:ListTextTranslationJobs", "translate:StartTextTranslationJob", "translate:StopTextTranslationJob", "translate:TagResource", "translate:TranslateText", "translate:UntagResource", "translate:UpdateParallelData"]
+[
+ "translate:CreateParallelData",
+ "translate:DeleteParallelData",
+ "translate:DeleteTerminology",
+ "translate:DescribeTextTranslationJob",
+ "translate:GetParallelData",
+ "translate:GetTerminology",
+ "translate:ImportTerminology",
+ "translate:ListLanguages",
+ "translate:ListParallelData",
+ "translate:ListTagsForResource",
+ "translate:ListTerminologies",
+ "translate:ListTextTranslationJobs",
+ "translate:StartTextTranslationJob",
+ "translate:StopTextTranslationJob",
+ "translate:TagResource",
+ "translate:TranslateText",
+ "translate:UntagResource",
+ "translate:UpdateParallelData"
+]

@@ -1,1 +1,25 @@
-["appflow:CreateConnectorProfile", "appflow:CreateFlow", "appflow:DeleteConnectorProfile", "appflow:DeleteFlow", "appflow:DescribeConnector", "appflow:DescribeConnectorEntity", "appflow:DescribeConnectorProfiles", "appflow:DescribeConnectors", "appflow:DescribeFlow", "appflow:DescribeFlowExecutionRecords", "appflow:ListConnectorEntities", "appflow:ListConnectors", "appflow:ListFlows", "appflow:ListTagsForResource", "appflow:RegisterConnector", "appflow:StartFlow", "appflow:StopFlow", "appflow:TagResource", "appflow:UnRegisterConnector", "appflow:UntagResource", "appflow:UpdateConnectorProfile", "appflow:UpdateConnectorRegistration", "appflow:UpdateFlow"]
+[
+ "appflow:CreateConnectorProfile",
+ "appflow:CreateFlow",
+ "appflow:DeleteConnectorProfile",
+ "appflow:DeleteFlow",
+ "appflow:DescribeConnector",
+ "appflow:DescribeConnectorEntity",
+ "appflow:DescribeConnectorProfiles",
+ "appflow:DescribeConnectors",
+ "appflow:DescribeFlow",
+ "appflow:DescribeFlowExecutionRecords",
+ "appflow:ListConnectorEntities",
+ "appflow:ListConnectors",
+ "appflow:ListFlows",
+ "appflow:ListTagsForResource",
+ "appflow:RegisterConnector",
+ "appflow:StartFlow",
+ "appflow:StopFlow",
+ "appflow:TagResource",
+ "appflow:UnRegisterConnector",
+ "appflow:UntagResource",
+ "appflow:UpdateConnectorProfile",
+ "appflow:UpdateConnectorRegistration",
+ "appflow:UpdateFlow"
+]

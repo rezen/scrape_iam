@@ -1,1 +1,22 @@
-["iotroborunner:CreateDestination", "iotroborunner:CreateSite", "iotroborunner:CreateWorker", "iotroborunner:CreateWorkerFleet", "iotroborunner:DeleteDestination", "iotroborunner:DeleteSite", "iotroborunner:DeleteWorker", "iotroborunner:DeleteWorkerFleet", "iotroborunner:GetDestination", "iotroborunner:GetSite", "iotroborunner:GetWorker", "iotroborunner:GetWorkerFleet", "iotroborunner:ListDestinations", "iotroborunner:ListSites", "iotroborunner:ListWorkerFleets", "iotroborunner:ListWorkers", "iotroborunner:UpdateDestination", "iotroborunner:UpdateSite", "iotroborunner:UpdateWorker", "iotroborunner:UpdateWorkerFleet"]
+[
+ "iotroborunner:CreateDestination",
+ "iotroborunner:CreateSite",
+ "iotroborunner:CreateWorker",
+ "iotroborunner:CreateWorkerFleet",
+ "iotroborunner:DeleteDestination",
+ "iotroborunner:DeleteSite",
+ "iotroborunner:DeleteWorker",
+ "iotroborunner:DeleteWorkerFleet",
+ "iotroborunner:GetDestination",
+ "iotroborunner:GetSite",
+ "iotroborunner:GetWorker",
+ "iotroborunner:GetWorkerFleet",
+ "iotroborunner:ListDestinations",
+ "iotroborunner:ListSites",
+ "iotroborunner:ListWorkerFleets",
+ "iotroborunner:ListWorkers",
+ "iotroborunner:UpdateDestination",
+ "iotroborunner:UpdateSite",
+ "iotroborunner:UpdateWorker",
+ "iotroborunner:UpdateWorkerFleet"
+]

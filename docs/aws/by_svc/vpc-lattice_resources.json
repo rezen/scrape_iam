@@ -1,1 +1,76 @@
-{"AccessLogSubscription*": ["vpc-lattice:CreateAccessLogSubscription", "vpc-lattice:DeleteAccessLogSubscription", "vpc-lattice:GetAccessLogSubscription", "vpc-lattice:UpdateAccessLogSubscription"], "Listener*": ["vpc-lattice:CreateListener", "vpc-lattice:DeleteListener", "vpc-lattice:GetListener", "vpc-lattice:UpdateListener"], "Rule*": ["vpc-lattice:CreateRule", "vpc-lattice:DeleteRule", "vpc-lattice:GetRule", "vpc-lattice:UpdateRule"], "Service*": ["vpc-lattice:CreateService", "vpc-lattice:CreateServiceNetworkServiceAssociation", "vpc-lattice:DeleteService", "vpc-lattice:GetService", "vpc-lattice:UpdateService"], "ServiceNetwork*": ["vpc-lattice:CreateServiceNetwork", "vpc-lattice:CreateServiceNetworkVpcAssociation", "vpc-lattice:DeleteServiceNetwork", "vpc-lattice:GetServiceNetwork", "vpc-lattice:UpdateServiceNetwork"], "TargetGroup*": ["vpc-lattice:CreateTargetGroup", "vpc-lattice:DeleteTargetGroup", "vpc-lattice:DeregisterTargets", "vpc-lattice:GetTargetGroup", "vpc-lattice:ListTargets", "vpc-lattice:RegisterTargets", "vpc-lattice:UpdateTargetGroup"], "Service": ["vpc-lattice:DeleteAuthPolicy", "vpc-lattice:DeleteResourcePolicy", "vpc-lattice:GetAuthPolicy", "vpc-lattice:GetResourcePolicy", "vpc-lattice:PutAuthPolicy", "vpc-lattice:PutResourcePolicy"], "ServiceNetworkServiceAssociation*": ["vpc-lattice:DeleteServiceNetworkServiceAssociation", "vpc-lattice:GetServiceNetworkServiceAssociation"], "ServiceNetworkVpcAssociation*": ["vpc-lattice:DeleteServiceNetworkVpcAssociation", "vpc-lattice:GetServiceNetworkVpcAssociation", "vpc-lattice:UpdateServiceNetworkVpcAssociation"], "?": ["vpc-lattice:ListAccessLogSubscriptions", "vpc-lattice:ListListeners", "vpc-lattice:ListRules", "vpc-lattice:ListServiceNetworkServiceAssociations", "vpc-lattice:ListServiceNetworkVpcAssociations", "vpc-lattice:ListServiceNetworks", "vpc-lattice:ListServices", "vpc-lattice:ListTagsForResource", "vpc-lattice:ListTargetGroups"], "AccessLogSubscription": ["vpc-lattice:TagResource", "vpc-lattice:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonvpclattice.html"}
+{
+ "AccessLogSubscription*": [
+  "vpc-lattice:CreateAccessLogSubscription",
+  "vpc-lattice:DeleteAccessLogSubscription",
+  "vpc-lattice:GetAccessLogSubscription",
+  "vpc-lattice:UpdateAccessLogSubscription"
+ ],
+ "Listener*": [
+  "vpc-lattice:CreateListener",
+  "vpc-lattice:DeleteListener",
+  "vpc-lattice:GetListener",
+  "vpc-lattice:UpdateListener"
+ ],
+ "Rule*": [
+  "vpc-lattice:CreateRule",
+  "vpc-lattice:DeleteRule",
+  "vpc-lattice:GetRule",
+  "vpc-lattice:UpdateRule"
+ ],
+ "Service*": [
+  "vpc-lattice:CreateService",
+  "vpc-lattice:CreateServiceNetworkServiceAssociation",
+  "vpc-lattice:DeleteService",
+  "vpc-lattice:GetService",
+  "vpc-lattice:UpdateService"
+ ],
+ "ServiceNetwork*": [
+  "vpc-lattice:CreateServiceNetwork",
+  "vpc-lattice:CreateServiceNetworkVpcAssociation",
+  "vpc-lattice:DeleteServiceNetwork",
+  "vpc-lattice:GetServiceNetwork",
+  "vpc-lattice:UpdateServiceNetwork"
+ ],
+ "TargetGroup*": [
+  "vpc-lattice:CreateTargetGroup",
+  "vpc-lattice:DeleteTargetGroup",
+  "vpc-lattice:DeregisterTargets",
+  "vpc-lattice:GetTargetGroup",
+  "vpc-lattice:ListTargets",
+  "vpc-lattice:RegisterTargets",
+  "vpc-lattice:UpdateTargetGroup"
+ ],
+ "Service": [
+  "vpc-lattice:DeleteAuthPolicy",
+  "vpc-lattice:DeleteResourcePolicy",
+  "vpc-lattice:GetAuthPolicy",
+  "vpc-lattice:GetResourcePolicy",
+  "vpc-lattice:PutAuthPolicy",
+  "vpc-lattice:PutResourcePolicy"
+ ],
+ "ServiceNetworkServiceAssociation*": [
+  "vpc-lattice:DeleteServiceNetworkServiceAssociation",
+  "vpc-lattice:GetServiceNetworkServiceAssociation"
+ ],
+ "ServiceNetworkVpcAssociation*": [
+  "vpc-lattice:DeleteServiceNetworkVpcAssociation",
+  "vpc-lattice:GetServiceNetworkVpcAssociation",
+  "vpc-lattice:UpdateServiceNetworkVpcAssociation"
+ ],
+ "?": [
+  "vpc-lattice:ListAccessLogSubscriptions",
+  "vpc-lattice:ListListeners",
+  "vpc-lattice:ListRules",
+  "vpc-lattice:ListServiceNetworkServiceAssociations",
+  "vpc-lattice:ListServiceNetworkVpcAssociations",
+  "vpc-lattice:ListServiceNetworks",
+  "vpc-lattice:ListServices",
+  "vpc-lattice:ListTagsForResource",
+  "vpc-lattice:ListTargetGroups"
+ ],
+ "AccessLogSubscription": [
+  "vpc-lattice:TagResource",
+  "vpc-lattice:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonvpclattice.html"
+}

@@ -1,1 +1,26 @@
-{"pipeline*": ["datapipeline:ActivatePipeline", "datapipeline:AddTags", "datapipeline:DeactivatePipeline", "datapipeline:DeletePipeline", "datapipeline:DescribeObjects", "datapipeline:DescribePipelines", "datapipeline:EvaluateExpression", "datapipeline:GetPipelineDefinition", "datapipeline:PutPipelineDefinition", "datapipeline:QueryObjects", "datapipeline:RemoveTags", "datapipeline:ReportTaskProgress", "datapipeline:SetStatus", "datapipeline:SetTaskStatus", "datapipeline:ValidatePipelineDefinition"], "?": ["datapipeline:CreatePipeline", "datapipeline:ListPipelines", "datapipeline:PollForTask", "datapipeline:ReportTaskRunnerHeartbeat"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsdatapipeline.html"}
+{
+ "pipeline*": [
+  "datapipeline:ActivatePipeline",
+  "datapipeline:AddTags",
+  "datapipeline:DeactivatePipeline",
+  "datapipeline:DeletePipeline",
+  "datapipeline:DescribeObjects",
+  "datapipeline:DescribePipelines",
+  "datapipeline:EvaluateExpression",
+  "datapipeline:GetPipelineDefinition",
+  "datapipeline:PutPipelineDefinition",
+  "datapipeline:QueryObjects",
+  "datapipeline:RemoveTags",
+  "datapipeline:ReportTaskProgress",
+  "datapipeline:SetStatus",
+  "datapipeline:SetTaskStatus",
+  "datapipeline:ValidatePipelineDefinition"
+ ],
+ "?": [
+  "datapipeline:CreatePipeline",
+  "datapipeline:ListPipelines",
+  "datapipeline:PollForTask",
+  "datapipeline:ReportTaskRunnerHeartbeat"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsdatapipeline.html"
+}

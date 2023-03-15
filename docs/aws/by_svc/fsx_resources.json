@@ -1,1 +1,65 @@
-{"file-system*": ["fsx:AssociateFileSystemAliases", "fsx:CreateDataRepositoryTask", "fsx:CreateFileSystem", "fsx:CreateStorageVirtualMachine", "fsx:DeleteFileSystem", "fsx:DescribeFileSystemAliases", "fsx:DisassociateFileSystemAliases", "fsx:ReleaseFileSystemNfsV3Locks", "fsx:UpdateFileSystem"], "task*": ["fsx:CancelDataRepositoryTask"], "backup*": ["fsx:CopyBackup", "fsx:CreateBackup", "fsx:CreateFileSystemFromBackup", "fsx:CreateVolumeFromBackup", "fsx:DeleteBackup", "fsx:ManageBackupPrincipalAssociations"], "association*": ["fsx:CreateDataRepositoryAssociation", "fsx:DeleteDataRepositoryAssociation", "fsx:UpdateDataRepositoryAssociation"], "file-cache*": ["fsx:CreateFileCache", "fsx:DeleteFileCache", "fsx:UpdateFileCache"], "snapshot*": ["fsx:CreateSnapshot", "fsx:DeleteSnapshot", "fsx:RestoreVolumeFromSnapshot", "fsx:UpdateSnapshot"], "volume*": ["fsx:CreateVolume", "fsx:DeleteVolume", "fsx:UpdateVolume"], "storage-virtual-machine*": ["fsx:DeleteStorageVirtualMachine", "fsx:UpdateStorageVirtualMachine"], "?": ["fsx:DescribeBackups", "fsx:DescribeDataRepositoryAssociations", "fsx:DescribeDataRepositoryTasks", "fsx:DescribeFileCaches", "fsx:DescribeFileSystems", "fsx:DescribeSnapshots", "fsx:DescribeStorageVirtualMachines", "fsx:DescribeVolumes"], "association": ["fsx:ListTagsForResource", "fsx:TagResource", "fsx:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonfsx.html"}
+{
+ "file-system*": [
+  "fsx:AssociateFileSystemAliases",
+  "fsx:CreateDataRepositoryTask",
+  "fsx:CreateFileSystem",
+  "fsx:CreateStorageVirtualMachine",
+  "fsx:DeleteFileSystem",
+  "fsx:DescribeFileSystemAliases",
+  "fsx:DisassociateFileSystemAliases",
+  "fsx:ReleaseFileSystemNfsV3Locks",
+  "fsx:UpdateFileSystem"
+ ],
+ "task*": [
+  "fsx:CancelDataRepositoryTask"
+ ],
+ "backup*": [
+  "fsx:CopyBackup",
+  "fsx:CreateBackup",
+  "fsx:CreateFileSystemFromBackup",
+  "fsx:CreateVolumeFromBackup",
+  "fsx:DeleteBackup",
+  "fsx:ManageBackupPrincipalAssociations"
+ ],
+ "association*": [
+  "fsx:CreateDataRepositoryAssociation",
+  "fsx:DeleteDataRepositoryAssociation",
+  "fsx:UpdateDataRepositoryAssociation"
+ ],
+ "file-cache*": [
+  "fsx:CreateFileCache",
+  "fsx:DeleteFileCache",
+  "fsx:UpdateFileCache"
+ ],
+ "snapshot*": [
+  "fsx:CreateSnapshot",
+  "fsx:DeleteSnapshot",
+  "fsx:RestoreVolumeFromSnapshot",
+  "fsx:UpdateSnapshot"
+ ],
+ "volume*": [
+  "fsx:CreateVolume",
+  "fsx:DeleteVolume",
+  "fsx:UpdateVolume"
+ ],
+ "storage-virtual-machine*": [
+  "fsx:DeleteStorageVirtualMachine",
+  "fsx:UpdateStorageVirtualMachine"
+ ],
+ "?": [
+  "fsx:DescribeBackups",
+  "fsx:DescribeDataRepositoryAssociations",
+  "fsx:DescribeDataRepositoryTasks",
+  "fsx:DescribeFileCaches",
+  "fsx:DescribeFileSystems",
+  "fsx:DescribeSnapshots",
+  "fsx:DescribeStorageVirtualMachines",
+  "fsx:DescribeVolumes"
+ ],
+ "association": [
+  "fsx:ListTagsForResource",
+  "fsx:TagResource",
+  "fsx:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonfsx.html"
+}

@@ -1,1 +1,55 @@
-{"Feature*": ["evidently:BatchEvaluateFeature", "evidently:DeleteFeature", "evidently:EvaluateFeature", "evidently:GetFeature", "evidently:UpdateFeature"], "?": ["evidently:CreateExperiment", "evidently:CreateFeature", "evidently:CreateLaunch", "evidently:CreateProject", "evidently:CreateSegment", "evidently:ListExperiments", "evidently:ListFeatures", "evidently:ListLaunches", "evidently:ListProjects", "evidently:ListSegmentReferences", "evidently:ListSegments", "evidently:ListTagsForResource", "evidently:TestSegmentPattern"], "Experiment*": ["evidently:DeleteExperiment", "evidently:GetExperiment", "evidently:GetExperimentResults", "evidently:StartExperiment", "evidently:StopExperiment", "evidently:UpdateExperiment"], "Launch*": ["evidently:DeleteLaunch", "evidently:GetLaunch", "evidently:StartLaunch", "evidently:StopLaunch", "evidently:UpdateLaunch"], "Project*": ["evidently:DeleteProject", "evidently:GetProject", "evidently:PutProjectEvents", "evidently:UpdateProject", "evidently:UpdateProjectDataDelivery"], "Segment*": ["evidently:DeleteSegment", "evidently:GetSegment"], "Experiment": ["evidently:TagResource", "evidently:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoncloudwatchevidently.html"}
+{
+ "Feature*": [
+  "evidently:BatchEvaluateFeature",
+  "evidently:DeleteFeature",
+  "evidently:EvaluateFeature",
+  "evidently:GetFeature",
+  "evidently:UpdateFeature"
+ ],
+ "?": [
+  "evidently:CreateExperiment",
+  "evidently:CreateFeature",
+  "evidently:CreateLaunch",
+  "evidently:CreateProject",
+  "evidently:CreateSegment",
+  "evidently:ListExperiments",
+  "evidently:ListFeatures",
+  "evidently:ListLaunches",
+  "evidently:ListProjects",
+  "evidently:ListSegmentReferences",
+  "evidently:ListSegments",
+  "evidently:ListTagsForResource",
+  "evidently:TestSegmentPattern"
+ ],
+ "Experiment*": [
+  "evidently:DeleteExperiment",
+  "evidently:GetExperiment",
+  "evidently:GetExperimentResults",
+  "evidently:StartExperiment",
+  "evidently:StopExperiment",
+  "evidently:UpdateExperiment"
+ ],
+ "Launch*": [
+  "evidently:DeleteLaunch",
+  "evidently:GetLaunch",
+  "evidently:StartLaunch",
+  "evidently:StopLaunch",
+  "evidently:UpdateLaunch"
+ ],
+ "Project*": [
+  "evidently:DeleteProject",
+  "evidently:GetProject",
+  "evidently:PutProjectEvents",
+  "evidently:UpdateProject",
+  "evidently:UpdateProjectDataDelivery"
+ ],
+ "Segment*": [
+  "evidently:DeleteSegment",
+  "evidently:GetSegment"
+ ],
+ "Experiment": [
+  "evidently:TagResource",
+  "evidently:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoncloudwatchevidently.html"
+}

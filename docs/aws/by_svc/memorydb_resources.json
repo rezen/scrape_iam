@@ -1,1 +1,59 @@
-{"cluster*": ["memorydb:BatchUpdateCluster", "memorydb:CreateSnapshot", "memorydb:DeleteCluster", "memorydb:DescribeClusters", "memorydb:FailoverShard", "memorydb:ListAllowedNodeTypeUpdates", "memorydb:UpdateCluster"], "snapshot*": ["memorydb:CopySnapshot", "memorydb:DeleteSnapshot", "memorydb:DescribeSnapshots"], "user*": ["memorydb:CreateAcl", "memorydb:DeleteUser", "memorydb:DescribeUsers", "memorydb:UpdateUser"], "acl*": ["memorydb:CreateCluster", "memorydb:DeleteAcl", "memorydb:DescribeAcls", "memorydb:UpdateAcl"], "?": ["memorydb:CreateParameterGroup", "memorydb:CreateSubnetGroup", "memorydb:CreateUser", "memorydb:DescribeEngineVersions", "memorydb:DescribeEvents", "memorydb:DescribeReservedNodesOfferings", "memorydb:DescribeServiceUpdates"], "parametergroup*": ["memorydb:DeleteParameterGroup", "memorydb:DescribeParameterGroups", "memorydb:DescribeParameters", "memorydb:ResetParameterGroup", "memorydb:UpdateParameterGroup"], "subnetgroup*": ["memorydb:DeleteSubnetGroup", "memorydb:DescribeSubnetGroups", "memorydb:UpdateSubnetGroup"], "reservednode*": ["memorydb:DescribeReservedNodes", "memorydb:PurchaseReservedNodesOffering"], "acl": ["memorydb:ListTags", "memorydb:TagResource", "memorydb:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonmemorydb.html"}
+{
+ "cluster*": [
+  "memorydb:BatchUpdateCluster",
+  "memorydb:CreateSnapshot",
+  "memorydb:DeleteCluster",
+  "memorydb:DescribeClusters",
+  "memorydb:FailoverShard",
+  "memorydb:ListAllowedNodeTypeUpdates",
+  "memorydb:UpdateCluster"
+ ],
+ "snapshot*": [
+  "memorydb:CopySnapshot",
+  "memorydb:DeleteSnapshot",
+  "memorydb:DescribeSnapshots"
+ ],
+ "user*": [
+  "memorydb:CreateAcl",
+  "memorydb:DeleteUser",
+  "memorydb:DescribeUsers",
+  "memorydb:UpdateUser"
+ ],
+ "acl*": [
+  "memorydb:CreateCluster",
+  "memorydb:DeleteAcl",
+  "memorydb:DescribeAcls",
+  "memorydb:UpdateAcl"
+ ],
+ "?": [
+  "memorydb:CreateParameterGroup",
+  "memorydb:CreateSubnetGroup",
+  "memorydb:CreateUser",
+  "memorydb:DescribeEngineVersions",
+  "memorydb:DescribeEvents",
+  "memorydb:DescribeReservedNodesOfferings",
+  "memorydb:DescribeServiceUpdates"
+ ],
+ "parametergroup*": [
+  "memorydb:DeleteParameterGroup",
+  "memorydb:DescribeParameterGroups",
+  "memorydb:DescribeParameters",
+  "memorydb:ResetParameterGroup",
+  "memorydb:UpdateParameterGroup"
+ ],
+ "subnetgroup*": [
+  "memorydb:DeleteSubnetGroup",
+  "memorydb:DescribeSubnetGroups",
+  "memorydb:UpdateSubnetGroup"
+ ],
+ "reservednode*": [
+  "memorydb:DescribeReservedNodes",
+  "memorydb:PurchaseReservedNodesOffering"
+ ],
+ "acl": [
+  "memorydb:ListTags",
+  "memorydb:TagResource",
+  "memorydb:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonmemorydb.html"
+}

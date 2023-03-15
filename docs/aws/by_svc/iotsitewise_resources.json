@@ -1,1 +1,100 @@
-{"asset*": ["iotsitewise:AssociateAssets", "iotsitewise:AssociateTimeSeriesToAssetProperty", "iotsitewise:DeleteAsset", "iotsitewise:DescribeAsset", "iotsitewise:DescribeAssetProperty", "iotsitewise:DisassociateAssets", "iotsitewise:DisassociateTimeSeriesFromAssetProperty", "iotsitewise:ListAssetProperties", "iotsitewise:ListAssetRelationships", "iotsitewise:ListAssociatedAssets", "iotsitewise:UpdateAsset", "iotsitewise:UpdateAssetProperty"], "project*": ["iotsitewise:BatchAssociateProjectAssets", "iotsitewise:BatchDisassociateProjectAssets", "iotsitewise:CreateDashboard", "iotsitewise:DeleteProject", "iotsitewise:DescribeProject", "iotsitewise:ListDashboards", "iotsitewise:ListProjectAssets", "iotsitewise:UpdateProject"], "asset": ["iotsitewise:BatchGetAssetPropertyAggregates", "iotsitewise:BatchGetAssetPropertyValue", "iotsitewise:BatchGetAssetPropertyValueHistory", "iotsitewise:BatchPutAssetPropertyValue", "iotsitewise:DeleteTimeSeries", "iotsitewise:DescribeTimeSeries", "iotsitewise:GetAssetPropertyAggregates", "iotsitewise:GetAssetPropertyValue", "iotsitewise:GetAssetPropertyValueHistory", "iotsitewise:GetInterpolatedAssetPropertyValues", "iotsitewise:ListTimeSeries"], "portal": ["iotsitewise:CreateAccessPolicy", "iotsitewise:ListAccessPolicies"], "asset-model*": ["iotsitewise:CreateAsset", "iotsitewise:DeleteAssetModel", "iotsitewise:DescribeAssetModel", "iotsitewise:ListAssetModelProperties", "iotsitewise:UpdateAssetModel"], "?": ["iotsitewise:CreateAssetModel", "iotsitewise:CreateBulkImportJob", "iotsitewise:CreateGateway", "iotsitewise:CreatePortal", "iotsitewise:DescribeBulkImportJob", "iotsitewise:DescribeDefaultEncryptionConfiguration", "iotsitewise:DescribeLoggingOptions", "iotsitewise:DescribeStorageConfiguration", "iotsitewise:ListAssetModels", "iotsitewise:ListBulkImportJobs", "iotsitewise:ListGateways", "iotsitewise:ListPortals", "iotsitewise:PutDefaultEncryptionConfiguration", "iotsitewise:PutLoggingOptions", "iotsitewise:PutStorageConfiguration"], "portal*": ["iotsitewise:CreateProject", "iotsitewise:DeletePortal", "iotsitewise:DescribePortal", "iotsitewise:ListProjects", "iotsitewise:UpdatePortal"], "access-policy*": ["iotsitewise:DeleteAccessPolicy", "iotsitewise:DescribeAccessPolicy", "iotsitewise:UpdateAccessPolicy"], "dashboard*": ["iotsitewise:DeleteDashboard", "iotsitewise:DescribeDashboard", "iotsitewise:UpdateDashboard"], "gateway*": ["iotsitewise:DeleteGateway", "iotsitewise:DescribeGateway", "iotsitewise:DescribeGatewayCapabilityConfiguration", "iotsitewise:UpdateGateway", "iotsitewise:UpdateGatewayCapabilityConfiguration"], "asset-model": ["iotsitewise:ListAssets"], "access-policy": ["iotsitewise:ListTagsForResource", "iotsitewise:TagResource", "iotsitewise:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsiotsitewise.html"}
+{
+ "asset*": [
+  "iotsitewise:AssociateAssets",
+  "iotsitewise:AssociateTimeSeriesToAssetProperty",
+  "iotsitewise:DeleteAsset",
+  "iotsitewise:DescribeAsset",
+  "iotsitewise:DescribeAssetProperty",
+  "iotsitewise:DisassociateAssets",
+  "iotsitewise:DisassociateTimeSeriesFromAssetProperty",
+  "iotsitewise:ListAssetProperties",
+  "iotsitewise:ListAssetRelationships",
+  "iotsitewise:ListAssociatedAssets",
+  "iotsitewise:UpdateAsset",
+  "iotsitewise:UpdateAssetProperty"
+ ],
+ "project*": [
+  "iotsitewise:BatchAssociateProjectAssets",
+  "iotsitewise:BatchDisassociateProjectAssets",
+  "iotsitewise:CreateDashboard",
+  "iotsitewise:DeleteProject",
+  "iotsitewise:DescribeProject",
+  "iotsitewise:ListDashboards",
+  "iotsitewise:ListProjectAssets",
+  "iotsitewise:UpdateProject"
+ ],
+ "asset": [
+  "iotsitewise:BatchGetAssetPropertyAggregates",
+  "iotsitewise:BatchGetAssetPropertyValue",
+  "iotsitewise:BatchGetAssetPropertyValueHistory",
+  "iotsitewise:BatchPutAssetPropertyValue",
+  "iotsitewise:DeleteTimeSeries",
+  "iotsitewise:DescribeTimeSeries",
+  "iotsitewise:GetAssetPropertyAggregates",
+  "iotsitewise:GetAssetPropertyValue",
+  "iotsitewise:GetAssetPropertyValueHistory",
+  "iotsitewise:GetInterpolatedAssetPropertyValues",
+  "iotsitewise:ListTimeSeries"
+ ],
+ "portal": [
+  "iotsitewise:CreateAccessPolicy",
+  "iotsitewise:ListAccessPolicies"
+ ],
+ "asset-model*": [
+  "iotsitewise:CreateAsset",
+  "iotsitewise:DeleteAssetModel",
+  "iotsitewise:DescribeAssetModel",
+  "iotsitewise:ListAssetModelProperties",
+  "iotsitewise:UpdateAssetModel"
+ ],
+ "?": [
+  "iotsitewise:CreateAssetModel",
+  "iotsitewise:CreateBulkImportJob",
+  "iotsitewise:CreateGateway",
+  "iotsitewise:CreatePortal",
+  "iotsitewise:DescribeBulkImportJob",
+  "iotsitewise:DescribeDefaultEncryptionConfiguration",
+  "iotsitewise:DescribeLoggingOptions",
+  "iotsitewise:DescribeStorageConfiguration",
+  "iotsitewise:ListAssetModels",
+  "iotsitewise:ListBulkImportJobs",
+  "iotsitewise:ListGateways",
+  "iotsitewise:ListPortals",
+  "iotsitewise:PutDefaultEncryptionConfiguration",
+  "iotsitewise:PutLoggingOptions",
+  "iotsitewise:PutStorageConfiguration"
+ ],
+ "portal*": [
+  "iotsitewise:CreateProject",
+  "iotsitewise:DeletePortal",
+  "iotsitewise:DescribePortal",
+  "iotsitewise:ListProjects",
+  "iotsitewise:UpdatePortal"
+ ],
+ "access-policy*": [
+  "iotsitewise:DeleteAccessPolicy",
+  "iotsitewise:DescribeAccessPolicy",
+  "iotsitewise:UpdateAccessPolicy"
+ ],
+ "dashboard*": [
+  "iotsitewise:DeleteDashboard",
+  "iotsitewise:DescribeDashboard",
+  "iotsitewise:UpdateDashboard"
+ ],
+ "gateway*": [
+  "iotsitewise:DeleteGateway",
+  "iotsitewise:DescribeGateway",
+  "iotsitewise:DescribeGatewayCapabilityConfiguration",
+  "iotsitewise:UpdateGateway",
+  "iotsitewise:UpdateGatewayCapabilityConfiguration"
+ ],
+ "asset-model": [
+  "iotsitewise:ListAssets"
+ ],
+ "access-policy": [
+  "iotsitewise:ListTagsForResource",
+  "iotsitewise:TagResource",
+  "iotsitewise:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsiotsitewise.html"
+}

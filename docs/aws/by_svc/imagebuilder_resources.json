@@ -1,1 +1,75 @@
-{"image*": ["imagebuilder:CancelImageCreation", "imagebuilder:CreateImage", "imagebuilder:DeleteImage", "imagebuilder:GetImage", "imagebuilder:GetImagePolicy", "imagebuilder:ImportVmImage", "imagebuilder:ListImagePackages", "imagebuilder:PutImagePolicy"], "component*": ["imagebuilder:CreateComponent", "imagebuilder:DeleteComponent", "imagebuilder:GetComponent", "imagebuilder:GetComponentPolicy", "imagebuilder:ImportComponent", "imagebuilder:PutComponentPolicy"], "containerRecipe*": ["imagebuilder:CreateContainerRecipe", "imagebuilder:DeleteContainerRecipe", "imagebuilder:GetContainerRecipe", "imagebuilder:GetContainerRecipePolicy", "imagebuilder:PutContainerRecipePolicy"], "distributionConfiguration*": ["imagebuilder:CreateDistributionConfiguration", "imagebuilder:DeleteDistributionConfiguration", "imagebuilder:GetDistributionConfiguration", "imagebuilder:UpdateDistributionConfiguration"], "imagePipeline*": ["imagebuilder:CreateImagePipeline", "imagebuilder:DeleteImagePipeline", "imagebuilder:GetImagePipeline", "imagebuilder:ListImagePipelineImages", "imagebuilder:StartImagePipelineExecution", "imagebuilder:UpdateImagePipeline"], "imageRecipe*": ["imagebuilder:CreateImageRecipe", "imagebuilder:DeleteImageRecipe", "imagebuilder:GetImageRecipe", "imagebuilder:GetImageRecipePolicy", "imagebuilder:PutImageRecipePolicy"], "infrastructureConfiguration*": ["imagebuilder:CreateInfrastructureConfiguration", "imagebuilder:DeleteInfrastructureConfiguration", "imagebuilder:GetInfrastructureConfiguration", "imagebuilder:UpdateInfrastructureConfiguration"], "componentVersion*": ["imagebuilder:ListComponentBuildVersions"], "?": ["imagebuilder:ListComponents", "imagebuilder:ListContainerRecipes", "imagebuilder:ListDistributionConfigurations", "imagebuilder:ListImagePipelines", "imagebuilder:ListImageRecipes", "imagebuilder:ListImages", "imagebuilder:ListInfrastructureConfigurations"], "imageVersion*": ["imagebuilder:ListImageBuildVersions"], "component": ["imagebuilder:ListTagsForResource", "imagebuilder:TagResource", "imagebuilder:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonec2imagebuilder.html"}
+{
+ "image*": [
+  "imagebuilder:CancelImageCreation",
+  "imagebuilder:CreateImage",
+  "imagebuilder:DeleteImage",
+  "imagebuilder:GetImage",
+  "imagebuilder:GetImagePolicy",
+  "imagebuilder:ImportVmImage",
+  "imagebuilder:ListImagePackages",
+  "imagebuilder:PutImagePolicy"
+ ],
+ "component*": [
+  "imagebuilder:CreateComponent",
+  "imagebuilder:DeleteComponent",
+  "imagebuilder:GetComponent",
+  "imagebuilder:GetComponentPolicy",
+  "imagebuilder:ImportComponent",
+  "imagebuilder:PutComponentPolicy"
+ ],
+ "containerRecipe*": [
+  "imagebuilder:CreateContainerRecipe",
+  "imagebuilder:DeleteContainerRecipe",
+  "imagebuilder:GetContainerRecipe",
+  "imagebuilder:GetContainerRecipePolicy",
+  "imagebuilder:PutContainerRecipePolicy"
+ ],
+ "distributionConfiguration*": [
+  "imagebuilder:CreateDistributionConfiguration",
+  "imagebuilder:DeleteDistributionConfiguration",
+  "imagebuilder:GetDistributionConfiguration",
+  "imagebuilder:UpdateDistributionConfiguration"
+ ],
+ "imagePipeline*": [
+  "imagebuilder:CreateImagePipeline",
+  "imagebuilder:DeleteImagePipeline",
+  "imagebuilder:GetImagePipeline",
+  "imagebuilder:ListImagePipelineImages",
+  "imagebuilder:StartImagePipelineExecution",
+  "imagebuilder:UpdateImagePipeline"
+ ],
+ "imageRecipe*": [
+  "imagebuilder:CreateImageRecipe",
+  "imagebuilder:DeleteImageRecipe",
+  "imagebuilder:GetImageRecipe",
+  "imagebuilder:GetImageRecipePolicy",
+  "imagebuilder:PutImageRecipePolicy"
+ ],
+ "infrastructureConfiguration*": [
+  "imagebuilder:CreateInfrastructureConfiguration",
+  "imagebuilder:DeleteInfrastructureConfiguration",
+  "imagebuilder:GetInfrastructureConfiguration",
+  "imagebuilder:UpdateInfrastructureConfiguration"
+ ],
+ "componentVersion*": [
+  "imagebuilder:ListComponentBuildVersions"
+ ],
+ "?": [
+  "imagebuilder:ListComponents",
+  "imagebuilder:ListContainerRecipes",
+  "imagebuilder:ListDistributionConfigurations",
+  "imagebuilder:ListImagePipelines",
+  "imagebuilder:ListImageRecipes",
+  "imagebuilder:ListImages",
+  "imagebuilder:ListInfrastructureConfigurations"
+ ],
+ "imageVersion*": [
+  "imagebuilder:ListImageBuildVersions"
+ ],
+ "component": [
+  "imagebuilder:ListTagsForResource",
+  "imagebuilder:TagResource",
+  "imagebuilder:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonec2imagebuilder.html"
+}

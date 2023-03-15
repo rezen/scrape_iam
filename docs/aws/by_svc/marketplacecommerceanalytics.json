@@ -1,1 +1,4 @@
-["marketplacecommerceanalytics:GenerateDataSet", "marketplacecommerceanalytics:StartSupportDataExport"]
+[
+ "marketplacecommerceanalytics:GenerateDataSet",
+ "marketplacecommerceanalytics:StartSupportDataExport"
+]

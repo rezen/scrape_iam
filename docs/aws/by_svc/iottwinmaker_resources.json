@@ -1,1 +1,51 @@
-{"workspace*": ["iottwinmaker:BatchPutPropertyValues", "iottwinmaker:CreateComponentType", "iottwinmaker:CreateEntity", "iottwinmaker:CreateScene", "iottwinmaker:CreateSyncJob", "iottwinmaker:DeleteWorkspace", "iottwinmaker:ExecuteQuery", "iottwinmaker:GetPropertyValue", "iottwinmaker:GetPropertyValueHistory", "iottwinmaker:GetWorkspace", "iottwinmaker:ListComponentTypes", "iottwinmaker:ListEntities", "iottwinmaker:ListScenes", "iottwinmaker:ListSyncJobs", "iottwinmaker:UpdateWorkspace"], "?": ["iottwinmaker:CreateWorkspace", "iottwinmaker:GetPricingPlan", "iottwinmaker:ListWorkspaces", "iottwinmaker:UpdatePricingPlan"], "componentType*": ["iottwinmaker:DeleteComponentType", "iottwinmaker:GetComponentType", "iottwinmaker:UpdateComponentType"], "entity*": ["iottwinmaker:DeleteEntity", "iottwinmaker:GetEntity", "iottwinmaker:UpdateEntity"], "scene*": ["iottwinmaker:DeleteScene", "iottwinmaker:GetScene", "iottwinmaker:UpdateScene"], "syncJob*": ["iottwinmaker:DeleteSyncJob", "iottwinmaker:GetSyncJob", "iottwinmaker:ListSyncResources"], "componentType": ["iottwinmaker:ListTagsForResource", "iottwinmaker:TagResource", "iottwinmaker:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsiottwinmaker.html"}
+{
+ "workspace*": [
+  "iottwinmaker:BatchPutPropertyValues",
+  "iottwinmaker:CreateComponentType",
+  "iottwinmaker:CreateEntity",
+  "iottwinmaker:CreateScene",
+  "iottwinmaker:CreateSyncJob",
+  "iottwinmaker:DeleteWorkspace",
+  "iottwinmaker:ExecuteQuery",
+  "iottwinmaker:GetPropertyValue",
+  "iottwinmaker:GetPropertyValueHistory",
+  "iottwinmaker:GetWorkspace",
+  "iottwinmaker:ListComponentTypes",
+  "iottwinmaker:ListEntities",
+  "iottwinmaker:ListScenes",
+  "iottwinmaker:ListSyncJobs",
+  "iottwinmaker:UpdateWorkspace"
+ ],
+ "?": [
+  "iottwinmaker:CreateWorkspace",
+  "iottwinmaker:GetPricingPlan",
+  "iottwinmaker:ListWorkspaces",
+  "iottwinmaker:UpdatePricingPlan"
+ ],
+ "componentType*": [
+  "iottwinmaker:DeleteComponentType",
+  "iottwinmaker:GetComponentType",
+  "iottwinmaker:UpdateComponentType"
+ ],
+ "entity*": [
+  "iottwinmaker:DeleteEntity",
+  "iottwinmaker:GetEntity",
+  "iottwinmaker:UpdateEntity"
+ ],
+ "scene*": [
+  "iottwinmaker:DeleteScene",
+  "iottwinmaker:GetScene",
+  "iottwinmaker:UpdateScene"
+ ],
+ "syncJob*": [
+  "iottwinmaker:DeleteSyncJob",
+  "iottwinmaker:GetSyncJob",
+  "iottwinmaker:ListSyncResources"
+ ],
+ "componentType": [
+  "iottwinmaker:ListTagsForResource",
+  "iottwinmaker:TagResource",
+  "iottwinmaker:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsiottwinmaker.html"
+}

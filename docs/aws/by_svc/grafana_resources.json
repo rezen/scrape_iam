@@ -1,1 +1,27 @@
-{"workspace*": ["grafana:AssociateLicense", "grafana:CreateWorkspaceApiKey", "grafana:DeleteWorkspace", "grafana:DeleteWorkspaceApiKey", "grafana:DescribeWorkspace", "grafana:DescribeWorkspaceAuthentication", "grafana:DescribeWorkspaceConfiguration", "grafana:DisassociateLicense", "grafana:ListPermissions", "grafana:TagResource", "grafana:UntagResource", "grafana:UpdatePermissions", "grafana:UpdateWorkspace", "grafana:UpdateWorkspaceAuthentication", "grafana:UpdateWorkspaceConfiguration"], "?": ["grafana:CreateWorkspace", "grafana:ListWorkspaces"], "workspace": ["grafana:ListTagsForResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonmanagedgrafana.html"}
+{
+ "workspace*": [
+  "grafana:AssociateLicense",
+  "grafana:CreateWorkspaceApiKey",
+  "grafana:DeleteWorkspace",
+  "grafana:DeleteWorkspaceApiKey",
+  "grafana:DescribeWorkspace",
+  "grafana:DescribeWorkspaceAuthentication",
+  "grafana:DescribeWorkspaceConfiguration",
+  "grafana:DisassociateLicense",
+  "grafana:ListPermissions",
+  "grafana:TagResource",
+  "grafana:UntagResource",
+  "grafana:UpdatePermissions",
+  "grafana:UpdateWorkspace",
+  "grafana:UpdateWorkspaceAuthentication",
+  "grafana:UpdateWorkspaceConfiguration"
+ ],
+ "?": [
+  "grafana:CreateWorkspace",
+  "grafana:ListWorkspaces"
+ ],
+ "workspace": [
+  "grafana:ListTagsForResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonmanagedgrafana.html"
+}

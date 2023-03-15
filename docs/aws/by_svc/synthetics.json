@@ -1,1 +1,23 @@
-["synthetics:AssociateResource", "synthetics:CreateCanary", "synthetics:CreateGroup", "synthetics:DeleteCanary", "synthetics:DeleteGroup", "synthetics:DescribeCanaries", "synthetics:DescribeCanariesLastRun", "synthetics:DescribeRuntimeVersions", "synthetics:DisassociateResource", "synthetics:GetCanary", "synthetics:GetCanaryRuns", "synthetics:GetGroup", "synthetics:ListAssociatedGroups", "synthetics:ListGroupResources", "synthetics:ListGroups", "synthetics:ListTagsForResource", "synthetics:StartCanary", "synthetics:StopCanary", "synthetics:TagResource", "synthetics:UntagResource", "synthetics:UpdateCanary"]
+[
+ "synthetics:AssociateResource",
+ "synthetics:CreateCanary",
+ "synthetics:CreateGroup",
+ "synthetics:DeleteCanary",
+ "synthetics:DeleteGroup",
+ "synthetics:DescribeCanaries",
+ "synthetics:DescribeCanariesLastRun",
+ "synthetics:DescribeRuntimeVersions",
+ "synthetics:DisassociateResource",
+ "synthetics:GetCanary",
+ "synthetics:GetCanaryRuns",
+ "synthetics:GetGroup",
+ "synthetics:ListAssociatedGroups",
+ "synthetics:ListGroupResources",
+ "synthetics:ListGroups",
+ "synthetics:ListTagsForResource",
+ "synthetics:StartCanary",
+ "synthetics:StopCanary",
+ "synthetics:TagResource",
+ "synthetics:UntagResource",
+ "synthetics:UpdateCanary"
+]

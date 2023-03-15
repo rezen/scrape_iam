@@ -1,1 +1,15 @@
-["codestar-connections:CreateConnection", "codestar-connections:CreateHost", "codestar-connections:DeleteConnection", "codestar-connections:DeleteHost", "codestar-connections:GetConnection", "codestar-connections:GetHost", "codestar-connections:ListConnections", "codestar-connections:ListHosts", "codestar-connections:ListTagsForResource", "codestar-connections:TagResource", "codestar-connections:UntagResource", "codestar-connections:UpdateConnectionInstallation", "codestar-connections:UpdateHost"]
+[
+ "codestar-connections:CreateConnection",
+ "codestar-connections:CreateHost",
+ "codestar-connections:DeleteConnection",
+ "codestar-connections:DeleteHost",
+ "codestar-connections:GetConnection",
+ "codestar-connections:GetHost",
+ "codestar-connections:ListConnections",
+ "codestar-connections:ListHosts",
+ "codestar-connections:ListTagsForResource",
+ "codestar-connections:TagResource",
+ "codestar-connections:UntagResource",
+ "codestar-connections:UpdateConnectionInstallation",
+ "codestar-connections:UpdateHost"
+]

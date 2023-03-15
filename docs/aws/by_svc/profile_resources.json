@@ -1,1 +1,45 @@
-{"domains*": ["profile:AddProfileKey", "profile:CreateDomain", "profile:CreateIntegrationWorkflow", "profile:CreateProfile", "profile:DeleteDomain", "profile:DeleteIntegration", "profile:DeleteProfile", "profile:DeleteProfileKey", "profile:DeleteProfileObject", "profile:DeleteProfileObjectType", "profile:DeleteWorkflow", "profile:GetAutoMergingPreview", "profile:GetDomain", "profile:GetIdentityResolutionJob", "profile:GetIntegration", "profile:GetMatches", "profile:GetProfileObjectType", "profile:GetWorkflow", "profile:GetWorkflowSteps", "profile:ListIdentityResolutionJobs", "profile:ListIntegrations", "profile:ListProfileObjectTypes", "profile:ListProfileObjects", "profile:ListWorkflows", "profile:MergeProfiles", "profile:PutIntegration", "profile:PutProfileObject", "profile:PutProfileObjectType", "profile:SearchProfiles", "profile:UpdateDomain", "profile:UpdateProfile"], "?": ["profile:GetProfileObjectTypeTemplate", "profile:ListAccountIntegrations", "profile:ListDomains", "profile:ListProfileObjectTypeTemplates", "profile:ListTagsForResource", "profile:TagResource", "profile:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonconnectcustomerprofiles.html"}
+{
+ "domains*": [
+  "profile:AddProfileKey",
+  "profile:CreateDomain",
+  "profile:CreateIntegrationWorkflow",
+  "profile:CreateProfile",
+  "profile:DeleteDomain",
+  "profile:DeleteIntegration",
+  "profile:DeleteProfile",
+  "profile:DeleteProfileKey",
+  "profile:DeleteProfileObject",
+  "profile:DeleteProfileObjectType",
+  "profile:DeleteWorkflow",
+  "profile:GetAutoMergingPreview",
+  "profile:GetDomain",
+  "profile:GetIdentityResolutionJob",
+  "profile:GetIntegration",
+  "profile:GetMatches",
+  "profile:GetProfileObjectType",
+  "profile:GetWorkflow",
+  "profile:GetWorkflowSteps",
+  "profile:ListIdentityResolutionJobs",
+  "profile:ListIntegrations",
+  "profile:ListProfileObjectTypes",
+  "profile:ListProfileObjects",
+  "profile:ListWorkflows",
+  "profile:MergeProfiles",
+  "profile:PutIntegration",
+  "profile:PutProfileObject",
+  "profile:PutProfileObjectType",
+  "profile:SearchProfiles",
+  "profile:UpdateDomain",
+  "profile:UpdateProfile"
+ ],
+ "?": [
+  "profile:GetProfileObjectTypeTemplate",
+  "profile:ListAccountIntegrations",
+  "profile:ListDomains",
+  "profile:ListProfileObjectTypeTemplates",
+  "profile:ListTagsForResource",
+  "profile:TagResource",
+  "profile:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonconnectcustomerprofiles.html"
+}

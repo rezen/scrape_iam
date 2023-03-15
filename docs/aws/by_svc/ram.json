@@ -1,1 +1,27 @@
-["ram:AcceptResourceShareInvitation", "ram:AssociateResourceShare", "ram:AssociateResourceSharePermission", "ram:CreateResourceShare", "ram:DeleteResourceShare", "ram:DisassociateResourceShare", "ram:DisassociateResourceSharePermission", "ram:EnableSharingWithAwsOrganization", "ram:GetPermission", "ram:GetResourcePolicies", "ram:GetResourceShareAssociations", "ram:GetResourceShareInvitations", "ram:GetResourceShares", "ram:ListPendingInvitationResources", "ram:ListPermissionVersions", "ram:ListPermissions", "ram:ListPrincipals", "ram:ListResourceSharePermissions", "ram:ListResourceTypes", "ram:ListResources", "ram:PromoteResourceShareCreatedFromPolicy", "ram:RejectResourceShareInvitation", "ram:TagResource", "ram:UntagResource", "ram:UpdateResourceShare"]
+[
+ "ram:AcceptResourceShareInvitation",
+ "ram:AssociateResourceShare",
+ "ram:AssociateResourceSharePermission",
+ "ram:CreateResourceShare",
+ "ram:DeleteResourceShare",
+ "ram:DisassociateResourceShare",
+ "ram:DisassociateResourceSharePermission",
+ "ram:EnableSharingWithAwsOrganization",
+ "ram:GetPermission",
+ "ram:GetResourcePolicies",
+ "ram:GetResourceShareAssociations",
+ "ram:GetResourceShareInvitations",
+ "ram:GetResourceShares",
+ "ram:ListPendingInvitationResources",
+ "ram:ListPermissionVersions",
+ "ram:ListPermissions",
+ "ram:ListPrincipals",
+ "ram:ListResourceSharePermissions",
+ "ram:ListResourceTypes",
+ "ram:ListResources",
+ "ram:PromoteResourceShareCreatedFromPolicy",
+ "ram:RejectResourceShareInvitation",
+ "ram:TagResource",
+ "ram:UntagResource",
+ "ram:UpdateResourceShare"
+]

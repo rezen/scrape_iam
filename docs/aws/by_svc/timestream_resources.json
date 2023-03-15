@@ -1,1 +1,45 @@
-{"?": ["timestream:CancelQuery", "timestream:CreateScheduledQuery", "timestream:DescribeBatchLoadTask", "timestream:DescribeEndpoints", "timestream:GetAwsBackupStatus", "timestream:GetAwsRestoreStatus", "timestream:ListBatchLoadTasks", "timestream:ListDatabases", "timestream:ListScheduledQueries", "timestream:ResumeBatchLoadTask", "timestream:SelectValues"], "table*": ["timestream:CreateBatchLoadTask", "timestream:CreateTable", "timestream:DeleteTable", "timestream:DescribeTable", "timestream:ListMeasures", "timestream:PrepareQuery", "timestream:Select", "timestream:StartAwsBackupJob", "timestream:StartAwsRestoreJob", "timestream:UpdateTable", "timestream:WriteRecords"], "database*": ["timestream:CreateDatabase", "timestream:DeleteDatabase", "timestream:DescribeDatabase", "timestream:ListTables", "timestream:ListTagsForResource", "timestream:TagResource", "timestream:UntagResource", "timestream:UpdateDatabase"], "scheduled-query*": ["timestream:DeleteScheduledQuery", "timestream:DescribeScheduledQuery", "timestream:ExecuteScheduledQuery", "timestream:UpdateScheduledQuery"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazontimestream.html"}
+{
+ "?": [
+  "timestream:CancelQuery",
+  "timestream:CreateScheduledQuery",
+  "timestream:DescribeBatchLoadTask",
+  "timestream:DescribeEndpoints",
+  "timestream:GetAwsBackupStatus",
+  "timestream:GetAwsRestoreStatus",
+  "timestream:ListBatchLoadTasks",
+  "timestream:ListDatabases",
+  "timestream:ListScheduledQueries",
+  "timestream:ResumeBatchLoadTask",
+  "timestream:SelectValues"
+ ],
+ "table*": [
+  "timestream:CreateBatchLoadTask",
+  "timestream:CreateTable",
+  "timestream:DeleteTable",
+  "timestream:DescribeTable",
+  "timestream:ListMeasures",
+  "timestream:PrepareQuery",
+  "timestream:Select",
+  "timestream:StartAwsBackupJob",
+  "timestream:StartAwsRestoreJob",
+  "timestream:UpdateTable",
+  "timestream:WriteRecords"
+ ],
+ "database*": [
+  "timestream:CreateDatabase",
+  "timestream:DeleteDatabase",
+  "timestream:DescribeDatabase",
+  "timestream:ListTables",
+  "timestream:ListTagsForResource",
+  "timestream:TagResource",
+  "timestream:UntagResource",
+  "timestream:UpdateDatabase"
+ ],
+ "scheduled-query*": [
+  "timestream:DeleteScheduledQuery",
+  "timestream:DescribeScheduledQuery",
+  "timestream:ExecuteScheduledQuery",
+  "timestream:UpdateScheduledQuery"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazontimestream.html"
+}

@@ -1,1 +1,8 @@
-["arc-zonal-shift:CancelZonalShift", "arc-zonal-shift:GetManagedResource", "arc-zonal-shift:ListManagedResources", "arc-zonal-shift:ListZonalShifts", "arc-zonal-shift:StartZonalShift", "arc-zonal-shift:UpdateZonalShift"]
+[
+ "arc-zonal-shift:CancelZonalShift",
+ "arc-zonal-shift:GetManagedResource",
+ "arc-zonal-shift:ListManagedResources",
+ "arc-zonal-shift:ListZonalShifts",
+ "arc-zonal-shift:StartZonalShift",
+ "arc-zonal-shift:UpdateZonalShift"
+]

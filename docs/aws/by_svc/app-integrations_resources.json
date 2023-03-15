@@ -1,1 +1,26 @@
-{"data-integration*": ["app-integrations:CreateDataIntegration", "app-integrations:DeleteDataIntegration", "app-integrations:GetDataIntegration", "app-integrations:UpdateDataIntegration"], "event-integration*": ["app-integrations:CreateEventIntegration", "app-integrations:DeleteEventIntegration", "app-integrations:GetEventIntegration", "app-integrations:UpdateEventIntegration"], "?": ["app-integrations:ListDataIntegrationAssociations", "app-integrations:ListDataIntegrations", "app-integrations:ListEventIntegrationAssociations", "app-integrations:ListEventIntegrations"], "data-integration": ["app-integrations:ListTagsForResource", "app-integrations:TagResource", "app-integrations:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonappintegrations.html"}
+{
+ "data-integration*": [
+  "app-integrations:CreateDataIntegration",
+  "app-integrations:DeleteDataIntegration",
+  "app-integrations:GetDataIntegration",
+  "app-integrations:UpdateDataIntegration"
+ ],
+ "event-integration*": [
+  "app-integrations:CreateEventIntegration",
+  "app-integrations:DeleteEventIntegration",
+  "app-integrations:GetEventIntegration",
+  "app-integrations:UpdateEventIntegration"
+ ],
+ "?": [
+  "app-integrations:ListDataIntegrationAssociations",
+  "app-integrations:ListDataIntegrations",
+  "app-integrations:ListEventIntegrationAssociations",
+  "app-integrations:ListEventIntegrations"
+ ],
+ "data-integration": [
+  "app-integrations:ListTagsForResource",
+  "app-integrations:TagResource",
+  "app-integrations:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonappintegrations.html"
+}

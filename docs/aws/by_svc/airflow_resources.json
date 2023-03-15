@@ -1,1 +1,22 @@
-{"environment*": ["airflow:CreateCliToken", "airflow:CreateEnvironment", "airflow:DeleteEnvironment", "airflow:GetEnvironment", "airflow:PublishMetrics", "airflow:UpdateEnvironment"], "rbac-role*": ["airflow:CreateWebLoginToken"], "?": ["airflow:ListEnvironments"], "environment": ["airflow:ListTagsForResource", "airflow:TagResource", "airflow:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonmanagedworkflowsforapacheairflow.html"}
+{
+ "environment*": [
+  "airflow:CreateCliToken",
+  "airflow:CreateEnvironment",
+  "airflow:DeleteEnvironment",
+  "airflow:GetEnvironment",
+  "airflow:PublishMetrics",
+  "airflow:UpdateEnvironment"
+ ],
+ "rbac-role*": [
+  "airflow:CreateWebLoginToken"
+ ],
+ "?": [
+  "airflow:ListEnvironments"
+ ],
+ "environment": [
+  "airflow:ListTagsForResource",
+  "airflow:TagResource",
+  "airflow:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonmanagedworkflowsforapacheairflow.html"
+}

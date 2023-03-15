@@ -1,1 +1,63 @@
-{"Recipe*": ["databrew:BatchDeleteRecipeVersion", "databrew:DeleteRecipeVersion", "databrew:DescribeRecipe", "databrew:ListRecipeVersions", "databrew:PublishRecipe", "databrew:UpdateRecipe"], "?": ["databrew:CreateDataset", "databrew:CreateProfileJob", "databrew:CreateProject", "databrew:CreateRecipe", "databrew:CreateRecipeJob", "databrew:CreateRuleset", "databrew:CreateSchedule", "databrew:ListDatasets", "databrew:ListJobs", "databrew:ListProjects", "databrew:ListRecipes", "databrew:ListRulesets", "databrew:ListSchedules"], "Dataset*": ["databrew:DeleteDataset", "databrew:DescribeDataset", "databrew:UpdateDataset"], "Job*": ["databrew:DeleteJob", "databrew:DescribeJob", "databrew:DescribeJobRun", "databrew:ListJobRuns", "databrew:StartJobRun", "databrew:StopJobRun", "databrew:UpdateProfileJob", "databrew:UpdateRecipeJob"], "Project*": ["databrew:DeleteProject", "databrew:DescribeProject", "databrew:SendProjectSessionAction", "databrew:StartProjectSession", "databrew:UpdateProject"], "Ruleset*": ["databrew:DeleteRuleset", "databrew:DescribeRuleset", "databrew:UpdateRuleset"], "Schedule*": ["databrew:DeleteSchedule", "databrew:DescribeSchedule", "databrew:UpdateSchedule"], "Dataset": ["databrew:ListTagsForResource", "databrew:TagResource", "databrew:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsgluedatabrew.html"}
+{
+ "Recipe*": [
+  "databrew:BatchDeleteRecipeVersion",
+  "databrew:DeleteRecipeVersion",
+  "databrew:DescribeRecipe",
+  "databrew:ListRecipeVersions",
+  "databrew:PublishRecipe",
+  "databrew:UpdateRecipe"
+ ],
+ "?": [
+  "databrew:CreateDataset",
+  "databrew:CreateProfileJob",
+  "databrew:CreateProject",
+  "databrew:CreateRecipe",
+  "databrew:CreateRecipeJob",
+  "databrew:CreateRuleset",
+  "databrew:CreateSchedule",
+  "databrew:ListDatasets",
+  "databrew:ListJobs",
+  "databrew:ListProjects",
+  "databrew:ListRecipes",
+  "databrew:ListRulesets",
+  "databrew:ListSchedules"
+ ],
+ "Dataset*": [
+  "databrew:DeleteDataset",
+  "databrew:DescribeDataset",
+  "databrew:UpdateDataset"
+ ],
+ "Job*": [
+  "databrew:DeleteJob",
+  "databrew:DescribeJob",
+  "databrew:DescribeJobRun",
+  "databrew:ListJobRuns",
+  "databrew:StartJobRun",
+  "databrew:StopJobRun",
+  "databrew:UpdateProfileJob",
+  "databrew:UpdateRecipeJob"
+ ],
+ "Project*": [
+  "databrew:DeleteProject",
+  "databrew:DescribeProject",
+  "databrew:SendProjectSessionAction",
+  "databrew:StartProjectSession",
+  "databrew:UpdateProject"
+ ],
+ "Ruleset*": [
+  "databrew:DeleteRuleset",
+  "databrew:DescribeRuleset",
+  "databrew:UpdateRuleset"
+ ],
+ "Schedule*": [
+  "databrew:DeleteSchedule",
+  "databrew:DescribeSchedule",
+  "databrew:UpdateSchedule"
+ ],
+ "Dataset": [
+  "databrew:ListTagsForResource",
+  "databrew:TagResource",
+  "databrew:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsgluedatabrew.html"
+}

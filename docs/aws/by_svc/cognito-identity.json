@@ -1,1 +1,25 @@
-["cognito-identity:CreateIdentityPool", "cognito-identity:DeleteIdentities", "cognito-identity:DeleteIdentityPool", "cognito-identity:DescribeIdentity", "cognito-identity:DescribeIdentityPool", "cognito-identity:GetCredentialsForIdentity", "cognito-identity:GetId", "cognito-identity:GetIdentityPoolRoles", "cognito-identity:GetOpenIdToken", "cognito-identity:GetOpenIdTokenForDeveloperIdentity", "cognito-identity:GetPrincipalTagAttributeMap", "cognito-identity:ListIdentities", "cognito-identity:ListIdentityPools", "cognito-identity:ListTagsForResource", "cognito-identity:LookupDeveloperIdentity", "cognito-identity:MergeDeveloperIdentities", "cognito-identity:SetIdentityPoolRoles", "cognito-identity:SetPrincipalTagAttributeMap", "cognito-identity:TagResource", "cognito-identity:UnlinkDeveloperIdentity", "cognito-identity:UnlinkIdentity", "cognito-identity:UntagResource", "cognito-identity:UpdateIdentityPool"]
+[
+ "cognito-identity:CreateIdentityPool",
+ "cognito-identity:DeleteIdentities",
+ "cognito-identity:DeleteIdentityPool",
+ "cognito-identity:DescribeIdentity",
+ "cognito-identity:DescribeIdentityPool",
+ "cognito-identity:GetCredentialsForIdentity",
+ "cognito-identity:GetId",
+ "cognito-identity:GetIdentityPoolRoles",
+ "cognito-identity:GetOpenIdToken",
+ "cognito-identity:GetOpenIdTokenForDeveloperIdentity",
+ "cognito-identity:GetPrincipalTagAttributeMap",
+ "cognito-identity:ListIdentities",
+ "cognito-identity:ListIdentityPools",
+ "cognito-identity:ListTagsForResource",
+ "cognito-identity:LookupDeveloperIdentity",
+ "cognito-identity:MergeDeveloperIdentities",
+ "cognito-identity:SetIdentityPoolRoles",
+ "cognito-identity:SetPrincipalTagAttributeMap",
+ "cognito-identity:TagResource",
+ "cognito-identity:UnlinkDeveloperIdentity",
+ "cognito-identity:UnlinkIdentity",
+ "cognito-identity:UntagResource",
+ "cognito-identity:UpdateIdentityPool"
+]

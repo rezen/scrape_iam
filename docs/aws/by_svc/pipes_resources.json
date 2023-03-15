@@ -1,1 +1,17 @@
-{"pipe*": ["pipes:CreatePipe", "pipes:DeletePipe", "pipes:DescribePipe", "pipes:ListTagsForResource", "pipes:StartPipe", "pipes:StopPipe", "pipes:TagResource", "pipes:UntagResource", "pipes:UpdatePipe"], "?": ["pipes:ListPipes"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoneventbridgepipes.html"}
+{
+ "pipe*": [
+  "pipes:CreatePipe",
+  "pipes:DeletePipe",
+  "pipes:DescribePipe",
+  "pipes:ListTagsForResource",
+  "pipes:StartPipe",
+  "pipes:StopPipe",
+  "pipes:TagResource",
+  "pipes:UntagResource",
+  "pipes:UpdatePipe"
+ ],
+ "?": [
+  "pipes:ListPipes"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoneventbridgepipes.html"
+}

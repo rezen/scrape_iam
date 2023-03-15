@@ -1,1 +1,108 @@
-{"attachment*": ["networkmanager:AcceptAttachment", "networkmanager:CreateConnectAttachment", "networkmanager:CreateConnectPeer", "networkmanager:DeleteAttachment", "networkmanager:GetConnectAttachment", "networkmanager:GetSiteToSiteVpnAttachment", "networkmanager:GetTransitGatewayRouteTableAttachment", "networkmanager:GetVpcAttachment", "networkmanager:ListAttachments", "networkmanager:RejectAttachment", "networkmanager:UpdateVpcAttachment"], "device*": ["networkmanager:AssociateConnectPeer", "networkmanager:AssociateCustomerGateway", "networkmanager:AssociateLink", "networkmanager:AssociateTransitGatewayConnectPeer", "networkmanager:DeleteDevice", "networkmanager:DisassociateLink", "networkmanager:UpdateDevice"], "global-network*": ["networkmanager:CreateConnection", "networkmanager:CreateCoreNetwork", "networkmanager:CreateDevice", "networkmanager:CreateLink", "networkmanager:CreateSite", "networkmanager:DeleteGlobalNetwork", "networkmanager:DeleteLink", "networkmanager:DeleteSite", "networkmanager:DeregisterTransitGateway", "networkmanager:DisassociateConnectPeer", "networkmanager:DisassociateCustomerGateway", "networkmanager:DisassociateTransitGatewayConnectPeer", "networkmanager:GetConnectPeerAssociations", "networkmanager:GetConnections", "networkmanager:GetCustomerGatewayAssociations", "networkmanager:GetDevices", "networkmanager:GetLinkAssociations", "networkmanager:GetLinks", "networkmanager:GetNetworkResourceCounts", "networkmanager:GetNetworkResourceRelationships", "networkmanager:GetNetworkResources", "networkmanager:GetNetworkRoutes", "networkmanager:GetNetworkTelemetry", "networkmanager:GetRouteAnalysis", "networkmanager:GetSites", "networkmanager:GetTransitGatewayConnectPeerAssociations", "networkmanager:GetTransitGatewayRegistrations", "networkmanager:RegisterTransitGateway", "networkmanager:StartRouteAnalysis", "networkmanager:UpdateGlobalNetwork", "networkmanager:UpdateLink", "networkmanager:UpdateNetworkResourceMetadata", "networkmanager:UpdateSite"], "?": ["networkmanager:CreateGlobalNetwork", "networkmanager:ListCoreNetworks", "networkmanager:ListOrganizationServiceAccessStatus", "networkmanager:ListPeerings", "networkmanager:StartOrganizationServiceAccessUpdate"], "core-network*": ["networkmanager:CreateSiteToSiteVpnAttachment", "networkmanager:CreateTransitGatewayPeering", "networkmanager:CreateVpcAttachment", "networkmanager:DeleteCoreNetwork", "networkmanager:DeleteCoreNetworkPolicyVersion", "networkmanager:DeleteResourcePolicy", "networkmanager:ExecuteCoreNetworkChangeSet", "networkmanager:GetCoreNetwork", "networkmanager:GetCoreNetworkChangeEvents", "networkmanager:GetCoreNetworkChangeSet", "networkmanager:GetCoreNetworkPolicy", "networkmanager:GetResourcePolicy", "networkmanager:ListCoreNetworkPolicyVersions", "networkmanager:PutCoreNetworkPolicy", "networkmanager:PutResourcePolicy", "networkmanager:RestoreCoreNetworkPolicyVersion", "networkmanager:UpdateCoreNetwork"], "peering*": ["networkmanager:CreateTransitGatewayRouteTableAttachment", "networkmanager:DeletePeering", "networkmanager:GetTransitGatewayPeering"], "connect-peer*": ["networkmanager:DeleteConnectPeer", "networkmanager:GetConnectPeer", "networkmanager:ListConnectPeers"], "connection*": ["networkmanager:DeleteConnection", "networkmanager:UpdateConnection"], "global-network": ["networkmanager:DescribeGlobalNetworks"], "attachment": ["networkmanager:ListTagsForResource", "networkmanager:TagResource", "networkmanager:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsnetworkmanager.html"}
+{
+ "attachment*": [
+  "networkmanager:AcceptAttachment",
+  "networkmanager:CreateConnectAttachment",
+  "networkmanager:CreateConnectPeer",
+  "networkmanager:DeleteAttachment",
+  "networkmanager:GetConnectAttachment",
+  "networkmanager:GetSiteToSiteVpnAttachment",
+  "networkmanager:GetTransitGatewayRouteTableAttachment",
+  "networkmanager:GetVpcAttachment",
+  "networkmanager:ListAttachments",
+  "networkmanager:RejectAttachment",
+  "networkmanager:UpdateVpcAttachment"
+ ],
+ "device*": [
+  "networkmanager:AssociateConnectPeer",
+  "networkmanager:AssociateCustomerGateway",
+  "networkmanager:AssociateLink",
+  "networkmanager:AssociateTransitGatewayConnectPeer",
+  "networkmanager:DeleteDevice",
+  "networkmanager:DisassociateLink",
+  "networkmanager:UpdateDevice"
+ ],
+ "global-network*": [
+  "networkmanager:CreateConnection",
+  "networkmanager:CreateCoreNetwork",
+  "networkmanager:CreateDevice",
+  "networkmanager:CreateLink",
+  "networkmanager:CreateSite",
+  "networkmanager:DeleteGlobalNetwork",
+  "networkmanager:DeleteLink",
+  "networkmanager:DeleteSite",
+  "networkmanager:DeregisterTransitGateway",
+  "networkmanager:DisassociateConnectPeer",
+  "networkmanager:DisassociateCustomerGateway",
+  "networkmanager:DisassociateTransitGatewayConnectPeer",
+  "networkmanager:GetConnectPeerAssociations",
+  "networkmanager:GetConnections",
+  "networkmanager:GetCustomerGatewayAssociations",
+  "networkmanager:GetDevices",
+  "networkmanager:GetLinkAssociations",
+  "networkmanager:GetLinks",
+  "networkmanager:GetNetworkResourceCounts",
+  "networkmanager:GetNetworkResourceRelationships",
+  "networkmanager:GetNetworkResources",
+  "networkmanager:GetNetworkRoutes",
+  "networkmanager:GetNetworkTelemetry",
+  "networkmanager:GetRouteAnalysis",
+  "networkmanager:GetSites",
+  "networkmanager:GetTransitGatewayConnectPeerAssociations",
+  "networkmanager:GetTransitGatewayRegistrations",
+  "networkmanager:RegisterTransitGateway",
+  "networkmanager:StartRouteAnalysis",
+  "networkmanager:UpdateGlobalNetwork",
+  "networkmanager:UpdateLink",
+  "networkmanager:UpdateNetworkResourceMetadata",
+  "networkmanager:UpdateSite"
+ ],
+ "?": [
+  "networkmanager:CreateGlobalNetwork",
+  "networkmanager:ListCoreNetworks",
+  "networkmanager:ListOrganizationServiceAccessStatus",
+  "networkmanager:ListPeerings",
+  "networkmanager:StartOrganizationServiceAccessUpdate"
+ ],
+ "core-network*": [
+  "networkmanager:CreateSiteToSiteVpnAttachment",
+  "networkmanager:CreateTransitGatewayPeering",
+  "networkmanager:CreateVpcAttachment",
+  "networkmanager:DeleteCoreNetwork",
+  "networkmanager:DeleteCoreNetworkPolicyVersion",
+  "networkmanager:DeleteResourcePolicy",
+  "networkmanager:ExecuteCoreNetworkChangeSet",
+  "networkmanager:GetCoreNetwork",
+  "networkmanager:GetCoreNetworkChangeEvents",
+  "networkmanager:GetCoreNetworkChangeSet",
+  "networkmanager:GetCoreNetworkPolicy",
+  "networkmanager:GetResourcePolicy",
+  "networkmanager:ListCoreNetworkPolicyVersions",
+  "networkmanager:PutCoreNetworkPolicy",
+  "networkmanager:PutResourcePolicy",
+  "networkmanager:RestoreCoreNetworkPolicyVersion",
+  "networkmanager:UpdateCoreNetwork"
+ ],
+ "peering*": [
+  "networkmanager:CreateTransitGatewayRouteTableAttachment",
+  "networkmanager:DeletePeering",
+  "networkmanager:GetTransitGatewayPeering"
+ ],
+ "connect-peer*": [
+  "networkmanager:DeleteConnectPeer",
+  "networkmanager:GetConnectPeer",
+  "networkmanager:ListConnectPeers"
+ ],
+ "connection*": [
+  "networkmanager:DeleteConnection",
+  "networkmanager:UpdateConnection"
+ ],
+ "global-network": [
+  "networkmanager:DescribeGlobalNetworks"
+ ],
+ "attachment": [
+  "networkmanager:ListTagsForResource",
+  "networkmanager:TagResource",
+  "networkmanager:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsnetworkmanager.html"
+}

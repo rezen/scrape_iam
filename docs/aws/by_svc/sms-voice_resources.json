@@ -1,1 +1,66 @@
-{"Pool*": ["sms-voice:AssociateOriginationIdentity", "sms-voice:DeletePool", "sms-voice:DisassociateOriginationIdentity", "sms-voice:ListPoolOriginationIdentities", "sms-voice:UpdatePool"], "?": ["sms-voice:CreateConfigurationSet", "sms-voice:CreateOptOutList", "sms-voice:DeleteTextMessageSpendLimitOverride", "sms-voice:DeleteVoiceMessageSpendLimitOverride", "sms-voice:DescribeAccountAttributes", "sms-voice:DescribeAccountLimits", "sms-voice:DescribeSpendLimits", "sms-voice:SetTextMessageSpendLimitOverride", "sms-voice:SetVoiceMessageSpendLimitOverride"], "ConfigurationSet*": ["sms-voice:CreateEventDestination", "sms-voice:DeleteConfigurationSet", "sms-voice:DeleteDefaultMessageType", "sms-voice:DeleteDefaultSenderId", "sms-voice:DeleteEventDestination", "sms-voice:SetDefaultMessageType", "sms-voice:SetDefaultSenderId", "sms-voice:UpdateEventDestination"], "PhoneNumber": ["sms-voice:CreatePool", "sms-voice:DeleteKeyword", "sms-voice:DescribeKeywords", "sms-voice:DescribePhoneNumbers", "sms-voice:PutKeyword", "sms-voice:SendTextMessage", "sms-voice:SendVoiceMessage"], "OptOutList*": ["sms-voice:DeleteOptOutList", "sms-voice:DeleteOptedOutNumber", "sms-voice:DescribeOptedOutNumbers", "sms-voice:PutOptedOutNumber"], "ConfigurationSet": ["sms-voice:DescribeConfigurationSets", "sms-voice:ListTagsForResource", "sms-voice:TagResource", "sms-voice:UntagResource"], "OptOutList": ["sms-voice:DescribeOptOutLists"], "Pool": ["sms-voice:DescribePools", "sms-voice:RequestPhoneNumber"], "SenderId": ["sms-voice:DescribeSenderIds"], "PhoneNumber*": ["sms-voice:ReleasePhoneNumber", "sms-voice:UpdatePhoneNumber"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonpinpointsmsvoicev2.html"}
+{
+ "Pool*": [
+  "sms-voice:AssociateOriginationIdentity",
+  "sms-voice:DeletePool",
+  "sms-voice:DisassociateOriginationIdentity",
+  "sms-voice:ListPoolOriginationIdentities",
+  "sms-voice:UpdatePool"
+ ],
+ "?": [
+  "sms-voice:CreateConfigurationSet",
+  "sms-voice:CreateOptOutList",
+  "sms-voice:DeleteTextMessageSpendLimitOverride",
+  "sms-voice:DeleteVoiceMessageSpendLimitOverride",
+  "sms-voice:DescribeAccountAttributes",
+  "sms-voice:DescribeAccountLimits",
+  "sms-voice:DescribeSpendLimits",
+  "sms-voice:SetTextMessageSpendLimitOverride",
+  "sms-voice:SetVoiceMessageSpendLimitOverride"
+ ],
+ "ConfigurationSet*": [
+  "sms-voice:CreateEventDestination",
+  "sms-voice:DeleteConfigurationSet",
+  "sms-voice:DeleteDefaultMessageType",
+  "sms-voice:DeleteDefaultSenderId",
+  "sms-voice:DeleteEventDestination",
+  "sms-voice:SetDefaultMessageType",
+  "sms-voice:SetDefaultSenderId",
+  "sms-voice:UpdateEventDestination"
+ ],
+ "PhoneNumber": [
+  "sms-voice:CreatePool",
+  "sms-voice:DeleteKeyword",
+  "sms-voice:DescribeKeywords",
+  "sms-voice:DescribePhoneNumbers",
+  "sms-voice:PutKeyword",
+  "sms-voice:SendTextMessage",
+  "sms-voice:SendVoiceMessage"
+ ],
+ "OptOutList*": [
+  "sms-voice:DeleteOptOutList",
+  "sms-voice:DeleteOptedOutNumber",
+  "sms-voice:DescribeOptedOutNumbers",
+  "sms-voice:PutOptedOutNumber"
+ ],
+ "ConfigurationSet": [
+  "sms-voice:DescribeConfigurationSets",
+  "sms-voice:ListTagsForResource",
+  "sms-voice:TagResource",
+  "sms-voice:UntagResource"
+ ],
+ "OptOutList": [
+  "sms-voice:DescribeOptOutLists"
+ ],
+ "Pool": [
+  "sms-voice:DescribePools",
+  "sms-voice:RequestPhoneNumber"
+ ],
+ "SenderId": [
+  "sms-voice:DescribeSenderIds"
+ ],
+ "PhoneNumber*": [
+  "sms-voice:ReleasePhoneNumber",
+  "sms-voice:UpdatePhoneNumber"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonpinpointsmsvoicev2.html"
+}

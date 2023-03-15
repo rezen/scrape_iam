@@ -1,1 +1,11 @@
-["polly:DeleteLexicon", "polly:DescribeVoices", "polly:GetLexicon", "polly:GetSpeechSynthesisTask", "polly:ListLexicons", "polly:ListSpeechSynthesisTasks", "polly:PutLexicon", "polly:StartSpeechSynthesisTask", "polly:SynthesizeSpeech"]
+[
+ "polly:DeleteLexicon",
+ "polly:DescribeVoices",
+ "polly:GetLexicon",
+ "polly:GetSpeechSynthesisTask",
+ "polly:ListLexicons",
+ "polly:ListSpeechSynthesisTasks",
+ "polly:PutLexicon",
+ "polly:StartSpeechSynthesisTask",
+ "polly:SynthesizeSpeech"
+]

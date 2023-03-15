@@ -1,1 +1,4 @@
-["ec2-instance-connect:SendSSHPublicKey", "ec2-instance-connect:SendSerialConsoleSSHPublicKey"]
+[
+ "ec2-instance-connect:SendSSHPublicKey",
+ "ec2-instance-connect:SendSerialConsoleSSHPublicKey"
+]

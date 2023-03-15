@@ -1,1 +1,21 @@
-["mediapackage:ConfigureLogs", "mediapackage:CreateChannel", "mediapackage:CreateHarvestJob", "mediapackage:CreateOriginEndpoint", "mediapackage:DeleteChannel", "mediapackage:DeleteOriginEndpoint", "mediapackage:DescribeChannel", "mediapackage:DescribeHarvestJob", "mediapackage:DescribeOriginEndpoint", "mediapackage:ListChannels", "mediapackage:ListHarvestJobs", "mediapackage:ListOriginEndpoints", "mediapackage:ListTagsForResource", "mediapackage:RotateChannelCredentials", "mediapackage:RotateIngestEndpointCredentials", "mediapackage:TagResource", "mediapackage:UntagResource", "mediapackage:UpdateChannel", "mediapackage:UpdateOriginEndpoint"]
+[
+ "mediapackage:ConfigureLogs",
+ "mediapackage:CreateChannel",
+ "mediapackage:CreateHarvestJob",
+ "mediapackage:CreateOriginEndpoint",
+ "mediapackage:DeleteChannel",
+ "mediapackage:DeleteOriginEndpoint",
+ "mediapackage:DescribeChannel",
+ "mediapackage:DescribeHarvestJob",
+ "mediapackage:DescribeOriginEndpoint",
+ "mediapackage:ListChannels",
+ "mediapackage:ListHarvestJobs",
+ "mediapackage:ListOriginEndpoints",
+ "mediapackage:ListTagsForResource",
+ "mediapackage:RotateChannelCredentials",
+ "mediapackage:RotateIngestEndpointCredentials",
+ "mediapackage:TagResource",
+ "mediapackage:UntagResource",
+ "mediapackage:UpdateChannel",
+ "mediapackage:UpdateOriginEndpoint"
+]

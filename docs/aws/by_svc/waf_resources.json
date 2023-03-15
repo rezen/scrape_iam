@@ -1,1 +1,110 @@
-{"bytematchset*": ["waf:CreateByteMatchSet", "waf:DeleteByteMatchSet", "waf:GetByteMatchSet", "waf:UpdateByteMatchSet"], "geomatchset*": ["waf:CreateGeoMatchSet", "waf:DeleteGeoMatchSet", "waf:GetGeoMatchSet", "waf:UpdateGeoMatchSet"], "ipset*": ["waf:CreateIPSet", "waf:DeleteIPSet", "waf:GetIPSet", "waf:UpdateIPSet"], "ratebasedrule*": ["waf:CreateRateBasedRule", "waf:DeleteRateBasedRule", "waf:GetRateBasedRule", "waf:GetRateBasedRuleManagedKeys", "waf:UpdateRateBasedRule"], "regexmatchset*": ["waf:CreateRegexMatchSet", "waf:DeleteRegexMatchSet", "waf:GetRegexMatchSet", "waf:UpdateRegexMatchSet"], "regexpatternset*": ["waf:CreateRegexPatternSet", "waf:DeleteRegexPatternSet", "waf:GetRegexPatternSet", "waf:UpdateRegexPatternSet"], "rule*": ["waf:CreateRule", "waf:DeleteRule", "waf:GetRule", "waf:UpdateRule"], "rulegroup*": ["waf:CreateRuleGroup", "waf:DeletePermissionPolicy", "waf:DeleteRuleGroup", "waf:GetPermissionPolicy", "waf:GetRuleGroup", "waf:PutPermissionPolicy", "waf:UpdateRuleGroup"], "sizeconstraintset*": ["waf:CreateSizeConstraintSet", "waf:DeleteSizeConstraintSet", "waf:GetSizeConstraintSet", "waf:UpdateSizeConstraintSet"], "sqlinjectionmatchset*": ["waf:CreateSqlInjectionMatchSet", "waf:DeleteSqlInjectionMatchSet", "waf:GetSqlInjectionMatchSet", "waf:UpdateSqlInjectionMatchSet"], "webacl*": ["waf:CreateWebACL", "waf:CreateWebACLMigrationStack", "waf:DeleteLoggingConfiguration", "waf:DeleteWebACL", "waf:GetLoggingConfiguration", "waf:GetWebACL", "waf:PutLoggingConfiguration", "waf:UpdateWebACL"], "xssmatchset*": ["waf:CreateXssMatchSet", "waf:DeleteXssMatchSet", "waf:GetXssMatchSet", "waf:UpdateXssMatchSet"], "?": ["waf:GetChangeToken", "waf:GetChangeTokenStatus", "waf:ListActivatedRulesInRuleGroup", "waf:ListByteMatchSets", "waf:ListGeoMatchSets", "waf:ListIPSets", "waf:ListLoggingConfigurations", "waf:ListRateBasedRules", "waf:ListRegexMatchSets", "waf:ListRegexPatternSets", "waf:ListRuleGroups", "waf:ListRules", "waf:ListSizeConstraintSets", "waf:ListSqlInjectionMatchSets", "waf:ListSubscribedRuleGroups", "waf:ListWebACLs", "waf:ListXssMatchSets"], "rule": ["waf:GetSampledRequests"], "ratebasedrule": ["waf:ListTagsForResource", "waf:TagResource", "waf:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awswaf.html"}
+{
+ "bytematchset*": [
+  "waf:CreateByteMatchSet",
+  "waf:DeleteByteMatchSet",
+  "waf:GetByteMatchSet",
+  "waf:UpdateByteMatchSet"
+ ],
+ "geomatchset*": [
+  "waf:CreateGeoMatchSet",
+  "waf:DeleteGeoMatchSet",
+  "waf:GetGeoMatchSet",
+  "waf:UpdateGeoMatchSet"
+ ],
+ "ipset*": [
+  "waf:CreateIPSet",
+  "waf:DeleteIPSet",
+  "waf:GetIPSet",
+  "waf:UpdateIPSet"
+ ],
+ "ratebasedrule*": [
+  "waf:CreateRateBasedRule",
+  "waf:DeleteRateBasedRule",
+  "waf:GetRateBasedRule",
+  "waf:GetRateBasedRuleManagedKeys",
+  "waf:UpdateRateBasedRule"
+ ],
+ "regexmatchset*": [
+  "waf:CreateRegexMatchSet",
+  "waf:DeleteRegexMatchSet",
+  "waf:GetRegexMatchSet",
+  "waf:UpdateRegexMatchSet"
+ ],
+ "regexpatternset*": [
+  "waf:CreateRegexPatternSet",
+  "waf:DeleteRegexPatternSet",
+  "waf:GetRegexPatternSet",
+  "waf:UpdateRegexPatternSet"
+ ],
+ "rule*": [
+  "waf:CreateRule",
+  "waf:DeleteRule",
+  "waf:GetRule",
+  "waf:UpdateRule"
+ ],
+ "rulegroup*": [
+  "waf:CreateRuleGroup",
+  "waf:DeletePermissionPolicy",
+  "waf:DeleteRuleGroup",
+  "waf:GetPermissionPolicy",
+  "waf:GetRuleGroup",
+  "waf:PutPermissionPolicy",
+  "waf:UpdateRuleGroup"
+ ],
+ "sizeconstraintset*": [
+  "waf:CreateSizeConstraintSet",
+  "waf:DeleteSizeConstraintSet",
+  "waf:GetSizeConstraintSet",
+  "waf:UpdateSizeConstraintSet"
+ ],
+ "sqlinjectionmatchset*": [
+  "waf:CreateSqlInjectionMatchSet",
+  "waf:DeleteSqlInjectionMatchSet",
+  "waf:GetSqlInjectionMatchSet",
+  "waf:UpdateSqlInjectionMatchSet"
+ ],
+ "webacl*": [
+  "waf:CreateWebACL",
+  "waf:CreateWebACLMigrationStack",
+  "waf:DeleteLoggingConfiguration",
+  "waf:DeleteWebACL",
+  "waf:GetLoggingConfiguration",
+  "waf:GetWebACL",
+  "waf:PutLoggingConfiguration",
+  "waf:UpdateWebACL"
+ ],
+ "xssmatchset*": [
+  "waf:CreateXssMatchSet",
+  "waf:DeleteXssMatchSet",
+  "waf:GetXssMatchSet",
+  "waf:UpdateXssMatchSet"
+ ],
+ "?": [
+  "waf:GetChangeToken",
+  "waf:GetChangeTokenStatus",
+  "waf:ListActivatedRulesInRuleGroup",
+  "waf:ListByteMatchSets",
+  "waf:ListGeoMatchSets",
+  "waf:ListIPSets",
+  "waf:ListLoggingConfigurations",
+  "waf:ListRateBasedRules",
+  "waf:ListRegexMatchSets",
+  "waf:ListRegexPatternSets",
+  "waf:ListRuleGroups",
+  "waf:ListRules",
+  "waf:ListSizeConstraintSets",
+  "waf:ListSqlInjectionMatchSets",
+  "waf:ListSubscribedRuleGroups",
+  "waf:ListWebACLs",
+  "waf:ListXssMatchSets"
+ ],
+ "rule": [
+  "waf:GetSampledRequests"
+ ],
+ "ratebasedrule": [
+  "waf:ListTagsForResource",
+  "waf:TagResource",
+  "waf:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awswaf.html"
+}

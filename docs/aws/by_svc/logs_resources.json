@@ -1,1 +1,61 @@
-{"log-group*": ["logs:AssociateKmsKey", "logs:CreateExportTask", "logs:CreateLogGroup", "logs:CreateLogStream", "logs:DeleteDataProtectionPolicy", "logs:DeleteLogGroup", "logs:DeleteMetricFilter", "logs:DeleteRetentionPolicy", "logs:DeleteSubscriptionFilter", "logs:DescribeLogGroups", "logs:DescribeLogStreams", "logs:DescribeMetricFilters", "logs:DescribeSubscriptionFilters", "logs:DisassociateKmsKey", "logs:FilterLogEvents", "logs:GetDataProtectionPolicy", "logs:GetLogGroupFields", "logs:ListTagsLogGroup", "logs:PutDataProtectionPolicy", "logs:PutMetricFilter", "logs:PutRetentionPolicy", "logs:PutSubscriptionFilter", "logs:StartQuery", "logs:TagLogGroup", "logs:UntagLogGroup"], "?": ["logs:CancelExportTask", "logs:DeleteQueryDefinition", "logs:DeleteResourcePolicy", "logs:DescribeDestinations", "logs:DescribeExportTasks", "logs:DescribeQueries", "logs:DescribeQueryDefinitions", "logs:DescribeResourcePolicies", "logs:GetLogRecord", "logs:GetQueryResults", "logs:PutQueryDefinition", "logs:PutResourcePolicy", "logs:StopQuery", "logs:TestMetricFilter"], "destination*": ["logs:DeleteDestination", "logs:PutDestination", "logs:PutDestinationPolicy"], "log-stream*": ["logs:DeleteLogStream", "logs:GetLogEvents", "logs:PutLogEvents"], "destination": ["logs:ListTagsForResource", "logs:TagResource", "logs:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoncloudwatchlogs.html"}
+{
+ "log-group*": [
+  "logs:AssociateKmsKey",
+  "logs:CreateExportTask",
+  "logs:CreateLogGroup",
+  "logs:CreateLogStream",
+  "logs:DeleteDataProtectionPolicy",
+  "logs:DeleteLogGroup",
+  "logs:DeleteMetricFilter",
+  "logs:DeleteRetentionPolicy",
+  "logs:DeleteSubscriptionFilter",
+  "logs:DescribeLogGroups",
+  "logs:DescribeLogStreams",
+  "logs:DescribeMetricFilters",
+  "logs:DescribeSubscriptionFilters",
+  "logs:DisassociateKmsKey",
+  "logs:FilterLogEvents",
+  "logs:GetDataProtectionPolicy",
+  "logs:GetLogGroupFields",
+  "logs:ListTagsLogGroup",
+  "logs:PutDataProtectionPolicy",
+  "logs:PutMetricFilter",
+  "logs:PutRetentionPolicy",
+  "logs:PutSubscriptionFilter",
+  "logs:StartQuery",
+  "logs:TagLogGroup",
+  "logs:UntagLogGroup"
+ ],
+ "?": [
+  "logs:CancelExportTask",
+  "logs:DeleteQueryDefinition",
+  "logs:DeleteResourcePolicy",
+  "logs:DescribeDestinations",
+  "logs:DescribeExportTasks",
+  "logs:DescribeQueries",
+  "logs:DescribeQueryDefinitions",
+  "logs:DescribeResourcePolicies",
+  "logs:GetLogRecord",
+  "logs:GetQueryResults",
+  "logs:PutQueryDefinition",
+  "logs:PutResourcePolicy",
+  "logs:StopQuery",
+  "logs:TestMetricFilter"
+ ],
+ "destination*": [
+  "logs:DeleteDestination",
+  "logs:PutDestination",
+  "logs:PutDestinationPolicy"
+ ],
+ "log-stream*": [
+  "logs:DeleteLogStream",
+  "logs:GetLogEvents",
+  "logs:PutLogEvents"
+ ],
+ "destination": [
+  "logs:ListTagsForResource",
+  "logs:TagResource",
+  "logs:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoncloudwatchlogs.html"
+}

@@ -1,1 +1,6 @@
-["iotjobsdata:DescribeJobExecution", "iotjobsdata:GetPendingJobExecutions", "iotjobsdata:StartNextPendingJobExecution", "iotjobsdata:UpdateJobExecution"]
+[
+ "iotjobsdata:DescribeJobExecution",
+ "iotjobsdata:GetPendingJobExecutions",
+ "iotjobsdata:StartNextPendingJobExecution",
+ "iotjobsdata:UpdateJobExecution"
+]

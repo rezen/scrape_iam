@@ -1,1 +1,50 @@
-{"topic*": ["sns:AddPermission", "sns:ConfirmSubscription", "sns:CreateTopic", "sns:DeleteTopic", "sns:GetDataProtectionPolicy", "sns:GetTopicAttributes", "sns:ListSubscriptionsByTopic", "sns:Publish", "sns:PutDataProtectionPolicy", "sns:RemovePermission", "sns:SetTopicAttributes", "sns:Subscribe"], "?": ["sns:CheckIfPhoneNumberIsOptedOut", "sns:CreatePlatformApplication", "sns:CreatePlatformEndpoint", "sns:CreateSMSSandboxPhoneNumber", "sns:DeleteEndpoint", "sns:DeletePlatformApplication", "sns:DeleteSMSSandboxPhoneNumber", "sns:GetEndpointAttributes", "sns:GetPlatformApplicationAttributes", "sns:GetSMSAttributes", "sns:GetSMSSandboxAccountStatus", "sns:GetSubscriptionAttributes", "sns:ListEndpointsByPlatformApplication", "sns:ListOriginationNumbers", "sns:ListPhoneNumbersOptedOut", "sns:ListPlatformApplications", "sns:ListSMSSandboxPhoneNumbers", "sns:ListSubscriptions", "sns:ListTopics", "sns:OptInPhoneNumber", "sns:SetEndpointAttributes", "sns:SetPlatformApplicationAttributes", "sns:SetSMSAttributes", "sns:SetSubscriptionAttributes", "sns:Unsubscribe", "sns:VerifySMSSandboxPhoneNumber"], "topic": ["sns:ListTagsForResource", "sns:TagResource", "sns:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonsns.html"}
+{
+ "topic*": [
+  "sns:AddPermission",
+  "sns:ConfirmSubscription",
+  "sns:CreateTopic",
+  "sns:DeleteTopic",
+  "sns:GetDataProtectionPolicy",
+  "sns:GetTopicAttributes",
+  "sns:ListSubscriptionsByTopic",
+  "sns:Publish",
+  "sns:PutDataProtectionPolicy",
+  "sns:RemovePermission",
+  "sns:SetTopicAttributes",
+  "sns:Subscribe"
+ ],
+ "?": [
+  "sns:CheckIfPhoneNumberIsOptedOut",
+  "sns:CreatePlatformApplication",
+  "sns:CreatePlatformEndpoint",
+  "sns:CreateSMSSandboxPhoneNumber",
+  "sns:DeleteEndpoint",
+  "sns:DeletePlatformApplication",
+  "sns:DeleteSMSSandboxPhoneNumber",
+  "sns:GetEndpointAttributes",
+  "sns:GetPlatformApplicationAttributes",
+  "sns:GetSMSAttributes",
+  "sns:GetSMSSandboxAccountStatus",
+  "sns:GetSubscriptionAttributes",
+  "sns:ListEndpointsByPlatformApplication",
+  "sns:ListOriginationNumbers",
+  "sns:ListPhoneNumbersOptedOut",
+  "sns:ListPlatformApplications",
+  "sns:ListSMSSandboxPhoneNumbers",
+  "sns:ListSubscriptions",
+  "sns:ListTopics",
+  "sns:OptInPhoneNumber",
+  "sns:SetEndpointAttributes",
+  "sns:SetPlatformApplicationAttributes",
+  "sns:SetSMSAttributes",
+  "sns:SetSubscriptionAttributes",
+  "sns:Unsubscribe",
+  "sns:VerifySMSSandboxPhoneNumber"
+ ],
+ "topic": [
+  "sns:ListTagsForResource",
+  "sns:TagResource",
+  "sns:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonsns.html"
+}

@@ -1,1 +1,62 @@
-{"gatewayRoute*": ["appmesh:CreateGatewayRoute", "appmesh:DeleteGatewayRoute", "appmesh:DescribeGatewayRoute", "appmesh:UpdateGatewayRoute"], "mesh*": ["appmesh:CreateMesh", "appmesh:DeleteMesh", "appmesh:DescribeMesh", "appmesh:ListVirtualGateways", "appmesh:ListVirtualNodes", "appmesh:ListVirtualRouters", "appmesh:ListVirtualServices", "appmesh:UpdateMesh"], "route*": ["appmesh:CreateRoute", "appmesh:DeleteRoute", "appmesh:DescribeRoute", "appmesh:UpdateRoute"], "virtualGateway*": ["appmesh:CreateVirtualGateway", "appmesh:DeleteVirtualGateway", "appmesh:DescribeVirtualGateway", "appmesh:ListGatewayRoutes", "appmesh:UpdateVirtualGateway"], "virtualNode*": ["appmesh:CreateVirtualNode", "appmesh:DeleteVirtualNode", "appmesh:DescribeVirtualNode", "appmesh:UpdateVirtualNode"], "virtualRouter*": ["appmesh:CreateVirtualRouter", "appmesh:DeleteVirtualRouter", "appmesh:DescribeVirtualRouter", "appmesh:ListRoutes", "appmesh:UpdateVirtualRouter"], "virtualService*": ["appmesh:CreateVirtualService", "appmesh:DeleteVirtualService", "appmesh:DescribeVirtualService", "appmesh:UpdateVirtualService"], "?": ["appmesh:ListMeshes"], "gatewayRoute": ["appmesh:ListTagsForResource", "appmesh:TagResource", "appmesh:UntagResource"], "virtualGateway": ["appmesh:StreamAggregatedResources"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsappmesh.html"}
+{
+ "gatewayRoute*": [
+  "appmesh:CreateGatewayRoute",
+  "appmesh:DeleteGatewayRoute",
+  "appmesh:DescribeGatewayRoute",
+  "appmesh:UpdateGatewayRoute"
+ ],
+ "mesh*": [
+  "appmesh:CreateMesh",
+  "appmesh:DeleteMesh",
+  "appmesh:DescribeMesh",
+  "appmesh:ListVirtualGateways",
+  "appmesh:ListVirtualNodes",
+  "appmesh:ListVirtualRouters",
+  "appmesh:ListVirtualServices",
+  "appmesh:UpdateMesh"
+ ],
+ "route*": [
+  "appmesh:CreateRoute",
+  "appmesh:DeleteRoute",
+  "appmesh:DescribeRoute",
+  "appmesh:UpdateRoute"
+ ],
+ "virtualGateway*": [
+  "appmesh:CreateVirtualGateway",
+  "appmesh:DeleteVirtualGateway",
+  "appmesh:DescribeVirtualGateway",
+  "appmesh:ListGatewayRoutes",
+  "appmesh:UpdateVirtualGateway"
+ ],
+ "virtualNode*": [
+  "appmesh:CreateVirtualNode",
+  "appmesh:DeleteVirtualNode",
+  "appmesh:DescribeVirtualNode",
+  "appmesh:UpdateVirtualNode"
+ ],
+ "virtualRouter*": [
+  "appmesh:CreateVirtualRouter",
+  "appmesh:DeleteVirtualRouter",
+  "appmesh:DescribeVirtualRouter",
+  "appmesh:ListRoutes",
+  "appmesh:UpdateVirtualRouter"
+ ],
+ "virtualService*": [
+  "appmesh:CreateVirtualService",
+  "appmesh:DeleteVirtualService",
+  "appmesh:DescribeVirtualService",
+  "appmesh:UpdateVirtualService"
+ ],
+ "?": [
+  "appmesh:ListMeshes"
+ ],
+ "gatewayRoute": [
+  "appmesh:ListTagsForResource",
+  "appmesh:TagResource",
+  "appmesh:UntagResource"
+ ],
+ "virtualGateway": [
+  "appmesh:StreamAggregatedResources"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsappmesh.html"
+}

@@ -1,1 +1,27 @@
-{"parallel-data": ["translate:CreateParallelData", "translate:DeleteParallelData", "translate:GetParallelData", "translate:ListTagsForResource", "translate:StartTextTranslationJob", "translate:TagResource", "translate:UntagResource", "translate:UpdateParallelData"], "terminology": ["translate:DeleteTerminology", "translate:GetTerminology", "translate:ImportTerminology", "translate:TranslateText"], "?": ["translate:DescribeTextTranslationJob", "translate:ListLanguages", "translate:ListParallelData", "translate:ListTerminologies", "translate:ListTextTranslationJobs", "translate:StopTextTranslationJob"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazontranslate.html"}
+{
+ "parallel-data": [
+  "translate:CreateParallelData",
+  "translate:DeleteParallelData",
+  "translate:GetParallelData",
+  "translate:ListTagsForResource",
+  "translate:StartTextTranslationJob",
+  "translate:TagResource",
+  "translate:UntagResource",
+  "translate:UpdateParallelData"
+ ],
+ "terminology": [
+  "translate:DeleteTerminology",
+  "translate:GetTerminology",
+  "translate:ImportTerminology",
+  "translate:TranslateText"
+ ],
+ "?": [
+  "translate:DescribeTextTranslationJob",
+  "translate:ListLanguages",
+  "translate:ListParallelData",
+  "translate:ListTerminologies",
+  "translate:ListTextTranslationJobs",
+  "translate:StopTextTranslationJob"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazontranslate.html"
+}

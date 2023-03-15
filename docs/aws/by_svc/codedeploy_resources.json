@@ -1,1 +1,62 @@
-{"instance*": ["codedeploy:AddTagsToOnPremisesInstances", "codedeploy:BatchGetOnPremisesInstances", "codedeploy:DeregisterOnPremisesInstance", "codedeploy:GetOnPremisesInstance", "codedeploy:RegisterOnPremisesInstance", "codedeploy:RemoveTagsFromOnPremisesInstances"], "application*": ["codedeploy:BatchGetApplicationRevisions", "codedeploy:BatchGetApplications", "codedeploy:CreateApplication", "codedeploy:DeleteApplication", "codedeploy:GetApplication", "codedeploy:GetApplicationRevision", "codedeploy:ListApplicationRevisions", "codedeploy:ListDeploymentGroups", "codedeploy:RegisterApplicationRevision", "codedeploy:UpdateApplication"], "deploymentgroup*": ["codedeploy:BatchGetDeploymentGroups", "codedeploy:BatchGetDeploymentInstances", "codedeploy:BatchGetDeployments", "codedeploy:CreateDeployment", "codedeploy:CreateDeploymentGroup", "codedeploy:DeleteDeploymentGroup", "codedeploy:GetDeployment", "codedeploy:GetDeploymentGroup", "codedeploy:GetDeploymentInstance", "codedeploy:ListDeploymentInstances", "codedeploy:ListDeployments", "codedeploy:UpdateDeploymentGroup"], "?": ["codedeploy:BatchGetDeploymentTargets", "codedeploy:ContinueDeployment", "codedeploy:DeleteGitHubAccountToken", "codedeploy:DeleteResourcesByExternalId", "codedeploy:GetDeploymentTarget", "codedeploy:ListApplications", "codedeploy:ListDeploymentConfigs", "codedeploy:ListDeploymentTargets", "codedeploy:ListGitHubAccountTokenNames", "codedeploy:ListOnPremisesInstances", "codedeploy:PutLifecycleEventHookExecutionStatus", "codedeploy:SkipWaitTimeForInstanceTermination", "codedeploy:StopDeployment"], "deploymentconfig*": ["codedeploy:CreateDeploymentConfig", "codedeploy:DeleteDeploymentConfig", "codedeploy:GetDeploymentConfig"], "application": ["codedeploy:ListTagsForResource", "codedeploy:TagResource", "codedeploy:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awscodedeploy.html"}
+{
+ "instance*": [
+  "codedeploy:AddTagsToOnPremisesInstances",
+  "codedeploy:BatchGetOnPremisesInstances",
+  "codedeploy:DeregisterOnPremisesInstance",
+  "codedeploy:GetOnPremisesInstance",
+  "codedeploy:RegisterOnPremisesInstance",
+  "codedeploy:RemoveTagsFromOnPremisesInstances"
+ ],
+ "application*": [
+  "codedeploy:BatchGetApplicationRevisions",
+  "codedeploy:BatchGetApplications",
+  "codedeploy:CreateApplication",
+  "codedeploy:DeleteApplication",
+  "codedeploy:GetApplication",
+  "codedeploy:GetApplicationRevision",
+  "codedeploy:ListApplicationRevisions",
+  "codedeploy:ListDeploymentGroups",
+  "codedeploy:RegisterApplicationRevision",
+  "codedeploy:UpdateApplication"
+ ],
+ "deploymentgroup*": [
+  "codedeploy:BatchGetDeploymentGroups",
+  "codedeploy:BatchGetDeploymentInstances",
+  "codedeploy:BatchGetDeployments",
+  "codedeploy:CreateDeployment",
+  "codedeploy:CreateDeploymentGroup",
+  "codedeploy:DeleteDeploymentGroup",
+  "codedeploy:GetDeployment",
+  "codedeploy:GetDeploymentGroup",
+  "codedeploy:GetDeploymentInstance",
+  "codedeploy:ListDeploymentInstances",
+  "codedeploy:ListDeployments",
+  "codedeploy:UpdateDeploymentGroup"
+ ],
+ "?": [
+  "codedeploy:BatchGetDeploymentTargets",
+  "codedeploy:ContinueDeployment",
+  "codedeploy:DeleteGitHubAccountToken",
+  "codedeploy:DeleteResourcesByExternalId",
+  "codedeploy:GetDeploymentTarget",
+  "codedeploy:ListApplications",
+  "codedeploy:ListDeploymentConfigs",
+  "codedeploy:ListDeploymentTargets",
+  "codedeploy:ListGitHubAccountTokenNames",
+  "codedeploy:ListOnPremisesInstances",
+  "codedeploy:PutLifecycleEventHookExecutionStatus",
+  "codedeploy:SkipWaitTimeForInstanceTermination",
+  "codedeploy:StopDeployment"
+ ],
+ "deploymentconfig*": [
+  "codedeploy:CreateDeploymentConfig",
+  "codedeploy:DeleteDeploymentConfig",
+  "codedeploy:GetDeploymentConfig"
+ ],
+ "application": [
+  "codedeploy:ListTagsForResource",
+  "codedeploy:TagResource",
+  "codedeploy:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awscodedeploy.html"
+}

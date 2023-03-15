@@ -1,1 +1,23 @@
-{"agreement*": ["artifact:AcceptAgreement"], "agreement": ["artifact:DownloadAgreement"], "report-package*": ["artifact:Get"], "report*": ["artifact:GetReport", "artifact:GetReportMetadata", "artifact:GetTermForReport"], "?": ["artifact:ListReports"], "customer-agreement*": ["artifact:TerminateAgreement"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsartifact.html"}
+{
+ "agreement*": [
+  "artifact:AcceptAgreement"
+ ],
+ "agreement": [
+  "artifact:DownloadAgreement"
+ ],
+ "report-package*": [
+  "artifact:Get"
+ ],
+ "report*": [
+  "artifact:GetReport",
+  "artifact:GetReportMetadata",
+  "artifact:GetTermForReport"
+ ],
+ "?": [
+  "artifact:ListReports"
+ ],
+ "customer-agreement*": [
+  "artifact:TerminateAgreement"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsartifact.html"
+}

@@ -1,1 +1,12 @@
-["redshift-data:BatchExecuteStatement", "redshift-data:CancelStatement", "redshift-data:DescribeStatement", "redshift-data:DescribeTable", "redshift-data:ExecuteStatement", "redshift-data:GetStatementResult", "redshift-data:ListDatabases", "redshift-data:ListSchemas", "redshift-data:ListStatements", "redshift-data:ListTables"]
+[
+ "redshift-data:BatchExecuteStatement",
+ "redshift-data:CancelStatement",
+ "redshift-data:DescribeStatement",
+ "redshift-data:DescribeTable",
+ "redshift-data:ExecuteStatement",
+ "redshift-data:GetStatementResult",
+ "redshift-data:ListDatabases",
+ "redshift-data:ListSchemas",
+ "redshift-data:ListStatements",
+ "redshift-data:ListTables"
+]

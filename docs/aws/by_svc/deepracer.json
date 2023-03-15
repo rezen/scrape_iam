@@ -1,1 +1,5 @@
-["deepracer:ListTagsForResource", "deepracer:TagResource", "deepracer:UntagResource"]
+[
+ "deepracer:ListTagsForResource",
+ "deepracer:TagResource",
+ "deepracer:UntagResource"
+]

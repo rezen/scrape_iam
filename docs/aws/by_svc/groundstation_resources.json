@@ -1,1 +1,49 @@
-{"Contact*": ["groundstation:CancelContact", "groundstation:DescribeContact"], "?": ["groundstation:CreateConfig", "groundstation:CreateDataflowEndpointGroup", "groundstation:CreateEphemeris", "groundstation:CreateMissionProfile", "groundstation:GetMinuteUsage", "groundstation:ListConfigs", "groundstation:ListContacts", "groundstation:ListDataflowEndpointGroups", "groundstation:ListEphemerides", "groundstation:ListGroundStations", "groundstation:ListMissionProfiles", "groundstation:ListSatellites", "groundstation:ReserveContact"], "Config*": ["groundstation:DeleteConfig", "groundstation:GetConfig", "groundstation:UpdateConfig"], "DataflowEndpointGroup*": ["groundstation:DeleteDataflowEndpointGroup", "groundstation:GetDataflowEndpointGroup"], "EphemerisItem*": ["groundstation:DeleteEphemeris", "groundstation:DescribeEphemeris", "groundstation:UpdateEphemeris"], "MissionProfile*": ["groundstation:DeleteMissionProfile", "groundstation:GetMissionProfile", "groundstation:UpdateMissionProfile"], "Satellite*": ["groundstation:GetSatellite"], "Config": ["groundstation:ListTagsForResource", "groundstation:TagResource", "groundstation:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsgroundstation.html"}
+{
+ "Contact*": [
+  "groundstation:CancelContact",
+  "groundstation:DescribeContact"
+ ],
+ "?": [
+  "groundstation:CreateConfig",
+  "groundstation:CreateDataflowEndpointGroup",
+  "groundstation:CreateEphemeris",
+  "groundstation:CreateMissionProfile",
+  "groundstation:GetMinuteUsage",
+  "groundstation:ListConfigs",
+  "groundstation:ListContacts",
+  "groundstation:ListDataflowEndpointGroups",
+  "groundstation:ListEphemerides",
+  "groundstation:ListGroundStations",
+  "groundstation:ListMissionProfiles",
+  "groundstation:ListSatellites",
+  "groundstation:ReserveContact"
+ ],
+ "Config*": [
+  "groundstation:DeleteConfig",
+  "groundstation:GetConfig",
+  "groundstation:UpdateConfig"
+ ],
+ "DataflowEndpointGroup*": [
+  "groundstation:DeleteDataflowEndpointGroup",
+  "groundstation:GetDataflowEndpointGroup"
+ ],
+ "EphemerisItem*": [
+  "groundstation:DeleteEphemeris",
+  "groundstation:DescribeEphemeris",
+  "groundstation:UpdateEphemeris"
+ ],
+ "MissionProfile*": [
+  "groundstation:DeleteMissionProfile",
+  "groundstation:GetMissionProfile",
+  "groundstation:UpdateMissionProfile"
+ ],
+ "Satellite*": [
+  "groundstation:GetSatellite"
+ ],
+ "Config": [
+  "groundstation:ListTagsForResource",
+  "groundstation:TagResource",
+  "groundstation:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsgroundstation.html"
+}

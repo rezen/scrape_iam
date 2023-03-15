@@ -1,1 +1,111 @@
-{"configuration-set": ["ses:BatchGetMetricData", "ses:ListTagsForResource", "ses:TagResource", "ses:UntagResource"], "configuration-set*": ["ses:CreateConfigurationSet", "ses:CreateConfigurationSetEventDestination", "ses:DeleteConfigurationSet", "ses:DeleteConfigurationSetEventDestination", "ses:GetConfigurationSet", "ses:GetConfigurationSetEventDestinations", "ses:PutConfigurationSetDeliveryOptions", "ses:PutConfigurationSetReputationOptions", "ses:PutConfigurationSetSendingOptions", "ses:PutConfigurationSetSuppressionOptions", "ses:PutConfigurationSetTrackingOptions", "ses:PutConfigurationSetVdmOptions", "ses:UpdateConfigurationSetEventDestination"], "contact-list*": ["ses:CreateContact", "ses:CreateContactList", "ses:DeleteContact", "ses:DeleteContactList", "ses:GetContact", "ses:GetContactList", "ses:ListContacts", "ses:UpdateContact", "ses:UpdateContactList"], "custom-verification-email-template*": ["ses:CreateCustomVerificationEmailTemplate", "ses:DeleteCustomVerificationEmailTemplate", "ses:GetCustomVerificationEmailTemplate", "ses:SendCustomVerificationEmail", "ses:UpdateCustomVerificationEmailTemplate"], "dedicated-ip-pool*": ["ses:CreateDedicatedIpPool", "ses:DeleteDedicatedIpPool", "ses:GetDedicatedIpPool", "ses:GetDedicatedIps", "ses:PutDedicatedIpInPool"], "identity*": ["ses:CreateDeliverabilityTestReport", "ses:CreateEmailIdentity", "ses:CreateEmailIdentityPolicy", "ses:DeleteEmailIdentity", "ses:DeleteEmailIdentityPolicy", "ses:GetDomainStatisticsReport", "ses:GetEmailIdentity", "ses:GetEmailIdentityPolicies", "ses:PutEmailIdentityConfigurationSetAttributes", "ses:PutEmailIdentityDkimAttributes", "ses:PutEmailIdentityDkimSigningAttributes", "ses:PutEmailIdentityFeedbackAttributes", "ses:PutEmailIdentityMailFromAttributes", "ses:SendBulkEmail", "ses:SendEmail", "ses:UpdateEmailIdentityPolicy"], "template*": ["ses:CreateEmailTemplate", "ses:DeleteEmailTemplate", "ses:GetEmailTemplate", "ses:TestRenderEmailTemplate", "ses:UpdateEmailTemplate"], "?": ["ses:CreateImportJob", "ses:DeleteSuppressedDestination", "ses:GetAccount", "ses:GetBlacklistReports", "ses:GetDedicatedIp", "ses:GetDeliverabilityDashboardOptions", "ses:GetDomainDeliverabilityCampaign", "ses:GetSuppressedDestination", "ses:ListConfigurationSets", "ses:ListContactLists", "ses:ListCustomVerificationEmailTemplates", "ses:ListDedicatedIpPools", "ses:ListDeliverabilityTestReports", "ses:ListDomainDeliverabilityCampaigns", "ses:ListEmailIdentities", "ses:ListEmailTemplates", "ses:ListImportJobs", "ses:ListSuppressedDestinations", "ses:PutAccountDedicatedIpWarmupAttributes", "ses:PutAccountDetails", "ses:PutAccountSendingAttributes", "ses:PutAccountSuppressionAttributes", "ses:PutAccountVdmAttributes", "ses:PutDedicatedIpWarmupAttributes", "ses:PutDeliverabilityDashboardOption", "ses:PutSuppressedDestination"], "deliverability-test-report*": ["ses:GetDeliverabilityTestReport"], "import-job*": ["ses:GetImportJob"], "identity": ["ses:ListRecommendations"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonsimpleemailservicev2.html"}
+{
+ "configuration-set": [
+  "ses:BatchGetMetricData",
+  "ses:ListTagsForResource",
+  "ses:TagResource",
+  "ses:UntagResource"
+ ],
+ "configuration-set*": [
+  "ses:CreateConfigurationSet",
+  "ses:CreateConfigurationSetEventDestination",
+  "ses:DeleteConfigurationSet",
+  "ses:DeleteConfigurationSetEventDestination",
+  "ses:GetConfigurationSet",
+  "ses:GetConfigurationSetEventDestinations",
+  "ses:PutConfigurationSetDeliveryOptions",
+  "ses:PutConfigurationSetReputationOptions",
+  "ses:PutConfigurationSetSendingOptions",
+  "ses:PutConfigurationSetSuppressionOptions",
+  "ses:PutConfigurationSetTrackingOptions",
+  "ses:PutConfigurationSetVdmOptions",
+  "ses:UpdateConfigurationSetEventDestination"
+ ],
+ "contact-list*": [
+  "ses:CreateContact",
+  "ses:CreateContactList",
+  "ses:DeleteContact",
+  "ses:DeleteContactList",
+  "ses:GetContact",
+  "ses:GetContactList",
+  "ses:ListContacts",
+  "ses:UpdateContact",
+  "ses:UpdateContactList"
+ ],
+ "custom-verification-email-template*": [
+  "ses:CreateCustomVerificationEmailTemplate",
+  "ses:DeleteCustomVerificationEmailTemplate",
+  "ses:GetCustomVerificationEmailTemplate",
+  "ses:SendCustomVerificationEmail",
+  "ses:UpdateCustomVerificationEmailTemplate"
+ ],
+ "dedicated-ip-pool*": [
+  "ses:CreateDedicatedIpPool",
+  "ses:DeleteDedicatedIpPool",
+  "ses:GetDedicatedIpPool",
+  "ses:GetDedicatedIps",
+  "ses:PutDedicatedIpInPool"
+ ],
+ "identity*": [
+  "ses:CreateDeliverabilityTestReport",
+  "ses:CreateEmailIdentity",
+  "ses:CreateEmailIdentityPolicy",
+  "ses:DeleteEmailIdentity",
+  "ses:DeleteEmailIdentityPolicy",
+  "ses:GetDomainStatisticsReport",
+  "ses:GetEmailIdentity",
+  "ses:GetEmailIdentityPolicies",
+  "ses:PutEmailIdentityConfigurationSetAttributes",
+  "ses:PutEmailIdentityDkimAttributes",
+  "ses:PutEmailIdentityDkimSigningAttributes",
+  "ses:PutEmailIdentityFeedbackAttributes",
+  "ses:PutEmailIdentityMailFromAttributes",
+  "ses:SendBulkEmail",
+  "ses:SendEmail",
+  "ses:UpdateEmailIdentityPolicy"
+ ],
+ "template*": [
+  "ses:CreateEmailTemplate",
+  "ses:DeleteEmailTemplate",
+  "ses:GetEmailTemplate",
+  "ses:TestRenderEmailTemplate",
+  "ses:UpdateEmailTemplate"
+ ],
+ "?": [
+  "ses:CreateImportJob",
+  "ses:DeleteSuppressedDestination",
+  "ses:GetAccount",
+  "ses:GetBlacklistReports",
+  "ses:GetDedicatedIp",
+  "ses:GetDeliverabilityDashboardOptions",
+  "ses:GetDomainDeliverabilityCampaign",
+  "ses:GetSuppressedDestination",
+  "ses:ListConfigurationSets",
+  "ses:ListContactLists",
+  "ses:ListCustomVerificationEmailTemplates",
+  "ses:ListDedicatedIpPools",
+  "ses:ListDeliverabilityTestReports",
+  "ses:ListDomainDeliverabilityCampaigns",
+  "ses:ListEmailIdentities",
+  "ses:ListEmailTemplates",
+  "ses:ListImportJobs",
+  "ses:ListSuppressedDestinations",
+  "ses:PutAccountDedicatedIpWarmupAttributes",
+  "ses:PutAccountDetails",
+  "ses:PutAccountSendingAttributes",
+  "ses:PutAccountSuppressionAttributes",
+  "ses:PutAccountVdmAttributes",
+  "ses:PutDedicatedIpWarmupAttributes",
+  "ses:PutDeliverabilityDashboardOption",
+  "ses:PutSuppressedDestination"
+ ],
+ "deliverability-test-report*": [
+  "ses:GetDeliverabilityTestReport"
+ ],
+ "import-job*": [
+  "ses:GetImportJob"
+ ],
+ "identity": [
+  "ses:ListRecommendations"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonsimpleemailservicev2.html"
+}

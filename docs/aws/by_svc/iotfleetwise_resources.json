@@ -1,1 +1,69 @@
-{"fleet*": ["iotfleetwise:AssociateVehicleFleet", "iotfleetwise:CreateCampaign", "iotfleetwise:DeleteFleet", "iotfleetwise:DisassociateVehicleFleet", "iotfleetwise:GetFleet", "iotfleetwise:ListVehiclesInFleet", "iotfleetwise:UpdateFleet"], "decodermanifest*": ["iotfleetwise:BatchCreateVehicle", "iotfleetwise:CreateVehicle", "iotfleetwise:DeleteDecoderManifest", "iotfleetwise:GetDecoderManifest", "iotfleetwise:ImportDecoderManifest", "iotfleetwise:ListDecoderManifestNetworkInterfaces", "iotfleetwise:ListDecoderManifestSignals", "iotfleetwise:UpdateDecoderManifest"], "vehicle*": ["iotfleetwise:BatchUpdateVehicle", "iotfleetwise:DeleteVehicle", "iotfleetwise:GetVehicle", "iotfleetwise:GetVehicleStatus", "iotfleetwise:ListFleetsForVehicle", "iotfleetwise:UpdateVehicle"], "modelmanifest*": ["iotfleetwise:CreateDecoderManifest", "iotfleetwise:DeleteModelManifest", "iotfleetwise:GetModelManifest", "iotfleetwise:ListModelManifestNodes", "iotfleetwise:UpdateModelManifest"], "signalcatalog*": ["iotfleetwise:CreateFleet", "iotfleetwise:CreateModelManifest", "iotfleetwise:DeleteSignalCatalog", "iotfleetwise:GetSignalCatalog", "iotfleetwise:ListSignalCatalogNodes", "iotfleetwise:UpdateSignalCatalog"], "?": ["iotfleetwise:CreateSignalCatalog", "iotfleetwise:GetLoggingOptions", "iotfleetwise:GetRegisterAccountStatus", "iotfleetwise:ImportSignalCatalog", "iotfleetwise:ListCampaigns", "iotfleetwise:ListDecoderManifests", "iotfleetwise:ListFleets", "iotfleetwise:ListModelManifests", "iotfleetwise:ListSignalCatalogs", "iotfleetwise:ListVehicles", "iotfleetwise:PutLoggingOptions", "iotfleetwise:RegisterAccount"], "campaign*": ["iotfleetwise:DeleteCampaign", "iotfleetwise:GetCampaign", "iotfleetwise:UpdateCampaign"], "campaign": ["iotfleetwise:ListTagsForResource", "iotfleetwise:TagResource", "iotfleetwise:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsiotfleetwise.html"}
+{
+ "fleet*": [
+  "iotfleetwise:AssociateVehicleFleet",
+  "iotfleetwise:CreateCampaign",
+  "iotfleetwise:DeleteFleet",
+  "iotfleetwise:DisassociateVehicleFleet",
+  "iotfleetwise:GetFleet",
+  "iotfleetwise:ListVehiclesInFleet",
+  "iotfleetwise:UpdateFleet"
+ ],
+ "decodermanifest*": [
+  "iotfleetwise:BatchCreateVehicle",
+  "iotfleetwise:CreateVehicle",
+  "iotfleetwise:DeleteDecoderManifest",
+  "iotfleetwise:GetDecoderManifest",
+  "iotfleetwise:ImportDecoderManifest",
+  "iotfleetwise:ListDecoderManifestNetworkInterfaces",
+  "iotfleetwise:ListDecoderManifestSignals",
+  "iotfleetwise:UpdateDecoderManifest"
+ ],
+ "vehicle*": [
+  "iotfleetwise:BatchUpdateVehicle",
+  "iotfleetwise:DeleteVehicle",
+  "iotfleetwise:GetVehicle",
+  "iotfleetwise:GetVehicleStatus",
+  "iotfleetwise:ListFleetsForVehicle",
+  "iotfleetwise:UpdateVehicle"
+ ],
+ "modelmanifest*": [
+  "iotfleetwise:CreateDecoderManifest",
+  "iotfleetwise:DeleteModelManifest",
+  "iotfleetwise:GetModelManifest",
+  "iotfleetwise:ListModelManifestNodes",
+  "iotfleetwise:UpdateModelManifest"
+ ],
+ "signalcatalog*": [
+  "iotfleetwise:CreateFleet",
+  "iotfleetwise:CreateModelManifest",
+  "iotfleetwise:DeleteSignalCatalog",
+  "iotfleetwise:GetSignalCatalog",
+  "iotfleetwise:ListSignalCatalogNodes",
+  "iotfleetwise:UpdateSignalCatalog"
+ ],
+ "?": [
+  "iotfleetwise:CreateSignalCatalog",
+  "iotfleetwise:GetLoggingOptions",
+  "iotfleetwise:GetRegisterAccountStatus",
+  "iotfleetwise:ImportSignalCatalog",
+  "iotfleetwise:ListCampaigns",
+  "iotfleetwise:ListDecoderManifests",
+  "iotfleetwise:ListFleets",
+  "iotfleetwise:ListModelManifests",
+  "iotfleetwise:ListSignalCatalogs",
+  "iotfleetwise:ListVehicles",
+  "iotfleetwise:PutLoggingOptions",
+  "iotfleetwise:RegisterAccount"
+ ],
+ "campaign*": [
+  "iotfleetwise:DeleteCampaign",
+  "iotfleetwise:GetCampaign",
+  "iotfleetwise:UpdateCampaign"
+ ],
+ "campaign": [
+  "iotfleetwise:ListTagsForResource",
+  "iotfleetwise:TagResource",
+  "iotfleetwise:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsiotfleetwise.html"
+}

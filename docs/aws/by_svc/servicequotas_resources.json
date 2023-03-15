@@ -1,1 +1,26 @@
-{"?": ["servicequotas:AssociateServiceQuotaTemplate", "servicequotas:DeleteServiceQuotaIncreaseRequestFromTemplate", "servicequotas:DisassociateServiceQuotaTemplate", "servicequotas:GetAWSDefaultServiceQuota", "servicequotas:GetAssociationForServiceQuotaTemplate", "servicequotas:GetRequestedServiceQuotaChange", "servicequotas:GetServiceQuota", "servicequotas:GetServiceQuotaIncreaseRequestFromTemplate", "servicequotas:ListAWSDefaultServiceQuotas", "servicequotas:ListRequestedServiceQuotaChangeHistory", "servicequotas:ListRequestedServiceQuotaChangeHistoryByQuota", "servicequotas:ListServiceQuotaIncreaseRequestsInTemplate", "servicequotas:ListServiceQuotas", "servicequotas:ListServices", "servicequotas:ListTagsForResource", "servicequotas:TagResource", "servicequotas:UntagResource"], "quota": ["servicequotas:PutServiceQuotaIncreaseRequestIntoTemplate", "servicequotas:RequestServiceQuotaIncrease"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_servicequotas.html"}
+{
+ "?": [
+  "servicequotas:AssociateServiceQuotaTemplate",
+  "servicequotas:DeleteServiceQuotaIncreaseRequestFromTemplate",
+  "servicequotas:DisassociateServiceQuotaTemplate",
+  "servicequotas:GetAWSDefaultServiceQuota",
+  "servicequotas:GetAssociationForServiceQuotaTemplate",
+  "servicequotas:GetRequestedServiceQuotaChange",
+  "servicequotas:GetServiceQuota",
+  "servicequotas:GetServiceQuotaIncreaseRequestFromTemplate",
+  "servicequotas:ListAWSDefaultServiceQuotas",
+  "servicequotas:ListRequestedServiceQuotaChangeHistory",
+  "servicequotas:ListRequestedServiceQuotaChangeHistoryByQuota",
+  "servicequotas:ListServiceQuotaIncreaseRequestsInTemplate",
+  "servicequotas:ListServiceQuotas",
+  "servicequotas:ListServices",
+  "servicequotas:ListTagsForResource",
+  "servicequotas:TagResource",
+  "servicequotas:UntagResource"
+ ],
+ "quota": [
+  "servicequotas:PutServiceQuotaIncreaseRequestIntoTemplate",
+  "servicequotas:RequestServiceQuotaIncrease"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_servicequotas.html"
+}

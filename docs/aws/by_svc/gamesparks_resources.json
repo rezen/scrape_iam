@@ -1,1 +1,42 @@
-{"?": ["gamesparks:CreateGame", "gamesparks:GetExtension", "gamesparks:GetExtensionVersion", "gamesparks:ListExtensionVersions", "gamesparks:ListExtensions", "gamesparks:ListGames"], "game*": ["gamesparks:CreateSnapshot", "gamesparks:CreateStage", "gamesparks:DeleteGame", "gamesparks:DeleteStage", "gamesparks:DisconnectPlayer", "gamesparks:ExportSnapshot", "gamesparks:GetGame", "gamesparks:GetGameConfiguration", "gamesparks:GetGeneratedCodeJob", "gamesparks:GetPlayerConnectionStatus", "gamesparks:GetSnapshot", "gamesparks:GetStage", "gamesparks:GetStageDeployment", "gamesparks:ImportGameConfiguration", "gamesparks:ListGeneratedCodeJobs", "gamesparks:ListSnapshots", "gamesparks:ListStageDeployments", "gamesparks:ListStages", "gamesparks:StartGeneratedCodeJob", "gamesparks:StartStageDeployment", "gamesparks:UpdateGame", "gamesparks:UpdateGameConfiguration", "gamesparks:UpdateSnapshot", "gamesparks:UpdateStage"], "game": ["gamesparks:ListTagsForResource", "gamesparks:TagResource", "gamesparks:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazongamesparks.html"}
+{
+ "?": [
+  "gamesparks:CreateGame",
+  "gamesparks:GetExtension",
+  "gamesparks:GetExtensionVersion",
+  "gamesparks:ListExtensionVersions",
+  "gamesparks:ListExtensions",
+  "gamesparks:ListGames"
+ ],
+ "game*": [
+  "gamesparks:CreateSnapshot",
+  "gamesparks:CreateStage",
+  "gamesparks:DeleteGame",
+  "gamesparks:DeleteStage",
+  "gamesparks:DisconnectPlayer",
+  "gamesparks:ExportSnapshot",
+  "gamesparks:GetGame",
+  "gamesparks:GetGameConfiguration",
+  "gamesparks:GetGeneratedCodeJob",
+  "gamesparks:GetPlayerConnectionStatus",
+  "gamesparks:GetSnapshot",
+  "gamesparks:GetStage",
+  "gamesparks:GetStageDeployment",
+  "gamesparks:ImportGameConfiguration",
+  "gamesparks:ListGeneratedCodeJobs",
+  "gamesparks:ListSnapshots",
+  "gamesparks:ListStageDeployments",
+  "gamesparks:ListStages",
+  "gamesparks:StartGeneratedCodeJob",
+  "gamesparks:StartStageDeployment",
+  "gamesparks:UpdateGame",
+  "gamesparks:UpdateGameConfiguration",
+  "gamesparks:UpdateSnapshot",
+  "gamesparks:UpdateStage"
+ ],
+ "game": [
+  "gamesparks:ListTagsForResource",
+  "gamesparks:TagResource",
+  "gamesparks:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazongamesparks.html"
+}

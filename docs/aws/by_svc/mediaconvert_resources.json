@@ -1,1 +1,47 @@
-{"?": ["mediaconvert:AssociateCertificate", "mediaconvert:CreatePreset", "mediaconvert:CreateQueue", "mediaconvert:DeletePolicy", "mediaconvert:DescribeEndpoints", "mediaconvert:DisassociateCertificate", "mediaconvert:GetPolicy", "mediaconvert:ListJobTemplates", "mediaconvert:ListPresets", "mediaconvert:ListQueues", "mediaconvert:PutPolicy"], "Job*": ["mediaconvert:CancelJob", "mediaconvert:GetJob"], "JobTemplate": ["mediaconvert:CreateJob", "mediaconvert:ListTagsForResource", "mediaconvert:TagResource", "mediaconvert:UntagResource"], "Preset": ["mediaconvert:CreateJobTemplate"], "JobTemplate*": ["mediaconvert:DeleteJobTemplate", "mediaconvert:GetJobTemplate", "mediaconvert:UpdateJobTemplate"], "Preset*": ["mediaconvert:DeletePreset", "mediaconvert:GetPreset", "mediaconvert:UpdatePreset"], "Queue*": ["mediaconvert:DeleteQueue", "mediaconvert:GetQueue", "mediaconvert:UpdateQueue"], "Queue": ["mediaconvert:ListJobs"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awselementalmediaconvert.html"}
+{
+ "?": [
+  "mediaconvert:AssociateCertificate",
+  "mediaconvert:CreatePreset",
+  "mediaconvert:CreateQueue",
+  "mediaconvert:DeletePolicy",
+  "mediaconvert:DescribeEndpoints",
+  "mediaconvert:DisassociateCertificate",
+  "mediaconvert:GetPolicy",
+  "mediaconvert:ListJobTemplates",
+  "mediaconvert:ListPresets",
+  "mediaconvert:ListQueues",
+  "mediaconvert:PutPolicy"
+ ],
+ "Job*": [
+  "mediaconvert:CancelJob",
+  "mediaconvert:GetJob"
+ ],
+ "JobTemplate": [
+  "mediaconvert:CreateJob",
+  "mediaconvert:ListTagsForResource",
+  "mediaconvert:TagResource",
+  "mediaconvert:UntagResource"
+ ],
+ "Preset": [
+  "mediaconvert:CreateJobTemplate"
+ ],
+ "JobTemplate*": [
+  "mediaconvert:DeleteJobTemplate",
+  "mediaconvert:GetJobTemplate",
+  "mediaconvert:UpdateJobTemplate"
+ ],
+ "Preset*": [
+  "mediaconvert:DeletePreset",
+  "mediaconvert:GetPreset",
+  "mediaconvert:UpdatePreset"
+ ],
+ "Queue*": [
+  "mediaconvert:DeleteQueue",
+  "mediaconvert:GetQueue",
+  "mediaconvert:UpdateQueue"
+ ],
+ "Queue": [
+  "mediaconvert:ListJobs"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awselementalmediaconvert.html"
+}

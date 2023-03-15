@@ -1,1 +1,41 @@
-{"job*": ["batch:CancelJob", "batch:TerminateJob"], "compute-environment*": ["batch:CreateComputeEnvironment", "batch:CreateJobQueue", "batch:DeleteComputeEnvironment", "batch:UpdateComputeEnvironment"], "scheduling-policy*": ["batch:CreateSchedulingPolicy", "batch:DeleteSchedulingPolicy", "batch:UpdateSchedulingPolicy"], "job-queue*": ["batch:DeleteJobQueue", "batch:UpdateJobQueue"], "job-definition*": ["batch:DeregisterJobDefinition", "batch:RegisterJobDefinition", "batch:SubmitJob"], "?": ["batch:DescribeComputeEnvironments", "batch:DescribeJobDefinitions", "batch:DescribeJobQueues", "batch:DescribeJobs", "batch:DescribeSchedulingPolicies", "batch:ListJobs", "batch:ListSchedulingPolicies"], "compute-environment": ["batch:ListTagsForResource", "batch:TagResource", "batch:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsbatch.html"}
+{
+ "job*": [
+  "batch:CancelJob",
+  "batch:TerminateJob"
+ ],
+ "compute-environment*": [
+  "batch:CreateComputeEnvironment",
+  "batch:CreateJobQueue",
+  "batch:DeleteComputeEnvironment",
+  "batch:UpdateComputeEnvironment"
+ ],
+ "scheduling-policy*": [
+  "batch:CreateSchedulingPolicy",
+  "batch:DeleteSchedulingPolicy",
+  "batch:UpdateSchedulingPolicy"
+ ],
+ "job-queue*": [
+  "batch:DeleteJobQueue",
+  "batch:UpdateJobQueue"
+ ],
+ "job-definition*": [
+  "batch:DeregisterJobDefinition",
+  "batch:RegisterJobDefinition",
+  "batch:SubmitJob"
+ ],
+ "?": [
+  "batch:DescribeComputeEnvironments",
+  "batch:DescribeJobDefinitions",
+  "batch:DescribeJobQueues",
+  "batch:DescribeJobs",
+  "batch:DescribeSchedulingPolicies",
+  "batch:ListJobs",
+  "batch:ListSchedulingPolicies"
+ ],
+ "compute-environment": [
+  "batch:ListTagsForResource",
+  "batch:TagResource",
+  "batch:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsbatch.html"
+}

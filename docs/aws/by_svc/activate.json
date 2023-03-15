@@ -1,1 +1,10 @@
-["activate:CreateForm", "activate:GetAccountContact", "activate:GetContentInfo", "activate:GetCosts", "activate:GetCredits", "activate:GetMemberInfo", "activate:GetProgram", "activate:PutMemberInfo"]
+[
+ "activate:CreateForm",
+ "activate:GetAccountContact",
+ "activate:GetContentInfo",
+ "activate:GetCosts",
+ "activate:GetCredits",
+ "activate:GetMemberInfo",
+ "activate:GetProgram",
+ "activate:PutMemberInfo"
+]

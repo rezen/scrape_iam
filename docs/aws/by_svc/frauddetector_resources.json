@@ -1,1 +1,132 @@
-{"?": ["frauddetector:BatchCreateVariable", "frauddetector:CreateList", "frauddetector:CreateVariable", "frauddetector:GetKMSEncryptionKey", "frauddetector:PutKMSEncryptionKey"], "variable*": ["frauddetector:BatchGetVariable", "frauddetector:DeleteVariable", "frauddetector:UpdateVariable"], "batch-import*": ["frauddetector:CancelBatchImportJob", "frauddetector:CreateBatchImportJob", "frauddetector:DeleteBatchImportJob"], "batch-prediction*": ["frauddetector:CancelBatchPredictionJob", "frauddetector:CreateBatchPredictionJob", "frauddetector:DeleteBatchPredictionJob"], "detector*": ["frauddetector:CreateDetectorVersion", "frauddetector:CreateRule", "frauddetector:DeleteDetector", "frauddetector:DescribeDetector", "frauddetector:GetEventPrediction", "frauddetector:GetEventPredictionMetadata", "frauddetector:PutDetector", "frauddetector:UpdateDetectorVersion"], "event-type*": ["frauddetector:CreateModel", "frauddetector:DeleteEvent", "frauddetector:DeleteEventType", "frauddetector:DeleteEventsByEventType", "frauddetector:GetDeleteEventsByEventTypeStatus", "frauddetector:GetEvent", "frauddetector:PutEventType", "frauddetector:PutExternalModel", "frauddetector:SendEvent", "frauddetector:UpdateEventLabel"], "model*": ["frauddetector:CreateModelVersion", "frauddetector:DeleteModel", "frauddetector:UpdateModel", "frauddetector:UpdateModelVersion"], "detector-version*": ["frauddetector:DeleteDetectorVersion", "frauddetector:GetDetectorVersion", "frauddetector:UpdateDetectorVersionMetadata", "frauddetector:UpdateDetectorVersionStatus"], "entity-type*": ["frauddetector:DeleteEntityType", "frauddetector:PutEntityType"], "external-model*": ["frauddetector:DeleteExternalModel"], "label*": ["frauddetector:DeleteLabel", "frauddetector:PutLabel"], "list*": ["frauddetector:DeleteList", "frauddetector:GetListElements", "frauddetector:UpdateList"], "model-version*": ["frauddetector:DeleteModelVersion", "frauddetector:GetModelVersion", "frauddetector:UpdateModelVersionStatus"], "outcome*": ["frauddetector:DeleteOutcome", "frauddetector:PutOutcome"], "rule*": ["frauddetector:DeleteRule", "frauddetector:UpdateRuleMetadata", "frauddetector:UpdateRuleVersion"], "model-version": ["frauddetector:DescribeModelVersions"], "batch-import": ["frauddetector:GetBatchImportJobs", "frauddetector:ListTagsForResource", "frauddetector:TagResource", "frauddetector:UntagResource"], "batch-prediction": ["frauddetector:GetBatchPredictionJobs"], "detector": ["frauddetector:GetDetectors", "frauddetector:ListEventPredictions"], "entity-type": ["frauddetector:GetEntityTypes"], "event-type": ["frauddetector:GetEventTypes"], "external-model": ["frauddetector:GetExternalModels"], "label": ["frauddetector:GetLabels"], "list": ["frauddetector:GetListsMetadata"], "model": ["frauddetector:GetModels"], "outcome": ["frauddetector:GetOutcomes"], "rule": ["frauddetector:GetRules"], "variable": ["frauddetector:GetVariables"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonfrauddetector.html"}
+{
+ "?": [
+  "frauddetector:BatchCreateVariable",
+  "frauddetector:CreateList",
+  "frauddetector:CreateVariable",
+  "frauddetector:GetKMSEncryptionKey",
+  "frauddetector:PutKMSEncryptionKey"
+ ],
+ "variable*": [
+  "frauddetector:BatchGetVariable",
+  "frauddetector:DeleteVariable",
+  "frauddetector:UpdateVariable"
+ ],
+ "batch-import*": [
+  "frauddetector:CancelBatchImportJob",
+  "frauddetector:CreateBatchImportJob",
+  "frauddetector:DeleteBatchImportJob"
+ ],
+ "batch-prediction*": [
+  "frauddetector:CancelBatchPredictionJob",
+  "frauddetector:CreateBatchPredictionJob",
+  "frauddetector:DeleteBatchPredictionJob"
+ ],
+ "detector*": [
+  "frauddetector:CreateDetectorVersion",
+  "frauddetector:CreateRule",
+  "frauddetector:DeleteDetector",
+  "frauddetector:DescribeDetector",
+  "frauddetector:GetEventPrediction",
+  "frauddetector:GetEventPredictionMetadata",
+  "frauddetector:PutDetector",
+  "frauddetector:UpdateDetectorVersion"
+ ],
+ "event-type*": [
+  "frauddetector:CreateModel",
+  "frauddetector:DeleteEvent",
+  "frauddetector:DeleteEventType",
+  "frauddetector:DeleteEventsByEventType",
+  "frauddetector:GetDeleteEventsByEventTypeStatus",
+  "frauddetector:GetEvent",
+  "frauddetector:PutEventType",
+  "frauddetector:PutExternalModel",
+  "frauddetector:SendEvent",
+  "frauddetector:UpdateEventLabel"
+ ],
+ "model*": [
+  "frauddetector:CreateModelVersion",
+  "frauddetector:DeleteModel",
+  "frauddetector:UpdateModel",
+  "frauddetector:UpdateModelVersion"
+ ],
+ "detector-version*": [
+  "frauddetector:DeleteDetectorVersion",
+  "frauddetector:GetDetectorVersion",
+  "frauddetector:UpdateDetectorVersionMetadata",
+  "frauddetector:UpdateDetectorVersionStatus"
+ ],
+ "entity-type*": [
+  "frauddetector:DeleteEntityType",
+  "frauddetector:PutEntityType"
+ ],
+ "external-model*": [
+  "frauddetector:DeleteExternalModel"
+ ],
+ "label*": [
+  "frauddetector:DeleteLabel",
+  "frauddetector:PutLabel"
+ ],
+ "list*": [
+  "frauddetector:DeleteList",
+  "frauddetector:GetListElements",
+  "frauddetector:UpdateList"
+ ],
+ "model-version*": [
+  "frauddetector:DeleteModelVersion",
+  "frauddetector:GetModelVersion",
+  "frauddetector:UpdateModelVersionStatus"
+ ],
+ "outcome*": [
+  "frauddetector:DeleteOutcome",
+  "frauddetector:PutOutcome"
+ ],
+ "rule*": [
+  "frauddetector:DeleteRule",
+  "frauddetector:UpdateRuleMetadata",
+  "frauddetector:UpdateRuleVersion"
+ ],
+ "model-version": [
+  "frauddetector:DescribeModelVersions"
+ ],
+ "batch-import": [
+  "frauddetector:GetBatchImportJobs",
+  "frauddetector:ListTagsForResource",
+  "frauddetector:TagResource",
+  "frauddetector:UntagResource"
+ ],
+ "batch-prediction": [
+  "frauddetector:GetBatchPredictionJobs"
+ ],
+ "detector": [
+  "frauddetector:GetDetectors",
+  "frauddetector:ListEventPredictions"
+ ],
+ "entity-type": [
+  "frauddetector:GetEntityTypes"
+ ],
+ "event-type": [
+  "frauddetector:GetEventTypes"
+ ],
+ "external-model": [
+  "frauddetector:GetExternalModels"
+ ],
+ "label": [
+  "frauddetector:GetLabels"
+ ],
+ "list": [
+  "frauddetector:GetListsMetadata"
+ ],
+ "model": [
+  "frauddetector:GetModels"
+ ],
+ "outcome": [
+  "frauddetector:GetOutcomes"
+ ],
+ "rule": [
+  "frauddetector:GetRules"
+ ],
+ "variable": [
+  "frauddetector:GetVariables"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonfrauddetector.html"
+}

@@ -1,1 +1,41 @@
-{"Domain*": ["cases:BatchGetField", "cases:BatchPutFieldOptions", "cases:CreateField", "cases:CreateLayout", "cases:CreateTemplate", "cases:DeleteDomain", "cases:GetCaseEventConfiguration", "cases:GetDomain", "cases:GetLayout", "cases:GetTemplate", "cases:ListCasesForContact", "cases:ListFieldOptions", "cases:ListFields", "cases:ListLayouts", "cases:ListTemplates", "cases:PutCaseEventConfiguration", "cases:SearchCases", "cases:UpdateField", "cases:UpdateLayout", "cases:UpdateTemplate"], "Case*": ["cases:CreateCase", "cases:CreateRelatedItem", "cases:GetCase", "cases:SearchRelatedItems", "cases:UpdateCase"], "?": ["cases:CreateDomain", "cases:ListDomains", "cases:ListTagsForResource"], "Case": ["cases:TagResource", "cases:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonconnectcases.html"}
+{
+ "Domain*": [
+  "cases:BatchGetField",
+  "cases:BatchPutFieldOptions",
+  "cases:CreateField",
+  "cases:CreateLayout",
+  "cases:CreateTemplate",
+  "cases:DeleteDomain",
+  "cases:GetCaseEventConfiguration",
+  "cases:GetDomain",
+  "cases:GetLayout",
+  "cases:GetTemplate",
+  "cases:ListCasesForContact",
+  "cases:ListFieldOptions",
+  "cases:ListFields",
+  "cases:ListLayouts",
+  "cases:ListTemplates",
+  "cases:PutCaseEventConfiguration",
+  "cases:SearchCases",
+  "cases:UpdateField",
+  "cases:UpdateLayout",
+  "cases:UpdateTemplate"
+ ],
+ "Case*": [
+  "cases:CreateCase",
+  "cases:CreateRelatedItem",
+  "cases:GetCase",
+  "cases:SearchRelatedItems",
+  "cases:UpdateCase"
+ ],
+ "?": [
+  "cases:CreateDomain",
+  "cases:ListDomains",
+  "cases:ListTagsForResource"
+ ],
+ "Case": [
+  "cases:TagResource",
+  "cases:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonconnectcases.html"
+}

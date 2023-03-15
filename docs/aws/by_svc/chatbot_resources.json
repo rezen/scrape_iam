@@ -1,1 +1,24 @@
-{"?": ["chatbot:CreateChimeWebhookConfiguration", "chatbot:CreateSlackChannelConfiguration", "chatbot:DeleteSlackUserIdentity", "chatbot:DeleteSlackWorkspaceAuthorization", "chatbot:DescribeChimeWebhookConfigurations", "chatbot:DescribeSlackChannelConfigurations", "chatbot:DescribeSlackChannels", "chatbot:DescribeSlackUserIdentities", "chatbot:DescribeSlackWorkspaces", "chatbot:GetAccountPreferences", "chatbot:GetSlackOauthParameters", "chatbot:RedeemSlackOauthCode", "chatbot:UpdateAccountPreferences"], "ChatbotConfiguration*": ["chatbot:DeleteChimeWebhookConfiguration", "chatbot:DeleteSlackChannelConfiguration", "chatbot:UpdateChimeWebhookConfiguration", "chatbot:UpdateSlackChannelConfiguration"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awschatbot.html"}
+{
+ "?": [
+  "chatbot:CreateChimeWebhookConfiguration",
+  "chatbot:CreateSlackChannelConfiguration",
+  "chatbot:DeleteSlackUserIdentity",
+  "chatbot:DeleteSlackWorkspaceAuthorization",
+  "chatbot:DescribeChimeWebhookConfigurations",
+  "chatbot:DescribeSlackChannelConfigurations",
+  "chatbot:DescribeSlackChannels",
+  "chatbot:DescribeSlackUserIdentities",
+  "chatbot:DescribeSlackWorkspaces",
+  "chatbot:GetAccountPreferences",
+  "chatbot:GetSlackOauthParameters",
+  "chatbot:RedeemSlackOauthCode",
+  "chatbot:UpdateAccountPreferences"
+ ],
+ "ChatbotConfiguration*": [
+  "chatbot:DeleteChimeWebhookConfiguration",
+  "chatbot:DeleteSlackChannelConfiguration",
+  "chatbot:UpdateChimeWebhookConfiguration",
+  "chatbot:UpdateSlackChannelConfiguration"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awschatbot.html"
+}

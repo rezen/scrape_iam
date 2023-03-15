@@ -1,1 +1,11 @@
-{"metric-resource*": ["pi:DescribeDimensionKeys", "pi:GetDimensionKeyDetails", "pi:GetResourceMetadata", "pi:GetResourceMetrics", "pi:ListAvailableResourceDimensions", "pi:ListAvailableResourceMetrics"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsperformanceinsights.html"}
+{
+ "metric-resource*": [
+  "pi:DescribeDimensionKeys",
+  "pi:GetDimensionKeyDetails",
+  "pi:GetResourceMetadata",
+  "pi:GetResourceMetrics",
+  "pi:ListAvailableResourceDimensions",
+  "pi:ListAvailableResourceMetrics"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsperformanceinsights.html"
+}

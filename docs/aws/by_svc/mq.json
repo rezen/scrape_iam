@@ -1,1 +1,24 @@
-["mq:CreateBroker", "mq:CreateConfiguration", "mq:CreateTags", "mq:CreateUser", "mq:DeleteBroker", "mq:DeleteTags", "mq:DeleteUser", "mq:DescribeBroker", "mq:DescribeBrokerEngineTypes", "mq:DescribeBrokerInstanceOptions", "mq:DescribeConfiguration", "mq:DescribeConfigurationRevision", "mq:DescribeUser", "mq:ListBrokers", "mq:ListConfigurationRevisions", "mq:ListConfigurations", "mq:ListTags", "mq:ListUsers", "mq:RebootBroker", "mq:UpdateBroker", "mq:UpdateConfiguration", "mq:UpdateUser"]
+[
+ "mq:CreateBroker",
+ "mq:CreateConfiguration",
+ "mq:CreateTags",
+ "mq:CreateUser",
+ "mq:DeleteBroker",
+ "mq:DeleteTags",
+ "mq:DeleteUser",
+ "mq:DescribeBroker",
+ "mq:DescribeBrokerEngineTypes",
+ "mq:DescribeBrokerInstanceOptions",
+ "mq:DescribeConfiguration",
+ "mq:DescribeConfigurationRevision",
+ "mq:DescribeUser",
+ "mq:ListBrokers",
+ "mq:ListConfigurationRevisions",
+ "mq:ListConfigurations",
+ "mq:ListTags",
+ "mq:ListUsers",
+ "mq:RebootBroker",
+ "mq:UpdateBroker",
+ "mq:UpdateConfiguration",
+ "mq:UpdateUser"
+]

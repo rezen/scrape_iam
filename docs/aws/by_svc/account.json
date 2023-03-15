@@ -1,1 +1,11 @@
-["account:DeleteAlternateContact", "account:DisableRegion", "account:EnableRegion", "account:GetAlternateContact", "account:GetContactInformation", "account:GetRegionOptStatus", "account:ListRegions", "account:PutAlternateContact", "account:PutContactInformation"]
+[
+ "account:DeleteAlternateContact",
+ "account:DisableRegion",
+ "account:EnableRegion",
+ "account:GetAlternateContact",
+ "account:GetContactInformation",
+ "account:GetRegionOptStatus",
+ "account:ListRegions",
+ "account:PutAlternateContact",
+ "account:PutContactInformation"
+]

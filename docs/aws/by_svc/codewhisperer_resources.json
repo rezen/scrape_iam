@@ -1,1 +1,11 @@
-{"profile*": ["codewhisperer:CreateProfile", "codewhisperer:UpdateProfile"], "?": ["codewhisperer:GenerateRecommendations", "codewhisperer:ListProfiles"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoncodewhisperer.html"}
+{
+ "profile*": [
+  "codewhisperer:CreateProfile",
+  "codewhisperer:UpdateProfile"
+ ],
+ "?": [
+  "codewhisperer:GenerateRecommendations",
+  "codewhisperer:ListProfiles"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoncodewhisperer.html"
+}

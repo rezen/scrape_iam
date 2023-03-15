@@ -1,1 +1,32 @@
-{"Identitystore*": ["identitystore:CreateGroup", "identitystore:CreateUser", "identitystore:DeleteUser", "identitystore:DescribeUser", "identitystore:GetUserId", "identitystore:UpdateUser"], "Group*": ["identitystore:CreateGroupMembership", "identitystore:DeleteGroup", "identitystore:DeleteGroupMembership", "identitystore:DescribeGroup", "identitystore:DescribeGroupMembership", "identitystore:GetGroupId", "identitystore:GetGroupMembershipId", "identitystore:UpdateGroup"], "AllGroupMemberships*": ["identitystore:IsMemberInGroups", "identitystore:ListGroupMemberships", "identitystore:ListGroupMembershipsForMember"], "AllGroups*": ["identitystore:ListGroups"], "AllUsers*": ["identitystore:ListUsers"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsidentitystore.html"}
+{
+ "Identitystore*": [
+  "identitystore:CreateGroup",
+  "identitystore:CreateUser",
+  "identitystore:DeleteUser",
+  "identitystore:DescribeUser",
+  "identitystore:GetUserId",
+  "identitystore:UpdateUser"
+ ],
+ "Group*": [
+  "identitystore:CreateGroupMembership",
+  "identitystore:DeleteGroup",
+  "identitystore:DeleteGroupMembership",
+  "identitystore:DescribeGroup",
+  "identitystore:DescribeGroupMembership",
+  "identitystore:GetGroupId",
+  "identitystore:GetGroupMembershipId",
+  "identitystore:UpdateGroup"
+ ],
+ "AllGroupMemberships*": [
+  "identitystore:IsMemberInGroups",
+  "identitystore:ListGroupMemberships",
+  "identitystore:ListGroupMembershipsForMember"
+ ],
+ "AllGroups*": [
+  "identitystore:ListGroups"
+ ],
+ "AllUsers*": [
+  "identitystore:ListUsers"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsidentitystore.html"
+}

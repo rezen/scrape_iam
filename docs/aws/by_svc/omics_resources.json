@@ -1,1 +1,97 @@
-{"sequenceStore*": ["omics:BatchDeleteReadSet", "omics:DeleteSequenceStore", "omics:GetReadSetActivationJob", "omics:GetReadSetExportJob", "omics:GetReadSetImportJob", "omics:GetSequenceStore", "omics:ListReadSetActivationJobs", "omics:ListReadSetExportJobs", "omics:ListReadSetImportJobs", "omics:ListReadSets", "omics:StartReadSetActivationJob", "omics:StartReadSetExportJob", "omics:StartReadSetImportJob"], "AnnotationImportJob*": ["omics:CancelAnnotationImportJob", "omics:GetAnnotationImportJob"], "run*": ["omics:CancelRun", "omics:DeleteRun", "omics:GetRun", "omics:ListRunTasks"], "VariantImportJob*": ["omics:CancelVariantImportJob", "omics:GetVariantImportJob"], "?": ["omics:CreateAnnotationStore", "omics:CreateReferenceStore", "omics:CreateRunGroup", "omics:CreateSequenceStore", "omics:CreateVariantStore", "omics:CreateWorkflow", "omics:ListAnnotationImportJobs", "omics:ListAnnotationStores", "omics:ListReferenceStores", "omics:ListRunGroups", "omics:ListRuns", "omics:ListSequenceStores", "omics:ListTagsForResource", "omics:ListVariantImportJobs", "omics:ListVariantStores", "omics:ListWorkflows", "omics:StartAnnotationImportJob", "omics:StartRun", "omics:StartVariantImportJob"], "AnnotationStore*": ["omics:DeleteAnnotationStore", "omics:GetAnnotationStore", "omics:UpdateAnnotationStore"], "reference*": ["omics:DeleteReference", "omics:GetReference", "omics:GetReferenceMetadata"], "referenceStore*": ["omics:DeleteReferenceStore", "omics:GetReferenceImportJob", "omics:GetReferenceStore", "omics:ListReferenceImportJobs", "omics:ListReferences", "omics:StartReferenceImportJob"], "runGroup*": ["omics:DeleteRunGroup", "omics:GetRunGroup", "omics:UpdateRunGroup"], "VariantStore*": ["omics:DeleteVariantStore", "omics:GetVariantStore", "omics:UpdateVariantStore"], "workflow*": ["omics:DeleteWorkflow", "omics:GetWorkflow", "omics:UpdateWorkflow"], "readSet*": ["omics:GetReadSet", "omics:GetReadSetMetadata"], "TaskResource*": ["omics:GetRunTask"], "readSet": ["omics:TagResource", "omics:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonomics.html"}
+{
+ "sequenceStore*": [
+  "omics:BatchDeleteReadSet",
+  "omics:DeleteSequenceStore",
+  "omics:GetReadSetActivationJob",
+  "omics:GetReadSetExportJob",
+  "omics:GetReadSetImportJob",
+  "omics:GetSequenceStore",
+  "omics:ListReadSetActivationJobs",
+  "omics:ListReadSetExportJobs",
+  "omics:ListReadSetImportJobs",
+  "omics:ListReadSets",
+  "omics:StartReadSetActivationJob",
+  "omics:StartReadSetExportJob",
+  "omics:StartReadSetImportJob"
+ ],
+ "AnnotationImportJob*": [
+  "omics:CancelAnnotationImportJob",
+  "omics:GetAnnotationImportJob"
+ ],
+ "run*": [
+  "omics:CancelRun",
+  "omics:DeleteRun",
+  "omics:GetRun",
+  "omics:ListRunTasks"
+ ],
+ "VariantImportJob*": [
+  "omics:CancelVariantImportJob",
+  "omics:GetVariantImportJob"
+ ],
+ "?": [
+  "omics:CreateAnnotationStore",
+  "omics:CreateReferenceStore",
+  "omics:CreateRunGroup",
+  "omics:CreateSequenceStore",
+  "omics:CreateVariantStore",
+  "omics:CreateWorkflow",
+  "omics:ListAnnotationImportJobs",
+  "omics:ListAnnotationStores",
+  "omics:ListReferenceStores",
+  "omics:ListRunGroups",
+  "omics:ListRuns",
+  "omics:ListSequenceStores",
+  "omics:ListTagsForResource",
+  "omics:ListVariantImportJobs",
+  "omics:ListVariantStores",
+  "omics:ListWorkflows",
+  "omics:StartAnnotationImportJob",
+  "omics:StartRun",
+  "omics:StartVariantImportJob"
+ ],
+ "AnnotationStore*": [
+  "omics:DeleteAnnotationStore",
+  "omics:GetAnnotationStore",
+  "omics:UpdateAnnotationStore"
+ ],
+ "reference*": [
+  "omics:DeleteReference",
+  "omics:GetReference",
+  "omics:GetReferenceMetadata"
+ ],
+ "referenceStore*": [
+  "omics:DeleteReferenceStore",
+  "omics:GetReferenceImportJob",
+  "omics:GetReferenceStore",
+  "omics:ListReferenceImportJobs",
+  "omics:ListReferences",
+  "omics:StartReferenceImportJob"
+ ],
+ "runGroup*": [
+  "omics:DeleteRunGroup",
+  "omics:GetRunGroup",
+  "omics:UpdateRunGroup"
+ ],
+ "VariantStore*": [
+  "omics:DeleteVariantStore",
+  "omics:GetVariantStore",
+  "omics:UpdateVariantStore"
+ ],
+ "workflow*": [
+  "omics:DeleteWorkflow",
+  "omics:GetWorkflow",
+  "omics:UpdateWorkflow"
+ ],
+ "readSet*": [
+  "omics:GetReadSet",
+  "omics:GetReadSetMetadata"
+ ],
+ "TaskResource*": [
+  "omics:GetRunTask"
+ ],
+ "readSet": [
+  "omics:TagResource",
+  "omics:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonomics.html"
+}

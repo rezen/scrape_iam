@@ -1,1 +1,16 @@
-{"?": ["savingsplans:CreateSavingsPlan", "savingsplans:DescribeSavingsPlansOfferingRates", "savingsplans:DescribeSavingsPlansOfferings"], "savingsplan*": ["savingsplans:DeleteQueuedSavingsPlan", "savingsplans:DescribeSavingsPlanRates", "savingsplans:DescribeSavingsPlans", "savingsplans:ListTagsForResource", "savingsplans:TagResource", "savingsplans:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awssavingsplans.html"}
+{
+ "?": [
+  "savingsplans:CreateSavingsPlan",
+  "savingsplans:DescribeSavingsPlansOfferingRates",
+  "savingsplans:DescribeSavingsPlansOfferings"
+ ],
+ "savingsplan*": [
+  "savingsplans:DeleteQueuedSavingsPlan",
+  "savingsplans:DescribeSavingsPlanRates",
+  "savingsplans:DescribeSavingsPlans",
+  "savingsplans:ListTagsForResource",
+  "savingsplans:TagResource",
+  "savingsplans:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awssavingsplans.html"
+}

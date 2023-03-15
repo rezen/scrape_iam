@@ -1,1 +1,47 @@
-{"cell*": ["route53-recovery-readiness:CreateCell", "route53-recovery-readiness:DeleteCell", "route53-recovery-readiness:GetCell", "route53-recovery-readiness:GetCellReadinessSummary", "route53-recovery-readiness:UpdateCell"], "?": ["route53-recovery-readiness:CreateCrossAccountAuthorization", "route53-recovery-readiness:DeleteCrossAccountAuthorization", "route53-recovery-readiness:ListCells", "route53-recovery-readiness:ListCrossAccountAuthorizations", "route53-recovery-readiness:ListReadinessChecks", "route53-recovery-readiness:ListRecoveryGroups", "route53-recovery-readiness:ListResourceSets", "route53-recovery-readiness:ListRules", "route53-recovery-readiness:ListTagsForResources"], "readinesscheck*": ["route53-recovery-readiness:CreateReadinessCheck", "route53-recovery-readiness:DeleteReadinessCheck", "route53-recovery-readiness:GetReadinessCheck", "route53-recovery-readiness:GetReadinessCheckResourceStatus", "route53-recovery-readiness:GetReadinessCheckStatus", "route53-recovery-readiness:UpdateReadinessCheck"], "recoverygroup*": ["route53-recovery-readiness:CreateRecoveryGroup", "route53-recovery-readiness:DeleteRecoveryGroup", "route53-recovery-readiness:GetArchitectureRecommendations", "route53-recovery-readiness:GetRecoveryGroup", "route53-recovery-readiness:GetRecoveryGroupReadinessSummary", "route53-recovery-readiness:UpdateRecoveryGroup"], "resourceset*": ["route53-recovery-readiness:CreateResourceSet", "route53-recovery-readiness:DeleteResourceSet", "route53-recovery-readiness:GetResourceSet", "route53-recovery-readiness:UpdateResourceSet"], "cell": ["route53-recovery-readiness:TagResource", "route53-recovery-readiness:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonroute53recoveryreadiness.html"}
+{
+ "cell*": [
+  "route53-recovery-readiness:CreateCell",
+  "route53-recovery-readiness:DeleteCell",
+  "route53-recovery-readiness:GetCell",
+  "route53-recovery-readiness:GetCellReadinessSummary",
+  "route53-recovery-readiness:UpdateCell"
+ ],
+ "?": [
+  "route53-recovery-readiness:CreateCrossAccountAuthorization",
+  "route53-recovery-readiness:DeleteCrossAccountAuthorization",
+  "route53-recovery-readiness:ListCells",
+  "route53-recovery-readiness:ListCrossAccountAuthorizations",
+  "route53-recovery-readiness:ListReadinessChecks",
+  "route53-recovery-readiness:ListRecoveryGroups",
+  "route53-recovery-readiness:ListResourceSets",
+  "route53-recovery-readiness:ListRules",
+  "route53-recovery-readiness:ListTagsForResources"
+ ],
+ "readinesscheck*": [
+  "route53-recovery-readiness:CreateReadinessCheck",
+  "route53-recovery-readiness:DeleteReadinessCheck",
+  "route53-recovery-readiness:GetReadinessCheck",
+  "route53-recovery-readiness:GetReadinessCheckResourceStatus",
+  "route53-recovery-readiness:GetReadinessCheckStatus",
+  "route53-recovery-readiness:UpdateReadinessCheck"
+ ],
+ "recoverygroup*": [
+  "route53-recovery-readiness:CreateRecoveryGroup",
+  "route53-recovery-readiness:DeleteRecoveryGroup",
+  "route53-recovery-readiness:GetArchitectureRecommendations",
+  "route53-recovery-readiness:GetRecoveryGroup",
+  "route53-recovery-readiness:GetRecoveryGroupReadinessSummary",
+  "route53-recovery-readiness:UpdateRecoveryGroup"
+ ],
+ "resourceset*": [
+  "route53-recovery-readiness:CreateResourceSet",
+  "route53-recovery-readiness:DeleteResourceSet",
+  "route53-recovery-readiness:GetResourceSet",
+  "route53-recovery-readiness:UpdateResourceSet"
+ ],
+ "cell": [
+  "route53-recovery-readiness:TagResource",
+  "route53-recovery-readiness:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonroute53recoveryreadiness.html"
+}

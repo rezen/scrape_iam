@@ -1,1 +1,228 @@
-{"instance*": ["connect:AssociateApprovedOrigin", "connect:AssociateBot", "connect:AssociateDefaultVocabulary", "connect:AssociateInstanceStorageConfig", "connect:AssociateLambdaFunction", "connect:AssociateLexBot", "connect:AssociateSecurityKey", "connect:ClaimPhoneNumber", "connect:CreateIntegrationAssociation", "connect:CreateTrafficDistributionGroup", "connect:CreateUseCase", "connect:DeleteInstance", "connect:DeleteIntegrationAssociation", "connect:DeleteUseCase", "connect:DescribeInstance", "connect:DescribeInstanceAttribute", "connect:DescribeInstanceStorageConfig", "connect:DescribeUserHierarchyStructure", "connect:DisassociateApprovedOrigin", "connect:DisassociateBot", "connect:DisassociateInstanceStorageConfig", "connect:DisassociateLambdaFunction", "connect:DisassociateLexBot", "connect:DisassociateSecurityKey", "connect:GetFederationToken", "connect:GetFederationTokens", "connect:ListApprovedOrigins", "connect:ListBots", "connect:ListContactFlowModules", "connect:ListDefaultVocabularies", "connect:ListHoursOfOperations", "connect:ListInstanceAttributes", "connect:ListInstanceStorageConfigs", "connect:ListIntegrationAssociations", "connect:ListLambdaFunctions", "connect:ListLexBots", "connect:ListPrompts", "connect:ListRoutingProfiles", "connect:ListRules", "connect:ListSecurityKeys", "connect:ListSecurityProfiles", "connect:ListTaskTemplates", "connect:ListUseCases", "connect:ListUserHierarchyGroups", "connect:ListUsers", "connect:SearchQueues", "connect:SearchRoutingProfiles", "connect:SearchSecurityProfiles", "connect:SearchUsers", "connect:StartContactStreaming", "connect:StopContactStreaming", "connect:UpdateInstanceAttribute", "connect:UpdateInstanceStorageConfig", "connect:UpdatePhoneNumber", "connect:UpdateRule", "connect:UpdateUserHierarchyStructure"], "contact-flow*": ["connect:AssociatePhoneNumberContactFlow", "connect:CreateContactFlow", "connect:DeleteContactFlow", "connect:DescribeContactFlow", "connect:StartChatContact", "connect:StartTaskContact", "connect:UpdateContactFlowContent", "connect:UpdateContactFlowMetadata", "connect:UpdateContactFlowName"], "queue*": ["connect:AssociateQueueQuickConnects", "connect:AssociateRoutingProfileQueues", "connect:CreateRoutingProfile", "connect:DescribeQueue", "connect:DisassociateQueueQuickConnects", "connect:GetCurrentMetricData", "connect:GetMetricData", "connect:ListQueueQuickConnects", "connect:UpdateQueueMaxContacts", "connect:UpdateQueueName", "connect:UpdateQueueOutboundCallerConfig", "connect:UpdateQueueStatus", "connect:UpdateRoutingProfileDefaultOutboundQueue"], "agent-status*": ["connect:CreateAgentStatus", "connect:DescribeAgentStatus", "connect:PutUserStatus", "connect:UpdateAgentStatus"], "contact-flow-module*": ["connect:CreateContactFlowModule", "connect:DeleteContactFlowModule", "connect:DescribeContactFlowModule", "connect:UpdateContactFlowModuleContent", "connect:UpdateContactFlowModuleMetadata", "connect:UpdatedescribeContent"], "hours-of-operation*": ["connect:CreateHoursOfOperation", "connect:CreateQueue", "connect:DeleteHoursOfOperation", "connect:DescribeHoursOfOperation", "connect:UpdateHoursOfOperation", "connect:UpdateQueueHoursOfOperation"], "?": ["connect:CreateInstance", "connect:ListInstances", "connect:ReplicateInstance"], "quick-connect*": ["connect:CreateQuickConnect", "connect:DeleteQuickConnect", "connect:DescribeQuickConnect", "connect:UpdateQuickConnectConfig", "connect:UpdateQuickConnectName"], "rule*": ["connect:CreateRule", "connect:DeleteRule", "connect:DescribeRule"], "security-profile*": ["connect:CreateSecurityProfile", "connect:DeleteSecurityProfile", "connect:DescribeSecurityProfile", "connect:ListSecurityProfilePermissions", "connect:UpdateSecurityProfile", "connect:UpdateUserSecurityProfiles"], "task-template*": ["connect:CreateTaskTemplate", "connect:DeleteTaskTemplate", "connect:GetTaskTemplate", "connect:UpdateTaskTemplate"], "routing-profile*": ["connect:CreateUser", "connect:DescribeRoutingProfile", "connect:DisassociateRoutingProfileQueues", "connect:ListRoutingProfileQueues", "connect:UpdateRoutingProfileConcurrency", "connect:UpdateRoutingProfileName", "connect:UpdateRoutingProfileQueues", "connect:UpdateUserRoutingProfile"], "hierarchy-group": ["connect:CreateUserHierarchyGroup"], "vocabulary*": ["connect:CreateVocabulary", "connect:DeleteVocabulary", "connect:DescribeVocabulary", "connect:SearchVocabularies"], "traffic-distribution-group*": ["connect:DeleteTrafficDistributionGroup", "connect:DescribeTrafficDistributionGroup", "connect:GetTrafficDistribution", "connect:ListTrafficDistributionGroups", "connect:UpdateTrafficDistribution"], "user*": ["connect:DeleteUser", "connect:DescribeUser", "connect:DismissUserContact", "connect:UpdateUserHierarchy", "connect:UpdateUserIdentityInfo", "connect:UpdateUserPhoneConfig"], "hierarchy-group*": ["connect:DeleteUserHierarchyGroup", "connect:DescribeUserHierarchyGroup", "connect:GetCurrentUserData", "connect:GetMetricDataV2", "connect:UpdateUserHierarchyGroupName"], "contact*": ["connect:DescribeContact", "connect:GetContactAttributes", "connect:ListContactReferences", "connect:ListRealtimeContactAnalysisSegments", "connect:MonitorContact", "connect:ResumeContactRecording", "connect:StartContactRecording", "connect:StartOutboundVoiceContact", "connect:StopContact", "connect:StopContactRecording", "connect:SuspendContactRecording", "connect:TransferContact", "connect:UpdateContact", "connect:UpdateContactAttributes", "connect:UpdateContactSchedule", "connect:UpdateParticipantRoleConfig"], "phone-number*": ["connect:DescribePhoneNumber", "connect:DisassociatePhoneNumberContactFlow", "connect:ReleasePhoneNumber"], "wildcard-agent-status*": ["connect:ListAgentStatuses"], "wildcard-contact-flow*": ["connect:ListContactFlows"], "wildcard-legacy-phone-number*": ["connect:ListPhoneNumbers"], "wildcard-phone-number*": ["connect:ListPhoneNumbersV2", "connect:SearchAvailablePhoneNumbers"], "wildcard-queue*": ["connect:ListQueues"], "wildcard-quick-connect*": ["connect:ListQuickConnects"], "agent-status": ["connect:ListTagsForResource", "connect:TagResource", "connect:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonconnect.html"}
+{
+ "instance*": [
+  "connect:AssociateApprovedOrigin",
+  "connect:AssociateBot",
+  "connect:AssociateDefaultVocabulary",
+  "connect:AssociateInstanceStorageConfig",
+  "connect:AssociateLambdaFunction",
+  "connect:AssociateLexBot",
+  "connect:AssociateSecurityKey",
+  "connect:ClaimPhoneNumber",
+  "connect:CreateIntegrationAssociation",
+  "connect:CreateTrafficDistributionGroup",
+  "connect:CreateUseCase",
+  "connect:DeleteInstance",
+  "connect:DeleteIntegrationAssociation",
+  "connect:DeleteUseCase",
+  "connect:DescribeInstance",
+  "connect:DescribeInstanceAttribute",
+  "connect:DescribeInstanceStorageConfig",
+  "connect:DescribeUserHierarchyStructure",
+  "connect:DisassociateApprovedOrigin",
+  "connect:DisassociateBot",
+  "connect:DisassociateInstanceStorageConfig",
+  "connect:DisassociateLambdaFunction",
+  "connect:DisassociateLexBot",
+  "connect:DisassociateSecurityKey",
+  "connect:GetFederationToken",
+  "connect:GetFederationTokens",
+  "connect:ListApprovedOrigins",
+  "connect:ListBots",
+  "connect:ListContactFlowModules",
+  "connect:ListDefaultVocabularies",
+  "connect:ListHoursOfOperations",
+  "connect:ListInstanceAttributes",
+  "connect:ListInstanceStorageConfigs",
+  "connect:ListIntegrationAssociations",
+  "connect:ListLambdaFunctions",
+  "connect:ListLexBots",
+  "connect:ListPrompts",
+  "connect:ListRoutingProfiles",
+  "connect:ListRules",
+  "connect:ListSecurityKeys",
+  "connect:ListSecurityProfiles",
+  "connect:ListTaskTemplates",
+  "connect:ListUseCases",
+  "connect:ListUserHierarchyGroups",
+  "connect:ListUsers",
+  "connect:SearchQueues",
+  "connect:SearchRoutingProfiles",
+  "connect:SearchSecurityProfiles",
+  "connect:SearchUsers",
+  "connect:StartContactStreaming",
+  "connect:StopContactStreaming",
+  "connect:UpdateInstanceAttribute",
+  "connect:UpdateInstanceStorageConfig",
+  "connect:UpdatePhoneNumber",
+  "connect:UpdateRule",
+  "connect:UpdateUserHierarchyStructure"
+ ],
+ "contact-flow*": [
+  "connect:AssociatePhoneNumberContactFlow",
+  "connect:CreateContactFlow",
+  "connect:DeleteContactFlow",
+  "connect:DescribeContactFlow",
+  "connect:StartChatContact",
+  "connect:StartTaskContact",
+  "connect:UpdateContactFlowContent",
+  "connect:UpdateContactFlowMetadata",
+  "connect:UpdateContactFlowName"
+ ],
+ "queue*": [
+  "connect:AssociateQueueQuickConnects",
+  "connect:AssociateRoutingProfileQueues",
+  "connect:CreateRoutingProfile",
+  "connect:DescribeQueue",
+  "connect:DisassociateQueueQuickConnects",
+  "connect:GetCurrentMetricData",
+  "connect:GetMetricData",
+  "connect:ListQueueQuickConnects",
+  "connect:UpdateQueueMaxContacts",
+  "connect:UpdateQueueName",
+  "connect:UpdateQueueOutboundCallerConfig",
+  "connect:UpdateQueueStatus",
+  "connect:UpdateRoutingProfileDefaultOutboundQueue"
+ ],
+ "agent-status*": [
+  "connect:CreateAgentStatus",
+  "connect:DescribeAgentStatus",
+  "connect:PutUserStatus",
+  "connect:UpdateAgentStatus"
+ ],
+ "contact-flow-module*": [
+  "connect:CreateContactFlowModule",
+  "connect:DeleteContactFlowModule",
+  "connect:DescribeContactFlowModule",
+  "connect:UpdateContactFlowModuleContent",
+  "connect:UpdateContactFlowModuleMetadata",
+  "connect:UpdatedescribeContent"
+ ],
+ "hours-of-operation*": [
+  "connect:CreateHoursOfOperation",
+  "connect:CreateQueue",
+  "connect:DeleteHoursOfOperation",
+  "connect:DescribeHoursOfOperation",
+  "connect:UpdateHoursOfOperation",
+  "connect:UpdateQueueHoursOfOperation"
+ ],
+ "?": [
+  "connect:CreateInstance",
+  "connect:ListInstances",
+  "connect:ReplicateInstance"
+ ],
+ "quick-connect*": [
+  "connect:CreateQuickConnect",
+  "connect:DeleteQuickConnect",
+  "connect:DescribeQuickConnect",
+  "connect:UpdateQuickConnectConfig",
+  "connect:UpdateQuickConnectName"
+ ],
+ "rule*": [
+  "connect:CreateRule",
+  "connect:DeleteRule",
+  "connect:DescribeRule"
+ ],
+ "security-profile*": [
+  "connect:CreateSecurityProfile",
+  "connect:DeleteSecurityProfile",
+  "connect:DescribeSecurityProfile",
+  "connect:ListSecurityProfilePermissions",
+  "connect:UpdateSecurityProfile",
+  "connect:UpdateUserSecurityProfiles"
+ ],
+ "task-template*": [
+  "connect:CreateTaskTemplate",
+  "connect:DeleteTaskTemplate",
+  "connect:GetTaskTemplate",
+  "connect:UpdateTaskTemplate"
+ ],
+ "routing-profile*": [
+  "connect:CreateUser",
+  "connect:DescribeRoutingProfile",
+  "connect:DisassociateRoutingProfileQueues",
+  "connect:ListRoutingProfileQueues",
+  "connect:UpdateRoutingProfileConcurrency",
+  "connect:UpdateRoutingProfileName",
+  "connect:UpdateRoutingProfileQueues",
+  "connect:UpdateUserRoutingProfile"
+ ],
+ "hierarchy-group": [
+  "connect:CreateUserHierarchyGroup"
+ ],
+ "vocabulary*": [
+  "connect:CreateVocabulary",
+  "connect:DeleteVocabulary",
+  "connect:DescribeVocabulary",
+  "connect:SearchVocabularies"
+ ],
+ "traffic-distribution-group*": [
+  "connect:DeleteTrafficDistributionGroup",
+  "connect:DescribeTrafficDistributionGroup",
+  "connect:GetTrafficDistribution",
+  "connect:ListTrafficDistributionGroups",
+  "connect:UpdateTrafficDistribution"
+ ],
+ "user*": [
+  "connect:DeleteUser",
+  "connect:DescribeUser",
+  "connect:DismissUserContact",
+  "connect:UpdateUserHierarchy",
+  "connect:UpdateUserIdentityInfo",
+  "connect:UpdateUserPhoneConfig"
+ ],
+ "hierarchy-group*": [
+  "connect:DeleteUserHierarchyGroup",
+  "connect:DescribeUserHierarchyGroup",
+  "connect:GetCurrentUserData",
+  "connect:GetMetricDataV2",
+  "connect:UpdateUserHierarchyGroupName"
+ ],
+ "contact*": [
+  "connect:DescribeContact",
+  "connect:GetContactAttributes",
+  "connect:ListContactReferences",
+  "connect:ListRealtimeContactAnalysisSegments",
+  "connect:MonitorContact",
+  "connect:ResumeContactRecording",
+  "connect:StartContactRecording",
+  "connect:StartOutboundVoiceContact",
+  "connect:StopContact",
+  "connect:StopContactRecording",
+  "connect:SuspendContactRecording",
+  "connect:TransferContact",
+  "connect:UpdateContact",
+  "connect:UpdateContactAttributes",
+  "connect:UpdateContactSchedule",
+  "connect:UpdateParticipantRoleConfig"
+ ],
+ "phone-number*": [
+  "connect:DescribePhoneNumber",
+  "connect:DisassociatePhoneNumberContactFlow",
+  "connect:ReleasePhoneNumber"
+ ],
+ "wildcard-agent-status*": [
+  "connect:ListAgentStatuses"
+ ],
+ "wildcard-contact-flow*": [
+  "connect:ListContactFlows"
+ ],
+ "wildcard-legacy-phone-number*": [
+  "connect:ListPhoneNumbers"
+ ],
+ "wildcard-phone-number*": [
+  "connect:ListPhoneNumbersV2",
+  "connect:SearchAvailablePhoneNumbers"
+ ],
+ "wildcard-queue*": [
+  "connect:ListQueues"
+ ],
+ "wildcard-quick-connect*": [
+  "connect:ListQuickConnects"
+ ],
+ "agent-status": [
+  "connect:ListTagsForResource",
+  "connect:TagResource",
+  "connect:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonconnect.html"
+}

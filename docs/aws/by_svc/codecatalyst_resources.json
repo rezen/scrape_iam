@@ -1,1 +1,18 @@
-{"?": ["codecatalyst:AcceptConnection", "codecatalyst:GetPendingConnection", "codecatalyst:ListConnections", "codecatalyst:RejectConnection"], "connections*": ["codecatalyst:AssociateIamRoleToConnection", "codecatalyst:DeleteConnection", "codecatalyst:DisassociateIamRoleFromConnection", "codecatalyst:GetBillingAuthorization", "codecatalyst:GetConnection", "codecatalyst:ListIamRolesForConnection", "codecatalyst:PutBillingAuthorization"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoncodecatalyst.html"}
+{
+ "?": [
+  "codecatalyst:AcceptConnection",
+  "codecatalyst:GetPendingConnection",
+  "codecatalyst:ListConnections",
+  "codecatalyst:RejectConnection"
+ ],
+ "connections*": [
+  "codecatalyst:AssociateIamRoleToConnection",
+  "codecatalyst:DeleteConnection",
+  "codecatalyst:DisassociateIamRoleFromConnection",
+  "codecatalyst:GetBillingAuthorization",
+  "codecatalyst:GetConnection",
+  "codecatalyst:ListIamRolesForConnection",
+  "codecatalyst:PutBillingAuthorization"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoncodecatalyst.html"
+}

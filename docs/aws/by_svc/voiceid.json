@@ -1,1 +1,23 @@
-["voiceid:CreateDomain", "voiceid:DeleteDomain", "voiceid:DeleteFraudster", "voiceid:DeleteSpeaker", "voiceid:DescribeDomain", "voiceid:DescribeFraudster", "voiceid:DescribeFraudsterRegistrationJob", "voiceid:DescribeSpeaker", "voiceid:DescribeSpeakerEnrollmentJob", "voiceid:EvaluateSession", "voiceid:ListDomains", "voiceid:ListFraudsterRegistrationJobs", "voiceid:ListSpeakerEnrollmentJobs", "voiceid:ListSpeakers", "voiceid:ListTagsForResource", "voiceid:OptOutSpeaker", "voiceid:StartFraudsterRegistrationJob", "voiceid:StartSpeakerEnrollmentJob", "voiceid:TagResource", "voiceid:UntagResource", "voiceid:UpdateDomain"]
+[
+ "voiceid:CreateDomain",
+ "voiceid:DeleteDomain",
+ "voiceid:DeleteFraudster",
+ "voiceid:DeleteSpeaker",
+ "voiceid:DescribeDomain",
+ "voiceid:DescribeFraudster",
+ "voiceid:DescribeFraudsterRegistrationJob",
+ "voiceid:DescribeSpeaker",
+ "voiceid:DescribeSpeakerEnrollmentJob",
+ "voiceid:EvaluateSession",
+ "voiceid:ListDomains",
+ "voiceid:ListFraudsterRegistrationJobs",
+ "voiceid:ListSpeakerEnrollmentJobs",
+ "voiceid:ListSpeakers",
+ "voiceid:ListTagsForResource",
+ "voiceid:OptOutSpeaker",
+ "voiceid:StartFraudsterRegistrationJob",
+ "voiceid:StartSpeakerEnrollmentJob",
+ "voiceid:TagResource",
+ "voiceid:UntagResource",
+ "voiceid:UpdateDomain"
+]

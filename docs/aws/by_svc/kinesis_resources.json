@@ -1,1 +1,40 @@
-{"stream*": ["kinesis:AddTagsToStream", "kinesis:CreateStream", "kinesis:DecreaseStreamRetentionPeriod", "kinesis:DeleteStream", "kinesis:DescribeStream", "kinesis:DescribeStreamSummary", "kinesis:GetRecords", "kinesis:GetShardIterator", "kinesis:IncreaseStreamRetentionPeriod", "kinesis:ListStreamConsumers", "kinesis:ListTagsForStream", "kinesis:MergeShards", "kinesis:PutRecord", "kinesis:PutRecords", "kinesis:RegisterStreamConsumer", "kinesis:RemoveTagsFromStream", "kinesis:SplitShard"], "consumer*": ["kinesis:DeregisterStreamConsumer", "kinesis:DescribeStreamConsumer", "kinesis:SubscribeToShard"], "?": ["kinesis:DescribeLimits", "kinesis:DisableEnhancedMonitoring", "kinesis:EnableEnhancedMonitoring", "kinesis:ListShards", "kinesis:ListStreams", "kinesis:UpdateShardCount", "kinesis:UpdateStreamMode"], "kmsKey*": ["kinesis:StartStreamEncryption", "kinesis:StopStreamEncryption"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonkinesis.html"}
+{
+ "stream*": [
+  "kinesis:AddTagsToStream",
+  "kinesis:CreateStream",
+  "kinesis:DecreaseStreamRetentionPeriod",
+  "kinesis:DeleteStream",
+  "kinesis:DescribeStream",
+  "kinesis:DescribeStreamSummary",
+  "kinesis:GetRecords",
+  "kinesis:GetShardIterator",
+  "kinesis:IncreaseStreamRetentionPeriod",
+  "kinesis:ListStreamConsumers",
+  "kinesis:ListTagsForStream",
+  "kinesis:MergeShards",
+  "kinesis:PutRecord",
+  "kinesis:PutRecords",
+  "kinesis:RegisterStreamConsumer",
+  "kinesis:RemoveTagsFromStream",
+  "kinesis:SplitShard"
+ ],
+ "consumer*": [
+  "kinesis:DeregisterStreamConsumer",
+  "kinesis:DescribeStreamConsumer",
+  "kinesis:SubscribeToShard"
+ ],
+ "?": [
+  "kinesis:DescribeLimits",
+  "kinesis:DisableEnhancedMonitoring",
+  "kinesis:EnableEnhancedMonitoring",
+  "kinesis:ListShards",
+  "kinesis:ListStreams",
+  "kinesis:UpdateShardCount",
+  "kinesis:UpdateStreamMode"
+ ],
+ "kmsKey*": [
+  "kinesis:StartStreamEncryption",
+  "kinesis:StopStreamEncryption"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonkinesis.html"
+}

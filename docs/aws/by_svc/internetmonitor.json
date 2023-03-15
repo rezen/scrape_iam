@@ -1,1 +1,12 @@
-["internetmonitor:CreateMonitor", "internetmonitor:DeleteMonitor", "internetmonitor:GetHealthEvent", "internetmonitor:GetMonitor", "internetmonitor:ListHealthEvents", "internetmonitor:ListMonitors", "internetmonitor:ListTagsForResource", "internetmonitor:TagResource", "internetmonitor:UntagResource", "internetmonitor:UpdateMonitor"]
+[
+ "internetmonitor:CreateMonitor",
+ "internetmonitor:DeleteMonitor",
+ "internetmonitor:GetHealthEvent",
+ "internetmonitor:GetMonitor",
+ "internetmonitor:ListHealthEvents",
+ "internetmonitor:ListMonitors",
+ "internetmonitor:ListTagsForResource",
+ "internetmonitor:TagResource",
+ "internetmonitor:UntagResource",
+ "internetmonitor:UpdateMonitor"
+]

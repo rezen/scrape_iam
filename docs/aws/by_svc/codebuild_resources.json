@@ -1,1 +1,56 @@
-{"project*": ["codebuild:BatchDeleteBuilds", "codebuild:BatchGetBuildBatches", "codebuild:BatchGetBuilds", "codebuild:BatchGetProjects", "codebuild:CreateProject", "codebuild:CreateWebhook", "codebuild:DeleteBuildBatch", "codebuild:DeleteProject", "codebuild:DeleteWebhook", "codebuild:InvalidateProjectCache", "codebuild:ListBuildBatchesForProject", "codebuild:ListBuildsForProject", "codebuild:RetryBuild", "codebuild:RetryBuildBatch", "codebuild:StartBuild", "codebuild:StartBuildBatch", "codebuild:StopBuild", "codebuild:StopBuildBatch", "codebuild:UpdateProject", "codebuild:UpdateProjectVisibility", "codebuild:UpdateWebhook"], "report-group*": ["codebuild:BatchGetReportGroups", "codebuild:BatchGetReports", "codebuild:CreateReportGroup", "codebuild:DeleteReport", "codebuild:DeleteReportGroup", "codebuild:DescribeCodeCoverages", "codebuild:DescribeTestCases", "codebuild:GetReportGroupTrend", "codebuild:ListReportsForReportGroup", "codebuild:UpdateReportGroup"], "project": ["codebuild:DeleteResourcePolicy", "codebuild:GetResourcePolicy", "codebuild:PutResourcePolicy"], "?": ["codebuild:DeleteSourceCredentials", "codebuild:ImportSourceCredentials", "codebuild:ListBuildBatches", "codebuild:ListBuilds", "codebuild:ListCuratedEnvironmentImages", "codebuild:ListProjects", "codebuild:ListReportGroups", "codebuild:ListReports", "codebuild:ListSharedProjects", "codebuild:ListSharedReportGroups", "codebuild:ListSourceCredentials"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awscodebuild.html"}
+{
+ "project*": [
+  "codebuild:BatchDeleteBuilds",
+  "codebuild:BatchGetBuildBatches",
+  "codebuild:BatchGetBuilds",
+  "codebuild:BatchGetProjects",
+  "codebuild:CreateProject",
+  "codebuild:CreateWebhook",
+  "codebuild:DeleteBuildBatch",
+  "codebuild:DeleteProject",
+  "codebuild:DeleteWebhook",
+  "codebuild:InvalidateProjectCache",
+  "codebuild:ListBuildBatchesForProject",
+  "codebuild:ListBuildsForProject",
+  "codebuild:RetryBuild",
+  "codebuild:RetryBuildBatch",
+  "codebuild:StartBuild",
+  "codebuild:StartBuildBatch",
+  "codebuild:StopBuild",
+  "codebuild:StopBuildBatch",
+  "codebuild:UpdateProject",
+  "codebuild:UpdateProjectVisibility",
+  "codebuild:UpdateWebhook"
+ ],
+ "report-group*": [
+  "codebuild:BatchGetReportGroups",
+  "codebuild:BatchGetReports",
+  "codebuild:CreateReportGroup",
+  "codebuild:DeleteReport",
+  "codebuild:DeleteReportGroup",
+  "codebuild:DescribeCodeCoverages",
+  "codebuild:DescribeTestCases",
+  "codebuild:GetReportGroupTrend",
+  "codebuild:ListReportsForReportGroup",
+  "codebuild:UpdateReportGroup"
+ ],
+ "project": [
+  "codebuild:DeleteResourcePolicy",
+  "codebuild:GetResourcePolicy",
+  "codebuild:PutResourcePolicy"
+ ],
+ "?": [
+  "codebuild:DeleteSourceCredentials",
+  "codebuild:ImportSourceCredentials",
+  "codebuild:ListBuildBatches",
+  "codebuild:ListBuilds",
+  "codebuild:ListCuratedEnvironmentImages",
+  "codebuild:ListProjects",
+  "codebuild:ListReportGroups",
+  "codebuild:ListReports",
+  "codebuild:ListSharedProjects",
+  "codebuild:ListSharedReportGroups",
+  "codebuild:ListSourceCredentials"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awscodebuild.html"
+}

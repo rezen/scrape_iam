@@ -1,1 +1,42 @@
-{"backend*": ["amplifybackend:CloneBackend", "amplifybackend:CreateBackend", "amplifybackend:CreateBackendConfig", "amplifybackend:CreateBackendStorage", "amplifybackend:CreateToken", "amplifybackend:DeleteBackend", "amplifybackend:DeleteBackendStorage", "amplifybackend:DeleteToken", "amplifybackend:GetBackend", "amplifybackend:GetBackendJob", "amplifybackend:GetBackendStorage", "amplifybackend:GetToken", "amplifybackend:ImportBackendStorage", "amplifybackend:ListBackendJobs", "amplifybackend:RemoveAllBackends", "amplifybackend:RemoveBackendConfig", "amplifybackend:UpdateBackendConfig", "amplifybackend:UpdateBackendJob", "amplifybackend:UpdateBackendStorage"], "api*": ["amplifybackend:CreateBackendAPI", "amplifybackend:DeleteBackendAPI", "amplifybackend:GenerateBackendAPIModels", "amplifybackend:GetBackendAPI", "amplifybackend:GetBackendAPIModels", "amplifybackend:UpdateBackendAPI"], "auth*": ["amplifybackend:CreateBackendAuth", "amplifybackend:DeleteBackendAuth", "amplifybackend:GetBackendAuth", "amplifybackend:ImportBackendAuth", "amplifybackend:UpdateBackendAuth"], "?": ["amplifybackend:ListS3Buckets"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsamplifyadmin.html"}
+{
+ "backend*": [
+  "amplifybackend:CloneBackend",
+  "amplifybackend:CreateBackend",
+  "amplifybackend:CreateBackendConfig",
+  "amplifybackend:CreateBackendStorage",
+  "amplifybackend:CreateToken",
+  "amplifybackend:DeleteBackend",
+  "amplifybackend:DeleteBackendStorage",
+  "amplifybackend:DeleteToken",
+  "amplifybackend:GetBackend",
+  "amplifybackend:GetBackendJob",
+  "amplifybackend:GetBackendStorage",
+  "amplifybackend:GetToken",
+  "amplifybackend:ImportBackendStorage",
+  "amplifybackend:ListBackendJobs",
+  "amplifybackend:RemoveAllBackends",
+  "amplifybackend:RemoveBackendConfig",
+  "amplifybackend:UpdateBackendConfig",
+  "amplifybackend:UpdateBackendJob",
+  "amplifybackend:UpdateBackendStorage"
+ ],
+ "api*": [
+  "amplifybackend:CreateBackendAPI",
+  "amplifybackend:DeleteBackendAPI",
+  "amplifybackend:GenerateBackendAPIModels",
+  "amplifybackend:GetBackendAPI",
+  "amplifybackend:GetBackendAPIModels",
+  "amplifybackend:UpdateBackendAPI"
+ ],
+ "auth*": [
+  "amplifybackend:CreateBackendAuth",
+  "amplifybackend:DeleteBackendAuth",
+  "amplifybackend:GetBackendAuth",
+  "amplifybackend:ImportBackendAuth",
+  "amplifybackend:UpdateBackendAuth"
+ ],
+ "?": [
+  "amplifybackend:ListS3Buckets"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsamplifyadmin.html"
+}

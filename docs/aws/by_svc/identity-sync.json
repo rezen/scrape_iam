@@ -1,1 +1,14 @@
-["identity-sync:CreateSyncFilter", "identity-sync:CreateSyncProfile", "identity-sync:CreateSyncTarget", "identity-sync:DeleteSyncFilter", "identity-sync:DeleteSyncProfile", "identity-sync:DeleteSyncTarget", "identity-sync:GetSyncProfile", "identity-sync:GetSyncTarget", "identity-sync:ListSyncFilters", "identity-sync:StartSync", "identity-sync:StopSync", "identity-sync:UpdateSyncTarget"]
+[
+ "identity-sync:CreateSyncFilter",
+ "identity-sync:CreateSyncProfile",
+ "identity-sync:CreateSyncTarget",
+ "identity-sync:DeleteSyncFilter",
+ "identity-sync:DeleteSyncProfile",
+ "identity-sync:DeleteSyncTarget",
+ "identity-sync:GetSyncProfile",
+ "identity-sync:GetSyncTarget",
+ "identity-sync:ListSyncFilters",
+ "identity-sync:StartSync",
+ "identity-sync:StopSync",
+ "identity-sync:UpdateSyncTarget"
+]

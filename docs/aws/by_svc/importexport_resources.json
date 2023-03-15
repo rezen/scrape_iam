@@ -1,1 +1,11 @@
-{"?": ["importexport:CancelJob", "importexport:CreateJob", "importexport:GetShippingLabel", "importexport:GetStatus", "importexport:ListJobs", "importexport:UpdateJob"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsimportexportdiskservice.html"}
+{
+ "?": [
+  "importexport:CancelJob",
+  "importexport:CreateJob",
+  "importexport:GetShippingLabel",
+  "importexport:GetStatus",
+  "importexport:ListJobs",
+  "importexport:UpdateJob"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsimportexportdiskservice.html"
+}

@@ -1,1 +1,11 @@
-{"?": ["application-cost-profiler:DeleteReportDefinition", "application-cost-profiler:GetReportDefinition", "application-cost-profiler:ImportApplicationUsage", "application-cost-profiler:ListReportDefinitions", "application-cost-profiler:PutReportDefinition", "application-cost-profiler:UpdateReportDefinition"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsapplicationcostprofilerservice.html"}
+{
+ "?": [
+  "application-cost-profiler:DeleteReportDefinition",
+  "application-cost-profiler:GetReportDefinition",
+  "application-cost-profiler:ImportApplicationUsage",
+  "application-cost-profiler:ListReportDefinitions",
+  "application-cost-profiler:PutReportDefinition",
+  "application-cost-profiler:UpdateReportDefinition"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsapplicationcostprofilerservice.html"
+}

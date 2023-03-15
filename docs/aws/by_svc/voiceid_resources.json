@@ -1,1 +1,30 @@
-{"?": ["voiceid:CreateDomain", "voiceid:ListDomains"], "domain*": ["voiceid:DeleteDomain", "voiceid:DeleteFraudster", "voiceid:DeleteSpeaker", "voiceid:DescribeDomain", "voiceid:DescribeFraudster", "voiceid:DescribeFraudsterRegistrationJob", "voiceid:DescribeSpeaker", "voiceid:DescribeSpeakerEnrollmentJob", "voiceid:EvaluateSession", "voiceid:ListFraudsterRegistrationJobs", "voiceid:ListSpeakerEnrollmentJobs", "voiceid:ListSpeakers", "voiceid:OptOutSpeaker", "voiceid:StartFraudsterRegistrationJob", "voiceid:StartSpeakerEnrollmentJob", "voiceid:UpdateDomain"], "domain": ["voiceid:ListTagsForResource", "voiceid:TagResource", "voiceid:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonconnectvoiceid.html"}
+{
+ "?": [
+  "voiceid:CreateDomain",
+  "voiceid:ListDomains"
+ ],
+ "domain*": [
+  "voiceid:DeleteDomain",
+  "voiceid:DeleteFraudster",
+  "voiceid:DeleteSpeaker",
+  "voiceid:DescribeDomain",
+  "voiceid:DescribeFraudster",
+  "voiceid:DescribeFraudsterRegistrationJob",
+  "voiceid:DescribeSpeaker",
+  "voiceid:DescribeSpeakerEnrollmentJob",
+  "voiceid:EvaluateSession",
+  "voiceid:ListFraudsterRegistrationJobs",
+  "voiceid:ListSpeakerEnrollmentJobs",
+  "voiceid:ListSpeakers",
+  "voiceid:OptOutSpeaker",
+  "voiceid:StartFraudsterRegistrationJob",
+  "voiceid:StartSpeakerEnrollmentJob",
+  "voiceid:UpdateDomain"
+ ],
+ "domain": [
+  "voiceid:ListTagsForResource",
+  "voiceid:TagResource",
+  "voiceid:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonconnectvoiceid.html"
+}

@@ -1,1 +1,19 @@
-{"Monitor*": ["internetmonitor:CreateMonitor", "internetmonitor:DeleteMonitor", "internetmonitor:GetMonitor", "internetmonitor:ListHealthEvents", "internetmonitor:ListTagsForResource", "internetmonitor:TagResource", "internetmonitor:UntagResource", "internetmonitor:UpdateMonitor"], "HealthEvent*": ["internetmonitor:GetHealthEvent"], "?": ["internetmonitor:ListMonitors"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoncloudwatchinternetmonitor.html"}
+{
+ "Monitor*": [
+  "internetmonitor:CreateMonitor",
+  "internetmonitor:DeleteMonitor",
+  "internetmonitor:GetMonitor",
+  "internetmonitor:ListHealthEvents",
+  "internetmonitor:ListTagsForResource",
+  "internetmonitor:TagResource",
+  "internetmonitor:UntagResource",
+  "internetmonitor:UpdateMonitor"
+ ],
+ "HealthEvent*": [
+  "internetmonitor:GetHealthEvent"
+ ],
+ "?": [
+  "internetmonitor:ListMonitors"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoncloudwatchinternetmonitor.html"
+}

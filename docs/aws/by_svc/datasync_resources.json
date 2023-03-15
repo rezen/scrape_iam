@@ -1,1 +1,59 @@
-{"taskexecution*": ["datasync:CancelTaskExecution", "datasync:DescribeTaskExecution", "datasync:UpdateTaskExecution"], "?": ["datasync:CreateAgent", "datasync:CreateLocationEfs", "datasync:CreateLocationFsxLustre", "datasync:CreateLocationFsxOntap", "datasync:CreateLocationFsxOpenZfs", "datasync:CreateLocationFsxWindows", "datasync:CreateLocationHdfs", "datasync:CreateLocationNfs", "datasync:CreateLocationObjectStorage", "datasync:CreateLocationS3", "datasync:CreateLocationSmb", "datasync:ListAgents", "datasync:ListLocations", "datasync:ListTasks"], "location*": ["datasync:CreateTask", "datasync:DeleteLocation", "datasync:DescribeLocationEfs", "datasync:DescribeLocationFsxLustre", "datasync:DescribeLocationFsxOntap", "datasync:DescribeLocationFsxOpenZfs", "datasync:DescribeLocationFsxWindows", "datasync:DescribeLocationHdfs", "datasync:DescribeLocationNfs", "datasync:DescribeLocationObjectStorage", "datasync:DescribeLocationS3", "datasync:DescribeLocationSmb", "datasync:UpdateLocationHdfs", "datasync:UpdateLocationNfs", "datasync:UpdateLocationObjectStorage", "datasync:UpdateLocationSmb"], "agent*": ["datasync:DeleteAgent", "datasync:DescribeAgent", "datasync:UpdateAgent"], "task*": ["datasync:DeleteTask", "datasync:DescribeTask", "datasync:ListTaskExecutions", "datasync:StartTaskExecution", "datasync:UpdateTask"], "agent": ["datasync:ListTagsForResource", "datasync:TagResource", "datasync:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsdatasync.html"}
+{
+ "taskexecution*": [
+  "datasync:CancelTaskExecution",
+  "datasync:DescribeTaskExecution",
+  "datasync:UpdateTaskExecution"
+ ],
+ "?": [
+  "datasync:CreateAgent",
+  "datasync:CreateLocationEfs",
+  "datasync:CreateLocationFsxLustre",
+  "datasync:CreateLocationFsxOntap",
+  "datasync:CreateLocationFsxOpenZfs",
+  "datasync:CreateLocationFsxWindows",
+  "datasync:CreateLocationHdfs",
+  "datasync:CreateLocationNfs",
+  "datasync:CreateLocationObjectStorage",
+  "datasync:CreateLocationS3",
+  "datasync:CreateLocationSmb",
+  "datasync:ListAgents",
+  "datasync:ListLocations",
+  "datasync:ListTasks"
+ ],
+ "location*": [
+  "datasync:CreateTask",
+  "datasync:DeleteLocation",
+  "datasync:DescribeLocationEfs",
+  "datasync:DescribeLocationFsxLustre",
+  "datasync:DescribeLocationFsxOntap",
+  "datasync:DescribeLocationFsxOpenZfs",
+  "datasync:DescribeLocationFsxWindows",
+  "datasync:DescribeLocationHdfs",
+  "datasync:DescribeLocationNfs",
+  "datasync:DescribeLocationObjectStorage",
+  "datasync:DescribeLocationS3",
+  "datasync:DescribeLocationSmb",
+  "datasync:UpdateLocationHdfs",
+  "datasync:UpdateLocationNfs",
+  "datasync:UpdateLocationObjectStorage",
+  "datasync:UpdateLocationSmb"
+ ],
+ "agent*": [
+  "datasync:DeleteAgent",
+  "datasync:DescribeAgent",
+  "datasync:UpdateAgent"
+ ],
+ "task*": [
+  "datasync:DeleteTask",
+  "datasync:DescribeTask",
+  "datasync:ListTaskExecutions",
+  "datasync:StartTaskExecution",
+  "datasync:UpdateTask"
+ ],
+ "agent": [
+  "datasync:ListTagsForResource",
+  "datasync:TagResource",
+  "datasync:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsdatasync.html"
+}

@@ -1,1 +1,133 @@
-{"?": ["iotwireless:AssociateAwsAccountWithPartnerAccount", "iotwireless:CreateDestination", "iotwireless:CreateDeviceProfile", "iotwireless:CreateFuotaTask", "iotwireless:CreateMulticastGroup", "iotwireless:CreateServiceProfile", "iotwireless:CreateWirelessDevice", "iotwireless:CreateWirelessGateway", "iotwireless:CreateWirelessGatewayTaskDefinition", "iotwireless:DeleteQueuedMessages", "iotwireless:GetEventConfigurationByResourceTypes", "iotwireless:GetLogLevelsByResourceTypes", "iotwireless:GetPositionEstimate", "iotwireless:GetServiceEndpoint", "iotwireless:ListDestinations", "iotwireless:ListDeviceProfiles", "iotwireless:ListEventConfigurations", "iotwireless:ListFuotaTasks", "iotwireless:ListMulticastGroups", "iotwireless:ListNetworkAnalyzerConfigurations", "iotwireless:ListPartnerAccounts", "iotwireless:ListPositionConfigurations", "iotwireless:ListQueuedMessages", "iotwireless:ListServiceProfiles", "iotwireless:ListWirelessDevices", "iotwireless:ListWirelessGatewayTaskDefinitions", "iotwireless:ListWirelessGateways", "iotwireless:ResetAllResourceLogLevels", "iotwireless:UpdateEventConfigurationByResourceTypes", "iotwireless:UpdateLogLevelsByResourceTypes"], "FuotaTask*": ["iotwireless:AssociateMulticastGroupWithFuotaTask", "iotwireless:AssociateWirelessDeviceWithFuotaTask", "iotwireless:DeleteFuotaTask", "iotwireless:DisassociateMulticastGroupFromFuotaTask", "iotwireless:DisassociateWirelessDeviceFromFuotaTask", "iotwireless:GetFuotaTask", "iotwireless:ListMulticastGroupsByFuotaTask", "iotwireless:StartFuotaTask", "iotwireless:UpdateFuotaTask"], "MulticastGroup*": ["iotwireless:AssociateWirelessDeviceWithMulticastGroup", "iotwireless:CancelMulticastGroupSession", "iotwireless:DeleteMulticastGroup", "iotwireless:DisassociateWirelessDeviceFromMulticastGroup", "iotwireless:GetMulticastGroup", "iotwireless:GetMulticastGroupSession", "iotwireless:SendDataToMulticastGroup", "iotwireless:StartBulkAssociateWirelessDeviceWithMulticastGroup", "iotwireless:StartBulkDisassociateWirelessDeviceFromMulticastGroup", "iotwireless:StartMulticastGroupSession", "iotwireless:UpdateMulticastGroup"], "WirelessDevice*": ["iotwireless:AssociateWirelessDeviceWithThing", "iotwireless:CreateNetworkAnalyzerConfiguration", "iotwireless:DeleteWirelessDevice", "iotwireless:DisassociateWirelessDeviceFromThing", "iotwireless:GetWirelessDevice", "iotwireless:GetWirelessDeviceStatistics", "iotwireless:SendDataToWirelessDevice", "iotwireless:TestWirelessDevice", "iotwireless:UpdateWirelessDevice"], "WirelessGateway*": ["iotwireless:AssociateWirelessGatewayWithCertificate", "iotwireless:AssociateWirelessGatewayWithThing", "iotwireless:CreateWirelessGatewayTask", "iotwireless:DeleteWirelessGateway", "iotwireless:DeleteWirelessGatewayTask", "iotwireless:DisassociateWirelessGatewayFromCertificate", "iotwireless:DisassociateWirelessGatewayFromThing", "iotwireless:GetWirelessGateway", "iotwireless:GetWirelessGatewayCertificate", "iotwireless:GetWirelessGatewayFirmwareInformation", "iotwireless:GetWirelessGatewayStatistics", "iotwireless:GetWirelessGatewayTask", "iotwireless:UpdateWirelessGateway"], "Destination*": ["iotwireless:DeleteDestination", "iotwireless:GetDestination", "iotwireless:UpdateDestination"], "DeviceProfile*": ["iotwireless:DeleteDeviceProfile", "iotwireless:GetDeviceProfile"], "NetworkAnalyzerConfiguration*": ["iotwireless:DeleteNetworkAnalyzerConfiguration", "iotwireless:GetNetworkAnalyzerConfiguration", "iotwireless:StartNetworkAnalyzerStream", "iotwireless:UpdateNetworkAnalyzerConfiguration"], "ServiceProfile*": ["iotwireless:DeleteServiceProfile", "iotwireless:GetServiceProfile"], "WirelessGatewayTaskDefinition*": ["iotwireless:DeleteWirelessGatewayTaskDefinition", "iotwireless:GetWirelessGatewayTaskDefinition"], "SidewalkAccount*": ["iotwireless:DisassociateAwsAccountFromPartnerAccount", "iotwireless:GetPartnerAccount", "iotwireless:UpdatePartnerAccount"], "WirelessDevice": ["iotwireless:GetPosition", "iotwireless:GetPositionConfiguration", "iotwireless:GetResourceLogLevel", "iotwireless:GetResourcePosition", "iotwireless:PutPositionConfiguration", "iotwireless:PutResourceLogLevel", "iotwireless:ResetResourceLogLevel", "iotwireless:UpdatePosition", "iotwireless:UpdateResourcePosition"], "SidewalkAccount": ["iotwireless:GetResourceEventConfiguration", "iotwireless:UpdateResourceEventConfiguration"], "Destination": ["iotwireless:ListTagsForResource", "iotwireless:TagResource", "iotwireless:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsiotcoreforlorawan.html"}
+{
+ "?": [
+  "iotwireless:AssociateAwsAccountWithPartnerAccount",
+  "iotwireless:CreateDestination",
+  "iotwireless:CreateDeviceProfile",
+  "iotwireless:CreateFuotaTask",
+  "iotwireless:CreateMulticastGroup",
+  "iotwireless:CreateServiceProfile",
+  "iotwireless:CreateWirelessDevice",
+  "iotwireless:CreateWirelessGateway",
+  "iotwireless:CreateWirelessGatewayTaskDefinition",
+  "iotwireless:DeleteQueuedMessages",
+  "iotwireless:GetEventConfigurationByResourceTypes",
+  "iotwireless:GetLogLevelsByResourceTypes",
+  "iotwireless:GetPositionEstimate",
+  "iotwireless:GetServiceEndpoint",
+  "iotwireless:ListDestinations",
+  "iotwireless:ListDeviceProfiles",
+  "iotwireless:ListEventConfigurations",
+  "iotwireless:ListFuotaTasks",
+  "iotwireless:ListMulticastGroups",
+  "iotwireless:ListNetworkAnalyzerConfigurations",
+  "iotwireless:ListPartnerAccounts",
+  "iotwireless:ListPositionConfigurations",
+  "iotwireless:ListQueuedMessages",
+  "iotwireless:ListServiceProfiles",
+  "iotwireless:ListWirelessDevices",
+  "iotwireless:ListWirelessGatewayTaskDefinitions",
+  "iotwireless:ListWirelessGateways",
+  "iotwireless:ResetAllResourceLogLevels",
+  "iotwireless:UpdateEventConfigurationByResourceTypes",
+  "iotwireless:UpdateLogLevelsByResourceTypes"
+ ],
+ "FuotaTask*": [
+  "iotwireless:AssociateMulticastGroupWithFuotaTask",
+  "iotwireless:AssociateWirelessDeviceWithFuotaTask",
+  "iotwireless:DeleteFuotaTask",
+  "iotwireless:DisassociateMulticastGroupFromFuotaTask",
+  "iotwireless:DisassociateWirelessDeviceFromFuotaTask",
+  "iotwireless:GetFuotaTask",
+  "iotwireless:ListMulticastGroupsByFuotaTask",
+  "iotwireless:StartFuotaTask",
+  "iotwireless:UpdateFuotaTask"
+ ],
+ "MulticastGroup*": [
+  "iotwireless:AssociateWirelessDeviceWithMulticastGroup",
+  "iotwireless:CancelMulticastGroupSession",
+  "iotwireless:DeleteMulticastGroup",
+  "iotwireless:DisassociateWirelessDeviceFromMulticastGroup",
+  "iotwireless:GetMulticastGroup",
+  "iotwireless:GetMulticastGroupSession",
+  "iotwireless:SendDataToMulticastGroup",
+  "iotwireless:StartBulkAssociateWirelessDeviceWithMulticastGroup",
+  "iotwireless:StartBulkDisassociateWirelessDeviceFromMulticastGroup",
+  "iotwireless:StartMulticastGroupSession",
+  "iotwireless:UpdateMulticastGroup"
+ ],
+ "WirelessDevice*": [
+  "iotwireless:AssociateWirelessDeviceWithThing",
+  "iotwireless:CreateNetworkAnalyzerConfiguration",
+  "iotwireless:DeleteWirelessDevice",
+  "iotwireless:DisassociateWirelessDeviceFromThing",
+  "iotwireless:GetWirelessDevice",
+  "iotwireless:GetWirelessDeviceStatistics",
+  "iotwireless:SendDataToWirelessDevice",
+  "iotwireless:TestWirelessDevice",
+  "iotwireless:UpdateWirelessDevice"
+ ],
+ "WirelessGateway*": [
+  "iotwireless:AssociateWirelessGatewayWithCertificate",
+  "iotwireless:AssociateWirelessGatewayWithThing",
+  "iotwireless:CreateWirelessGatewayTask",
+  "iotwireless:DeleteWirelessGateway",
+  "iotwireless:DeleteWirelessGatewayTask",
+  "iotwireless:DisassociateWirelessGatewayFromCertificate",
+  "iotwireless:DisassociateWirelessGatewayFromThing",
+  "iotwireless:GetWirelessGateway",
+  "iotwireless:GetWirelessGatewayCertificate",
+  "iotwireless:GetWirelessGatewayFirmwareInformation",
+  "iotwireless:GetWirelessGatewayStatistics",
+  "iotwireless:GetWirelessGatewayTask",
+  "iotwireless:UpdateWirelessGateway"
+ ],
+ "Destination*": [
+  "iotwireless:DeleteDestination",
+  "iotwireless:GetDestination",
+  "iotwireless:UpdateDestination"
+ ],
+ "DeviceProfile*": [
+  "iotwireless:DeleteDeviceProfile",
+  "iotwireless:GetDeviceProfile"
+ ],
+ "NetworkAnalyzerConfiguration*": [
+  "iotwireless:DeleteNetworkAnalyzerConfiguration",
+  "iotwireless:GetNetworkAnalyzerConfiguration",
+  "iotwireless:StartNetworkAnalyzerStream",
+  "iotwireless:UpdateNetworkAnalyzerConfiguration"
+ ],
+ "ServiceProfile*": [
+  "iotwireless:DeleteServiceProfile",
+  "iotwireless:GetServiceProfile"
+ ],
+ "WirelessGatewayTaskDefinition*": [
+  "iotwireless:DeleteWirelessGatewayTaskDefinition",
+  "iotwireless:GetWirelessGatewayTaskDefinition"
+ ],
+ "SidewalkAccount*": [
+  "iotwireless:DisassociateAwsAccountFromPartnerAccount",
+  "iotwireless:GetPartnerAccount",
+  "iotwireless:UpdatePartnerAccount"
+ ],
+ "WirelessDevice": [
+  "iotwireless:GetPosition",
+  "iotwireless:GetPositionConfiguration",
+  "iotwireless:GetResourceLogLevel",
+  "iotwireless:GetResourcePosition",
+  "iotwireless:PutPositionConfiguration",
+  "iotwireless:PutResourceLogLevel",
+  "iotwireless:ResetResourceLogLevel",
+  "iotwireless:UpdatePosition",
+  "iotwireless:UpdateResourcePosition"
+ ],
+ "SidewalkAccount": [
+  "iotwireless:GetResourceEventConfiguration",
+  "iotwireless:UpdateResourceEventConfiguration"
+ ],
+ "Destination": [
+  "iotwireless:ListTagsForResource",
+  "iotwireless:TagResource",
+  "iotwireless:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsiotcoreforlorawan.html"
+}

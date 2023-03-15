@@ -1,1 +1,13 @@
-{"?": ["tag:DescribeReportCreation", "tag:GetComplianceSummary", "tag:GetResources", "tag:GetTagKeys", "tag:GetTagValues", "tag:StartReportCreation", "tag:TagResources", "tag:UntagResources"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonresourcegrouptaggingapi.html"}
+{
+ "?": [
+  "tag:DescribeReportCreation",
+  "tag:GetComplianceSummary",
+  "tag:GetResources",
+  "tag:GetTagKeys",
+  "tag:GetTagValues",
+  "tag:StartReportCreation",
+  "tag:TagResources",
+  "tag:UntagResources"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonresourcegrouptaggingapi.html"
+}

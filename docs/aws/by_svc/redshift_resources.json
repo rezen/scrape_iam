@@ -1,1 +1,158 @@
-{"?": ["redshift:AcceptReservedNodeExchange", "redshift:AddPartner", "redshift:AuthorizeEndpointAccess", "redshift:CreateAuthenticationProfile", "redshift:CreateEndpointAccess", "redshift:CreateScheduledAction", "redshift:DeleteAuthenticationProfile", "redshift:DeleteEndpointAccess", "redshift:DeletePartner", "redshift:DeleteScheduledAction", "redshift:DescribeAccountAttributes", "redshift:DescribeAuthenticationProfiles", "redshift:DescribeClusterDbRevisions", "redshift:DescribeClusterParameterGroups", "redshift:DescribeClusterSecurityGroups", "redshift:DescribeClusterSnapshots", "redshift:DescribeClusterSubnetGroups", "redshift:DescribeClusterTracks", "redshift:DescribeClusterVersions", "redshift:DescribeClusters", "redshift:DescribeDataShares", "redshift:DescribeDataSharesForConsumer", "redshift:DescribeDataSharesForProducer", "redshift:DescribeDefaultClusterParameters", "redshift:DescribeEndpointAccess", "redshift:DescribeEndpointAuthorization", "redshift:DescribeEventCategories", "redshift:DescribeEventSubscriptions", "redshift:DescribeEvents", "redshift:DescribeHsmClientCertificates", "redshift:DescribeHsmConfigurations", "redshift:DescribeNodeConfigurationOptions", "redshift:DescribeOrderableClusterOptions", "redshift:DescribePartners", "redshift:DescribeReservedNodeExchangeStatus", "redshift:DescribeReservedNodeOfferings", "redshift:DescribeReservedNodes", "redshift:DescribeScheduledActions", "redshift:DescribeSnapshotCopyGrants", "redshift:DescribeStorage", "redshift:DescribeTableRestoreStatus", "redshift:GetReservedNodeExchangeConfigurationOptions", "redshift:GetReservedNodeExchangeOfferings", "redshift:ModifyAuthenticationProfile", "redshift:ModifyClusterMaintenance", "redshift:ModifyEndpointAccess", "redshift:ModifyScheduledAction", "redshift:PurchaseReservedNodeOffering", "redshift:RevokeEndpointAccess", "redshift:UpdatePartnerStatus"], "datashare*": ["redshift:AssociateDataShareConsumer", "redshift:AuthorizeDataShare", "redshift:DeauthorizeDataShare", "redshift:DisassociateDataShareConsumer", "redshift:RejectDataShare"], "securitygroup*": ["redshift:AuthorizeClusterSecurityGroupIngress", "redshift:CreateClusterSecurityGroup", "redshift:DeleteClusterSecurityGroup", "redshift:RevokeClusterSecurityGroupIngress"], "snapshot*": ["redshift:AuthorizeSnapshotAccess", "redshift:BatchDeleteClusterSnapshots", "redshift:BatchModifyClusterSnapshots", "redshift:CopyClusterSnapshot", "redshift:CreateClusterSnapshot", "redshift:DeleteClusterSnapshot", "redshift:ModifyClusterSnapshot", "redshift:RevokeSnapshotAccess"], "cluster*": ["redshift:CancelResize", "redshift:CreateCluster", "redshift:DeleteCluster", "redshift:DescribeLoggingStatus", "redshift:DescribeResize", "redshift:DisableLogging", "redshift:DisableSnapshotCopy", "redshift:EnableLogging", "redshift:EnableSnapshotCopy", "redshift:ModifyAquaConfiguration", "redshift:ModifyCluster", "redshift:ModifyClusterDbRevision", "redshift:ModifyClusterIamRoles", "redshift:ModifyClusterSnapshotSchedule", "redshift:ModifySnapshotCopyRetentionPeriod", "redshift:PauseCluster", "redshift:RebootCluster", "redshift:ResizeCluster", "redshift:RestoreFromClusterSnapshot", "redshift:RestoreTableFromClusterSnapshot", "redshift:ResumeCluster", "redshift:RotateEncryptionKey"], "parametergroup*": ["redshift:CreateClusterParameterGroup", "redshift:DeleteClusterParameterGroup", "redshift:DescribeClusterParameters", "redshift:ModifyClusterParameterGroup", "redshift:ResetClusterParameterGroup"], "subnetgroup*": ["redshift:CreateClusterSubnetGroup", "redshift:DeleteClusterSubnetGroup", "redshift:ModifyClusterSubnetGroup"], "dbuser*": ["redshift:CreateClusterUser", "redshift:GetClusterCredentials"], "eventsubscription*": ["redshift:CreateEventSubscription", "redshift:DeleteEventSubscription", "redshift:ModifyEventSubscription"], "hsmclientcertificate*": ["redshift:CreateHsmClientCertificate", "redshift:DeleteHsmClientCertificate"], "hsmconfiguration*": ["redshift:CreateHsmConfiguration", "redshift:DeleteHsmConfiguration"], "snapshotcopygrant*": ["redshift:CreateSnapshotCopyGrant", "redshift:DeleteSnapshotCopyGrant"], "snapshotschedule*": ["redshift:CreateSnapshotSchedule", "redshift:DeleteSnapshotSchedule", "redshift:DescribeSnapshotSchedules", "redshift:ModifySnapshotSchedule"], "cluster": ["redshift:CreateTags", "redshift:DeleteTags", "redshift:DescribeTags"], "usagelimit*": ["redshift:CreateUsageLimit", "redshift:DeleteUsageLimit", "redshift:DescribeUsageLimits", "redshift:ModifyUsageLimit"], "dbname": ["redshift:GetClusterCredentialsWithIAM"], "dbgroup*": ["redshift:JoinGroup"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonredshift.html"}
+{
+ "?": [
+  "redshift:AcceptReservedNodeExchange",
+  "redshift:AddPartner",
+  "redshift:AuthorizeEndpointAccess",
+  "redshift:CreateAuthenticationProfile",
+  "redshift:CreateEndpointAccess",
+  "redshift:CreateScheduledAction",
+  "redshift:DeleteAuthenticationProfile",
+  "redshift:DeleteEndpointAccess",
+  "redshift:DeletePartner",
+  "redshift:DeleteScheduledAction",
+  "redshift:DescribeAccountAttributes",
+  "redshift:DescribeAuthenticationProfiles",
+  "redshift:DescribeClusterDbRevisions",
+  "redshift:DescribeClusterParameterGroups",
+  "redshift:DescribeClusterSecurityGroups",
+  "redshift:DescribeClusterSnapshots",
+  "redshift:DescribeClusterSubnetGroups",
+  "redshift:DescribeClusterTracks",
+  "redshift:DescribeClusterVersions",
+  "redshift:DescribeClusters",
+  "redshift:DescribeDataShares",
+  "redshift:DescribeDataSharesForConsumer",
+  "redshift:DescribeDataSharesForProducer",
+  "redshift:DescribeDefaultClusterParameters",
+  "redshift:DescribeEndpointAccess",
+  "redshift:DescribeEndpointAuthorization",
+  "redshift:DescribeEventCategories",
+  "redshift:DescribeEventSubscriptions",
+  "redshift:DescribeEvents",
+  "redshift:DescribeHsmClientCertificates",
+  "redshift:DescribeHsmConfigurations",
+  "redshift:DescribeNodeConfigurationOptions",
+  "redshift:DescribeOrderableClusterOptions",
+  "redshift:DescribePartners",
+  "redshift:DescribeReservedNodeExchangeStatus",
+  "redshift:DescribeReservedNodeOfferings",
+  "redshift:DescribeReservedNodes",
+  "redshift:DescribeScheduledActions",
+  "redshift:DescribeSnapshotCopyGrants",
+  "redshift:DescribeStorage",
+  "redshift:DescribeTableRestoreStatus",
+  "redshift:GetReservedNodeExchangeConfigurationOptions",
+  "redshift:GetReservedNodeExchangeOfferings",
+  "redshift:ModifyAuthenticationProfile",
+  "redshift:ModifyClusterMaintenance",
+  "redshift:ModifyEndpointAccess",
+  "redshift:ModifyScheduledAction",
+  "redshift:PurchaseReservedNodeOffering",
+  "redshift:RevokeEndpointAccess",
+  "redshift:UpdatePartnerStatus"
+ ],
+ "datashare*": [
+  "redshift:AssociateDataShareConsumer",
+  "redshift:AuthorizeDataShare",
+  "redshift:DeauthorizeDataShare",
+  "redshift:DisassociateDataShareConsumer",
+  "redshift:RejectDataShare"
+ ],
+ "securitygroup*": [
+  "redshift:AuthorizeClusterSecurityGroupIngress",
+  "redshift:CreateClusterSecurityGroup",
+  "redshift:DeleteClusterSecurityGroup",
+  "redshift:RevokeClusterSecurityGroupIngress"
+ ],
+ "snapshot*": [
+  "redshift:AuthorizeSnapshotAccess",
+  "redshift:BatchDeleteClusterSnapshots",
+  "redshift:BatchModifyClusterSnapshots",
+  "redshift:CopyClusterSnapshot",
+  "redshift:CreateClusterSnapshot",
+  "redshift:DeleteClusterSnapshot",
+  "redshift:ModifyClusterSnapshot",
+  "redshift:RevokeSnapshotAccess"
+ ],
+ "cluster*": [
+  "redshift:CancelResize",
+  "redshift:CreateCluster",
+  "redshift:DeleteCluster",
+  "redshift:DescribeLoggingStatus",
+  "redshift:DescribeResize",
+  "redshift:DisableLogging",
+  "redshift:DisableSnapshotCopy",
+  "redshift:EnableLogging",
+  "redshift:EnableSnapshotCopy",
+  "redshift:ModifyAquaConfiguration",
+  "redshift:ModifyCluster",
+  "redshift:ModifyClusterDbRevision",
+  "redshift:ModifyClusterIamRoles",
+  "redshift:ModifyClusterSnapshotSchedule",
+  "redshift:ModifySnapshotCopyRetentionPeriod",
+  "redshift:PauseCluster",
+  "redshift:RebootCluster",
+  "redshift:ResizeCluster",
+  "redshift:RestoreFromClusterSnapshot",
+  "redshift:RestoreTableFromClusterSnapshot",
+  "redshift:ResumeCluster",
+  "redshift:RotateEncryptionKey"
+ ],
+ "parametergroup*": [
+  "redshift:CreateClusterParameterGroup",
+  "redshift:DeleteClusterParameterGroup",
+  "redshift:DescribeClusterParameters",
+  "redshift:ModifyClusterParameterGroup",
+  "redshift:ResetClusterParameterGroup"
+ ],
+ "subnetgroup*": [
+  "redshift:CreateClusterSubnetGroup",
+  "redshift:DeleteClusterSubnetGroup",
+  "redshift:ModifyClusterSubnetGroup"
+ ],
+ "dbuser*": [
+  "redshift:CreateClusterUser",
+  "redshift:GetClusterCredentials"
+ ],
+ "eventsubscription*": [
+  "redshift:CreateEventSubscription",
+  "redshift:DeleteEventSubscription",
+  "redshift:ModifyEventSubscription"
+ ],
+ "hsmclientcertificate*": [
+  "redshift:CreateHsmClientCertificate",
+  "redshift:DeleteHsmClientCertificate"
+ ],
+ "hsmconfiguration*": [
+  "redshift:CreateHsmConfiguration",
+  "redshift:DeleteHsmConfiguration"
+ ],
+ "snapshotcopygrant*": [
+  "redshift:CreateSnapshotCopyGrant",
+  "redshift:DeleteSnapshotCopyGrant"
+ ],
+ "snapshotschedule*": [
+  "redshift:CreateSnapshotSchedule",
+  "redshift:DeleteSnapshotSchedule",
+  "redshift:DescribeSnapshotSchedules",
+  "redshift:ModifySnapshotSchedule"
+ ],
+ "cluster": [
+  "redshift:CreateTags",
+  "redshift:DeleteTags",
+  "redshift:DescribeTags"
+ ],
+ "usagelimit*": [
+  "redshift:CreateUsageLimit",
+  "redshift:DeleteUsageLimit",
+  "redshift:DescribeUsageLimits",
+  "redshift:ModifyUsageLimit"
+ ],
+ "dbname": [
+  "redshift:GetClusterCredentialsWithIAM"
+ ],
+ "dbgroup*": [
+  "redshift:JoinGroup"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonredshift.html"
+}

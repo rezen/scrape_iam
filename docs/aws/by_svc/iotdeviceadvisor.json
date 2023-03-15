@@ -1,1 +1,16 @@
-["iotdeviceadvisor:CreateSuiteDefinition", "iotdeviceadvisor:DeleteSuiteDefinition", "iotdeviceadvisor:GetEndpoint", "iotdeviceadvisor:GetSuiteDefinition", "iotdeviceadvisor:GetSuiteRun", "iotdeviceadvisor:GetSuiteRunReport", "iotdeviceadvisor:ListSuiteDefinitions", "iotdeviceadvisor:ListSuiteRuns", "iotdeviceadvisor:ListTagsForResource", "iotdeviceadvisor:StartSuiteRun", "iotdeviceadvisor:StopSuiteRun", "iotdeviceadvisor:TagResource", "iotdeviceadvisor:UntagResource", "iotdeviceadvisor:UpdateSuiteDefinition"]
+[
+ "iotdeviceadvisor:CreateSuiteDefinition",
+ "iotdeviceadvisor:DeleteSuiteDefinition",
+ "iotdeviceadvisor:GetEndpoint",
+ "iotdeviceadvisor:GetSuiteDefinition",
+ "iotdeviceadvisor:GetSuiteRun",
+ "iotdeviceadvisor:GetSuiteRunReport",
+ "iotdeviceadvisor:ListSuiteDefinitions",
+ "iotdeviceadvisor:ListSuiteRuns",
+ "iotdeviceadvisor:ListTagsForResource",
+ "iotdeviceadvisor:StartSuiteRun",
+ "iotdeviceadvisor:StopSuiteRun",
+ "iotdeviceadvisor:TagResource",
+ "iotdeviceadvisor:UntagResource",
+ "iotdeviceadvisor:UpdateSuiteDefinition"
+]

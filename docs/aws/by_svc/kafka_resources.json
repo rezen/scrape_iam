@@ -1,1 +1,45 @@
-{"?": ["kafka:BatchAssociateScramSecret", "kafka:BatchDisassociateScramSecret", "kafka:CreateCluster", "kafka:CreateClusterV2", "kafka:CreateConfiguration", "kafka:DeleteCluster", "kafka:DeleteConfiguration", "kafka:DescribeCluster", "kafka:DescribeClusterOperation", "kafka:DescribeClusterV2", "kafka:GetBootstrapBrokers", "kafka:GetCompatibleKafkaVersions", "kafka:ListClusterOperations", "kafka:ListClusters", "kafka:ListClustersV2", "kafka:ListConfigurationRevisions", "kafka:ListConfigurations", "kafka:ListKafkaVersions", "kafka:ListNodes", "kafka:ListScramSecrets", "kafka:RebootBroker", "kafka:UpdateBrokerCount", "kafka:UpdateBrokerStorage", "kafka:UpdateBrokerType", "kafka:UpdateClusterConfiguration", "kafka:UpdateClusterKafkaVersion", "kafka:UpdateConfiguration", "kafka:UpdateConnectivity", "kafka:UpdateMonitoring", "kafka:UpdateSecurity", "kafka:UpdateStorage"], "configuration*": ["kafka:DescribeConfiguration", "kafka:DescribeConfigurationRevision"], "cluster*": ["kafka:ListTagsForResource", "kafka:TagResource", "kafka:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonmanagedstreamingforapachekafka.html"}
+{
+ "?": [
+  "kafka:BatchAssociateScramSecret",
+  "kafka:BatchDisassociateScramSecret",
+  "kafka:CreateCluster",
+  "kafka:CreateClusterV2",
+  "kafka:CreateConfiguration",
+  "kafka:DeleteCluster",
+  "kafka:DeleteConfiguration",
+  "kafka:DescribeCluster",
+  "kafka:DescribeClusterOperation",
+  "kafka:DescribeClusterV2",
+  "kafka:GetBootstrapBrokers",
+  "kafka:GetCompatibleKafkaVersions",
+  "kafka:ListClusterOperations",
+  "kafka:ListClusters",
+  "kafka:ListClustersV2",
+  "kafka:ListConfigurationRevisions",
+  "kafka:ListConfigurations",
+  "kafka:ListKafkaVersions",
+  "kafka:ListNodes",
+  "kafka:ListScramSecrets",
+  "kafka:RebootBroker",
+  "kafka:UpdateBrokerCount",
+  "kafka:UpdateBrokerStorage",
+  "kafka:UpdateBrokerType",
+  "kafka:UpdateClusterConfiguration",
+  "kafka:UpdateClusterKafkaVersion",
+  "kafka:UpdateConfiguration",
+  "kafka:UpdateConnectivity",
+  "kafka:UpdateMonitoring",
+  "kafka:UpdateSecurity",
+  "kafka:UpdateStorage"
+ ],
+ "configuration*": [
+  "kafka:DescribeConfiguration",
+  "kafka:DescribeConfigurationRevision"
+ ],
+ "cluster*": [
+  "kafka:ListTagsForResource",
+  "kafka:TagResource",
+  "kafka:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonmanagedstreamingforapachekafka.html"
+}

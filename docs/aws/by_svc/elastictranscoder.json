@@ -1,1 +1,19 @@
-["elastictranscoder:CancelJob", "elastictranscoder:CreateJob", "elastictranscoder:CreatePipeline", "elastictranscoder:CreatePreset", "elastictranscoder:DeletePipeline", "elastictranscoder:DeletePreset", "elastictranscoder:ListJobsByPipeline", "elastictranscoder:ListJobsByStatus", "elastictranscoder:ListPipelines", "elastictranscoder:ListPresets", "elastictranscoder:ReadJob", "elastictranscoder:ReadPipeline", "elastictranscoder:ReadPreset", "elastictranscoder:TestRole", "elastictranscoder:UpdatePipeline", "elastictranscoder:UpdatePipelineNotifications", "elastictranscoder:UpdatePipelineStatus"]
+[
+ "elastictranscoder:CancelJob",
+ "elastictranscoder:CreateJob",
+ "elastictranscoder:CreatePipeline",
+ "elastictranscoder:CreatePreset",
+ "elastictranscoder:DeletePipeline",
+ "elastictranscoder:DeletePreset",
+ "elastictranscoder:ListJobsByPipeline",
+ "elastictranscoder:ListJobsByStatus",
+ "elastictranscoder:ListPipelines",
+ "elastictranscoder:ListPresets",
+ "elastictranscoder:ReadJob",
+ "elastictranscoder:ReadPipeline",
+ "elastictranscoder:ReadPreset",
+ "elastictranscoder:TestRole",
+ "elastictranscoder:UpdatePipeline",
+ "elastictranscoder:UpdatePipelineNotifications",
+ "elastictranscoder:UpdatePipelineStatus"
+]

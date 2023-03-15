@@ -1,1 +1,34 @@
-{"?": ["appflow:CreateConnectorProfile", "appflow:CreateFlow", "appflow:DescribeConnectorProfiles", "appflow:DescribeConnectors", "appflow:RegisterConnector"], "connectorprofile*": ["appflow:DeleteConnectorProfile", "appflow:DescribeConnectorEntity", "appflow:ListConnectorEntities", "appflow:UpdateConnectorProfile"], "flow*": ["appflow:DeleteFlow", "appflow:DescribeFlow", "appflow:DescribeFlowExecutionRecords", "appflow:ListFlows", "appflow:ListTagsForResource", "appflow:StartFlow", "appflow:StopFlow", "appflow:TagResource", "appflow:UntagResource", "appflow:UpdateFlow"], "connector*": ["appflow:DescribeConnector", "appflow:ListConnectors", "appflow:UnRegisterConnector", "appflow:UpdateConnectorRegistration"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonappflow.html"}
+{
+ "?": [
+  "appflow:CreateConnectorProfile",
+  "appflow:CreateFlow",
+  "appflow:DescribeConnectorProfiles",
+  "appflow:DescribeConnectors",
+  "appflow:RegisterConnector"
+ ],
+ "connectorprofile*": [
+  "appflow:DeleteConnectorProfile",
+  "appflow:DescribeConnectorEntity",
+  "appflow:ListConnectorEntities",
+  "appflow:UpdateConnectorProfile"
+ ],
+ "flow*": [
+  "appflow:DeleteFlow",
+  "appflow:DescribeFlow",
+  "appflow:DescribeFlowExecutionRecords",
+  "appflow:ListFlows",
+  "appflow:ListTagsForResource",
+  "appflow:StartFlow",
+  "appflow:StopFlow",
+  "appflow:TagResource",
+  "appflow:UntagResource",
+  "appflow:UpdateFlow"
+ ],
+ "connector*": [
+  "appflow:DescribeConnector",
+  "appflow:ListConnectors",
+  "appflow:UnRegisterConnector",
+  "appflow:UpdateConnectorRegistration"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonappflow.html"
+}

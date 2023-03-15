@@ -1,1 +1,12 @@
-["budgets:CreateBudgetAction", "budgets:DeleteBudgetAction", "budgets:DescribeBudgetAction", "budgets:DescribeBudgetActionHistories", "budgets:DescribeBudgetActionsForAccount", "budgets:DescribeBudgetActionsForBudget", "budgets:ExecuteBudgetAction", "budgets:ModifyBudget", "budgets:UpdateBudgetAction", "budgets:ViewBudget"]
+[
+ "budgets:CreateBudgetAction",
+ "budgets:DeleteBudgetAction",
+ "budgets:DescribeBudgetAction",
+ "budgets:DescribeBudgetActionHistories",
+ "budgets:DescribeBudgetActionsForAccount",
+ "budgets:DescribeBudgetActionsForBudget",
+ "budgets:ExecuteBudgetAction",
+ "budgets:ModifyBudget",
+ "budgets:UpdateBudgetAction",
+ "budgets:ViewBudget"
+]

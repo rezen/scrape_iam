@@ -1,1 +1,26 @@
-{"Room*": ["ivschat:CreateChatToken", "ivschat:CreateRoom", "ivschat:DeleteMessage", "ivschat:DeleteRoom", "ivschat:DisconnectUser", "ivschat:GetRoom", "ivschat:ListRooms", "ivschat:SendEvent", "ivschat:UpdateRoom"], "Logging-Configuration*": ["ivschat:CreateLoggingConfiguration", "ivschat:DeleteLoggingConfiguration", "ivschat:GetLoggingConfiguration", "ivschat:ListLoggingConfigurations", "ivschat:UpdateLoggingConfiguration"], "Room": ["ivschat:ListTagsForResource", "ivschat:TagResource", "ivschat:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoninteractivevideoservicechat.html"}
+{
+ "Room*": [
+  "ivschat:CreateChatToken",
+  "ivschat:CreateRoom",
+  "ivschat:DeleteMessage",
+  "ivschat:DeleteRoom",
+  "ivschat:DisconnectUser",
+  "ivschat:GetRoom",
+  "ivschat:ListRooms",
+  "ivschat:SendEvent",
+  "ivschat:UpdateRoom"
+ ],
+ "Logging-Configuration*": [
+  "ivschat:CreateLoggingConfiguration",
+  "ivschat:DeleteLoggingConfiguration",
+  "ivschat:GetLoggingConfiguration",
+  "ivschat:ListLoggingConfigurations",
+  "ivschat:UpdateLoggingConfiguration"
+ ],
+ "Room": [
+  "ivschat:ListTagsForResource",
+  "ivschat:TagResource",
+  "ivschat:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoninteractivevideoservicechat.html"
+}

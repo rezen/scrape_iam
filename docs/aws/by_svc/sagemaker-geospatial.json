@@ -1,1 +1,21 @@
-["sagemaker-geospatial:DeleteEarthObservationJob", "sagemaker-geospatial:DeleteVectorEnrichmentJob", "sagemaker-geospatial:ExportEarthObservationJob", "sagemaker-geospatial:ExportVectorEnrichmentJob", "sagemaker-geospatial:GetEarthObservationJob", "sagemaker-geospatial:GetRasterDataCollection", "sagemaker-geospatial:GetTile", "sagemaker-geospatial:GetVectorEnrichmentJob", "sagemaker-geospatial:ListEarthObservationJobs", "sagemaker-geospatial:ListRasterDataCollections", "sagemaker-geospatial:ListTagsForResource", "sagemaker-geospatial:ListVectorEnrichmentJobs", "sagemaker-geospatial:SearchRasterDataCollection", "sagemaker-geospatial:StartEarthObservationJob", "sagemaker-geospatial:StartVectorEnrichmentJob", "sagemaker-geospatial:StopEarthObservationJob", "sagemaker-geospatial:StopVectorEnrichmentJob", "sagemaker-geospatial:TagResource", "sagemaker-geospatial:UntagResource"]
+[
+ "sagemaker-geospatial:DeleteEarthObservationJob",
+ "sagemaker-geospatial:DeleteVectorEnrichmentJob",
+ "sagemaker-geospatial:ExportEarthObservationJob",
+ "sagemaker-geospatial:ExportVectorEnrichmentJob",
+ "sagemaker-geospatial:GetEarthObservationJob",
+ "sagemaker-geospatial:GetRasterDataCollection",
+ "sagemaker-geospatial:GetTile",
+ "sagemaker-geospatial:GetVectorEnrichmentJob",
+ "sagemaker-geospatial:ListEarthObservationJobs",
+ "sagemaker-geospatial:ListRasterDataCollections",
+ "sagemaker-geospatial:ListTagsForResource",
+ "sagemaker-geospatial:ListVectorEnrichmentJobs",
+ "sagemaker-geospatial:SearchRasterDataCollection",
+ "sagemaker-geospatial:StartEarthObservationJob",
+ "sagemaker-geospatial:StartVectorEnrichmentJob",
+ "sagemaker-geospatial:StopEarthObservationJob",
+ "sagemaker-geospatial:StopVectorEnrichmentJob",
+ "sagemaker-geospatial:TagResource",
+ "sagemaker-geospatial:UntagResource"
+]

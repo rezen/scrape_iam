@@ -1,1 +1,21 @@
-{"?": ["codeguru-reviewer:AssociateRepository", "codeguru-reviewer:ListCodeReviews", "codeguru-reviewer:ListRepositoryAssociations"], "association*": ["codeguru-reviewer:CreateCodeReview", "codeguru-reviewer:DescribeCodeReview", "codeguru-reviewer:DescribeRecommendationFeedback", "codeguru-reviewer:DescribeRepositoryAssociation", "codeguru-reviewer:DisassociateRepository", "codeguru-reviewer:ListRecommendationFeedback", "codeguru-reviewer:ListRecommendations", "codeguru-reviewer:ListTagsForResource", "codeguru-reviewer:PutRecommendationFeedback", "codeguru-reviewer:TagResource", "codeguru-reviewer:UnTagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoncodegurureviewer.html"}
+{
+ "?": [
+  "codeguru-reviewer:AssociateRepository",
+  "codeguru-reviewer:ListCodeReviews",
+  "codeguru-reviewer:ListRepositoryAssociations"
+ ],
+ "association*": [
+  "codeguru-reviewer:CreateCodeReview",
+  "codeguru-reviewer:DescribeCodeReview",
+  "codeguru-reviewer:DescribeRecommendationFeedback",
+  "codeguru-reviewer:DescribeRepositoryAssociation",
+  "codeguru-reviewer:DisassociateRepository",
+  "codeguru-reviewer:ListRecommendationFeedback",
+  "codeguru-reviewer:ListRecommendations",
+  "codeguru-reviewer:ListTagsForResource",
+  "codeguru-reviewer:PutRecommendationFeedback",
+  "codeguru-reviewer:TagResource",
+  "codeguru-reviewer:UnTagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoncodegurureviewer.html"
+}

@@ -1,1 +1,32 @@
-{"?": ["cognito-identity:CreateIdentityPool", "cognito-identity:DeleteIdentities", "cognito-identity:DescribeIdentity", "cognito-identity:GetCredentialsForIdentity", "cognito-identity:GetId", "cognito-identity:GetOpenIdToken", "cognito-identity:ListIdentityPools", "cognito-identity:SetIdentityPoolRoles", "cognito-identity:SetPrincipalTagAttributeMap", "cognito-identity:UnlinkIdentity"], "identitypool*": ["cognito-identity:DeleteIdentityPool", "cognito-identity:DescribeIdentityPool", "cognito-identity:GetIdentityPoolRoles", "cognito-identity:GetOpenIdTokenForDeveloperIdentity", "cognito-identity:GetPrincipalTagAttributeMap", "cognito-identity:ListIdentities", "cognito-identity:LookupDeveloperIdentity", "cognito-identity:MergeDeveloperIdentities", "cognito-identity:UnlinkDeveloperIdentity", "cognito-identity:UpdateIdentityPool"], "identitypool": ["cognito-identity:ListTagsForResource", "cognito-identity:TagResource", "cognito-identity:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoncognitoidentity.html"}
+{
+ "?": [
+  "cognito-identity:CreateIdentityPool",
+  "cognito-identity:DeleteIdentities",
+  "cognito-identity:DescribeIdentity",
+  "cognito-identity:GetCredentialsForIdentity",
+  "cognito-identity:GetId",
+  "cognito-identity:GetOpenIdToken",
+  "cognito-identity:ListIdentityPools",
+  "cognito-identity:SetIdentityPoolRoles",
+  "cognito-identity:SetPrincipalTagAttributeMap",
+  "cognito-identity:UnlinkIdentity"
+ ],
+ "identitypool*": [
+  "cognito-identity:DeleteIdentityPool",
+  "cognito-identity:DescribeIdentityPool",
+  "cognito-identity:GetIdentityPoolRoles",
+  "cognito-identity:GetOpenIdTokenForDeveloperIdentity",
+  "cognito-identity:GetPrincipalTagAttributeMap",
+  "cognito-identity:ListIdentities",
+  "cognito-identity:LookupDeveloperIdentity",
+  "cognito-identity:MergeDeveloperIdentities",
+  "cognito-identity:UnlinkDeveloperIdentity",
+  "cognito-identity:UpdateIdentityPool"
+ ],
+ "identitypool": [
+  "cognito-identity:ListTagsForResource",
+  "cognito-identity:TagResource",
+  "cognito-identity:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoncognitoidentity.html"
+}

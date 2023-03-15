@@ -1,1 +1,14 @@
-{"network*": ["wickr:CreateAdminSession", "wickr:TagResource", "wickr:UntagResource", "wickr:UpdateNetworkDetails"], "?": ["wickr:CreateNetwork", "wickr:ListNetworks", "wickr:ListTagsForResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awswickr.html"}
+{
+ "network*": [
+  "wickr:CreateAdminSession",
+  "wickr:TagResource",
+  "wickr:UntagResource",
+  "wickr:UpdateNetworkDetails"
+ ],
+ "?": [
+  "wickr:CreateNetwork",
+  "wickr:ListNetworks",
+  "wickr:ListTagsForResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awswickr.html"
+}

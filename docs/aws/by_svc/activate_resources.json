@@ -1,1 +1,13 @@
-{"?": ["activate:CreateForm", "activate:GetAccountContact", "activate:GetContentInfo", "activate:GetCosts", "activate:GetCredits", "activate:GetMemberInfo", "activate:GetProgram", "activate:PutMemberInfo"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsactivate.html"}
+{
+ "?": [
+  "activate:CreateForm",
+  "activate:GetAccountContact",
+  "activate:GetContentInfo",
+  "activate:GetCosts",
+  "activate:GetCredits",
+  "activate:GetMemberInfo",
+  "activate:GetProgram",
+  "activate:PutMemberInfo"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsactivate.html"
+}

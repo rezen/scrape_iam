@@ -1,1 +1,13 @@
-["freertos:CreateSoftwareConfiguration", "freertos:DeleteSoftwareConfiguration", "freertos:DescribeHardwarePlatform", "freertos:DescribeSoftwareConfiguration", "freertos:GetSoftwareURL", "freertos:GetSoftwareURLForConfiguration", "freertos:ListFreeRTOSVersions", "freertos:ListHardwarePlatforms", "freertos:ListHardwareVendors", "freertos:ListSoftwareConfigurations", "freertos:UpdateSoftwareConfiguration"]
+[
+ "freertos:CreateSoftwareConfiguration",
+ "freertos:DeleteSoftwareConfiguration",
+ "freertos:DescribeHardwarePlatform",
+ "freertos:DescribeSoftwareConfiguration",
+ "freertos:GetSoftwareURL",
+ "freertos:GetSoftwareURLForConfiguration",
+ "freertos:ListFreeRTOSVersions",
+ "freertos:ListHardwarePlatforms",
+ "freertos:ListHardwareVendors",
+ "freertos:ListSoftwareConfigurations",
+ "freertos:UpdateSoftwareConfiguration"
+]

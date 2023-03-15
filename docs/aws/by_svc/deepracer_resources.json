@@ -1,1 +1,8 @@
-{"car": ["deepracer:ListTagsForResource", "deepracer:TagResource", "deepracer:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsdeepracer.html"}
+{
+ "car": [
+  "deepracer:ListTagsForResource",
+  "deepracer:TagResource",
+  "deepracer:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsdeepracer.html"
+}

@@ -1,1 +1,8 @@
-["pi:DescribeDimensionKeys", "pi:GetDimensionKeyDetails", "pi:GetResourceMetadata", "pi:GetResourceMetrics", "pi:ListAvailableResourceDimensions", "pi:ListAvailableResourceMetrics"]
+[
+ "pi:DescribeDimensionKeys",
+ "pi:GetDimensionKeyDetails",
+ "pi:GetResourceMetadata",
+ "pi:GetResourceMetrics",
+ "pi:ListAvailableResourceDimensions",
+ "pi:ListAvailableResourceMetrics"
+]

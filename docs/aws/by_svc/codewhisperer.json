@@ -1,1 +1,6 @@
-["codewhisperer:CreateProfile", "codewhisperer:GenerateRecommendations", "codewhisperer:ListProfiles", "codewhisperer:UpdateProfile"]
+[
+ "codewhisperer:CreateProfile",
+ "codewhisperer:GenerateRecommendations",
+ "codewhisperer:ListProfiles",
+ "codewhisperer:UpdateProfile"
+]

@@ -1,1 +1,10 @@
-["dlm:CreateLifecyclePolicy", "dlm:DeleteLifecyclePolicy", "dlm:GetLifecyclePolicies", "dlm:GetLifecyclePolicy", "dlm:ListTagsForResource", "dlm:TagResource", "dlm:UntagResource", "dlm:UpdateLifecyclePolicy"]
+[
+ "dlm:CreateLifecyclePolicy",
+ "dlm:DeleteLifecyclePolicy",
+ "dlm:GetLifecyclePolicies",
+ "dlm:GetLifecyclePolicy",
+ "dlm:ListTagsForResource",
+ "dlm:TagResource",
+ "dlm:UntagResource",
+ "dlm:UpdateLifecyclePolicy"
+]

@@ -1,1 +1,15 @@
-["trustedadvisor:DeleteNotificationConfigurationForDelegatedAdmin", "trustedadvisor:DescribeCheckItems", "trustedadvisor:DescribeCheckRefreshStatuses", "trustedadvisor:DescribeCheckSummaries", "trustedadvisor:DescribeChecks", "trustedadvisor:DescribeNotificationConfigurations", "trustedadvisor:DescribeRisk", "trustedadvisor:DescribeRiskResources", "trustedadvisor:DescribeRisks", "trustedadvisor:DownloadRisk", "trustedadvisor:RefreshCheck", "trustedadvisor:UpdateNotificationConfigurations", "trustedadvisor:UpdateRiskStatus"]
+[
+ "trustedadvisor:DeleteNotificationConfigurationForDelegatedAdmin",
+ "trustedadvisor:DescribeCheckItems",
+ "trustedadvisor:DescribeCheckRefreshStatuses",
+ "trustedadvisor:DescribeCheckSummaries",
+ "trustedadvisor:DescribeChecks",
+ "trustedadvisor:DescribeNotificationConfigurations",
+ "trustedadvisor:DescribeRisk",
+ "trustedadvisor:DescribeRiskResources",
+ "trustedadvisor:DescribeRisks",
+ "trustedadvisor:DownloadRisk",
+ "trustedadvisor:RefreshCheck",
+ "trustedadvisor:UpdateNotificationConfigurations",
+ "trustedadvisor:UpdateRiskStatus"
+]

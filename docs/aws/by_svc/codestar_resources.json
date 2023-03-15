@@ -1,1 +1,28 @@
-{"project*": ["codestar:AssociateTeamMember", "codestar:DeleteProject", "codestar:DescribeProject", "codestar:DisassociateTeamMember", "codestar:ListResources", "codestar:ListTagsForProject", "codestar:ListTeamMembers", "codestar:TagProject", "codestar:UntagProject", "codestar:UpdateProject", "codestar:UpdateTeamMember"], "?": ["codestar:CreateProject", "codestar:DescribeUserProfile", "codestar:ListProjects", "codestar:ListUserProfiles", "codestar:VerifyServiceRole"], "user*": ["codestar:CreateUserProfile", "codestar:DeleteUserProfile", "codestar:UpdateUserProfile"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awscodestar.html"}
+{
+ "project*": [
+  "codestar:AssociateTeamMember",
+  "codestar:DeleteProject",
+  "codestar:DescribeProject",
+  "codestar:DisassociateTeamMember",
+  "codestar:ListResources",
+  "codestar:ListTagsForProject",
+  "codestar:ListTeamMembers",
+  "codestar:TagProject",
+  "codestar:UntagProject",
+  "codestar:UpdateProject",
+  "codestar:UpdateTeamMember"
+ ],
+ "?": [
+  "codestar:CreateProject",
+  "codestar:DescribeUserProfile",
+  "codestar:ListProjects",
+  "codestar:ListUserProfiles",
+  "codestar:VerifyServiceRole"
+ ],
+ "user*": [
+  "codestar:CreateUserProfile",
+  "codestar:DeleteUserProfile",
+  "codestar:UpdateUserProfile"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awscodestar.html"
+}

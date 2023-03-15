@@ -1,1 +1,49 @@
-{"?": ["shield:AssociateDRTLogBucket", "shield:AssociateDRTRole", "shield:AssociateProactiveEngagementDetails", "shield:CreateProtection", "shield:CreateProtectionGroup", "shield:CreateSubscription", "shield:DeleteSubscription", "shield:DescribeAttackStatistics", "shield:DescribeDRTAccess", "shield:DescribeEmergencyContactSettings", "shield:DescribeSubscription", "shield:DisableApplicationLayerAutomaticResponse", "shield:DisableProactiveEngagement", "shield:DisassociateDRTLogBucket", "shield:DisassociateDRTRole", "shield:EnableApplicationLayerAutomaticResponse", "shield:EnableProactiveEngagement", "shield:GetSubscriptionState", "shield:ListAttacks", "shield:ListProtectionGroups", "shield:ListProtections", "shield:UpdateApplicationLayerAutomaticResponse", "shield:UpdateEmergencyContactSettings", "shield:UpdateSubscription"], "protection*": ["shield:AssociateHealthCheck", "shield:DeleteProtection", "shield:DescribeProtection", "shield:DisassociateHealthCheck"], "protection-group*": ["shield:DeleteProtectionGroup", "shield:DescribeProtectionGroup", "shield:ListResourcesInProtectionGroup", "shield:UpdateProtectionGroup"], "attack*": ["shield:DescribeAttack"], "protection": ["shield:ListTagsForResource", "shield:TagResource", "shield:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsshield.html"}
+{
+ "?": [
+  "shield:AssociateDRTLogBucket",
+  "shield:AssociateDRTRole",
+  "shield:AssociateProactiveEngagementDetails",
+  "shield:CreateProtection",
+  "shield:CreateProtectionGroup",
+  "shield:CreateSubscription",
+  "shield:DeleteSubscription",
+  "shield:DescribeAttackStatistics",
+  "shield:DescribeDRTAccess",
+  "shield:DescribeEmergencyContactSettings",
+  "shield:DescribeSubscription",
+  "shield:DisableApplicationLayerAutomaticResponse",
+  "shield:DisableProactiveEngagement",
+  "shield:DisassociateDRTLogBucket",
+  "shield:DisassociateDRTRole",
+  "shield:EnableApplicationLayerAutomaticResponse",
+  "shield:EnableProactiveEngagement",
+  "shield:GetSubscriptionState",
+  "shield:ListAttacks",
+  "shield:ListProtectionGroups",
+  "shield:ListProtections",
+  "shield:UpdateApplicationLayerAutomaticResponse",
+  "shield:UpdateEmergencyContactSettings",
+  "shield:UpdateSubscription"
+ ],
+ "protection*": [
+  "shield:AssociateHealthCheck",
+  "shield:DeleteProtection",
+  "shield:DescribeProtection",
+  "shield:DisassociateHealthCheck"
+ ],
+ "protection-group*": [
+  "shield:DeleteProtectionGroup",
+  "shield:DescribeProtectionGroup",
+  "shield:ListResourcesInProtectionGroup",
+  "shield:UpdateProtectionGroup"
+ ],
+ "attack*": [
+  "shield:DescribeAttack"
+ ],
+ "protection": [
+  "shield:ListTagsForResource",
+  "shield:TagResource",
+  "shield:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsshield.html"
+}

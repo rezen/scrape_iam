@@ -1,1 +1,16 @@
-["codeguru-reviewer:AssociateRepository", "codeguru-reviewer:CreateCodeReview", "codeguru-reviewer:DescribeCodeReview", "codeguru-reviewer:DescribeRecommendationFeedback", "codeguru-reviewer:DescribeRepositoryAssociation", "codeguru-reviewer:DisassociateRepository", "codeguru-reviewer:ListCodeReviews", "codeguru-reviewer:ListRecommendationFeedback", "codeguru-reviewer:ListRecommendations", "codeguru-reviewer:ListRepositoryAssociations", "codeguru-reviewer:ListTagsForResource", "codeguru-reviewer:PutRecommendationFeedback", "codeguru-reviewer:TagResource", "codeguru-reviewer:UnTagResource"]
+[
+ "codeguru-reviewer:AssociateRepository",
+ "codeguru-reviewer:CreateCodeReview",
+ "codeguru-reviewer:DescribeCodeReview",
+ "codeguru-reviewer:DescribeRecommendationFeedback",
+ "codeguru-reviewer:DescribeRepositoryAssociation",
+ "codeguru-reviewer:DisassociateRepository",
+ "codeguru-reviewer:ListCodeReviews",
+ "codeguru-reviewer:ListRecommendationFeedback",
+ "codeguru-reviewer:ListRecommendations",
+ "codeguru-reviewer:ListRepositoryAssociations",
+ "codeguru-reviewer:ListTagsForResource",
+ "codeguru-reviewer:PutRecommendationFeedback",
+ "codeguru-reviewer:TagResource",
+ "codeguru-reviewer:UnTagResource"
+]

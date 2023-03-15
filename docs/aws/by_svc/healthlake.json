@@ -1,1 +1,22 @@
-["healthlake:CreateFHIRDatastore", "healthlake:CreateResource", "healthlake:DeleteFHIRDatastore", "healthlake:DeleteResource", "healthlake:DescribeFHIRDatastore", "healthlake:DescribeFHIRExportJob", "healthlake:DescribeFHIRImportJob", "healthlake:GetCapabilities", "healthlake:ListFHIRDatastores", "healthlake:ListFHIRExportJobs", "healthlake:ListFHIRImportJobs", "healthlake:ListTagsForResource", "healthlake:ReadResource", "healthlake:SearchWithGet", "healthlake:SearchWithPost", "healthlake:StartFHIRExportJob", "healthlake:StartFHIRImportJob", "healthlake:TagResource", "healthlake:UntagResource", "healthlake:UpdateResource"]
+[
+ "healthlake:CreateFHIRDatastore",
+ "healthlake:CreateResource",
+ "healthlake:DeleteFHIRDatastore",
+ "healthlake:DeleteResource",
+ "healthlake:DescribeFHIRDatastore",
+ "healthlake:DescribeFHIRExportJob",
+ "healthlake:DescribeFHIRImportJob",
+ "healthlake:GetCapabilities",
+ "healthlake:ListFHIRDatastores",
+ "healthlake:ListFHIRExportJobs",
+ "healthlake:ListFHIRImportJobs",
+ "healthlake:ListTagsForResource",
+ "healthlake:ReadResource",
+ "healthlake:SearchWithGet",
+ "healthlake:SearchWithPost",
+ "healthlake:StartFHIRExportJob",
+ "healthlake:StartFHIRImportJob",
+ "healthlake:TagResource",
+ "healthlake:UntagResource",
+ "healthlake:UpdateResource"
+]

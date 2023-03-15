@@ -1,1 +1,30 @@
-{"?": ["mobilehub:CreateProject", "mobilehub:CreateServiceRole", "mobilehub:DeleteProjectSnapshot", "mobilehub:DeployToStage", "mobilehub:DescribeBundle", "mobilehub:ExportBundle", "mobilehub:GetProjectSnapshot", "mobilehub:ImportProject", "mobilehub:InstallBundle", "mobilehub:ListAvailableConnectors", "mobilehub:ListAvailableFeatures", "mobilehub:ListAvailableRegions", "mobilehub:ListBundles", "mobilehub:ListProjectSnapshots", "mobilehub:ListProjects", "mobilehub:ValidateProject", "mobilehub:VerifyServiceRole"], "project*": ["mobilehub:DeleteProject", "mobilehub:ExportProject", "mobilehub:GenerateProjectParameters", "mobilehub:GetProject", "mobilehub:SynchronizeProject", "mobilehub:UpdateProject"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsmobilehub.html"}
+{
+ "?": [
+  "mobilehub:CreateProject",
+  "mobilehub:CreateServiceRole",
+  "mobilehub:DeleteProjectSnapshot",
+  "mobilehub:DeployToStage",
+  "mobilehub:DescribeBundle",
+  "mobilehub:ExportBundle",
+  "mobilehub:GetProjectSnapshot",
+  "mobilehub:ImportProject",
+  "mobilehub:InstallBundle",
+  "mobilehub:ListAvailableConnectors",
+  "mobilehub:ListAvailableFeatures",
+  "mobilehub:ListAvailableRegions",
+  "mobilehub:ListBundles",
+  "mobilehub:ListProjectSnapshots",
+  "mobilehub:ListProjects",
+  "mobilehub:ValidateProject",
+  "mobilehub:VerifyServiceRole"
+ ],
+ "project*": [
+  "mobilehub:DeleteProject",
+  "mobilehub:ExportProject",
+  "mobilehub:GenerateProjectParameters",
+  "mobilehub:GetProject",
+  "mobilehub:SynchronizeProject",
+  "mobilehub:UpdateProject"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsmobilehub.html"
+}

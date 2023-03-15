@@ -1,1 +1,10 @@
-["sts:AssumeRole", "sts:AssumeRoleWithSAML", "sts:AssumeRoleWithWebIdentity", "sts:DecodeAuthorizationMessage", "sts:GetAccessKeyInfo", "sts:GetCallerIdentity", "sts:GetFederationToken", "sts:GetSessionToken"]
+[
+ "sts:AssumeRole",
+ "sts:AssumeRoleWithSAML",
+ "sts:AssumeRoleWithWebIdentity",
+ "sts:DecodeAuthorizationMessage",
+ "sts:GetAccessKeyInfo",
+ "sts:GetCallerIdentity",
+ "sts:GetFederationToken",
+ "sts:GetSessionToken"
+]

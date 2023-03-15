@@ -1,1 +1,12 @@
-["supportapp:CreateSlackChannelConfiguration", "supportapp:DeleteAccountAlias", "supportapp:DeleteSlackChannelConfiguration", "supportapp:DeleteSlackWorkspaceConfiguration", "supportapp:GetAccountAlias", "supportapp:ListSlackChannelConfigurations", "supportapp:ListSlackWorkspaceConfigurations", "supportapp:PutAccountAlias", "supportapp:RegisterSlackWorkspaceForOrganization", "supportapp:UpdateSlackChannelConfiguration"]
+[
+ "supportapp:CreateSlackChannelConfiguration",
+ "supportapp:DeleteAccountAlias",
+ "supportapp:DeleteSlackChannelConfiguration",
+ "supportapp:DeleteSlackWorkspaceConfiguration",
+ "supportapp:GetAccountAlias",
+ "supportapp:ListSlackChannelConfigurations",
+ "supportapp:ListSlackWorkspaceConfigurations",
+ "supportapp:PutAccountAlias",
+ "supportapp:RegisterSlackWorkspaceForOrganization",
+ "supportapp:UpdateSlackChannelConfiguration"
+]

@@ -1,1 +1,20 @@
-{"?": ["cloud9:CreateEnvironmentEC2", "cloud9:ListEnvironments"], "environment*": ["cloud9:CreateEnvironmentMembership", "cloud9:DeleteEnvironment", "cloud9:DeleteEnvironmentMembership", "cloud9:DescribeEnvironmentMemberships", "cloud9:DescribeEnvironmentStatus", "cloud9:DescribeEnvironments", "cloud9:ListTagsForResource", "cloud9:TagResource", "cloud9:UntagResource", "cloud9:UpdateEnvironment", "cloud9:UpdateEnvironmentMembership"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awscloud9.html"}
+{
+ "?": [
+  "cloud9:CreateEnvironmentEC2",
+  "cloud9:ListEnvironments"
+ ],
+ "environment*": [
+  "cloud9:CreateEnvironmentMembership",
+  "cloud9:DeleteEnvironment",
+  "cloud9:DeleteEnvironmentMembership",
+  "cloud9:DescribeEnvironmentMemberships",
+  "cloud9:DescribeEnvironmentStatus",
+  "cloud9:DescribeEnvironments",
+  "cloud9:ListTagsForResource",
+  "cloud9:TagResource",
+  "cloud9:UntagResource",
+  "cloud9:UpdateEnvironment",
+  "cloud9:UpdateEnvironmentMembership"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awscloud9.html"
+}

@@ -1,1 +1,9 @@
-["aws-portal:ModifyAccount", "aws-portal:ModifyBilling", "aws-portal:ModifyPaymentMethods", "aws-portal:ViewAccount", "aws-portal:ViewBilling", "aws-portal:ViewPaymentMethods", "aws-portal:ViewUsage"]
+[
+ "aws-portal:ModifyAccount",
+ "aws-portal:ModifyBilling",
+ "aws-portal:ModifyPaymentMethods",
+ "aws-portal:ViewAccount",
+ "aws-portal:ViewBilling",
+ "aws-portal:ViewPaymentMethods",
+ "aws-portal:ViewUsage"
+]

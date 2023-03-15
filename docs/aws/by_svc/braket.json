@@ -1,1 +1,15 @@
-["braket:CancelJob", "braket:CancelQuantumTask", "braket:CreateJob", "braket:CreateQuantumTask", "braket:GetDevice", "braket:GetJob", "braket:GetQuantumTask", "braket:ListTagsForResource", "braket:SearchDevices", "braket:SearchJobs", "braket:SearchQuantumTasks", "braket:TagResource", "braket:UntagResource"]
+[
+ "braket:CancelJob",
+ "braket:CancelQuantumTask",
+ "braket:CreateJob",
+ "braket:CreateQuantumTask",
+ "braket:GetDevice",
+ "braket:GetJob",
+ "braket:GetQuantumTask",
+ "braket:ListTagsForResource",
+ "braket:SearchDevices",
+ "braket:SearchJobs",
+ "braket:SearchQuantumTasks",
+ "braket:TagResource",
+ "braket:UntagResource"
+]

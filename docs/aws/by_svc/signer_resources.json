@@ -1,1 +1,26 @@
-{"signing-profile*": ["signer:AddProfilePermission", "signer:CancelSigningProfile", "signer:GetSigningProfile", "signer:ListProfilePermissions", "signer:ListTagsForResource", "signer:RemoveProfilePermission", "signer:RevokeSigningProfile", "signer:StartSigningJob", "signer:TagResource", "signer:UntagResource"], "signing-job*": ["signer:DescribeSigningJob", "signer:RevokeSignature"], "?": ["signer:GetSigningPlatform", "signer:ListSigningJobs", "signer:ListSigningPlatforms", "signer:ListSigningProfiles", "signer:PutSigningProfile"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awssigner.html"}
+{
+ "signing-profile*": [
+  "signer:AddProfilePermission",
+  "signer:CancelSigningProfile",
+  "signer:GetSigningProfile",
+  "signer:ListProfilePermissions",
+  "signer:ListTagsForResource",
+  "signer:RemoveProfilePermission",
+  "signer:RevokeSigningProfile",
+  "signer:StartSigningJob",
+  "signer:TagResource",
+  "signer:UntagResource"
+ ],
+ "signing-job*": [
+  "signer:DescribeSigningJob",
+  "signer:RevokeSignature"
+ ],
+ "?": [
+  "signer:GetSigningPlatform",
+  "signer:ListSigningJobs",
+  "signer:ListSigningPlatforms",
+  "signer:ListSigningProfiles",
+  "signer:PutSigningProfile"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awssigner.html"
+}

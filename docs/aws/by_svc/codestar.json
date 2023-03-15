@@ -1,1 +1,21 @@
-["codestar:AssociateTeamMember", "codestar:CreateProject", "codestar:CreateUserProfile", "codestar:DeleteProject", "codestar:DeleteUserProfile", "codestar:DescribeProject", "codestar:DescribeUserProfile", "codestar:DisassociateTeamMember", "codestar:ListProjects", "codestar:ListResources", "codestar:ListTagsForProject", "codestar:ListTeamMembers", "codestar:ListUserProfiles", "codestar:TagProject", "codestar:UntagProject", "codestar:UpdateProject", "codestar:UpdateTeamMember", "codestar:UpdateUserProfile", "codestar:VerifyServiceRole"]
+[
+ "codestar:AssociateTeamMember",
+ "codestar:CreateProject",
+ "codestar:CreateUserProfile",
+ "codestar:DeleteProject",
+ "codestar:DeleteUserProfile",
+ "codestar:DescribeProject",
+ "codestar:DescribeUserProfile",
+ "codestar:DisassociateTeamMember",
+ "codestar:ListProjects",
+ "codestar:ListResources",
+ "codestar:ListTagsForProject",
+ "codestar:ListTeamMembers",
+ "codestar:ListUserProfiles",
+ "codestar:TagProject",
+ "codestar:UntagProject",
+ "codestar:UpdateProject",
+ "codestar:UpdateTeamMember",
+ "codestar:UpdateUserProfile",
+ "codestar:VerifyServiceRole"
+]

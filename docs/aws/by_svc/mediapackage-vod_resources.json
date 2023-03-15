@@ -1,1 +1,30 @@
-{"packaging-groups*": ["mediapackage-vod:ConfigureLogs", "mediapackage-vod:DeletePackagingGroup", "mediapackage-vod:DescribePackagingGroup", "mediapackage-vod:UpdatePackagingGroup"], "?": ["mediapackage-vod:CreateAsset", "mediapackage-vod:CreatePackagingConfiguration", "mediapackage-vod:CreatePackagingGroup", "mediapackage-vod:ListAssets", "mediapackage-vod:ListPackagingConfigurations", "mediapackage-vod:ListPackagingGroups"], "assets*": ["mediapackage-vod:DeleteAsset", "mediapackage-vod:DescribeAsset"], "packaging-configurations*": ["mediapackage-vod:DeletePackagingConfiguration", "mediapackage-vod:DescribePackagingConfiguration"], "assets": ["mediapackage-vod:ListTagsForResource", "mediapackage-vod:TagResource", "mediapackage-vod:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awselementalmediapackagevod.html"}
+{
+ "packaging-groups*": [
+  "mediapackage-vod:ConfigureLogs",
+  "mediapackage-vod:DeletePackagingGroup",
+  "mediapackage-vod:DescribePackagingGroup",
+  "mediapackage-vod:UpdatePackagingGroup"
+ ],
+ "?": [
+  "mediapackage-vod:CreateAsset",
+  "mediapackage-vod:CreatePackagingConfiguration",
+  "mediapackage-vod:CreatePackagingGroup",
+  "mediapackage-vod:ListAssets",
+  "mediapackage-vod:ListPackagingConfigurations",
+  "mediapackage-vod:ListPackagingGroups"
+ ],
+ "assets*": [
+  "mediapackage-vod:DeleteAsset",
+  "mediapackage-vod:DescribeAsset"
+ ],
+ "packaging-configurations*": [
+  "mediapackage-vod:DeletePackagingConfiguration",
+  "mediapackage-vod:DescribePackagingConfiguration"
+ ],
+ "assets": [
+  "mediapackage-vod:ListTagsForResource",
+  "mediapackage-vod:TagResource",
+  "mediapackage-vod:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awselementalmediapackagevod.html"
+}

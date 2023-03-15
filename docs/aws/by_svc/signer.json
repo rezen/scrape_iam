@@ -1,1 +1,19 @@
-["signer:AddProfilePermission", "signer:CancelSigningProfile", "signer:DescribeSigningJob", "signer:GetSigningPlatform", "signer:GetSigningProfile", "signer:ListProfilePermissions", "signer:ListSigningJobs", "signer:ListSigningPlatforms", "signer:ListSigningProfiles", "signer:ListTagsForResource", "signer:PutSigningProfile", "signer:RemoveProfilePermission", "signer:RevokeSignature", "signer:RevokeSigningProfile", "signer:StartSigningJob", "signer:TagResource", "signer:UntagResource"]
+[
+ "signer:AddProfilePermission",
+ "signer:CancelSigningProfile",
+ "signer:DescribeSigningJob",
+ "signer:GetSigningPlatform",
+ "signer:GetSigningProfile",
+ "signer:ListProfilePermissions",
+ "signer:ListSigningJobs",
+ "signer:ListSigningPlatforms",
+ "signer:ListSigningProfiles",
+ "signer:ListTagsForResource",
+ "signer:PutSigningProfile",
+ "signer:RemoveProfilePermission",
+ "signer:RevokeSignature",
+ "signer:RevokeSigningProfile",
+ "signer:StartSigningJob",
+ "signer:TagResource",
+ "signer:UntagResource"
+]

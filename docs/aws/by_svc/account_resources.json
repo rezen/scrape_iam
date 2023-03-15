@@ -1,1 +1,14 @@
-{"account": ["account:DeleteAlternateContact", "account:DisableRegion", "account:EnableRegion", "account:GetAlternateContact", "account:GetContactInformation", "account:GetRegionOptStatus", "account:ListRegions", "account:PutAlternateContact", "account:PutContactInformation"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsaccountmanagement.html"}
+{
+ "account": [
+  "account:DeleteAlternateContact",
+  "account:DisableRegion",
+  "account:EnableRegion",
+  "account:GetAlternateContact",
+  "account:GetContactInformation",
+  "account:GetRegionOptStatus",
+  "account:ListRegions",
+  "account:PutAlternateContact",
+  "account:PutContactInformation"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsaccountmanagement.html"
+}

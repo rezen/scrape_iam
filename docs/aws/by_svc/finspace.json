@@ -1,1 +1,10 @@
-["finspace:CreateEnvironment", "finspace:DeleteEnvironment", "finspace:GetEnvironment", "finspace:ListEnvironments", "finspace:ListTagsForResource", "finspace:TagResource", "finspace:UntagResource", "finspace:UpdateEnvironment"]
+[
+ "finspace:CreateEnvironment",
+ "finspace:DeleteEnvironment",
+ "finspace:GetEnvironment",
+ "finspace:ListEnvironments",
+ "finspace:ListTagsForResource",
+ "finspace:TagResource",
+ "finspace:UntagResource",
+ "finspace:UpdateEnvironment"
+]

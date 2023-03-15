@@ -1,1 +1,18 @@
-{"?": ["kendra-ranking:CreateRescoreExecutionPlan", "kendra-ranking:ListRescoreExecutionPlans"], "rescore-execution-plan*": ["kendra-ranking:DeleteRescoreExecutionPlan", "kendra-ranking:DescribeRescoreExecutionPlan", "kendra-ranking:Rescore", "kendra-ranking:UpdateRescoreExecutionPlan"], "rescore-execution-plan": ["kendra-ranking:ListTagsForResource", "kendra-ranking:TagResource", "kendra-ranking:UntagResource"], "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonkendraintelligentranking.html"}
+{
+ "?": [
+  "kendra-ranking:CreateRescoreExecutionPlan",
+  "kendra-ranking:ListRescoreExecutionPlans"
+ ],
+ "rescore-execution-plan*": [
+  "kendra-ranking:DeleteRescoreExecutionPlan",
+  "kendra-ranking:DescribeRescoreExecutionPlan",
+  "kendra-ranking:Rescore",
+  "kendra-ranking:UpdateRescoreExecutionPlan"
+ ],
+ "rescore-execution-plan": [
+  "kendra-ranking:ListTagsForResource",
+  "kendra-ranking:TagResource",
+  "kendra-ranking:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonkendraintelligentranking.html"
+}
