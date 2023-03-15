@@ -8,18 +8,33 @@
         }
       }
       </script>
+      <style>
+        body{
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+      </style>
     </head>
   <body>
     <section id="main" role="main">
-      {% raw %}
-      <div id="container" style="display:none">
-          {{ message }}
-          <input v-model="filter" autofocus>
-          <div v-for="item in filteredItems">
-            {{ item }}
-          </div>
+      <div style="width:500px;margin:0 auto;">
+        {% raw %}
+        <div id="container" style="display:none">
+            {{ filteredItems.length }}
+            <input v-model="filter" autofocus style="display:block;width:100%;padding:8px;">
+            <div style="padding:16px;background:#eee">
+              <div v-for="item in filteredItems">
+                {{ item }}
+              </div>
+            </div>
+        </div>
+        {% endraw %}
       </div>
-      {% endraw %}
     </section>
     <script type="module">
       import Vue from 'vue';
