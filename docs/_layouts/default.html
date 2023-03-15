@@ -1,20 +1,45 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-  </head>
+    <script type="importmap">
+      {
+        "imports": {
+          "vue": "https://jspm.dev/vue/dist/vue.js"
+        }
+      }
+      </script>
+    </head>
   <body>
     <section id="main" role="main" class="container">
-      {{ site.baseurl }}/aws/actions.json
-      {{ content }}
+      {{ message }}
+      <div id="container" style="display:none">
+        <div v-for="item in items">
+            {{ item }}
+          </div>
+    </div>
     </section>
-    <script>
-        const awsData = "{{ site.baseurl }}/aws";
-        document.addEventListener("DOMContentLoaded", () => {
-            fetch(awsData + "/actions.json")
-              .then((response) => response.json())
-              .then((data) => console.log(data));
-        });
+    <script type="module">
+      import Vue from 'vue';
+      const awsData = "{{ site.baseurl }}/aws";
+      new Vue({
+          el: '#container',
+          created() {
+              const self = this;
+              fetch(awsData + "/actions.json")
+                  .then((response) => response.json())
+                  .then((data) => {
+                      self.items = data;
+                      self.message = "Done!";
+                  });
+          },
+          data() {
+              return {
+                  items: [],
+                  message: '...loading'
+              }
+          }
+      });
+      container.style.display = "block"
     </script>
   </body>
 
