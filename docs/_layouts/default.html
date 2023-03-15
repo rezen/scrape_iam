@@ -22,6 +22,13 @@
         font-family: 'Courier New', Courier, monospace;
         padding: 2px;
       }
+      .bubble {
+        border-radius: 8px;
+        background: rgb(238, 238, 238);
+        display: inline-block;
+        padding: 4px 8px;
+        font-size: 11px;
+      }
     </style>
   </head>
   <body>
@@ -29,7 +36,7 @@
       <div style="width:500px;margin:0 auto;">
         {% raw %}
         <div id="container" style="display:none">
-            <span style="border-radius:8px;background:#eee;display:inline-block;"  v-text="filteredItems.length" />
+            <span class="bubble"  v-text="filteredItems.length"></span>
             <input v-model="filter" autofocus style="display:block;width:100%;padding:8px;">
             <div style="padding:16px;background:#eee">
               <div class="aws-action" v-for="item in filteredItems">
