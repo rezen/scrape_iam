@@ -7,28 +7,32 @@
           "vue": "https://jspm.dev/vue/dist/vue.js"
         }
       }
-      </script>
-      <style>
-        body{
-          font-family: Arial, Helvetica, sans-serif;
-        }
-        html {
-          box-sizing: border-box;
-        }
-        *, *:before, *:after {
-          box-sizing: inherit;
-        }
-      </style>
-    </head>
+    </script>
+    <style>
+      body{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      html {
+        box-sizing: border-box;
+      }
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+      .aws-action {
+        font-family: 'Courier New', Courier, monospace;
+        padding: 2px;
+      }
+    </style>
+  </head>
   <body>
     <section id="main" role="main">
       <div style="width:500px;margin:0 auto;">
         {% raw %}
         <div id="container" style="display:none">
-            {{ filteredItems.length }}
+            <span style="border-radius:8px;background:#eee;display:inline-block;"  v-text="filteredItems.length" />
             <input v-model="filter" autofocus style="display:block;width:100%;padding:8px;">
             <div style="padding:16px;background:#eee">
-              <div v-for="item in filteredItems">
+              <div class="aws-action" v-for="item in filteredItems">
                 {{ item }}
               </div>
             </div>
@@ -49,6 +53,12 @@
                       self.items = data;
                       self.message = "Done!";
                   });
+
+              fetch(awsData + "/service_urls.json")
+                  .then((response) => response.json())
+                  .then((data) => {
+                      self.serviceUrls = data;
+                  });
           },
           computed: {
             filteredItems() {
@@ -62,6 +72,7 @@
           },
           data() {
               return {
+                  serviceUrls: {},
                   filter: '',
                   items: [],
                   message: '...loading'
