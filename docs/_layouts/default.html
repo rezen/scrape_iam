@@ -5,8 +5,17 @@
   </head>
   <body>
     <section id="main" role="main" class="container">
-      {{ site.baseurl }}
+      {{ site.baseurl }}/aws/actions.json
       {{ content }}
     </section>
+    <script>
+        const awsData = "{{ site.baseurl }}/aws";
+        document.addEventListener("DOMContentLoaded", () => {
+            fetch(awsData + "/actions.json")
+              .then((response) => response.json())
+              .then((data) => console.log(data));
+        });
+    </script>
   </body>
+
 </html>
