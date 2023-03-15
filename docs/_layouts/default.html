@@ -20,7 +20,8 @@
       }
       .aws-action {
         font-family: 'Courier New', Courier, monospace;
-        padding: 2px;
+        padding: 2px 0px 2px 22px;
+        position: relative;
       }
       .bubble {
         border-radius: 8px;
@@ -29,18 +30,24 @@
         padding: 4px 8px;
         font-size: 11px;
       }
+      a {
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
     <section id="main" role="main">
-      <div style="width:500px;margin:0 auto;">
+      <div style="width:640px;margin:0 auto;">
         {% raw %}
         <div id="container" style="display:none">
             <span class="bubble"  v-text="filteredItems.length"></span>
             <input v-model="filter" autofocus style="display:block;width:100%;padding:8px;">
             <div style="padding:16px;background:#eee">
               <div class="aws-action" v-for="item in filteredItems">
-                {{ item }}
+                <span>{{ item.action }}</span>
+                <a :href="item.url" style="font-size:160%;position: absolute;left:-4px;top:-4px">
+                  &#9756;
+                </a>
               </div>
             </div>
         </div>
@@ -49,6 +56,17 @@
     </section>
     <script type="module">
       import Vue from 'vue';
+
+      function actionToData(serviceUrls) {
+        return function(action) {
+          const svc = action.split(":")[0];
+          return {
+            action,
+            svc,
+            url: serviceUrls[svc],
+          }
+        }
+      }
       const awsData = "{{ site.baseurl }}/aws";
       new Vue({
           el: '#container',
@@ -70,11 +88,13 @@
           computed: {
             filteredItems() {
               if (this.filter.length < 2) {
-                return this.items;
+                return this.items.map(actionToData(this.serviceUrls));
               }
               const queries = this.filter.split(" ").map(e => e.trim()).filter(e => !!e);
               const count = queries.length;
-              return this.items.filter(i => queries.filter(q => i.toLowerCase().indexOf(q) !== -1).length === count);
+              return this.items
+                .filter(i => queries.filter(q => i.toLowerCase().indexOf(q) !== -1).length === count)
+                .map(actionToData(this.serviceUrls))
             }
           },
           data() {
