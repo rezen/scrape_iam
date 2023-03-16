@@ -61,6 +61,9 @@
       position: absolute;
       left:-4px;top:-4px;
     }
+    select {
+      padding: 8px;
+    }
 
     </style>
   </head>
@@ -69,8 +72,16 @@
       <div style="padding:20px">
         {% raw %}
         <div id="container" style="display:none">
-            <span class="bubble"  v-text="filteredItems.length"></span>
-            <input v-model="filter" autofocus style="display:block;width:100%;padding:8px;">
+            <nav>
+              <select v-model="filterService" style="display:inline-block;width:200px;padding:10px;">
+                <option value=""></option>
+                <option v-for="option in serviceOptions" :value="option">
+                  {{ option }}
+                </option>
+              </select>
+
+              <input @keyup="search" v-model="filter" autofocus style="display:inline-block;width:calc(100% - 240px);padding:10px;">
+            </nav>
             <div class="parent-container">
               <div class="column">
                 <div class="resource-match" v-for="item in filteredItems">
@@ -115,6 +126,8 @@
           }
         }
       }
+
+      // Fix for local testing
       if (window.awsData.indexOf("{{") !== -1){
         window.awsData = "https://rezen.github.io/scrape_iam/aws";
       }
@@ -127,11 +140,7 @@
 
       new Vue({
           el: '#container',
-          watch: {
-            filter: function(val, oldVal) {
-              window.location.hash = val;
-            }
-          },
+          watch: {},
           created() {
               const self = this;
               this.filter =  "" + decodeURI(window.location.hash.slice(1));
@@ -155,8 +164,13 @@
                 });
           },
           computed: {
+            serviceOptions() {
+              const opts = Object.keys(this.serviceUrls);
+              opts.sort();
+              return opts;
+            },
             filteredItems() {
-              if (this.filter.length < 2) {
+              if (this.filter.length < 2 && !this.filterService) {
                 return this.items.map(actionToData(this.serviceUrls));
               }
               const queries = this.filter.split(" ").map(e => e.trim()).filter(e => !!e);
@@ -164,7 +178,9 @@
               return this.items
                 .filter(i => queries.filter(q => i.toLowerCase().indexOf(q) !== -1).length === count)
                 .map(actionToData(this.serviceUrls))
+                .filter(i => !this.filterService  || i.svc === this.filterService)
             },
+
             filteredTerraform() {
               if (this.filter.length < 2) {
                 return this.terraformResources.map(r => r);
@@ -175,11 +191,21 @@
                 .filter(i => queries.filter(q => i.toLowerCase().indexOf(q) !== -1).length === count);
             }
           },
+          methods: {
+            search() {
+              clearTimeout(this.inputTimer);
+              this.inputTimer = setTimeout(() => {
+                window.location.hash = this.filter;
+              }, 700);
+            }
+          },
           data() {
               return {
+                  inputTimer: null,
                   serviceUrls: {},
                   terraformResources: [],
                   filter: '',
+                  filterService: null,
                   items: [],
                   message: '...loading'
               }
