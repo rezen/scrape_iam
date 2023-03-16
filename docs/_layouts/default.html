@@ -93,6 +93,10 @@
         {% endraw %}
       </div>
     </section>
+    <script>
+      window.awsData = "{{ site.baseurl }}/aws";
+    </script>
+    {% raw %}
     <script type="module">
       import Vue from 'vue';
 
@@ -106,9 +110,8 @@
           }
         }
       }
-      var awsData = "{{ site.baseurl }}/aws";
-      if (awsData.indexOf("{{") !== -1){
-        awsData = "https://rezen.github.io/scrape_iam/aws";
+      if (window.awsData.indexOf("{{") !== -1){
+        window.awsData = "https://rezen.github.io/scrape_iam/aws";
       }
       new Vue({
           el: '#container',
@@ -172,6 +175,7 @@
       });
       container.style.display = "block"
     </script>
+    {% endraw %}
   </body>
 
 </html>
