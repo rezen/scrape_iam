@@ -48,6 +48,20 @@ def parse_actions(ref_url):
 
     return prefix, actions, by_resource, ref_url
 
+
+def download_terraform_resources(data_dir):
+    response = requests.get("https://registry.terraform.io/v2/provider-versions/34748?include=provider-docs")
+    data = response.json()
+    tf_resources = []
+    for resource in data['included']:
+        tf_resources.append(resource['attributes']['slug'])
+
+    with open(f'{data_dir}/aws/terraform_resources.json', 'w+') as fh:
+        fh.write(json.dumps(sorted(tf_resources), indent=True))
+
+data_dir = os.path.expanduser('~/vcs/scrape_iam/docs')
+ensure_dir(f'{data_dir}/aws/by_svc/')
+download_terraform_resources(data_dir)
 root = "https://docs.aws.amazon.com/service-authorization/latest/reference/"
 
 response = requests.get(f"{root}/reference_policies_actions-resources-contextkeys.html", timeout=5)
@@ -62,8 +76,6 @@ with futures.ThreadPoolExecutor(max_workers=20) as executor:
 actions = []
 services = []
 tree = {}
-data_dir = os.path.expanduser('~/vcs/scrape_iam/docs')
-ensure_dir(f'{data_dir}/aws/by_svc/')
 service_docs = {}
 for idx, promise in enumerate(promises):
     prefix, subset, by_resource, ref_url = promise.result()
