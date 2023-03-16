@@ -75,6 +75,7 @@
               <div class="column">
                 <div class="resource-match" v-for="item in filteredItems">
                   <span>{{ item.action }}</span>
+                  <span class="bubble">{{ item.crud }}</span>
                   <a :href="item.url" class="external-link">
                     &#9756;
                   </a>
@@ -102,17 +103,28 @@
 
       function actionToData(serviceUrls) {
         return function(action) {
-          const svc = action.split(":")[0];
+          const tmp = action.split(":");
+          const svc = tmp[0];
+          const api = tmp[1];
+          const match = Object.keys(actionTypes).find(k => api.indexOf(k) === 0);
           return {
             action,
             svc,
             url: serviceUrls[svc],
+            crud: match ? actionTypes[match] : '?',
           }
         }
       }
       if (window.awsData.indexOf("{{") !== -1){
         window.awsData = "https://rezen.github.io/scrape_iam/aws";
       }
+
+      fetch(awsData + "/action_type.json")
+        .then((response) => response.json())
+        .then((data) => {
+            actionTypes[match] = data;
+        });
+
       new Vue({
           el: '#container',
           watch: {
