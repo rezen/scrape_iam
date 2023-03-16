@@ -18,7 +18,7 @@
       *, *:before, *:after {
         box-sizing: inherit;
       }
-      .aws-action {
+      .resource-match {
         font-family: 'Courier New', Courier, monospace;
         padding: 2px 0px 2px 22px;
         position: relative;
@@ -33,23 +33,62 @@
       a {
         text-decoration: none;
       }
+
+      .parent-container {
+        padding: 20px 0 0 0;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        overflow: auto;
+        flex-direction: row;
+    }
+
+.parent-container .column {
+    width: 50%;
+    padding: 20px;
+    margin-right: 20px;
+    background: #eee;
+}
+
+.parent-container .column:last-child{
+  margin-right: 0px;
+}
+
+.external-link{
+  font-size:160%;
+  position: absolute;
+  left:-4px;top:-4px;
+}
+
     </style>
   </head>
   <body>
     <section id="main" role="main">
-      <div style="width:640px;margin:0 auto;">
+      <div style="padding:20px">
         {% raw %}
         <div id="container" style="display:none">
             <span class="bubble"  v-text="filteredItems.length"></span>
             <input v-model="filter" autofocus style="display:block;width:100%;padding:8px;">
-            <div style="padding:16px;background:#eee">
-              <div class="aws-action" v-for="item in filteredItems">
-                <span>{{ item.action }}</span>
-                <a :href="item.url" style="font-size:160%;position: absolute;left:-4px;top:-4px">
-                  &#9756;
-                </a>
+            <div class="parent-container">
+              <div class="column">
+                <div class="resource-match" v-for="item in filteredItems">
+                  <span>{{ item.action }}</span>
+                  <a :href="item.url" class="external-link">
+                    &#9756;
+                  </a>
+                </div>
               </div>
-            </div>
+              <div class="column">
+                <div class="resource-match" v-for="item in filteredTerraform">
+                  <span>{{ item}}</span>
+                  <a class="external-link" :href="'https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/'+ item">
+                    &#9756;
+                  </a>
+                </div>
+              </div>
+          </div>
         </div>
         {% endraw %}
       </div>
@@ -67,11 +106,20 @@
           }
         }
       }
-      const awsData = "{{ site.baseurl }}/aws";
+      var awsData = "{{ site.baseurl }}/aws";
+      if (awsData.indexOf("{{") !== -1){
+        awsData = "https://rezen.github.io/scrape_iam/aws";
+      }
       new Vue({
           el: '#container',
+          watch: {
+            filter: function(val, oldVal) {
+              window.location.hash = val;
+            }
+          },
           created() {
               const self = this;
+              this.filter =  "" + decodeURI(window.location.hash.slice(1));
               fetch(awsData + "/actions.json")
                   .then((response) => response.json())
                   .then((data) => {
@@ -84,6 +132,12 @@
                   .then((data) => {
                       self.serviceUrls = data;
                   });
+
+              fetch(awsData + "/terraform_resources.json")
+                .then(r => r.json())
+                .then((data) => {
+                  self.terraformResources = data;
+                });
           },
           computed: {
             filteredItems() {
@@ -95,11 +149,21 @@
               return this.items
                 .filter(i => queries.filter(q => i.toLowerCase().indexOf(q) !== -1).length === count)
                 .map(actionToData(this.serviceUrls))
+            },
+            filteredTerraform() {
+              if (this.filter.length < 2) {
+                return this.terraformResources.map(r => r);
+              }
+              const queries = this.filter.split(" ").map(e => e.trim()).filter(e => !!e);
+              const count = queries.length;
+              return this.terraformResources
+                .filter(i => queries.filter(q => i.toLowerCase().indexOf(q) !== -1).length === count);
             }
           },
           data() {
               return {
                   serviceUrls: {},
+                  terraformResources: [],
                   filter: '',
                   items: [],
                   message: '...loading'

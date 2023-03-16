@@ -48,6 +48,21 @@ def parse_actions(ref_url):
 
     return prefix, actions, by_resource, ref_url
 
+def download_boto_docs(data_dir):
+    response = requests.get("https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/index.html")
+    soup = BeautifulSoup(response.text, 'html.parser')
+    anchors = soup.find_all('li', {'class': 'toctree-l1'})
+    boto_services = []
+    for el in anchors:
+        a = el.find('a')
+        if '/' in a['href']:
+            continue
+
+        boto_services.append(a['href'].replace(".html", ""))
+
+    with open(f'{data_dir}/aws/boto_services.json', 'w+') as fh:
+        fh.write(json.dumps(sorted(boto_services), indent=True))
+
 
 def download_terraform_resources(data_dir):
     response = requests.get("https://registry.terraform.io/v2/provider-versions/34748?include=provider-docs")
@@ -62,6 +77,7 @@ def download_terraform_resources(data_dir):
 data_dir = os.path.expanduser('~/vcs/scrape_iam/docs')
 ensure_dir(f'{data_dir}/aws/by_svc/')
 download_terraform_resources(data_dir)
+download_boto_docs(data_dir)
 root = "https://docs.aws.amazon.com/service-authorization/latest/reference/"
 
 response = requests.get(f"{root}/reference_policies_actions-resources-contextkeys.html", timeout=5)
