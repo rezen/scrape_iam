@@ -52,12 +52,12 @@ def parse_actions(ref_url):
 def download_terraform_resources(data_dir):
     response = requests.get("https://registry.terraform.io/v2/provider-versions/34748?include=provider-docs")
     data = response.json()
-    tf_resources = []
+    tf_resources = set()
     for resource in data['included']:
-        tf_resources.append(resource['attributes']['slug'])
+        tf_resources.add(resource['attributes']['slug'])
 
     with open(f'{data_dir}/aws/terraform_resources.json', 'w+') as fh:
-        fh.write(json.dumps(sorted(tf_resources), indent=True))
+        fh.write(json.dumps(sorted(list(tf_resources)), indent=True))
 
 data_dir = os.path.expanduser('~/vcs/scrape_iam/docs')
 ensure_dir(f'{data_dir}/aws/by_svc/')
