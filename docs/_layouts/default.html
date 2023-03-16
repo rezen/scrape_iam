@@ -25,7 +25,7 @@
       }
       .bubble {
         border-radius: 8px;
-        background: rgb(238, 238, 238);
+        background: rgb(209, 209, 209);
         display: inline-block;
         padding: 4px 8px;
         font-size: 11px;
@@ -45,22 +45,22 @@
         flex-direction: row;
     }
 
-.parent-container .column {
-    width: 50%;
-    padding: 20px;
-    margin-right: 20px;
-    background: #eee;
-}
+    .parent-container .column {
+        width: 50%;
+        padding: 20px;
+        margin-right: 20px;
+        background: #eee;
+    }
 
-.parent-container .column:last-child{
-  margin-right: 0px;
-}
+    .parent-container .column:last-child{
+      margin-right: 0px;
+    }
 
-.external-link{
-  font-size:160%;
-  position: absolute;
-  left:-4px;top:-4px;
-}
+    .external-link{
+      font-size:160%;
+      position: absolute;
+      left:-4px;top:-4px;
+    }
 
     </style>
   </head>
@@ -75,7 +75,6 @@
               <div class="column">
                 <div class="resource-match" v-for="item in filteredItems">
                   <span>{{ item.action }}</span>
-                  <span class="bubble">{{ item.crud }}</span>
                   <a :href="item.url" class="external-link">
                     &#9756;
                   </a>
@@ -95,6 +94,7 @@
       </div>
     </section>
     <script>
+      window.actionTypes = {};
       window.awsData = "{{ site.baseurl }}/aws";
     </script>
     {% raw %}
@@ -122,7 +122,7 @@
       fetch(awsData + "/action_type.json")
         .then((response) => response.json())
         .then((data) => {
-            actionTypes[match] = data;
+            window.actionTypes = data;
         });
 
       new Vue({
