@@ -186,8 +186,9 @@
                     .then((data) => {
                       const botoCall = camelToSnakeCase(item.api);
                       const requestShape = data.shapes[item.api + "Request"];
+                      const requiredArgs = requestShape ? requestShape.required : []
                       let snippet = `client = boto3.client('${item.svc}')\n`;
-                      snippet +=  "client." + botoCall + "(\n  " + requestShape.required.map(x => x + "=?").join(',\n  ') + "\n)"
+                      snippet +=  "client." + botoCall + "(\n  " + requiredArgs.map(x => x + "=?").join(',\n  ') + "\n)"
                       this.snippet = snippet;
                       this.focusedApi = botoCall;
                       this.focusedSvc = item.svc;
