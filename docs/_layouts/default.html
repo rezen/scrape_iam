@@ -174,24 +174,29 @@
               this.filter =  "" + decodeURI(window.location.hash.slice(1));
 
               this.focusItem = debounce((item) => {
-                  const versions = this.serviceVersions[item.svc];
+                  const svc = item.svc.replace(/[^a-z0-9]/g, '');
+                  const versions = this.serviceVersions[svc];
                   if (!versions) {
+                    console.warn("No versions for "+ svc);
                     return;
                   }
                   this.focused = item;
                   const version = versions[versions.length - 1];
-                  const detailsUrl = serviceDetailsTmpl.replace('$svc', item.svc).replace('$version', version);
+                  const detailsUrl = serviceDetailsTmpl.replace('$svc', svc).replace('$version', version);
                   fetch(detailsUrl, {cache: "force-cache"})
                     .then((response) => response.json())
                     .then((data) => {
                       const botoCall = camelToSnakeCase(item.api);
                       const requestShape = data.shapes[item.api + "Request"];
-                      const requiredArgs = requestShape ? requestShape.required : []
-                      let snippet = `client = boto3.client('${item.svc}')\n`;
+                      if (!requestShape) {
+                        return;
+                      }
+                      const requiredArgs = requestShape ? requestShape.required : [];
+                      let snippet = `client = boto3.client('${svc}')\n`;
                       snippet +=  "client." + botoCall + "(\n  " + requiredArgs.map(x => x + "=?").join(',\n  ') + "\n)"
                       this.snippet = snippet;
                       this.focusedApi = botoCall;
-                      this.focusedSvc = item.svc;
+                      this.focusedSvc = svc;
                     });
                 }, 400)
 
