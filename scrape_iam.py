@@ -6,6 +6,23 @@ from concurrent import futures
 import requests
 from bs4 import BeautifulSoup
 import os.path
+import inspect
+import time
+import botocore
+from glob import glob
+from collections import defaultdict
+
+BOTO_DATA_DIR = os.path.dirname(botocore.__file__) + '/data/'
+
+
+def aws_service_versions():
+    global BOTO_DATA_DIR
+    by_service = defaultdict(list)
+    for name in glob(BOTO_DATA_DIR + '*/*/service-2.json'):
+        parts = name.split('/')[-3:]
+        by_service[parts[0]].append(parts[1])
+        by_service[parts[0]] = sorted(by_service[parts[0]])
+    return by_service
 
 
 def ensure_dir(file):
@@ -55,13 +72,16 @@ def download_boto_docs(data_dir):
     boto_services = []
     for el in anchors:
         a = el.find('a')
-        if '/' in a['href']:
+        if '/' in a['href'] or a['href'] == '':
             continue
 
         boto_services.append(a['href'].replace(".html", ""))
 
     with open(f'{data_dir}/aws/boto_services.json', 'w+') as fh:
         fh.write(json.dumps(sorted(boto_services), indent=True))
+
+    with open(f'{data_dir}/aws/service_versions.json', 'w+') as fh:
+        fh.write(json.dumps(aws_service_versions(), indent=True))
 
 
 def download_terraform_resources(data_dir):

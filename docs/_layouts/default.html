@@ -112,6 +112,7 @@
     <script type="module">
       import Vue from 'vue';
 
+      const serviceDetailsTmpl = "https://raw.githubusercontent.com/boto/botocore/develop/botocore/data/$svc/$version/service-2.json";
       function actionToData(serviceUrls) {
         return function(action) {
           const tmp = action.split(":");

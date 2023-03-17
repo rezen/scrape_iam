@@ -1,0 +1,944 @@
+{
+ "iotwireless": [
+  "2020-11-22"
+ ],
+ "forecast": [
+  "2018-06-26"
+ ],
+ "codebuild": [
+  "2016-10-06"
+ ],
+ "iotdeviceadvisor": [
+  "2020-09-18"
+ ],
+ "iotevents-data": [
+  "2018-10-23"
+ ],
+ "codeguruprofiler": [
+  "2019-07-18"
+ ],
+ "kinesis": [
+  "2013-12-02"
+ ],
+ "kinesisvideo": [
+  "2017-09-30"
+ ],
+ "pinpoint": [
+  "2016-12-01"
+ ],
+ "chime": [
+  "2018-05-01"
+ ],
+ "iottwinmaker": [
+  "2021-11-29"
+ ],
+ "organizations": [
+  "2016-11-28"
+ ],
+ "shield": [
+  "2016-06-02"
+ ],
+ "ssm": [
+  "2014-11-06"
+ ],
+ "signer": [
+  "2017-08-25"
+ ],
+ "servicecatalog": [
+  "2015-12-10"
+ ],
+ "lakeformation": [
+  "2017-03-31"
+ ],
+ "secretsmanager": [
+  "2017-10-17"
+ ],
+ "mediaconnect": [
+  "2018-11-14"
+ ],
+ "mwaa": [
+  "2020-07-01"
+ ],
+ "kms": [
+  "2014-11-01"
+ ],
+ "quicksight": [
+  "2018-04-01"
+ ],
+ "workmail": [
+  "2017-10-01"
+ ],
+ "frauddetector": [
+  "2019-11-15"
+ ],
+ "elastictranscoder": [
+  "2012-09-25"
+ ],
+ "lookoutequipment": [
+  "2020-12-15"
+ ],
+ "cloudwatch": [
+  "2010-08-01"
+ ],
+ "glue": [
+  "2017-03-31"
+ ],
+ "elastic-inference": [
+  "2017-07-25"
+ ],
+ "personalize-events": [
+  "2018-03-22"
+ ],
+ "voice-id": [
+  "2021-09-27"
+ ],
+ "s3": [
+  "2006-03-01"
+ ],
+ "appintegrations": [
+  "2020-07-29"
+ ],
+ "ssm-contacts": [
+  "2021-05-03"
+ ],
+ "chime-sdk-meetings": [
+  "2021-07-15"
+ ],
+ "sesv2": [
+  "2019-09-27"
+ ],
+ "emr": [
+  "2009-03-31"
+ ],
+ "iotfleethub": [
+  "2020-11-03"
+ ],
+ "personalize": [
+  "2018-05-22"
+ ],
+ "outposts": [
+  "2019-12-03"
+ ],
+ "workdocs": [
+  "2016-05-01"
+ ],
+ "networkmanager": [
+  "2019-07-05"
+ ],
+ "kinesis-video-signaling": [
+  "2019-12-04"
+ ],
+ "mediapackage": [
+  "2017-10-12"
+ ],
+ "sagemaker-featurestore-runtime": [
+  "2020-07-01"
+ ],
+ "medialive": [
+  "2017-10-14"
+ ],
+ "backup-gateway": [
+  "2021-01-01"
+ ],
+ "connect-contact-lens": [
+  "2020-08-21"
+ ],
+ "mediaconvert": [
+  "2017-08-29"
+ ],
+ "sns": [
+  "2010-03-31"
+ ],
+ "datasync": [
+  "2018-11-09"
+ ],
+ "macie": [
+  "2017-12-19"
+ ],
+ "cognito-idp": [
+  "2016-04-18"
+ ],
+ "greengrassv2": [
+  "2020-11-30"
+ ],
+ "acm-pca": [
+  "2017-08-22"
+ ],
+ "lexv2-models": [
+  "2020-08-07"
+ ],
+ "iotanalytics": [
+  "2017-11-27"
+ ],
+ "inspector2": [
+  "2020-06-08"
+ ],
+ "groundstation": [
+  "2019-05-23"
+ ],
+ "ecr-public": [
+  "2020-10-30"
+ ],
+ "fis": [
+  "2020-12-01"
+ ],
+ "sms-voice": [
+  "2018-09-05"
+ ],
+ "gamesparks": [
+  "2021-08-17"
+ ],
+ "proton": [
+  "2020-07-20"
+ ],
+ "cloudhsm": [
+  "2014-05-30"
+ ],
+ "ds": [
+  "2015-04-16"
+ ],
+ "sms": [
+  "2016-10-24"
+ ],
+ "config": [
+  "2014-11-12"
+ ],
+ "memorydb": [
+  "2021-01-01"
+ ],
+ "inspector": [
+  "2015-08-18",
+  "2016-02-16"
+ ],
+ "translate": [
+  "2017-07-01"
+ ],
+ "fms": [
+  "2018-01-01"
+ ],
+ "s3control": [
+  "2018-08-20"
+ ],
+ "kinesisanalyticsv2": [
+  "2018-05-23"
+ ],
+ "customer-profiles": [
+  "2020-08-15"
+ ],
+ "marketplacecommerceanalytics": [
+  "2015-07-01"
+ ],
+ "synthetics": [
+  "2017-10-11"
+ ],
+ "iotsecuretunneling": [
+  "2018-10-05"
+ ],
+ "cloudfront": [
+  "2014-05-31",
+  "2014-10-21",
+  "2014-11-06",
+  "2015-04-17",
+  "2015-07-27",
+  "2015-09-17",
+  "2016-01-13",
+  "2016-01-28",
+  "2016-08-01",
+  "2016-08-20",
+  "2016-09-07",
+  "2016-09-29",
+  "2016-11-25",
+  "2017-03-25",
+  "2017-10-30",
+  "2018-06-18",
+  "2018-11-05",
+  "2019-03-26",
+  "2020-05-31"
+ ],
+ "location": [
+  "2020-11-19"
+ ],
+ "wafv2": [
+  "2019-07-29"
+ ],
+ "opensearch": [
+  "2021-01-01"
+ ],
+ "iotthingsgraph": [
+  "2018-09-06"
+ ],
+ "health": [
+  "2016-08-04"
+ ],
+ "workmailmessageflow": [
+  "2019-05-01"
+ ],
+ "mediastore-data": [
+  "2017-09-01"
+ ],
+ "ec2-instance-connect": [
+  "2018-04-02"
+ ],
+ "comprehendmedical": [
+  "2018-10-30"
+ ],
+ "accessanalyzer": [
+  "2019-11-01"
+ ],
+ "glacier": [
+  "2012-06-01"
+ ],
+ "lightsail": [
+  "2016-11-28"
+ ],
+ "rum": [
+  "2018-05-10"
+ ],
+ "imagebuilder": [
+  "2019-12-02"
+ ],
+ "discovery": [
+  "2015-11-01"
+ ],
+ "serverlessrepo": [
+  "2017-09-08"
+ ],
+ "elasticbeanstalk": [
+  "2010-12-01"
+ ],
+ "cloudsearchdomain": [
+  "2013-01-01"
+ ],
+ "neptune": [
+  "2014-10-31"
+ ],
+ "lex-runtime": [
+  "2016-11-28"
+ ],
+ "transfer": [
+  "2018-11-05"
+ ],
+ "braket": [
+  "2019-09-01"
+ ],
+ "waf-regional": [
+  "2016-11-28"
+ ],
+ "qldb": [
+  "2019-01-02"
+ ],
+ "ecr": [
+  "2015-09-21"
+ ],
+ "kinesis-video-media": [
+  "2017-09-30"
+ ],
+ "dynamodb": [
+  "2012-08-10"
+ ],
+ "resiliencehub": [
+  "2020-04-30"
+ ],
+ "route53domains": [
+  "2014-05-15"
+ ],
+ "macie2": [
+  "2020-01-01"
+ ],
+ "autoscaling-plans": [
+  "2018-01-06"
+ ],
+ "s3outposts": [
+  "2017-07-25"
+ ],
+ "honeycode": [
+  "2020-03-01"
+ ],
+ "grafana": [
+  "2020-08-18"
+ ],
+ "storagegateway": [
+  "2013-06-30"
+ ],
+ "rbin": [
+  "2021-06-15"
+ ],
+ "service-quotas": [
+  "2019-06-24"
+ ],
+ "importexport": [
+  "2010-06-01"
+ ],
+ "ecs": [
+  "2014-11-13"
+ ],
+ "application-autoscaling": [
+  "2016-02-06"
+ ],
+ "timestream-write": [
+  "2018-11-01"
+ ],
+ "cloudsearch": [
+  "2011-02-01",
+  "2013-01-01"
+ ],
+ "lookoutvision": [
+  "2020-11-20"
+ ],
+ "route53resolver": [
+  "2018-04-01"
+ ],
+ "workspaces": [
+  "2015-04-08"
+ ],
+ "machinelearning": [
+  "2014-12-12"
+ ],
+ "pinpoint-sms-voice": [
+  "2018-09-05"
+ ],
+ "fsx": [
+  "2018-03-01"
+ ],
+ "codepipeline": [
+  "2015-07-09"
+ ],
+ "elb": [
+  "2012-06-01"
+ ],
+ "schemas": [
+  "2019-12-02"
+ ],
+ "sqs": [
+  "2012-11-05"
+ ],
+ "appmesh": [
+  "2018-10-01",
+  "2019-01-25"
+ ],
+ "route53-recovery-cluster": [
+  "2019-12-02"
+ ],
+ "iot": [
+  "2015-05-28"
+ ],
+ "sso-oidc": [
+  "2019-06-10"
+ ],
+ "codestar-notifications": [
+  "2019-10-15"
+ ],
+ "ebs": [
+  "2019-11-02"
+ ],
+ "amplify": [
+  "2017-07-25"
+ ],
+ "cloudcontrol": [
+  "2021-09-30"
+ ],
+ "wellarchitected": [
+  "2020-03-31"
+ ],
+ "ssm-incidents": [
+  "2018-05-10"
+ ],
+ "migrationhub-config": [
+  "2019-06-30"
+ ],
+ "redshift": [
+  "2012-12-01"
+ ],
+ "appflow": [
+  "2020-08-23"
+ ],
+ "gamelift": [
+  "2015-10-01"
+ ],
+ "lex-models": [
+  "2017-04-19"
+ ],
+ "cloudtrail": [
+  "2013-11-01"
+ ],
+ "mgh": [
+  "2017-05-31"
+ ],
+ "resource-groups": [
+  "2017-11-27"
+ ],
+ "evidently": [
+  "2021-02-01"
+ ],
+ "amplifyuibuilder": [
+  "2021-08-11"
+ ],
+ "route53-recovery-control-config": [
+  "2020-11-02"
+ ],
+ "redshift-data": [
+  "2019-12-20"
+ ],
+ "mediatailor": [
+  "2018-04-23"
+ ],
+ "pi": [
+  "2018-02-27"
+ ],
+ "iot1click-devices": [
+  "2018-05-14"
+ ],
+ "appconfig": [
+  "2019-10-09"
+ ],
+ "network-firewall": [
+  "2020-11-12"
+ ],
+ "connectparticipant": [
+  "2018-09-07"
+ ],
+ "mgn": [
+  "2020-02-26"
+ ],
+ "sagemaker-edge": [
+  "2020-09-23"
+ ],
+ "applicationcostprofiler": [
+  "2020-09-10"
+ ],
+ "keyspaces": [
+  "2022-02-10"
+ ],
+ "iam": [
+  "2010-05-08"
+ ],
+ "chime-sdk-messaging": [
+  "2021-05-15"
+ ],
+ "mediastore": [
+  "2017-09-01"
+ ],
+ "cloud9": [
+  "2017-09-23"
+ ],
+ "wisdom": [
+  "2020-10-19"
+ ],
+ "sagemaker-runtime": [
+  "2017-05-13"
+ ],
+ "sso": [
+  "2019-06-10"
+ ],
+ "auditmanager": [
+  "2017-07-25"
+ ],
+ "snowball": [
+  "2016-06-30"
+ ],
+ "logs": [
+  "2014-03-28"
+ ],
+ "kinesisanalytics": [
+  "2015-08-14"
+ ],
+ "opsworks": [
+  "2013-02-18"
+ ],
+ "identitystore": [
+  "2020-06-15"
+ ],
+ "textract": [
+  "2018-06-27"
+ ],
+ "compute-optimizer": [
+  "2019-11-01"
+ ],
+ "eks": [
+  "2017-11-01"
+ ],
+ "support": [
+  "2013-04-15"
+ ],
+ "mturk": [
+  "2017-01-17"
+ ],
+ "apigatewayv2": [
+  "2018-11-29"
+ ],
+ "meteringmarketplace": [
+  "2016-01-14"
+ ],
+ "pinpoint-sms-voice-v2": [
+  "2022-03-31"
+ ],
+ "amp": [
+  "2020-08-01"
+ ],
+ "drs": [
+  "2020-02-26"
+ ],
+ "iot-data": [
+  "2015-05-28"
+ ],
+ "kafkaconnect": [
+  "2021-09-14"
+ ],
+ "kafka": [
+  "2018-11-14"
+ ],
+ "databrew": [
+  "2017-07-25"
+ ],
+ "mobile": [
+  "2017-07-01"
+ ],
+ "codedeploy": [
+  "2014-10-06"
+ ],
+ "cloudhsmv2": [
+  "2017-04-28"
+ ],
+ "batch": [
+  "2016-08-10"
+ ],
+ "iot1click-projects": [
+  "2018-05-14"
+ ],
+ "savingsplans": [
+  "2019-06-28"
+ ],
+ "sdb": [
+  "2009-04-15"
+ ],
+ "migrationhubstrategy": [
+  "2020-02-19"
+ ],
+ "timestream-query": [
+  "2018-11-01"
+ ],
+ "codeguru-reviewer": [
+  "2019-09-19"
+ ],
+ "appsync": [
+  "2017-07-25"
+ ],
+ "dlm": [
+  "2018-01-12"
+ ],
+ "amplifybackend": [
+  "2020-08-11"
+ ],
+ "billingconductor": [
+  "2021-07-30"
+ ],
+ "budgets": [
+  "2016-10-20"
+ ],
+ "pinpoint-email": [
+  "2018-07-26"
+ ],
+ "finspace": [
+  "2021-03-12"
+ ],
+ "detective": [
+  "2018-10-26"
+ ],
+ "lambda": [
+  "2014-11-11",
+  "2015-03-31"
+ ],
+ "panorama": [
+  "2019-07-24"
+ ],
+ "iotevents": [
+  "2018-07-27"
+ ],
+ "marketplace-entitlement": [
+  "2017-01-11"
+ ],
+ "managedblockchain": [
+  "2018-09-24"
+ ],
+ "servicediscovery": [
+  "2017-03-14"
+ ],
+ "waf": [
+  "2015-08-24"
+ ],
+ "ivs": [
+  "2020-07-14"
+ ],
+ "devops-guru": [
+  "2020-12-01"
+ ],
+ "directconnect": [
+  "2012-10-25"
+ ],
+ "cur": [
+  "2017-01-06"
+ ],
+ "servicecatalog-appregistry": [
+  "2020-06-24"
+ ],
+ "mq": [
+  "2017-11-27"
+ ],
+ "route53-recovery-readiness": [
+  "2019-12-02"
+ ],
+ "license-manager": [
+  "2018-08-01"
+ ],
+ "codestar-connections": [
+  "2019-12-01"
+ ],
+ "iotsitewise": [
+  "2019-12-02"
+ ],
+ "codestar": [
+  "2017-04-19"
+ ],
+ "personalize-runtime": [
+  "2018-05-22"
+ ],
+ "clouddirectory": [
+  "2016-05-10",
+  "2017-01-11"
+ ],
+ "cognito-sync": [
+  "2014-06-30"
+ ],
+ "codeartifact": [
+  "2018-09-22"
+ ],
+ "guardduty": [
+  "2017-11-28"
+ ],
+ "worklink": [
+  "2018-09-25"
+ ],
+ "sagemaker-a2i-runtime": [
+  "2019-11-07"
+ ],
+ "es": [
+  "2015-01-01"
+ ],
+ "dax": [
+  "2017-04-19"
+ ],
+ "opsworkscm": [
+  "2016-11-01"
+ ],
+ "docdb": [
+  "2014-10-31"
+ ],
+ "firehose": [
+  "2015-08-04"
+ ],
+ "dms": [
+  "2016-01-01"
+ ],
+ "dynamodbstreams": [
+  "2012-08-10"
+ ],
+ "globalaccelerator": [
+  "2018-08-08"
+ ],
+ "ses": [
+  "2010-12-01"
+ ],
+ "application-insights": [
+  "2018-11-25"
+ ],
+ "alexaforbusiness": [
+  "2017-11-09"
+ ],
+ "account": [
+  "2021-02-01"
+ ],
+ "robomaker": [
+  "2018-06-29"
+ ],
+ "finspace-data": [
+  "2020-07-13"
+ ],
+ "events": [
+  "2014-02-03",
+  "2015-10-07"
+ ],
+ "autoscaling": [
+  "2011-01-01"
+ ],
+ "nimble": [
+  "2020-08-01"
+ ],
+ "appconfigdata": [
+  "2021-11-11"
+ ],
+ "elbv2": [
+  "2015-12-01"
+ ],
+ "greengrass": [
+  "2017-06-07"
+ ],
+ "snow-device-management": [
+  "2021-08-04"
+ ],
+ "securityhub": [
+  "2018-10-26"
+ ],
+ "workspaces-web": [
+  "2020-07-08"
+ ],
+ "backup": [
+  "2018-11-15"
+ ],
+ "cloudformation": [
+  "2010-05-15"
+ ],
+ "kendra": [
+  "2019-02-03"
+ ],
+ "connect": [
+  "2017-08-08"
+ ],
+ "elasticache": [
+  "2014-09-30",
+  "2015-02-02"
+ ],
+ "ce": [
+  "2017-10-25"
+ ],
+ "sso-admin": [
+  "2020-07-20"
+ ],
+ "comprehend": [
+  "2017-11-27"
+ ],
+ "devicefarm": [
+  "2015-06-23"
+ ],
+ "rds-data": [
+  "2018-08-01"
+ ],
+ "chime-sdk-identity": [
+  "2021-04-20"
+ ],
+ "rekognition": [
+  "2016-06-27"
+ ],
+ "appstream": [
+  "2016-12-01"
+ ],
+ "polly": [
+  "2016-06-10"
+ ],
+ "rds": [
+  "2014-09-01",
+  "2014-10-31"
+ ],
+ "pricing": [
+  "2017-10-15"
+ ],
+ "swf": [
+  "2012-01-25"
+ ],
+ "qldb-session": [
+  "2019-07-11"
+ ],
+ "datapipeline": [
+  "2012-10-29"
+ ],
+ "transcribe": [
+  "2017-10-26"
+ ],
+ "stepfunctions": [
+  "2016-11-23"
+ ],
+ "codecommit": [
+  "2015-04-13"
+ ],
+ "resourcegroupstaggingapi": [
+  "2017-01-26"
+ ],
+ "forecastquery": [
+  "2018-06-26"
+ ],
+ "healthlake": [
+  "2017-07-01"
+ ],
+ "marketplace-catalog": [
+  "2018-09-17"
+ ],
+ "emr-containers": [
+  "2020-10-01"
+ ],
+ "apigatewaymanagementapi": [
+  "2018-11-29"
+ ],
+ "xray": [
+  "2016-04-12"
+ ],
+ "apigateway": [
+  "2015-07-09"
+ ],
+ "lexv2-runtime": [
+  "2020-08-07"
+ ],
+ "ram": [
+  "2018-01-04"
+ ],
+ "efs": [
+  "2015-02-01"
+ ],
+ "migration-hub-refactor-spaces": [
+  "2021-10-26"
+ ],
+ "cognito-identity": [
+  "2014-06-30"
+ ],
+ "dataexchange": [
+  "2017-07-25"
+ ],
+ "sts": [
+  "2011-06-15"
+ ],
+ "sagemaker": [
+  "2017-07-24"
+ ],
+ "kinesis-video-archived-media": [
+  "2017-09-30"
+ ],
+ "acm": [
+  "2015-12-08"
+ ],
+ "athena": [
+  "2017-05-18"
+ ],
+ "route53": [
+  "2013-04-01"
+ ],
+ "iot-jobs-data": [
+  "2017-09-29"
+ ],
+ "mediapackage-vod": [
+  "2018-11-07"
+ ],
+ "ec2": [
+  "2014-09-01",
+  "2014-10-01",
+  "2015-03-01",
+  "2015-04-15",
+  "2015-10-01",
+  "2016-04-01",
+  "2016-09-15",
+  "2016-11-15"
+ ],
+ "apprunner": [
+  "2020-05-15"
+ ],
+ "lookoutmetrics": [
+  "2017-07-25"
+ ]
+}
