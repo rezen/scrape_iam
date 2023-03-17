@@ -46,7 +46,7 @@
     }
 
     .parent-container .column {
-        width: 50%;
+        width: 33%;
         padding: 20px;
         margin-right: 20px;
         background: #eee;
@@ -64,15 +64,22 @@
     select {
       padding: 8px;
     }
-
+    #tooltip-main {
+      background: #ddd0d0;
+      position: absolute;
+      padding: 20px;
+      min-height: 100px;
+      min-width: 100px;
+      z-index: 10;
+    }
     </style>
   </head>
   <body>
     <section id="main" role="main">
-      <div style="padding:20px">
+      <div>
         {% raw %}
-        <div id="container" style="display:none">
-            <nav>
+        <div id="container" style="display:none;padding:40px;">
+            <nav style="background: rgb(50 65 82 / 90%);padding:12px 20px;position:fixed;width:100%;left:0;z-index:5;top:0px;">
               <select v-model="filterService" style="display:inline-block;width:200px;padding:10px;">
                 <option value=""></option>
                 <option v-for="option in serviceOptions" :value="option">
@@ -84,7 +91,7 @@
             </nav>
             <div class="parent-container">
               <div class="column">
-                <div class="resource-match" v-for="item in filteredItems">
+                <div class="resource-match" v-for="item in filteredItems"  @mouseover="focusItem(item)">
                   <span>{{ item.action }}</span>
                   <a :href="item.url" class="external-link">
                     &#9756;
@@ -99,6 +106,14 @@
                   </a>
                 </div>
               </div>
+              <div class="column">
+                <header></header>
+                <div v-if="!!focused">
+                  <pre>{{ snippet }}</pre>
+                  <a :href="`https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/${focusedSvc}/client/${focusedApi}.html`">Boto</a>
+                  <iframe style="margin:20px -20px;width:calc(100% + 40px);min-height:600px;" :src="`https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/${focusedSvc}/client/${focusedApi}.html`"></iframe>
+                </div>
+              </div>
           </div>
         </div>
         {% endraw %}
@@ -111,6 +126,17 @@
     {% raw %}
     <script type="module">
       import Vue from 'vue';
+      const camelToSnakeCase = str => (str.charAt(0).toLowerCase() + str.slice(1)).replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+      const debounce = (callback, wait) => {
+        let timeoutId = null;
+        return (...args) => {
+          window.clearTimeout(timeoutId);
+          timeoutId = window.setTimeout(() => {
+            callback.apply(null, args);
+          }, wait);
+        };
+      };
 
       const serviceDetailsTmpl = "https://raw.githubusercontent.com/boto/botocore/develop/botocore/data/$svc/$version/service-2.json";
       function actionToData(serviceUrls) {
@@ -123,6 +149,7 @@
             action,
             svc,
             url: serviceUrls[svc],
+            api,
             crud: match ? actionTypes[match] : '?',
           }
         }
@@ -145,6 +172,34 @@
           created() {
               const self = this;
               this.filter =  "" + decodeURI(window.location.hash.slice(1));
+
+              this.focusItem = debounce((item) => {
+                  const versions = this.serviceVersions[item.svc];
+                  if (!versions) {
+                    return;
+                  }
+                  this.focused = item;
+                  const version = versions[versions.length - 1];
+                  const detailsUrl = serviceDetailsTmpl.replace('$svc', item.svc).replace('$version', version);
+                  fetch(detailsUrl, {cache: "force-cache"})
+                    .then((response) => response.json())
+                    .then((data) => {
+                      const botoCall = camelToSnakeCase(item.api);
+                      const requestShape = data.shapes[item.api + "Request"];
+                      let snippet = `client = boto3.client('${item.svc}')\n`;
+                      snippet +=  "client." + botoCall + "(\n  " + requestShape.required.map(x => x + "=?").join(',\n  ') + "\n)"
+                      this.snippet = snippet;
+                      this.focusedApi = botoCall;
+                      this.focusedSvc = item.svc;
+                    });
+                }, 400)
+
+              fetch(awsData + "/service_versions.json")
+                  .then((response) => response.json())
+                  .then((data) => {
+                      self.serviceVersions = data
+                  });
+
               fetch(awsData + "/actions.json")
                   .then((response) => response.json())
                   .then((data) => {
@@ -193,22 +248,29 @@
             }
           },
           methods: {
-            search() {
-              clearTimeout(this.inputTimer);
-              this.inputTimer = setTimeout(() => {
-                window.location.hash = this.filter;
-              }, 700);
-            }
+
+
           },
           data() {
+            /*
+            const x =
+                */
+
               return {
+                  search: debounce(() => {
+                    window.location.hash = this.filter;
+                  }, 700),
+                  focused: false,
+                  focusedSvc: "",
+                  focusedApi: "",
+                  snippet: '',
                   inputTimer: null,
                   serviceUrls: {},
+                  serviceVersions: {},
                   terraformResources: [],
                   filter: '',
                   filterService: null,
                   items: [],
-                  message: '...loading'
               }
           }
       });
