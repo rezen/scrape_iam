@@ -235,7 +235,7 @@
               if (this.filter.length < 2 && !this.filterService) {
                 return this.items.map(actionToData(this.serviceUrls));
               }
-              const queries = this.filter.split(" ").map(e => e.trim()).filter(e => !!e);
+              const queries = this.filter.toLowerCase().split(" ").map(e => e.trim()).filter(e => !!e);
               const count = queries.length;
               return this.items
                 .filter(i => queries.filter(q => i.toLowerCase().indexOf(q) !== -1).length === count)
