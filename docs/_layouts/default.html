@@ -126,6 +126,18 @@
     {% raw %}
     <script type="module">
       import Vue from 'vue';
+
+      function buildFilter(queries) {
+        const count = queries.length;
+        return (i) => {
+          let hasMatch = i.toLowerCase().indexOf(q) !== -1;
+          if (i[0] === "-") {
+            hasMatch = !hasMatch;
+          }
+          return queries.filter(q => hasMatch).length === count;
+        };
+      }
+
       const camelToSnakeCase = str => (str.charAt(0).toLowerCase() + str.slice(1)).replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
 
       const debounce = (callback, wait) => {
@@ -236,9 +248,9 @@
                 return this.items.map(actionToData(this.serviceUrls));
               }
               const queries = this.filter.toLowerCase().split(" ").map(e => e.trim()).filter(e => !!e);
-              const count = queries.length;
+              const xFilter = buildFilter(queries);
               return this.items
-                .filter(i => queries.filter(q => i.toLowerCase().indexOf(q) !== -1).length === count)
+                .filter(xFilter)
                 .map(actionToData(this.serviceUrls))
                 .filter(i => !this.filterService  || i.svc === this.filterService)
             },
@@ -248,9 +260,9 @@
                 return this.terraformResources.map(r => r);
               }
               const queries = this.filter.split(" ").map(e => e.trim()).filter(e => !!e);
-              const count = queries.length;
+              const xFilter = buildFilter(queries);
               return this.terraformResources
-                .filter(i => queries.filter(q => i.toLowerCase().indexOf(q) !== -1).length === count);
+                .filter(xFilter);
             }
           },
           methods: {
