@@ -130,11 +130,13 @@
       function buildFilter(queries) {
         const count = queries.length;
         return (i) => {
-          let hasMatch = i.toLowerCase().indexOf(q) !== -1;
-          if (i[0] === "-") {
-            hasMatch = !hasMatch;
-          }
-          return queries.filter(q => hasMatch).length === count;
+          return queries.filter(q => {
+            let hasMatch = i.toLowerCase().indexOf(q) !== -1;
+            if (i[0] === "-") {
+              hasMatch = !hasMatch;
+            }
+            return hasMatch;
+          }).length === count;
         };
       }
 
