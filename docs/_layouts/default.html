@@ -131,8 +131,12 @@
         const count = queries.length;
         return (i) => {
           return queries.filter(q => {
+            let invert = q[0] === "-";
+            if (invert) {
+              q = q.slice(1, q.length);
+            }
             let hasMatch = i.toLowerCase().indexOf(q) !== -1;
-            if (i[0] === "-") {
+            if (invert) {
               hasMatch = !hasMatch;
             }
             return hasMatch;
