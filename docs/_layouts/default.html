@@ -91,8 +91,8 @@
             </nav>
             <div class="parent-container">
               <div class="column">
-                <div class="resource-match" v-for="item in filteredItems"  @mouseover="focusItem(item)">
-                  <span>{{ item.action }}</span>
+                <div class="resource-match" v-for="item in filteredItems">
+                  <span  @click="focusItem(item)" style="cursor: pointer;">{{ item.action }}</span>
                   <a :href="item.url" class="external-link">
                     &#9756;
                   </a>
