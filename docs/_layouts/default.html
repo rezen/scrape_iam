@@ -236,7 +236,7 @@
 
                       const cliSubcommand = botoCall.replace(/_/g, '-');
                       const cliArgs = requiredArgs.map(x => "--" + camelToSnakeCase(x).replace(/_/g, '-') + " <value>");
-                      const cliSnippet = svc + " " + cliSubcommand + " " + cliArgs.join(" ");
+                      const cliSnippet = "aws " + svc + " " + cliSubcommand + " " + cliArgs.join(" ");
 
                       let snippet = `client = boto3.client('${svc}')\n`;
                       snippet +=  "client." + botoCall + "(\n  " + requiredArgs.map(x => x + "=?").join(',\n  ') + "\n)";
