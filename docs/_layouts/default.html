@@ -162,7 +162,7 @@
         };
       }
 
-      const camelToSnakeCase = str => (str.charAt(0).toLowerCase() + str.slice(1)).replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+      const camelToSnakeCase = str => (str.charAt(0).toLowerCase() + str.slice(1)).replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`).replace("a-w-s", "aws");
       const debounce = (callback, wait) => {
         let timeoutId = null;
         return (...args) => {
