@@ -109,8 +109,20 @@
               <div class="column">
                 <header></header>
                 <div v-if="!!focused">
+                  <strong>cli</strong>
+                  <pre>{{ cliSnippet }}</pre>
+
+                  <hr />
+                  <div v-if="terraformSnippet.length > 0">
+                    <strong>terraform</strong>
+                    <pre>{{ terraformSnippet }}</pre>
+                    <a target="_blank" :href="`https://registry.terraform.io/providers/-/aws/latest/docs/resources/${terraformResource}`">&#9756; Terraform</a>
+                    <hr />
+                  </div>
+                  <strong>boto</strong>
                   <pre>{{ snippet }}</pre>
-                  <a :href="`https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/${focusedSvc}/client/${focusedApi}.html`">Boto</a>
+
+                  <a :href="`https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/${focusedSvc}/client/${focusedApi}.html`">&#9756; Boto</a>
                   <iframe style="margin:20px -20px;width:calc(100% + 40px);min-height:600px;" :src="`https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/${focusedSvc}/client/${focusedApi}.html`"></iframe>
                 </div>
               </div>
@@ -126,6 +138,12 @@
     {% raw %}
     <script type="module">
       import Vue from 'vue';
+
+      function guessResource(item, data) {
+        const prefix = Object.keys(actionTypes).find(v => item.api.indexOf(v) === 0);
+        let guess = item.api.replace(prefix, "");
+        return guess;
+      }
 
       function buildFilter(queries) {
         const count = queries.length;
@@ -145,7 +163,6 @@
       }
 
       const camelToSnakeCase = str => (str.charAt(0).toLowerCase() + str.slice(1)).replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
-
       const debounce = (callback, wait) => {
         let timeoutId = null;
         return (...args) => {
@@ -209,9 +226,23 @@
                       if (!requestShape) {
                         return;
                       }
+
                       const requiredArgs = requestShape ? requestShape.required : [];
+                      const resource = guessResource(item, data);
+                      let terraform = svc + "_" + camelToSnakeCase(resource);
+                      const isValidTerraform = (self.terraformResources||[]).indexOf(terraform) !== -1;
+                      const tfArgs = requiredArgs.map(x => "   " + camelToSnakeCase(x).replace(/_/g, '-') + " = ?");
+
+
+                      const cliSubcommand = botoCall.replace(/_/g, '-');
+                      const cliArgs = requiredArgs.map(x => "--" + camelToSnakeCase(x).replace(/_/g, '-') + " <value>");
+                      const cliSnippet = svc + " " + cliSubcommand + " " + cliArgs.join(" ");
+
                       let snippet = `client = boto3.client('${svc}')\n`;
-                      snippet +=  "client." + botoCall + "(\n  " + requiredArgs.map(x => x + "=?").join(',\n  ') + "\n)"
+                      snippet +=  "client." + botoCall + "(\n  " + requiredArgs.map(x => x + "=?").join(',\n  ') + "\n)";
+                      this.terraformSnippet = isValidTerraform ? `resource "aws_${terraform}" "example" {\n${tfArgs.join("\n")}\n}` : "";
+                      this.terraformResource = terraform;
+                      this.cliSnippet = cliSnippet
                       this.snippet = snippet;
                       this.focusedApi = botoCall;
                       this.focusedSvc = svc;
@@ -288,6 +319,9 @@
                   focusedSvc: "",
                   focusedApi: "",
                   snippet: '',
+                  cliSnippet: '',
+                  terraformSnippet: '',
+                  terraformResource: '',
                   inputTimer: null,
                   serviceUrls: {},
                   serviceVersions: {},
