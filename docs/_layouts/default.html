@@ -80,7 +80,7 @@
         {% raw %}
         <div id="container" style="display:none;padding:40px;">
             <nav style="background: rgb(50 65 82 / 90%);padding:12px 20px;position:fixed;width:100%;left:0;z-index:5;top:0px;">
-              <select v-model="filterService" style="display:inline-block;width:200px;padding:10px;">
+              <select v-model="filterService" style="display:inline-block;width:200px;padding:10px;" @change="search">
                 <option value=""></option>
                 <option v-for="option in serviceOptions" :value="option">
                   {{ option }}
@@ -209,8 +209,9 @@
           watch: {},
           created() {
               const self = this;
-              this.filter =  "" + decodeURI(window.location.hash.slice(1));
-
+              const filterUriParts = decodeURI(window.location.hash.slice(1)).split("@")
+              this.filter =  filterUriParts.length === 2 ? filterUriParts[1] : filterUriParts[0]
+              this.filterService = filterUriParts.length === 2 ? filterUriParts[0] : null;
               this.focusItem = debounce((item) => {
                   const svc = item.svc.replace(/[^a-z0-9]/g, '');
                   const versions = this.serviceVersions[svc];
@@ -316,7 +317,7 @@
 
               return {
                   search: debounce(() => {
-                    window.location.hash = this.filter;
+                    window.location.hash = (this.filterService || '') + "@" + this.filter;
                   }, 700),
                   focused: false,
                   focusedSvc: "",
