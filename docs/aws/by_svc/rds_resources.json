@@ -23,7 +23,8 @@
   "rds:RestoreDBClusterFromSnapshot",
   "rds:RestoreDBClusterToPointInTime",
   "rds:StartDBCluster",
-  "rds:StopDBCluster"
+  "rds:StopDBCluster",
+  "rds:SwitchoverGlobalCluster"
  ],
  "db*": [
   "rds:AddRoleToDBInstance",
@@ -158,6 +159,10 @@
   "rds:DeleteDBSubnetGroup",
   "rds:DescribeDBSubnetGroups",
   "rds:ModifyDBSubnetGroup"
+ ],
+ "cluster-auto-backup*": [
+  "rds:DeleteDBClusterAutomatedBackup",
+  "rds:DescribeDBClusterAutomatedBackups"
  ],
  "cluster-endpoint*": [
   "rds:DeleteDBClusterEndpoint",

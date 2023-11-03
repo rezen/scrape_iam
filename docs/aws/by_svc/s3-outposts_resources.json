@@ -8,12 +8,16 @@
   "s3-outposts:GetObject",
   "s3-outposts:GetObjectTagging",
   "s3-outposts:GetObjectVersion",
+  "s3-outposts:GetObjectVersionForReplication",
   "s3-outposts:GetObjectVersionTagging",
   "s3-outposts:ListMultipartUploadParts",
   "s3-outposts:PutObject",
   "s3-outposts:PutObjectAcl",
   "s3-outposts:PutObjectTagging",
-  "s3-outposts:PutObjectVersionTagging"
+  "s3-outposts:PutObjectVersionTagging",
+  "s3-outposts:ReplicateDelete",
+  "s3-outposts:ReplicateObject",
+  "s3-outposts:ReplicateTags"
  ],
  "accesspoint*": [
   "s3-outposts:CreateAccessPoint",
@@ -33,11 +37,13 @@
   "s3-outposts:GetBucketTagging",
   "s3-outposts:GetBucketVersioning",
   "s3-outposts:GetLifecycleConfiguration",
+  "s3-outposts:GetReplicationConfiguration",
   "s3-outposts:ListBucketVersions",
   "s3-outposts:PutBucketPolicy",
   "s3-outposts:PutBucketTagging",
   "s3-outposts:PutBucketVersioning",
-  "s3-outposts:PutLifecycleConfiguration"
+  "s3-outposts:PutLifecycleConfiguration",
+  "s3-outposts:PutReplicationConfiguration"
  ],
  "endpoint*": [
   "s3-outposts:CreateEndpoint",

@@ -20,6 +20,8 @@
  "rolesanywhere:ListSubjects",
  "rolesanywhere:ListTagsForResource",
  "rolesanywhere:ListTrustAnchors",
+ "rolesanywhere:PutNotificationSettings",
+ "rolesanywhere:ResetNotificationSettings",
  "rolesanywhere:TagResource",
  "rolesanywhere:UntagResource",
  "rolesanywhere:UpdateCrl",

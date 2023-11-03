@@ -3,8 +3,12 @@
   "internetmonitor:CreateMonitor",
   "internetmonitor:DeleteMonitor",
   "internetmonitor:GetMonitor",
+  "internetmonitor:GetQueryResults",
+  "internetmonitor:GetQueryStatus",
   "internetmonitor:ListHealthEvents",
   "internetmonitor:ListTagsForResource",
+  "internetmonitor:StartQuery",
+  "internetmonitor:StopQuery",
   "internetmonitor:TagResource",
   "internetmonitor:UntagResource",
   "internetmonitor:UpdateMonitor"

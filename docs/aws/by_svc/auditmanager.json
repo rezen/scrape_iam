@@ -26,6 +26,7 @@
  "auditmanager:GetDelegations",
  "auditmanager:GetEvidence",
  "auditmanager:GetEvidenceByEvidenceFolder",
+ "auditmanager:GetEvidenceFileUploadUrl",
  "auditmanager:GetEvidenceFolder",
  "auditmanager:GetEvidenceFoldersByAssessment",
  "auditmanager:GetEvidenceFoldersByAssessmentControl",

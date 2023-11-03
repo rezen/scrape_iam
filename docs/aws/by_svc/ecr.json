@@ -3,7 +3,6 @@
  "ecr:BatchDeleteImage",
  "ecr:BatchGetImage",
  "ecr:BatchGetRepositoryScanningConfiguration",
- "ecr:BatchImportUpstreamImage",
  "ecr:CompleteLayerUpload",
  "ecr:CreatePullThroughCacheRule",
  "ecr:CreateRepository",

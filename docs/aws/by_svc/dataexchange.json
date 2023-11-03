@@ -21,6 +21,7 @@
  "dataexchange:ListTagsForResource",
  "dataexchange:RevokeRevision",
  "dataexchange:SendApiAsset",
+ "dataexchange:SendDataSetNotification",
  "dataexchange:StartJob",
  "dataexchange:TagResource",
  "dataexchange:UntagResource",

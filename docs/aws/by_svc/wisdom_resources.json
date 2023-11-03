@@ -4,9 +4,7 @@
   "wisdom:CreateKnowledgeBase",
   "wisdom:ListAssistants",
   "wisdom:ListKnowledgeBases",
-  "wisdom:ListTagsForResource",
-  "wisdom:TagResource",
-  "wisdom:UntagResource"
+  "wisdom:ListTagsForResource"
  ],
  "Assistant*": [
   "wisdom:CreateAssistantAssociation",
@@ -24,19 +22,33 @@
  ],
  "KnowledgeBase*": [
   "wisdom:CreateContent",
+  "wisdom:CreateQuickResponse",
+  "wisdom:DeleteImportJob",
   "wisdom:DeleteKnowledgeBase",
+  "wisdom:DeleteQuickResponse",
+  "wisdom:GetImportJob",
   "wisdom:GetKnowledgeBase",
+  "wisdom:GetQuickResponse",
   "wisdom:ListContents",
+  "wisdom:ListImportJobs",
+  "wisdom:ListQuickResponses",
   "wisdom:RemoveKnowledgeBaseTemplateUri",
   "wisdom:SearchContent",
+  "wisdom:SearchQuickResponses",
   "wisdom:StartContentUpload",
-  "wisdom:UpdateKnowledgeBaseTemplateUri"
+  "wisdom:StartImportJob",
+  "wisdom:UpdateKnowledgeBaseTemplateUri",
+  "wisdom:UpdateQuickResponse"
  ],
  "Content*": [
   "wisdom:DeleteContent",
   "wisdom:GetContent",
   "wisdom:GetContentSummary",
   "wisdom:UpdateContent"
+ ],
+ "Assistant": [
+  "wisdom:TagResource",
+  "wisdom:UntagResource"
  ],
  "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonconnectwisdom.html"
 }

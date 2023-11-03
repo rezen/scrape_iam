@@ -66,6 +66,7 @@
  "iam:GetGroupPolicy",
  "iam:GetInstanceProfile",
  "iam:GetLoginProfile",
+ "iam:GetMFADevice",
  "iam:GetOpenIDConnectProvider",
  "iam:GetOrganizationsAccessReport",
  "iam:GetPolicy",

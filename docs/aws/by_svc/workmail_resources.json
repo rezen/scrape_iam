@@ -27,6 +27,7 @@
   "workmail:DeregisterFromWorkMail",
   "workmail:DeregisterMailDomain",
   "workmail:DescribeEmailMonitoringConfiguration",
+  "workmail:DescribeEntity",
   "workmail:DescribeGroup",
   "workmail:DescribeInboundDmarcSettings",
   "workmail:DescribeMailboxExportJob",
@@ -48,6 +49,7 @@
   "workmail:ListAvailabilityConfigurations",
   "workmail:ListGroupMembers",
   "workmail:ListGroups",
+  "workmail:ListGroupsForEntity",
   "workmail:ListImpersonationRoles",
   "workmail:ListMailDomains",
   "workmail:ListMailboxExportJobs",
@@ -73,11 +75,13 @@
   "workmail:UntagResource",
   "workmail:UpdateAvailabilityConfiguration",
   "workmail:UpdateDefaultMailDomain",
+  "workmail:UpdateGroup",
   "workmail:UpdateImpersonationRole",
   "workmail:UpdateMailboxQuota",
   "workmail:UpdateMobileDeviceAccessRule",
   "workmail:UpdatePrimaryEmailAddress",
-  "workmail:UpdateResource"
+  "workmail:UpdateResource",
+  "workmail:UpdateUser"
  ],
  "?": [
   "workmail:CreateOrganization",

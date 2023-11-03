@@ -1,11 +1,14 @@
 {
  "?": [
+  "cloudformation:ActivateOrganizationsAccess",
   "cloudformation:ActivateType",
   "cloudformation:BatchDescribeTypeConfigurations",
   "cloudformation:CreateStackSet",
+  "cloudformation:DeactivateOrganizationsAccess",
   "cloudformation:DeactivateType",
   "cloudformation:DeregisterType",
   "cloudformation:DescribeAccountLimits",
+  "cloudformation:DescribeOrganizationsAccess",
   "cloudformation:DescribePublisher",
   "cloudformation:DescribeStackDriftDetectionStatus",
   "cloudformation:DescribeType",
@@ -13,6 +16,7 @@
   "cloudformation:EstimateTemplateCost",
   "cloudformation:ListExports",
   "cloudformation:ListImports",
+  "cloudformation:ListStackSets",
   "cloudformation:ListStacks",
   "cloudformation:ListTypeRegistrations",
   "cloudformation:ListTypeVersions",
@@ -38,7 +42,6 @@
   "cloudformation:DescribeStackResource",
   "cloudformation:DescribeStackResourceDrifts",
   "cloudformation:DescribeStackResources",
-  "cloudformation:DescribeStacks",
   "cloudformation:DetectStackDrift",
   "cloudformation:DetectStackResourceDrift",
   "cloudformation:ExecuteChangeSet",
@@ -62,15 +65,16 @@
   "cloudformation:DescribeStackSetOperation",
   "cloudformation:DetectStackSetDrift",
   "cloudformation:ImportStacksToStackSet",
+  "cloudformation:ListStackInstanceResourceDrifts",
   "cloudformation:ListStackInstances",
   "cloudformation:ListStackSetOperationResults",
   "cloudformation:ListStackSetOperations",
-  "cloudformation:ListStackSets",
   "cloudformation:StopStackSetOperation",
   "cloudformation:UpdateStackInstances",
   "cloudformation:UpdateStackSet"
  ],
  "stack": [
+  "cloudformation:DescribeStacks",
   "cloudformation:GetTemplateSummary"
  ],
  "changeset": [

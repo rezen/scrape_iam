@@ -21,7 +21,8 @@
   "grafana:ListWorkspaces"
  ],
  "workspace": [
-  "grafana:ListTagsForResource"
+  "grafana:ListTagsForResource",
+  "grafana:ListVersions"
  ],
  "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonmanagedgrafana.html"
 }

@@ -3,7 +3,6 @@
   "proton:AcceptEnvironmentAccountConnection",
   "proton:DeleteEnvironmentAccountConnection",
   "proton:GetEnvironmentAccountConnection",
-  "proton:ListEnvironmentAccountConnections",
   "proton:RejectEnvironmentAccountConnection",
   "proton:UpdateEnvironmentAccountConnection"
  ],
@@ -27,6 +26,7 @@
  ],
  "service-instance*": [
   "proton:CancelServiceInstanceDeployment",
+  "proton:CreateServiceInstance",
   "proton:GetServiceInstance",
   "proton:UpdateServiceInstance"
  ],
@@ -44,16 +44,23 @@
  ],
  "?": [
   "proton:CreateEnvironmentAccountConnection",
+  "proton:CreateServiceSyncConfig",
   "proton:CreateTemplateSyncConfig",
   "proton:DeleteAccountRoles",
+  "proton:DeleteServiceSyncConfig",
   "proton:DeleteTemplateSyncConfig",
   "proton:GetAccountRoles",
   "proton:GetAccountSettings",
   "proton:GetRepositorySyncStatus",
   "proton:GetResourceTemplateVersionStatusCounts",
   "proton:GetResourcesSummary",
+  "proton:GetServiceInstanceSyncStatus",
+  "proton:GetServiceSyncBlockerSummary",
+  "proton:GetServiceSyncConfig",
   "proton:GetTemplateSyncConfig",
   "proton:GetTemplateSyncStatus",
+  "proton:ListDeployments",
+  "proton:ListEnvironmentAccountConnections",
   "proton:ListEnvironmentTemplates",
   "proton:ListEnvironments",
   "proton:ListRepositories",
@@ -63,6 +70,8 @@
   "proton:ListServices",
   "proton:UpdateAccountRoles",
   "proton:UpdateAccountSettings",
+  "proton:UpdateServiceSyncBlocker",
+  "proton:UpdateServiceSyncConfig",
   "proton:UpdateTemplateSyncConfig"
  ],
  "environment-template*": [
@@ -111,6 +120,10 @@
   "proton:UpdateServiceTemplateMajorVersion",
   "proton:UpdateServiceTemplateMinorVersion",
   "proton:UpdateServiceTemplateVersion"
+ ],
+ "deployment*": [
+  "proton:DeleteDeployment",
+  "proton:GetDeployment"
  ],
  "environment": [
   "proton:ListComponents",

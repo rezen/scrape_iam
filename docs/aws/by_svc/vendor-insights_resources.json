@@ -23,7 +23,8 @@
  ],
  "DataSource*": [
   "vendor-insights:DeleteDataSource",
-  "vendor-insights:GetDataSource"
+  "vendor-insights:GetDataSource",
+  "vendor-insights:UpdateDataSource"
  ],
  "DataSource": [
   "vendor-insights:ListTagsForResource",

@@ -38,6 +38,7 @@
  "workdocs:RemoveAllResourcePermissions",
  "workdocs:RemoveResourcePermission",
  "workdocs:RestoreDocumentVersions",
+ "workdocs:SearchResources",
  "workdocs:UpdateDocument",
  "workdocs:UpdateDocumentVersion",
  "workdocs:UpdateFolder",

@@ -35,29 +35,37 @@
  ],
  "firewall-domain-list*": [
   "route53resolver:CreateFirewallDomainList",
+  "route53resolver:CreateFirewallRule",
   "route53resolver:DeleteFirewallDomainList",
+  "route53resolver:DeleteFirewallRule",
   "route53resolver:GetFirewallDomainList",
   "route53resolver:ImportFirewallDomains",
   "route53resolver:ListFirewallDomains",
-  "route53resolver:UpdateFirewallDomains"
+  "route53resolver:UpdateFirewallDomains",
+  "route53resolver:UpdateFirewallRule"
  ],
  "firewall-rule-group*": [
-  "route53resolver:CreateFirewallRule",
   "route53resolver:CreateFirewallRuleGroup",
-  "route53resolver:DeleteFirewallRule",
   "route53resolver:DeleteFirewallRuleGroup",
   "route53resolver:GetFirewallRuleGroup",
   "route53resolver:GetFirewallRuleGroupPolicy",
   "route53resolver:ListFirewallRules",
-  "route53resolver:PutFirewallRuleGroupPolicy",
-  "route53resolver:UpdateFirewallRule"
+  "route53resolver:PutFirewallRuleGroupPolicy"
+ ],
+ "outpost-resolver*": [
+  "route53resolver:CreateOutpostResolver",
+  "route53resolver:DeleteOutpostResolver",
+  "route53resolver:GetOutpostResolver",
+  "route53resolver:UpdateOutpostResolver"
  ],
  "?": [
   "route53resolver:CreateResolverQueryLogConfig",
   "route53resolver:GetResolverQueryLogConfigAssociation",
+  "route53resolver:ListFirewallConfigs",
   "route53resolver:ListFirewallDomainLists",
   "route53resolver:ListFirewallRuleGroupAssociations",
   "route53resolver:ListFirewallRuleGroups",
+  "route53resolver:ListOutpostResolvers",
   "route53resolver:ListResolverEndpoints",
   "route53resolver:ListResolverQueryLogConfigAssociations",
   "route53resolver:ListResolverQueryLogConfigs",
@@ -66,7 +74,6 @@
  ],
  "firewall-config*": [
   "route53resolver:GetFirewallConfig",
-  "route53resolver:ListFirewallConfigs",
   "route53resolver:UpdateFirewallConfig"
  ],
  "resolver-config*": [

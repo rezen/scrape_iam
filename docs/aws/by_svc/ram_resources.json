@@ -10,16 +10,22 @@
   "ram:DisassociateResourceShare",
   "ram:ListResourceSharePermissions",
   "ram:PromoteResourceShareCreatedFromPolicy",
-  "ram:TagResource",
-  "ram:UntagResource",
   "ram:UpdateResourceShare"
  ],
- "permission*": [
+ "customer-managed-permission*": [
   "ram:AssociateResourceSharePermission",
+  "ram:CreatePermissionVersion",
+  "ram:DeletePermission",
+  "ram:DeletePermissionVersion",
   "ram:DisassociateResourceSharePermission",
-  "ram:GetPermission"
+  "ram:GetPermission",
+  "ram:ListPermissionAssociations",
+  "ram:PromotePermissionCreatedFromPolicy",
+  "ram:ReplacePermissionAssociations",
+  "ram:SetDefaultPermissionVersion"
  ],
  "?": [
+  "ram:CreatePermission",
   "ram:CreateResourceShare",
   "ram:EnableSharingWithAwsOrganization",
   "ram:GetResourcePolicies",
@@ -29,8 +35,13 @@
   "ram:ListPermissionVersions",
   "ram:ListPermissions",
   "ram:ListPrincipals",
+  "ram:ListReplacePermissionAssociationsWork",
   "ram:ListResourceTypes",
   "ram:ListResources"
  ],
- "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsresourceaccessmanager.html"
+ "customer-managed-permission": [
+  "ram:TagResource",
+  "ram:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsresourceaccessmanagerram.html"
 }

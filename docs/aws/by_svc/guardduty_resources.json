@@ -39,6 +39,8 @@
   "guardduty:ListOrganizationAdminAccounts",
   "guardduty:ListPublishingDestinations",
   "guardduty:ListThreatIntelSets",
+  "guardduty:SendSecurityTelemetry",
+  "guardduty:StartMalwareScan",
   "guardduty:StartMonitoringMembers",
   "guardduty:StopMonitoringMembers",
   "guardduty:UnarchiveFindings",
@@ -55,7 +57,9 @@
  ],
  "detector*": [
   "guardduty:DeleteDetector",
+  "guardduty:GetCoverageStatistics",
   "guardduty:GetDetector",
+  "guardduty:ListCoverage",
   "guardduty:UpdateDetector"
  ],
  "ipset*": [

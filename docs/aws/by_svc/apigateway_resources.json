@@ -4,13 +4,11 @@
   "apigateway:GET"
  ],
  "Api": [
-  "apigateway:PATCH"
+  "apigateway:PATCH",
+  "apigateway:PUT"
  ],
  "ApiMappings": [
   "apigateway:POST"
- ],
- "Apis": [
-  "apigateway:PUT"
  ],
  "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonapigatewaymanagementv2.html"
 }

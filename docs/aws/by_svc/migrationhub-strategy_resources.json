@@ -12,6 +12,7 @@
   "migrationhub-strategy:GetRecommendationReportDetails",
   "migrationhub-strategy:GetServerDetails",
   "migrationhub-strategy:GetServerStrategies",
+  "migrationhub-strategy:ListAnalyzableServers",
   "migrationhub-strategy:ListAntiPatterns",
   "migrationhub-strategy:ListApplicationComponents",
   "migrationhub-strategy:ListCollectors",

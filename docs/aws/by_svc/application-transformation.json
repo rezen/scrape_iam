@@ -1,0 +1,12 @@
+[
+ "application-transformation:GetGroupingAssessment",
+ "application-transformation:GetPortingCompatibilityAssessment",
+ "application-transformation:GetPortingRecommendationAssessment",
+ "application-transformation:GetRuntimeAssessment",
+ "application-transformation:PutLogData",
+ "application-transformation:PutMetricData",
+ "application-transformation:StartGroupingAssessment",
+ "application-transformation:StartPortingCompatibilityAssessment",
+ "application-transformation:StartPortingRecommendationAssessment",
+ "application-transformation:StartRuntimeAssessment"
+]

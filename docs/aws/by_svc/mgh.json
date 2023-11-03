@@ -3,6 +3,7 @@
  "mgh:AssociateDiscoveredResource",
  "mgh:CreateHomeRegionControl",
  "mgh:CreateProgressUpdateStream",
+ "mgh:DeleteHomeRegionControl",
  "mgh:DeleteProgressUpdateStream",
  "mgh:DescribeApplicationState",
  "mgh:DescribeHomeRegionControls",

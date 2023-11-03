@@ -1,4 +1,13 @@
 {
+ "evaluation-form*": [
+  "connect:ActivateEvaluationForm",
+  "connect:CreateEvaluationForm",
+  "connect:DeactivateEvaluationForm",
+  "connect:DeleteEvaluationForm",
+  "connect:DescribeEvaluationForm",
+  "connect:ListEvaluationFormVersions",
+  "connect:UpdateEvaluationForm"
+ ],
  "instance*": [
   "connect:AssociateApprovedOrigin",
   "connect:AssociateBot",
@@ -7,16 +16,21 @@
   "connect:AssociateLambdaFunction",
   "connect:AssociateLexBot",
   "connect:AssociateSecurityKey",
+  "connect:AssociateTrafficDistributionGroupUser",
+  "connect:BatchGetFlowAssociation",
   "connect:ClaimPhoneNumber",
   "connect:CreateIntegrationAssociation",
+  "connect:CreatePredefinedAttribute",
   "connect:CreateTrafficDistributionGroup",
   "connect:CreateUseCase",
   "connect:DeleteInstance",
   "connect:DeleteIntegrationAssociation",
+  "connect:DeletePredefinedAttribute",
   "connect:DeleteUseCase",
   "connect:DescribeInstance",
   "connect:DescribeInstanceAttribute",
   "connect:DescribeInstanceStorageConfig",
+  "connect:DescribePredefinedAttribute",
   "connect:DescribeUserHierarchyStructure",
   "connect:DisassociateApprovedOrigin",
   "connect:DisassociateBot",
@@ -24,18 +38,22 @@
   "connect:DisassociateLambdaFunction",
   "connect:DisassociateLexBot",
   "connect:DisassociateSecurityKey",
+  "connect:DisassociateTrafficDistributionGroupUser",
   "connect:GetFederationToken",
   "connect:GetFederationTokens",
   "connect:ListApprovedOrigins",
   "connect:ListBots",
+  "connect:ListContactEvaluations",
   "connect:ListContactFlowModules",
   "connect:ListDefaultVocabularies",
+  "connect:ListEvaluationForms",
   "connect:ListHoursOfOperations",
   "connect:ListInstanceAttributes",
   "connect:ListInstanceStorageConfigs",
   "connect:ListIntegrationAssociations",
   "connect:ListLambdaFunctions",
   "connect:ListLexBots",
+  "connect:ListPredefinedAttributes",
   "connect:ListPrompts",
   "connect:ListRoutingProfiles",
   "connect:ListRules",
@@ -45,7 +63,13 @@
   "connect:ListUseCases",
   "connect:ListUserHierarchyGroups",
   "connect:ListUsers",
+  "connect:ListViews",
+  "connect:ReplicateInstance",
+  "connect:SearchHoursOfOperations",
+  "connect:SearchPrompts",
   "connect:SearchQueues",
+  "connect:SearchQuickConnects",
+  "connect:SearchResourceTags",
   "connect:SearchRoutingProfiles",
   "connect:SearchSecurityProfiles",
   "connect:SearchUsers",
@@ -54,7 +78,7 @@
   "connect:UpdateInstanceAttribute",
   "connect:UpdateInstanceStorageConfig",
   "connect:UpdatePhoneNumber",
-  "connect:UpdateRule",
+  "connect:UpdatePredefinedAttribute",
   "connect:UpdateUserHierarchyStructure"
  ],
  "contact-flow*": [
@@ -72,6 +96,7 @@
   "connect:AssociateQueueQuickConnects",
   "connect:AssociateRoutingProfileQueues",
   "connect:CreateRoutingProfile",
+  "connect:DeleteQueue",
   "connect:DescribeQueue",
   "connect:DisassociateQueueQuickConnects",
   "connect:GetCurrentMetricData",
@@ -94,8 +119,7 @@
   "connect:DeleteContactFlowModule",
   "connect:DescribeContactFlowModule",
   "connect:UpdateContactFlowModuleContent",
-  "connect:UpdateContactFlowModuleMetadata",
-  "connect:UpdatedescribeContent"
+  "connect:UpdateContactFlowModuleMetadata"
  ],
  "hours-of-operation*": [
   "connect:CreateHoursOfOperation",
@@ -107,8 +131,33 @@
  ],
  "?": [
   "connect:CreateInstance",
-  "connect:ListInstances",
-  "connect:ReplicateInstance"
+  "connect:ListInstances"
+ ],
+ "contact*": [
+  "connect:CreateParticipant",
+  "connect:DescribeContact",
+  "connect:GetContactAttributes",
+  "connect:ListContactReferences",
+  "connect:ListRealtimeContactAnalysisSegments",
+  "connect:MonitorContact",
+  "connect:ResumeContactRecording",
+  "connect:StartContactRecording",
+  "connect:StartOutboundVoiceContact",
+  "connect:StopContact",
+  "connect:StopContactRecording",
+  "connect:SuspendContactRecording",
+  "connect:TransferContact",
+  "connect:UpdateContact",
+  "connect:UpdateContactAttributes",
+  "connect:UpdateContactSchedule",
+  "connect:UpdateParticipantRoleConfig"
+ ],
+ "prompt*": [
+  "connect:CreatePrompt",
+  "connect:DeletePrompt",
+  "connect:DescribePrompt",
+  "connect:GetPromptFile",
+  "connect:UpdatePrompt"
  ],
  "quick-connect*": [
   "connect:CreateQuickConnect",
@@ -120,12 +169,14 @@
  "rule*": [
   "connect:CreateRule",
   "connect:DeleteRule",
-  "connect:DescribeRule"
+  "connect:DescribeRule",
+  "connect:UpdateRule"
  ],
  "security-profile*": [
   "connect:CreateSecurityProfile",
   "connect:DeleteSecurityProfile",
   "connect:DescribeSecurityProfile",
+  "connect:ListSecurityProfileApplications",
   "connect:ListSecurityProfilePermissions",
   "connect:UpdateSecurityProfile",
   "connect:UpdateUserSecurityProfiles"
@@ -138,9 +189,11 @@
  ],
  "routing-profile*": [
   "connect:CreateUser",
+  "connect:DeleteRoutingProfile",
   "connect:DescribeRoutingProfile",
   "connect:DisassociateRoutingProfileQueues",
   "connect:ListRoutingProfileQueues",
+  "connect:UpdateRoutingProfileAgentAvailabilityTimer",
   "connect:UpdateRoutingProfileConcurrency",
   "connect:UpdateRoutingProfileName",
   "connect:UpdateRoutingProfileQueues",
@@ -149,16 +202,31 @@
  "hierarchy-group": [
   "connect:CreateUserHierarchyGroup"
  ],
+ "customer-managed-view*": [
+  "connect:CreateView",
+  "connect:CreateViewVersion",
+  "connect:DeleteView",
+  "connect:UpdateViewContent",
+  "connect:UpdateViewMetadata"
+ ],
  "vocabulary*": [
   "connect:CreateVocabulary",
   "connect:DeleteVocabulary",
   "connect:DescribeVocabulary",
   "connect:SearchVocabularies"
  ],
+ "contact-evaluation*": [
+  "connect:DeleteContactEvaluation",
+  "connect:DescribeContactEvaluation",
+  "connect:StartContactEvaluation",
+  "connect:SubmitContactEvaluation",
+  "connect:UpdateContactEvaluation"
+ ],
  "traffic-distribution-group*": [
   "connect:DeleteTrafficDistributionGroup",
   "connect:DescribeTrafficDistributionGroup",
   "connect:GetTrafficDistribution",
+  "connect:ListTrafficDistributionGroupUsers",
   "connect:ListTrafficDistributionGroups",
   "connect:UpdateTrafficDistribution"
  ],
@@ -177,28 +245,18 @@
   "connect:GetMetricDataV2",
   "connect:UpdateUserHierarchyGroupName"
  ],
- "contact*": [
-  "connect:DescribeContact",
-  "connect:GetContactAttributes",
-  "connect:ListContactReferences",
-  "connect:ListRealtimeContactAnalysisSegments",
-  "connect:MonitorContact",
-  "connect:ResumeContactRecording",
-  "connect:StartContactRecording",
-  "connect:StartOutboundVoiceContact",
-  "connect:StopContact",
-  "connect:StopContactRecording",
-  "connect:SuspendContactRecording",
-  "connect:TransferContact",
-  "connect:UpdateContact",
-  "connect:UpdateContactAttributes",
-  "connect:UpdateContactSchedule",
-  "connect:UpdateParticipantRoleConfig"
+ "customer-managed-view-version*": [
+  "connect:DeleteViewVersion"
  ],
  "phone-number*": [
   "connect:DescribePhoneNumber",
   "connect:DisassociatePhoneNumberContactFlow",
-  "connect:ReleasePhoneNumber"
+  "connect:ReleasePhoneNumber",
+  "connect:UpdatePhoneNumberMetadata"
+ ],
+ "aws-managed-view*": [
+  "connect:DescribeView",
+  "connect:ListViewVersions"
  ],
  "wildcard-agent-status*": [
   "connect:ListAgentStatuses"

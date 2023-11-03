@@ -25,5 +25,5 @@
   "healthlake:TagResource",
   "healthlake:UntagResource"
  ],
- "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonhealthlake.html"
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awshealthlake.html"
 }

@@ -1,3 +1,20 @@
 {
+ "ScanName*": [
+  "codeguru-security:BatchGetFindings",
+  "codeguru-security:CreateScan",
+  "codeguru-security:CreateUploadUrl",
+  "codeguru-security:GetFindings",
+  "codeguru-security:GetScan",
+  "codeguru-security:ListTagsForResource",
+  "codeguru-security:TagResource",
+  "codeguru-security:UntagResource"
+ ],
+ "?": [
+  "codeguru-security:GetAccountConfiguration",
+  "codeguru-security:GetMetricsSummary",
+  "codeguru-security:ListFindingsMetrics",
+  "codeguru-security:ListScans",
+  "codeguru-security:UpdateAccountConfiguration"
+ ],
  "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoncodegurusecurity.html"
 }

@@ -6,7 +6,10 @@
  "application-autoscaling:DescribeScalingActivities",
  "application-autoscaling:DescribeScalingPolicies",
  "application-autoscaling:DescribeScheduledActions",
+ "application-autoscaling:ListTagsForResource",
  "application-autoscaling:PutScalingPolicy",
  "application-autoscaling:PutScheduledAction",
- "application-autoscaling:RegisterScalableTarget"
+ "application-autoscaling:RegisterScalableTarget",
+ "application-autoscaling:TagResource",
+ "application-autoscaling:UntagResource"
 ]

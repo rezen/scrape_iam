@@ -2,6 +2,7 @@
  "controltower:DisableControl",
  "controltower:EnableControl",
  "controltower:GetControlOperation",
+ "controltower:GetEnabledControl",
  "controltower:GetLandingZoneDriftStatus",
  "controltower:ListDriftDetails",
  "controltower:ListEnabledControls",

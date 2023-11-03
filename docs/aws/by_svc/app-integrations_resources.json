@@ -1,4 +1,9 @@
 {
+ "application*": [
+  "app-integrations:CreateApplication",
+  "app-integrations:GetApplication",
+  "app-integrations:UpdateApplication"
+ ],
  "data-integration*": [
   "app-integrations:CreateDataIntegration",
   "app-integrations:DeleteDataIntegration",
@@ -12,12 +17,13 @@
   "app-integrations:UpdateEventIntegration"
  ],
  "?": [
+  "app-integrations:ListApplications",
   "app-integrations:ListDataIntegrationAssociations",
   "app-integrations:ListDataIntegrations",
   "app-integrations:ListEventIntegrationAssociations",
   "app-integrations:ListEventIntegrations"
  ],
- "data-integration": [
+ "application": [
   "app-integrations:ListTagsForResource",
   "app-integrations:TagResource",
   "app-integrations:UntagResource"

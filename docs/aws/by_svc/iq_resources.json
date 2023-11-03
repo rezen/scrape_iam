@@ -23,6 +23,7 @@
   "iq:ArchiveConversation",
   "iq:GetChatInfo",
   "iq:GetChatMessages",
+  "iq:GetCompanyChatMessages",
   "iq:GetConversation",
   "iq:ListConversations",
   "iq:MarkChatMessageRead",
@@ -46,7 +47,17 @@
   "iq:UploadAttachment"
  ],
  "attachment*": [
-  "iq:DeleteAttachment"
+  "iq:DeleteAttachment",
+  "iq:DownloadAttachment",
+  "iq:ListAttachments"
+ ],
+ "expert*": [
+  "iq:DisableIndividualPublicProfile",
+  "iq:EnableIndividualPublicProfile",
+  "iq:GetExpert",
+  "iq:LinkAwsCertification",
+  "iq:UnlinkAwsCertification",
+  "iq:UpdateExpert"
  ],
  "buyer*": [
   "iq:GetBuyer"
@@ -57,10 +68,6 @@
  "company*": [
   "iq:GetCompanyProfile",
   "iq:UpdateCompanyProfile"
- ],
- "expert*": [
-  "iq:GetExpert",
-  "iq:UpdateExpert"
  ],
  "listing*": [
   "iq:GetListing",
@@ -74,9 +81,13 @@
   "iq:WriteReview"
  ],
  "request*": [
+  "iq:GetRequest",
   "iq:HideRequest",
   "iq:ListRequests",
   "iq:UpdateRequest"
+ ],
+ "permission*": [
+  "iq:ListExpertAccessLogs"
  ],
  "paymentRequest": [
   "iq:ListPaymentRequests"

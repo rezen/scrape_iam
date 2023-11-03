@@ -13,9 +13,7 @@
   "outposts:ListOutposts",
   "outposts:ListSites",
   "outposts:ListTagsForResource",
-  "outposts:StartConnection",
-  "outposts:TagResource",
-  "outposts:UntagResource"
+  "outposts:StartConnection"
  ],
  "outpost*": [
   "outposts:CreateOrder",
@@ -32,6 +30,10 @@
   "outposts:UpdateSite",
   "outposts:UpdateSiteAddress",
   "outposts:UpdateSiteRackPhysicalProperties"
+ ],
+ "outpost": [
+  "outposts:TagResource",
+  "outposts:UntagResource"
  ],
  "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsoutposts.html"
 }

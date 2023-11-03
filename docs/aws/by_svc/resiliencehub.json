@@ -1,5 +1,6 @@
 [
  "resiliencehub:AddDraftAppVersionResourceMappings",
+ "resiliencehub:BatchUpdateRecommendationStatus",
  "resiliencehub:CreateApp",
  "resiliencehub:CreateAppVersionAppComponent",
  "resiliencehub:CreateAppVersionResource",
@@ -23,6 +24,7 @@
  "resiliencehub:DescribeResiliencyPolicy",
  "resiliencehub:ImportResourcesToDraftAppVersion",
  "resiliencehub:ListAlarmRecommendations",
+ "resiliencehub:ListAppAssessmentComplianceDrifts",
  "resiliencehub:ListAppAssessments",
  "resiliencehub:ListAppComponentCompliances",
  "resiliencehub:ListAppComponentRecommendations",

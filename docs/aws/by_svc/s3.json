@@ -74,7 +74,6 @@
  "s3:GetStorageLensConfiguration",
  "s3:GetStorageLensConfigurationTagging",
  "s3:GetStorageLensDashboard",
- "s3:InitiateReplication",
  "s3:ListAccessPoints",
  "s3:ListAccessPointsForObjectLambda",
  "s3:ListAllMyBuckets",

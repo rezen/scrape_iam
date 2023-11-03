@@ -1,7 +1,12 @@
 {
- "?": [
+ "EnabledControl*": [
   "controltower:DisableControl",
-  "controltower:EnableControl",
+  "controltower:GetEnabledControl"
+ ],
+ "EnabledControl": [
+  "controltower:EnableControl"
+ ],
+ "?": [
   "controltower:GetControlOperation",
   "controltower:GetLandingZoneDriftStatus",
   "controltower:ListDriftDetails",

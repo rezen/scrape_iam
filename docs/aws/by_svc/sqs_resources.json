@@ -1,6 +1,7 @@
 {
  "queue*": [
   "sqs:AddPermission",
+  "sqs:CancelMessageMoveTask",
   "sqs:ChangeMessageVisibility",
   "sqs:CreateQueue",
   "sqs:DeleteMessage",
@@ -8,12 +9,14 @@
   "sqs:GetQueueAttributes",
   "sqs:GetQueueUrl",
   "sqs:ListDeadLetterSourceQueues",
+  "sqs:ListMessageMoveTasks",
   "sqs:ListQueueTags",
   "sqs:PurgeQueue",
   "sqs:ReceiveMessage",
   "sqs:RemovePermission",
   "sqs:SendMessage",
   "sqs:SetQueueAttributes",
+  "sqs:StartMessageMoveTask",
   "sqs:TagQueue",
   "sqs:UntagQueue"
  ],

@@ -1,0 +1,20 @@
+[
+ "medical-imaging:CopyImageSet",
+ "medical-imaging:CreateDatastore",
+ "medical-imaging:DeleteDatastore",
+ "medical-imaging:DeleteImageSet",
+ "medical-imaging:GetDICOMImportJob",
+ "medical-imaging:GetDatastore",
+ "medical-imaging:GetImageFrame",
+ "medical-imaging:GetImageSet",
+ "medical-imaging:GetImageSetMetadata",
+ "medical-imaging:ListDICOMImportJobs",
+ "medical-imaging:ListDatastores",
+ "medical-imaging:ListImageSetVersions",
+ "medical-imaging:ListTagsForResource",
+ "medical-imaging:SearchImageSets",
+ "medical-imaging:StartDICOMImportJob",
+ "medical-imaging:TagResource",
+ "medical-imaging:UntagResource",
+ "medical-imaging:UpdateImageSetMetadata"
+]

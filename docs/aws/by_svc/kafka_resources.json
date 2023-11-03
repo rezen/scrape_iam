@@ -1,43 +1,65 @@
 {
- "?": [
+ "cluster*": [
   "kafka:BatchAssociateScramSecret",
   "kafka:BatchDisassociateScramSecret",
   "kafka:CreateCluster",
   "kafka:CreateClusterV2",
-  "kafka:CreateConfiguration",
+  "kafka:CreateVpcConnection",
   "kafka:DeleteCluster",
-  "kafka:DeleteConfiguration",
+  "kafka:DeleteClusterPolicy",
   "kafka:DescribeCluster",
-  "kafka:DescribeClusterOperation",
   "kafka:DescribeClusterV2",
-  "kafka:GetBootstrapBrokers",
-  "kafka:GetCompatibleKafkaVersions",
+  "kafka:GetClusterPolicy",
+  "kafka:ListClientVpcConnections",
   "kafka:ListClusterOperations",
-  "kafka:ListClusters",
-  "kafka:ListClustersV2",
-  "kafka:ListConfigurationRevisions",
-  "kafka:ListConfigurations",
-  "kafka:ListKafkaVersions",
+  "kafka:ListClusterOperationsV2",
   "kafka:ListNodes",
   "kafka:ListScramSecrets",
+  "kafka:ListTagsForResource",
+  "kafka:PutClusterPolicy",
   "kafka:RebootBroker",
+  "kafka:RejectClientVpcConnection",
   "kafka:UpdateBrokerCount",
   "kafka:UpdateBrokerStorage",
   "kafka:UpdateBrokerType",
   "kafka:UpdateClusterConfiguration",
   "kafka:UpdateClusterKafkaVersion",
-  "kafka:UpdateConfiguration",
   "kafka:UpdateConnectivity",
   "kafka:UpdateMonitoring",
   "kafka:UpdateSecurity",
   "kafka:UpdateStorage"
  ],
  "configuration*": [
+  "kafka:CreateConfiguration",
+  "kafka:DeleteConfiguration",
   "kafka:DescribeConfiguration",
-  "kafka:DescribeConfigurationRevision"
+  "kafka:DescribeConfigurationRevision",
+  "kafka:ListConfigurationRevisions",
+  "kafka:UpdateConfiguration"
  ],
- "cluster*": [
-  "kafka:ListTagsForResource",
+ "replicator*": [
+  "kafka:CreateReplicator",
+  "kafka:DeleteReplicator",
+  "kafka:DescribeReplicator",
+  "kafka:UpdateReplicationInfo"
+ ],
+ "vpc-connection*": [
+  "kafka:DeleteVpcConnection",
+  "kafka:DescribeVpcConnection"
+ ],
+ "?": [
+  "kafka:DescribeClusterOperation",
+  "kafka:DescribeClusterOperationV2",
+  "kafka:GetBootstrapBrokers",
+  "kafka:GetCompatibleKafkaVersions",
+  "kafka:ListClusters",
+  "kafka:ListClustersV2",
+  "kafka:ListConfigurations",
+  "kafka:ListKafkaVersions",
+  "kafka:ListReplicators",
+  "kafka:ListVpcConnections"
+ ],
+ "cluster": [
   "kafka:TagResource",
   "kafka:UntagResource"
  ],

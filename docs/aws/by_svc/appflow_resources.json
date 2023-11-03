@@ -1,4 +1,15 @@
 {
+ "flow*": [
+  "appflow:CancelFlowExecutions",
+  "appflow:DeleteFlow",
+  "appflow:DescribeFlow",
+  "appflow:DescribeFlowExecutionRecords",
+  "appflow:ListFlows",
+  "appflow:ListTagsForResource",
+  "appflow:StartFlow",
+  "appflow:StopFlow",
+  "appflow:UpdateFlow"
+ ],
  "?": [
   "appflow:CreateConnectorProfile",
   "appflow:CreateFlow",
@@ -10,25 +21,18 @@
   "appflow:DeleteConnectorProfile",
   "appflow:DescribeConnectorEntity",
   "appflow:ListConnectorEntities",
+  "appflow:ResetConnectorMetadataCache",
   "appflow:UpdateConnectorProfile"
- ],
- "flow*": [
-  "appflow:DeleteFlow",
-  "appflow:DescribeFlow",
-  "appflow:DescribeFlowExecutionRecords",
-  "appflow:ListFlows",
-  "appflow:ListTagsForResource",
-  "appflow:StartFlow",
-  "appflow:StopFlow",
-  "appflow:TagResource",
-  "appflow:UntagResource",
-  "appflow:UpdateFlow"
  ],
  "connector*": [
   "appflow:DescribeConnector",
   "appflow:ListConnectors",
   "appflow:UnRegisterConnector",
   "appflow:UpdateConnectorRegistration"
+ ],
+ "connector": [
+  "appflow:TagResource",
+  "appflow:UntagResource"
  ],
  "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonappflow.html"
 }

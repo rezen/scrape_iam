@@ -1,1 +1,15 @@
-[]
+[
+ "codeguru-security:BatchGetFindings",
+ "codeguru-security:CreateScan",
+ "codeguru-security:CreateUploadUrl",
+ "codeguru-security:GetAccountConfiguration",
+ "codeguru-security:GetFindings",
+ "codeguru-security:GetMetricsSummary",
+ "codeguru-security:GetScan",
+ "codeguru-security:ListFindingsMetrics",
+ "codeguru-security:ListScans",
+ "codeguru-security:ListTagsForResource",
+ "codeguru-security:TagResource",
+ "codeguru-security:UntagResource",
+ "codeguru-security:UpdateAccountConfiguration"
+]

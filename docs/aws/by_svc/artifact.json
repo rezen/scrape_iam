@@ -2,9 +2,11 @@
  "artifact:AcceptAgreement",
  "artifact:DownloadAgreement",
  "artifact:Get",
+ "artifact:GetAccountSettings",
  "artifact:GetReport",
  "artifact:GetReportMetadata",
  "artifact:GetTermForReport",
  "artifact:ListReports",
+ "artifact:PutAccountSettings",
  "artifact:TerminateAgreement"
 ]

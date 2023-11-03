@@ -3,16 +3,34 @@
   "textract:AnalyzeDocument",
   "textract:AnalyzeExpense",
   "textract:AnalyzeID",
+  "textract:CreateAdapter",
   "textract:DetectDocumentText",
   "textract:GetDocumentAnalysis",
   "textract:GetDocumentTextDetection",
   "textract:GetExpenseAnalysis",
   "textract:GetLendingAnalysis",
   "textract:GetLendingAnalysisSummary",
+  "textract:ListAdapterVersions",
+  "textract:ListAdapters",
   "textract:StartDocumentAnalysis",
   "textract:StartDocumentTextDetection",
   "textract:StartExpenseAnalysis",
   "textract:StartLendingAnalysis"
+ ],
+ "adapter*": [
+  "textract:CreateAdapterVersion",
+  "textract:DeleteAdapter",
+  "textract:GetAdapter",
+  "textract:UpdateAdapter"
+ ],
+ "adapterversion*": [
+  "textract:DeleteAdapterVersion",
+  "textract:GetAdapterVersion"
+ ],
+ "adapter": [
+  "textract:ListTagsForResource",
+  "textract:TagResource",
+  "textract:UntagResource"
  ],
  "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazontextract.html"
 }

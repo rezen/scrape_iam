@@ -46,6 +46,18 @@
   "athena:UpdatePreparedStatement",
   "athena:UpdateWorkGroup"
  ],
+ "capacity-reservation*": [
+  "athena:CancelCapacityReservation",
+  "athena:CreateCapacityReservation",
+  "athena:DeleteCapacityReservation",
+  "athena:GetCapacityAssignmentConfiguration",
+  "athena:GetCapacityReservation",
+  "athena:ListTagsForResource",
+  "athena:PutCapacityAssignmentConfiguration",
+  "athena:TagResource",
+  "athena:UntagResource",
+  "athena:UpdateCapacityReservation"
+ ],
  "datacatalog*": [
   "athena:CreateDataCatalog",
   "athena:DeleteDataCatalog",
@@ -54,13 +66,11 @@
   "athena:GetTableMetadata",
   "athena:ListDatabases",
   "athena:ListTableMetadata",
-  "athena:ListTagsForResource",
-  "athena:TagResource",
-  "athena:UntagResource",
   "athena:UpdateDataCatalog"
  ],
  "?": [
   "athena:ListApplicationDPUSizes",
+  "athena:ListCapacityReservations",
   "athena:ListDataCatalogs",
   "athena:ListEngineVersions",
   "athena:ListExecutors",

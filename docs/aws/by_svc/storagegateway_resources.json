@@ -4,7 +4,13 @@
   "storagegateway:CreateTapePool",
   "storagegateway:DeleteTapeArchive",
   "storagegateway:DescribeTapeArchives",
-  "storagegateway:ListGateways"
+  "storagegateway:ListAutomaticTapeCreationPolicies",
+  "storagegateway:ListFileShares",
+  "storagegateway:ListFileSystemAssociations",
+  "storagegateway:ListGateways",
+  "storagegateway:ListTapePools",
+  "storagegateway:ListTapes",
+  "storagegateway:ListVolumes"
  ],
  "gateway*": [
   "storagegateway:AddCache",
@@ -38,12 +44,8 @@
   "storagegateway:DescribeWorkingStorage",
   "storagegateway:DisableGateway",
   "storagegateway:JoinDomain",
-  "storagegateway:ListAutomaticTapeCreationPolicies",
-  "storagegateway:ListFileShares",
-  "storagegateway:ListFileSystemAssociations",
   "storagegateway:ListLocalDisks",
   "storagegateway:ListVolumeRecoveryPoints",
-  "storagegateway:ListVolumes",
   "storagegateway:ResetCache",
   "storagegateway:RetrieveTapeArchive",
   "storagegateway:RetrieveTapeRecoveryPoint",
@@ -68,13 +70,11 @@
   "storagegateway:RemoveTagsFromResource"
  ],
  "tape*": [
-  "storagegateway:AssignTapePool",
-  "storagegateway:ListTapes"
+  "storagegateway:AssignTapePool"
  ],
  "tapepool*": [
   "storagegateway:BypassGovernanceRetention",
-  "storagegateway:DeleteTapePool",
-  "storagegateway:ListTapePools"
+  "storagegateway:DeleteTapePool"
  ],
  "volume*": [
   "storagegateway:CreateSnapshot",

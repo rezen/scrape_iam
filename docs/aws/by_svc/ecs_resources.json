@@ -42,6 +42,7 @@
   "ecs:DeleteCluster",
   "ecs:DeregisterContainerInstance",
   "ecs:DescribeClusters",
+  "ecs:ExecuteCommand",
   "ecs:ListAttributes",
   "ecs:ListContainerInstances",
   "ecs:PutClusterCapacityProviders",
@@ -69,7 +70,6 @@
   "ecs:UpdateTaskProtection"
  ],
  "cluster": [
-  "ecs:ExecuteCommand",
   "ecs:ListTagsForResource"
  ],
  "capacity-provider": [

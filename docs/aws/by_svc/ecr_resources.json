@@ -30,7 +30,6 @@
   "ecr:UploadLayerPart"
  ],
  "?": [
-  "ecr:BatchImportUpstreamImage",
   "ecr:CreatePullThroughCacheRule",
   "ecr:CreateRepository",
   "ecr:DeletePullThroughCacheRule",

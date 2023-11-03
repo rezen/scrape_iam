@@ -14,6 +14,7 @@
  "m2:GetDataSetImportTask",
  "m2:GetDeployment",
  "m2:GetEnvironment",
+ "m2:GetSignedBluinsightsUrl",
  "m2:ListApplicationVersions",
  "m2:ListApplications",
  "m2:ListBatchJobDefinitions",

@@ -1,4 +1,7 @@
 {
+ "instance-connect-endpoint*": [
+  "ec2-instance-connect:OpenTunnel"
+ ],
  "instance*": [
   "ec2-instance-connect:SendSSHPublicKey",
   "ec2-instance-connect:SendSerialConsoleSSHPublicKey"

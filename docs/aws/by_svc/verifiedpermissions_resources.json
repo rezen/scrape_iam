@@ -1,0 +1,31 @@
+{
+ "policy-store*": [
+  "verifiedpermissions:CreateIdentitySource",
+  "verifiedpermissions:CreatePolicy",
+  "verifiedpermissions:CreatePolicyTemplate",
+  "verifiedpermissions:DeleteIdentitySource",
+  "verifiedpermissions:DeletePolicy",
+  "verifiedpermissions:DeletePolicyStore",
+  "verifiedpermissions:DeletePolicyTemplate",
+  "verifiedpermissions:GetIdentitySource",
+  "verifiedpermissions:GetPolicy",
+  "verifiedpermissions:GetPolicyStore",
+  "verifiedpermissions:GetPolicyTemplate",
+  "verifiedpermissions:GetSchema",
+  "verifiedpermissions:IsAuthorized",
+  "verifiedpermissions:IsAuthorizedWithToken",
+  "verifiedpermissions:ListIdentitySources",
+  "verifiedpermissions:ListPolicies",
+  "verifiedpermissions:ListPolicyTemplates",
+  "verifiedpermissions:PutSchema",
+  "verifiedpermissions:UpdateIdentitySource",
+  "verifiedpermissions:UpdatePolicy",
+  "verifiedpermissions:UpdatePolicyStore",
+  "verifiedpermissions:UpdatePolicyTemplate"
+ ],
+ "?": [
+  "verifiedpermissions:CreatePolicyStore",
+  "verifiedpermissions:ListPolicyStores"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonverifiedpermissions.html"
+}

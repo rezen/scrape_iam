@@ -7,6 +7,15 @@
   "appsync:GetDomainName",
   "appsync:UpdateDomainName"
  ],
+ "graphqlapi*": [
+  "appsync:AssociateMergedGraphqlApi",
+  "appsync:AssociateSourceGraphqlApi",
+  "appsync:DeleteGraphqlApi",
+  "appsync:GetGraphqlApi",
+  "appsync:TagResource",
+  "appsync:UntagResource",
+  "appsync:UpdateGraphqlApi"
+ ],
  "?": [
   "appsync:CreateApiCache",
   "appsync:CreateApiKey",
@@ -39,7 +48,9 @@
   "appsync:ListGraphqlApis",
   "appsync:ListResolvers",
   "appsync:ListResolversByFunction",
+  "appsync:ListSourceApiAssociations",
   "appsync:ListTypes",
+  "appsync:ListTypesByAssociation",
   "appsync:SetWebACL",
   "appsync:StartSchemaCreation",
   "appsync:UpdateApiCache",
@@ -49,12 +60,14 @@
   "appsync:UpdateResolver",
   "appsync:UpdateType"
  ],
- "graphqlapi*": [
-  "appsync:DeleteGraphqlApi",
-  "appsync:GetGraphqlApi",
-  "appsync:TagResource",
-  "appsync:UntagResource",
-  "appsync:UpdateGraphqlApi"
+ "mergedApiAssociation*": [
+  "appsync:DisassociateMergedGraphqlApi"
+ ],
+ "sourceApiAssociation*": [
+  "appsync:DisassociateSourceGraphqlApi",
+  "appsync:GetSourceApiAssociation",
+  "appsync:StartSchemaMerge",
+  "appsync:UpdateSourceApiAssociation"
  ],
  "field*": [
   "appsync:GraphQL"

@@ -2,7 +2,6 @@
  "backend*": [
   "amplifybackend:CloneBackend",
   "amplifybackend:CreateBackend",
-  "amplifybackend:CreateBackendConfig",
   "amplifybackend:CreateBackendStorage",
   "amplifybackend:CreateToken",
   "amplifybackend:DeleteBackend",
@@ -15,8 +14,6 @@
   "amplifybackend:ImportBackendStorage",
   "amplifybackend:ListBackendJobs",
   "amplifybackend:RemoveAllBackends",
-  "amplifybackend:RemoveBackendConfig",
-  "amplifybackend:UpdateBackendConfig",
   "amplifybackend:UpdateBackendJob",
   "amplifybackend:UpdateBackendStorage"
  ],
@@ -34,6 +31,11 @@
   "amplifybackend:GetBackendAuth",
   "amplifybackend:ImportBackendAuth",
   "amplifybackend:UpdateBackendAuth"
+ ],
+ "config*": [
+  "amplifybackend:CreateBackendConfig",
+  "amplifybackend:RemoveBackendConfig",
+  "amplifybackend:UpdateBackendConfig"
  ],
  "?": [
   "amplifybackend:ListS3Buckets"

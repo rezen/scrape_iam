@@ -1,0 +1,24 @@
+{
+ "?": [
+  "osis:CreatePipeline",
+  "osis:ListPipelineBlueprints",
+  "osis:ListPipelines",
+  "osis:ValidatePipeline"
+ ],
+ "pipeline*": [
+  "osis:DeletePipeline",
+  "osis:GetPipeline",
+  "osis:GetPipelineChangeProgress",
+  "osis:Ingest",
+  "osis:ListTagsForResource",
+  "osis:StartPipeline",
+  "osis:StopPipeline",
+  "osis:TagResource",
+  "osis:UntagResource",
+  "osis:UpdatePipeline"
+ ],
+ "pipeline-blueprint*": [
+  "osis:GetPipelineBlueprint"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonopensearchingestion.html"
+}

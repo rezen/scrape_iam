@@ -43,6 +43,7 @@
  ],
  "?": [
   "iotfleetwise:CreateSignalCatalog",
+  "iotfleetwise:GetEncryptionConfiguration",
   "iotfleetwise:GetLoggingOptions",
   "iotfleetwise:GetRegisterAccountStatus",
   "iotfleetwise:ImportSignalCatalog",
@@ -52,6 +53,7 @@
   "iotfleetwise:ListModelManifests",
   "iotfleetwise:ListSignalCatalogs",
   "iotfleetwise:ListVehicles",
+  "iotfleetwise:PutEncryptionConfiguration",
   "iotfleetwise:PutLoggingOptions",
   "iotfleetwise:RegisterAccount"
  ],

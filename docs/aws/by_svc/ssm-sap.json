@@ -15,6 +15,7 @@
  "ssm-sap:PutResourcePermission",
  "ssm-sap:RegisterApplication",
  "ssm-sap:RestoreDatabase",
+ "ssm-sap:StartApplicationRefresh",
  "ssm-sap:TagResource",
  "ssm-sap:UntagResource",
  "ssm-sap:UpdateApplicationSettings",

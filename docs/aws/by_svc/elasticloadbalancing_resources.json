@@ -45,5 +45,5 @@
   "elasticloadbalancing:DescribeTargetGroups",
   "elasticloadbalancing:DescribeTargetHealth"
  ],
- "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_elasticloadbalancingv2.html"
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awselasticloadbalancingv2.html"
 }

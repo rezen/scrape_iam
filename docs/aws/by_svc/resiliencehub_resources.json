@@ -1,6 +1,7 @@
 {
  "application*": [
   "resiliencehub:AddDraftAppVersionResourceMappings",
+  "resiliencehub:BatchUpdateRecommendationStatus",
   "resiliencehub:CreateAppVersionAppComponent",
   "resiliencehub:CreateAppVersionResource",
   "resiliencehub:CreateRecommendationTemplate",
@@ -20,6 +21,7 @@
   "resiliencehub:DescribeDraftAppVersionResourcesImportStatus",
   "resiliencehub:ImportResourcesToDraftAppVersion",
   "resiliencehub:ListAlarmRecommendations",
+  "resiliencehub:ListAppAssessmentComplianceDrifts",
   "resiliencehub:ListAppComponentCompliances",
   "resiliencehub:ListAppComponentRecommendations",
   "resiliencehub:ListAppInputSources",
@@ -59,5 +61,5 @@
   "resiliencehub:TagResource",
   "resiliencehub:UntagResource"
  ],
- "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsresiliencehubservice.html"
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsresiliencehub.html"
 }

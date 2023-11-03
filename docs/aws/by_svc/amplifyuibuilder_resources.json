@@ -3,15 +3,19 @@
   "amplifyuibuilder:CreateComponent",
   "amplifyuibuilder:CreateForm",
   "amplifyuibuilder:CreateTheme",
+  "amplifyuibuilder:ExchangeCodeForToken",
   "amplifyuibuilder:ExportComponents",
   "amplifyuibuilder:ExportForms",
   "amplifyuibuilder:ExportThemes",
   "amplifyuibuilder:GetMetadata",
+  "amplifyuibuilder:ListCodegenJobs",
   "amplifyuibuilder:ListComponents",
   "amplifyuibuilder:ListForms",
   "amplifyuibuilder:ListThemes",
   "amplifyuibuilder:PutMetadataFlag",
-  "amplifyuibuilder:ResetMetadataFlag"
+  "amplifyuibuilder:RefreshToken",
+  "amplifyuibuilder:ResetMetadataFlag",
+  "amplifyuibuilder:StartCodegenJob"
  ],
  "ComponentResource*": [
   "amplifyuibuilder:DeleteComponent",
@@ -27,6 +31,9 @@
   "amplifyuibuilder:DeleteTheme",
   "amplifyuibuilder:GetTheme",
   "amplifyuibuilder:UpdateTheme"
+ ],
+ "CodegenJobResource*": [
+  "amplifyuibuilder:GetCodegenJob"
  ],
  "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsamplifyuibuilder.html"
 }

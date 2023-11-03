@@ -1,6 +1,7 @@
 {
  "cluster*": [
   "memorydb:BatchUpdateCluster",
+  "memorydb:Connect",
   "memorydb:CreateSnapshot",
   "memorydb:DeleteCluster",
   "memorydb:DescribeClusters",

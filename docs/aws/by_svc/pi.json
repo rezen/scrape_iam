@@ -1,8 +1,15 @@
 [
+ "pi:CreatePerformanceAnalysisReport",
+ "pi:DeletePerformanceAnalysisReport",
  "pi:DescribeDimensionKeys",
  "pi:GetDimensionKeyDetails",
+ "pi:GetPerformanceAnalysisReport",
  "pi:GetResourceMetadata",
  "pi:GetResourceMetrics",
  "pi:ListAvailableResourceDimensions",
- "pi:ListAvailableResourceMetrics"
+ "pi:ListAvailableResourceMetrics",
+ "pi:ListPerformanceAnalysisReports",
+ "pi:ListTagsForResource",
+ "pi:TagResource",
+ "pi:UntagResource"
 ]

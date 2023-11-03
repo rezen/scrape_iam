@@ -7,7 +7,6 @@
   "lex:CreateBot",
   "lex:CreateBotLocale",
   "lex:CreateBotVersion",
-  "lex:CreateExport",
   "lex:CreateIntent",
   "lex:CreateSlot",
   "lex:CreateSlotType",
@@ -15,8 +14,6 @@
   "lex:DeleteBotLocale",
   "lex:DeleteBotVersion",
   "lex:DeleteCustomVocabulary",
-  "lex:DeleteExport",
-  "lex:DeleteImport",
   "lex:DeleteIntent",
   "lex:DeleteSlot",
   "lex:DeleteSlotType",
@@ -26,8 +23,6 @@
   "lex:DescribeBotRecommendation",
   "lex:DescribeBotVersion",
   "lex:DescribeCustomVocabularyMetadata",
-  "lex:DescribeExport",
-  "lex:DescribeImport",
   "lex:DescribeIntent",
   "lex:DescribeSlot",
   "lex:DescribeSlotType",
@@ -37,8 +32,13 @@
   "lex:ListBotRecommendations",
   "lex:ListBotVersions",
   "lex:ListCustomVocabularyItems",
+  "lex:ListIntentMetrics",
+  "lex:ListIntentPaths",
+  "lex:ListIntentStageMetrics",
   "lex:ListIntents",
   "lex:ListRecommendedIntents",
+  "lex:ListSessionAnalyticsData",
+  "lex:ListSessionMetrics",
   "lex:ListSlotTypes",
   "lex:ListSlots",
   "lex:SearchAssociatedTranscripts",
@@ -65,8 +65,13 @@
   "lex:UpdateBotAlias"
  ],
  "bot": [
+  "lex:CreateExport",
   "lex:CreateResourcePolicy",
+  "lex:DeleteExport",
+  "lex:DeleteImport",
   "lex:DeleteResourcePolicy",
+  "lex:DescribeExport",
+  "lex:DescribeImport",
   "lex:DescribeResourcePolicy",
   "lex:ListTagsForResource",
   "lex:StartImport",
@@ -74,13 +79,31 @@
   "lex:UntagResource",
   "lex:UpdateResourcePolicy"
  ],
+ "test set*": [
+  "lex:CreateTestSetDiscrepancyReport",
+  "lex:DeleteTestSet",
+  "lex:DescribeTestExecution",
+  "lex:DescribeTestSet",
+  "lex:DescribeTestSetDiscrepancyReport",
+  "lex:GetTestExecutionArtifactsUrl",
+  "lex:ListTestExecutionResultItems",
+  "lex:ListTestSetRecords",
+  "lex:StartTestExecution",
+  "lex:UpdateTestSet"
+ ],
  "?": [
   "lex:CreateUploadUrl",
   "lex:ListBots",
   "lex:ListBuiltInIntents",
   "lex:ListBuiltInSlotTypes",
   "lex:ListExports",
-  "lex:ListImports"
+  "lex:ListImports",
+  "lex:ListTestExecutions",
+  "lex:ListTestSets"
+ ],
+ "test set": [
+  "lex:DescribeTestSetGeneration",
+  "lex:StartTestSetGeneration"
  ],
  "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonlexv2.html"
 }

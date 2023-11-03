@@ -8,6 +8,7 @@
   "quicksight:CreateAccountCustomization",
   "quicksight:CreateAccountSubscription",
   "quicksight:CreateDataSource",
+  "quicksight:CreateVPCConnection",
   "quicksight:DescribeAccountSettings",
   "quicksight:DescribeIpRestriction",
   "quicksight:GetSessionEmbedUrl",
@@ -15,6 +16,10 @@
   "quicksight:ListDataSources",
   "quicksight:ListIngestions",
   "quicksight:ListNamespaces",
+  "quicksight:ListRefreshSchedules",
+  "quicksight:ListTopicRefreshSchedules",
+  "quicksight:ListTopics",
+  "quicksight:ListVPCConnections",
   "quicksight:UpdateAccountSettings",
   "quicksight:UpdateIpRestriction",
   "quicksight:UpdatePublicSharingSettings"
@@ -92,6 +97,12 @@
   "quicksight:DescribeNamespace",
   "quicksight:GenerateEmbedUrlForAnonymousUser"
  ],
+ "refreshschedule*": [
+  "quicksight:CreateRefreshSchedule",
+  "quicksight:DeleteRefreshSchedule",
+  "quicksight:DescribeRefreshSchedule",
+  "quicksight:UpdateRefreshSchedule"
+ ],
  "template*": [
   "quicksight:CreateTemplate",
   "quicksight:CreateTemplateAlias",
@@ -122,6 +133,30 @@
   "quicksight:UpdateThemeAlias",
   "quicksight:UpdateThemePermissions"
  ],
+ "dataset*": [
+  "quicksight:CreateTopic",
+  "quicksight:DeleteDataSet",
+  "quicksight:DeleteDataSetRefreshProperties",
+  "quicksight:DescribeDataSet",
+  "quicksight:DescribeDataSetPermissions",
+  "quicksight:DescribeDataSetRefreshProperties",
+  "quicksight:PutDataSetRefreshProperties",
+  "quicksight:SearchDataSets",
+  "quicksight:UpdateDataSet",
+  "quicksight:UpdateDataSetPermissions"
+ ],
+ "topic*": [
+  "quicksight:CreateTopicRefreshSchedule",
+  "quicksight:DeleteTopic",
+  "quicksight:DeleteTopicRefreshSchedule",
+  "quicksight:DescribeTopic",
+  "quicksight:DescribeTopicPermissions",
+  "quicksight:DescribeTopicRefresh",
+  "quicksight:DescribeTopicRefreshSchedule",
+  "quicksight:UpdateTopic",
+  "quicksight:UpdateTopicPermissions",
+  "quicksight:UpdateTopicRefreshSchedule"
+ ],
  "customization*": [
   "quicksight:DeleteAccountCustomization",
   "quicksight:DescribeAccountCustomization",
@@ -130,14 +165,6 @@
  "account*": [
   "quicksight:DeleteAccountSubscription",
   "quicksight:DescribeAccountSubscription"
- ],
- "dataset*": [
-  "quicksight:DeleteDataSet",
-  "quicksight:DescribeDataSet",
-  "quicksight:DescribeDataSetPermissions",
-  "quicksight:SearchDataSets",
-  "quicksight:UpdateDataSet",
-  "quicksight:UpdateDataSetPermissions"
  ],
  "user*": [
   "quicksight:DeleteUser",
@@ -148,6 +175,26 @@
   "quicksight:ListUsers",
   "quicksight:RegisterUser",
   "quicksight:UpdateUser"
+ ],
+ "vpcconnection*": [
+  "quicksight:DeleteVPCConnection",
+  "quicksight:DescribeVPCConnection",
+  "quicksight:UpdateVPCConnection"
+ ],
+ "assetBundleExportJob*": [
+  "quicksight:DescribeAssetBundleExportJob",
+  "quicksight:ListAssetBundleExportJobs",
+  "quicksight:StartAssetBundleExportJob"
+ ],
+ "assetBundleImportJob*": [
+  "quicksight:DescribeAssetBundleImportJob",
+  "quicksight:ListAssetBundleImportJobs",
+  "quicksight:StartAssetBundleImportJob"
+ ],
+ "dashboardSnapshotJob*": [
+  "quicksight:DescribeDashboardSnapshotJob",
+  "quicksight:DescribeDashboardSnapshotJobResult",
+  "quicksight:StartDashboardSnapshotJob"
  ],
  "customization": [
   "quicksight:ListTagsForResource"

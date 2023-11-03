@@ -8,7 +8,10 @@
   "scn:DescribeInstance",
   "scn:ListAdminUsers",
   "scn:ListInstances",
+  "scn:ListTagsForResource",
   "scn:RemoveAdminPermissionsForUser",
+  "scn:TagResource",
+  "scn:UntagResource",
   "scn:UpdateInstance"
  ],
  "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awssupplychain.html"

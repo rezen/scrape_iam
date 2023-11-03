@@ -1,15 +1,20 @@
 {
- "?": [
+ "ScalableTarget*": [
   "application-autoscaling:DeleteScalingPolicy",
   "application-autoscaling:DeleteScheduledAction",
   "application-autoscaling:DeregisterScalableTarget",
+  "application-autoscaling:ListTagsForResource",
+  "application-autoscaling:PutScalingPolicy",
+  "application-autoscaling:PutScheduledAction",
+  "application-autoscaling:RegisterScalableTarget",
+  "application-autoscaling:TagResource",
+  "application-autoscaling:UntagResource"
+ ],
+ "?": [
   "application-autoscaling:DescribeScalableTargets",
   "application-autoscaling:DescribeScalingActivities",
   "application-autoscaling:DescribeScalingPolicies",
-  "application-autoscaling:DescribeScheduledActions",
-  "application-autoscaling:PutScalingPolicy",
-  "application-autoscaling:PutScheduledAction",
-  "application-autoscaling:RegisterScalableTarget"
+  "application-autoscaling:DescribeScheduledActions"
  ],
  "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsapplicationautoscaling.html"
 }

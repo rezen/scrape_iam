@@ -8,13 +8,15 @@
  "report-package*": [
   "artifact:Get"
  ],
+ "?": [
+  "artifact:GetAccountSettings",
+  "artifact:ListReports",
+  "artifact:PutAccountSettings"
+ ],
  "report*": [
   "artifact:GetReport",
   "artifact:GetReportMetadata",
   "artifact:GetTermForReport"
- ],
- "?": [
-  "artifact:ListReports"
  ],
  "customer-agreement*": [
   "artifact:TerminateAgreement"

@@ -1,0 +1,40 @@
+{
+ "?": [
+  "entityresolution:CreateIdMappingWorkflow",
+  "entityresolution:CreateMatchingWorkflow",
+  "entityresolution:CreateSchemaMapping",
+  "entityresolution:ListIdMappingWorkflows",
+  "entityresolution:ListMatchingWorkflows",
+  "entityresolution:ListSchemaMappings",
+  "entityresolution:ListTagsForResource",
+  "entityresolution:TagResource",
+  "entityresolution:UntagResource"
+ ],
+ "IdMappingWorkflow*": [
+  "entityresolution:DeleteIdMappingWorkflow",
+  "entityresolution:GetIdMappingJob",
+  "entityresolution:GetIdMappingWorkflow",
+  "entityresolution:ListIdMappingJobs",
+  "entityresolution:StartIdMappingJob",
+  "entityresolution:UpdateIdMappingWorkflow"
+ ],
+ "MatchingWorkflow*": [
+  "entityresolution:DeleteMatchingWorkflow",
+  "entityresolution:GetMatchId",
+  "entityresolution:GetMatchingJob",
+  "entityresolution:GetMatchingWorkflow",
+  "entityresolution:ListMatchingJobs",
+  "entityresolution:StartMatchingJob",
+  "entityresolution:UpdateMatchingWorkflow"
+ ],
+ "SchemaMapping*": [
+  "entityresolution:DeleteSchemaMapping",
+  "entityresolution:GetSchemaMapping",
+  "entityresolution:UpdateSchemaMapping"
+ ],
+ "ProviderService*": [
+  "entityresolution:GetProviderService",
+  "entityresolution:ListProviderServices"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsentityresolution.html"
+}

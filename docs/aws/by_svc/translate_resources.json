@@ -13,6 +13,7 @@
   "translate:DeleteTerminology",
   "translate:GetTerminology",
   "translate:ImportTerminology",
+  "translate:TranslateDocument",
   "translate:TranslateText"
  ],
  "?": [

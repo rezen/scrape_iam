@@ -8,6 +8,7 @@
   "fsx:DescribeFileSystemAliases",
   "fsx:DisassociateFileSystemAliases",
   "fsx:ReleaseFileSystemNfsV3Locks",
+  "fsx:StartMisconfiguredStateRecovery",
   "fsx:UpdateFileSystem"
  ],
  "task*": [
@@ -18,8 +19,7 @@
   "fsx:CreateBackup",
   "fsx:CreateFileSystemFromBackup",
   "fsx:CreateVolumeFromBackup",
-  "fsx:DeleteBackup",
-  "fsx:ManageBackupPrincipalAssociations"
+  "fsx:DeleteBackup"
  ],
  "association*": [
   "fsx:CreateDataRepositoryAssociation",

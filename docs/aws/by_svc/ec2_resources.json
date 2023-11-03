@@ -48,6 +48,7 @@
   "ec2:DescribeElasticGpus",
   "ec2:DescribeExportImageTasks",
   "ec2:DescribeExportTasks",
+  "ec2:DescribeFastLaunchImages",
   "ec2:DescribeFastSnapshotRestores",
   "ec2:DescribeFleets",
   "ec2:DescribeFlowLogs",
@@ -61,6 +62,7 @@
   "ec2:DescribeImages",
   "ec2:DescribeImportImageTasks",
   "ec2:DescribeImportSnapshotTasks",
+  "ec2:DescribeInstanceConnectEndpoints",
   "ec2:DescribeInstanceCreditSpecifications",
   "ec2:DescribeInstanceEventNotificationAttributes",
   "ec2:DescribeInstanceEventWindows",
@@ -148,7 +150,6 @@
   "ec2:DescribeVpcEndpointConnectionNotifications",
   "ec2:DescribeVpcEndpointConnections",
   "ec2:DescribeVpcEndpointServiceConfigurations",
-  "ec2:DescribeVpcEndpointServicePermissions",
   "ec2:DescribeVpcEndpointServices",
   "ec2:DescribeVpcEndpoints",
   "ec2:DescribeVpcPeeringConnections",
@@ -157,11 +158,13 @@
   "ec2:DescribeVpnGateways",
   "ec2:DisableAwsNetworkPerformanceMetricSubscription",
   "ec2:DisableEbsEncryptionByDefault",
+  "ec2:DisableImageBlockPublicAccess",
   "ec2:DisableIpamOrganizationAdminAccount",
   "ec2:DisableSerialConsoleAccess",
   "ec2:DisassociateTrunkInterface",
   "ec2:EnableAwsNetworkPerformanceMetricSubscription",
   "ec2:EnableEbsEncryptionByDefault",
+  "ec2:EnableImageBlockPublicAccess",
   "ec2:EnableIpamOrganizationAdminAccount",
   "ec2:EnableReachabilityAnalyzerOrganizationSharing",
   "ec2:EnableSerialConsoleAccess",
@@ -172,9 +175,8 @@
   "ec2:GetEbsDefaultKmsKeyId",
   "ec2:GetEbsEncryptionByDefault",
   "ec2:GetHostReservationPurchasePreview",
+  "ec2:GetImageBlockPublicAccessState",
   "ec2:GetInstanceTypesFromInstanceRequirements",
-  "ec2:GetNetworkInsightsAccessScopeAnalysisFindings",
-  "ec2:GetNetworkInsightsAccessScopeContent",
   "ec2:GetReservedInstancesExchangeQuote",
   "ec2:GetSerialConsoleAccessStatus",
   "ec2:GetSpotPlacementScores",
@@ -184,6 +186,8 @@
   "ec2:GetTransitGatewayRouteTableAssociations",
   "ec2:GetTransitGatewayRouteTablePropagations",
   "ec2:GetVpnConnectionDeviceTypes",
+  "ec2:ListImagesInRecycleBin",
+  "ec2:ListSnapshotsInRecycleBin",
   "ec2:ModifyAvailabilityZoneGroup",
   "ec2:ModifyDefaultCreditSpecification",
   "ec2:ModifyEbsDefaultKmsKeyId",
@@ -225,6 +229,7 @@
   "ec2:AcceptVpcEndpointConnections",
   "ec2:CreateVpcEndpointServiceConfiguration",
   "ec2:DeleteVpcEndpointServiceConfigurations",
+  "ec2:DescribeVpcEndpointServicePermissions",
   "ec2:ModifyVpcEndpointServiceConfiguration",
   "ec2:ModifyVpcEndpointServicePayerResponsibility",
   "ec2:ModifyVpcEndpointServicePermissions",
@@ -440,8 +445,10 @@
   "ec2:DeregisterImage",
   "ec2:DescribeImageAttribute",
   "ec2:DisableFastLaunch",
+  "ec2:DisableImage",
   "ec2:DisableImageDeprecation",
   "ec2:EnableFastLaunch",
+  "ec2:EnableImage",
   "ec2:EnableImageDeprecation",
   "ec2:ImportImage",
   "ec2:ModifyImageAttribute",
@@ -491,19 +498,10 @@
  ],
  "coip-pool*": [
   "ec2:CreateCoipCidr",
+  "ec2:CreateCoipPool",
   "ec2:DeleteCoipCidr",
   "ec2:DeleteCoipPool",
   "ec2:GetCoipPoolUsage"
- ],
- "local-gateway-route-table*": [
-  "ec2:CreateCoipPool",
-  "ec2:CreateLocalGatewayRoute",
-  "ec2:CreateLocalGatewayRouteTableVirtualInterfaceGroupAssociation",
-  "ec2:CreateLocalGatewayRouteTableVpcAssociation",
-  "ec2:DeleteLocalGatewayRoute",
-  "ec2:DeleteLocalGatewayRouteTable",
-  "ec2:ModifyLocalGatewayRoute",
-  "ec2:SearchLocalGatewayRoutes"
  ],
  "customer-gateway*": [
   "ec2:CreateCustomerGateway",
@@ -526,6 +524,10 @@
   "ec2:DeleteFlowLogs",
   "ec2:GetFlowLogsIntegrationTemplate"
  ],
+ "instance-connect-endpoint*": [
+  "ec2:CreateInstanceConnectEndpoint",
+  "ec2:DeleteInstanceConnectEndpoint"
+ ],
  "export-instance-task*": [
   "ec2:CreateInstanceExportTask"
  ],
@@ -546,6 +548,15 @@
   "ec2:DeleteLaunchTemplate",
   "ec2:DeleteLaunchTemplateVersions",
   "ec2:ModifyLaunchTemplate"
+ ],
+ "local-gateway-route-table*": [
+  "ec2:CreateLocalGatewayRoute",
+  "ec2:CreateLocalGatewayRouteTableVirtualInterfaceGroupAssociation",
+  "ec2:CreateLocalGatewayRouteTableVpcAssociation",
+  "ec2:DeleteLocalGatewayRoute",
+  "ec2:DeleteLocalGatewayRouteTable",
+  "ec2:ModifyLocalGatewayRoute",
+  "ec2:SearchLocalGatewayRoutes"
  ],
  "local-gateway*": [
   "ec2:CreateLocalGatewayRouteTable"
@@ -572,6 +583,7 @@
  "network-insights-access-scope*": [
   "ec2:CreateNetworkInsightsAccessScope",
   "ec2:DeleteNetworkInsightsAccessScope",
+  "ec2:GetNetworkInsightsAccessScopeContent",
   "ec2:StartNetworkInsightsAccessScopeAnalysis"
  ],
  "network-insights-path*": [
@@ -659,10 +671,12 @@
   "ec2:DeleteVpnConnection",
   "ec2:DeleteVpnConnectionRoute",
   "ec2:GetVpnConnectionDeviceSampleConfiguration",
+  "ec2:GetVpnTunnelReplacementStatus",
   "ec2:ModifyVpnConnection",
   "ec2:ModifyVpnConnectionOptions",
   "ec2:ModifyVpnTunnelCertificate",
-  "ec2:ModifyVpnTunnelOptions"
+  "ec2:ModifyVpnTunnelOptions",
+  "ec2:ReplaceVpnTunnel"
  ],
  "vpn-gateway*": [
   "ec2:CreateVpnGateway",
@@ -685,7 +699,8 @@
   "ec2:DeleteLocalGatewayRouteTableVpcAssociation"
  ],
  "network-insights-access-scope-analysis*": [
-  "ec2:DeleteNetworkInsightsAccessScopeAnalysis"
+  "ec2:DeleteNetworkInsightsAccessScopeAnalysis",
+  "ec2:GetNetworkInsightsAccessScopeAnalysisFindings"
  ],
  "network-insights-analysis*": [
   "ec2:DeleteNetworkInsightsAnalysis",
@@ -731,10 +746,6 @@
  "client-vpn-endpoint": [
   "ec2:DescribeClientVpnEndpoints"
  ],
- "image": [
-  "ec2:DescribeFastLaunchImages",
-  "ec2:ListImagesInRecycleBin"
- ],
  "vpc": [
   "ec2:DisableVpcClassicLinkDnsSupport",
   "ec2:DisassociateVpcCidrBlock",
@@ -751,9 +762,6 @@
  ],
  "import-snapshot-task*": [
   "ec2:ImportSnapshot"
- ],
- "snapshot": [
-  "ec2:ListSnapshotsInRecycleBin"
  ],
  "reserved-instances*": [
   "ec2:ModifyReservedInstances"

@@ -9,6 +9,7 @@
   "kinesis:GetRecords",
   "kinesis:GetShardIterator",
   "kinesis:IncreaseStreamRetentionPeriod",
+  "kinesis:ListShards",
   "kinesis:ListStreamConsumers",
   "kinesis:ListTagsForStream",
   "kinesis:MergeShards",
@@ -27,7 +28,6 @@
   "kinesis:DescribeLimits",
   "kinesis:DisableEnhancedMonitoring",
   "kinesis:EnableEnhancedMonitoring",
-  "kinesis:ListShards",
   "kinesis:ListStreams",
   "kinesis:UpdateShardCount",
   "kinesis:UpdateStreamMode"
@@ -36,5 +36,5 @@
   "kinesis:StartStreamEncryption",
   "kinesis:StopStreamEncryption"
  ],
- "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonkinesis.html"
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonkinesisdatastreams.html"
 }

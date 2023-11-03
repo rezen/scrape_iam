@@ -19,6 +19,7 @@
  "vendor-insights:ListTagsForResource",
  "vendor-insights:TagResource",
  "vendor-insights:UntagResource",
+ "vendor-insights:UpdateDataSource",
  "vendor-insights:UpdateSecurityProfile",
  "vendor-insights:UpdateSecurityProfileSnapshotCreationConfiguration",
  "vendor-insights:UpdateSecurityProfileSnapshotReleaseConfiguration"

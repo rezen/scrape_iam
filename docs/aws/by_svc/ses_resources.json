@@ -5,6 +5,10 @@
   "ses:TagResource",
   "ses:UntagResource"
  ],
+ "export-job*": [
+  "ses:CancelExportJob",
+  "ses:GetExportJob"
+ ],
  "configuration-set*": [
   "ses:CreateConfigurationSet",
   "ses:CreateConfigurationSetEventDestination",
@@ -43,7 +47,8 @@
   "ses:DeleteDedicatedIpPool",
   "ses:GetDedicatedIpPool",
   "ses:GetDedicatedIps",
-  "ses:PutDedicatedIpInPool"
+  "ses:PutDedicatedIpInPool",
+  "ses:PutDedicatedIpPoolScalingAttributes"
  ],
  "identity*": [
   "ses:CreateDeliverabilityTestReport",
@@ -71,6 +76,7 @@
   "ses:UpdateEmailTemplate"
  ],
  "?": [
+  "ses:CreateExportJob",
   "ses:CreateImportJob",
   "ses:DeleteSuppressedDestination",
   "ses:GetAccount",
@@ -78,6 +84,7 @@
   "ses:GetDedicatedIp",
   "ses:GetDeliverabilityDashboardOptions",
   "ses:GetDomainDeliverabilityCampaign",
+  "ses:GetMessageInsights",
   "ses:GetSuppressedDestination",
   "ses:ListConfigurationSets",
   "ses:ListContactLists",
@@ -87,6 +94,7 @@
   "ses:ListDomainDeliverabilityCampaigns",
   "ses:ListEmailIdentities",
   "ses:ListEmailTemplates",
+  "ses:ListExportJobs",
   "ses:ListImportJobs",
   "ses:ListSuppressedDestinations",
   "ses:PutAccountDedicatedIpWarmupAttributes",

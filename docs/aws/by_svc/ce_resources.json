@@ -12,6 +12,7 @@
   "ce:GetReservationPurchaseRecommendation",
   "ce:GetReservationUtilization",
   "ce:GetRightsizingRecommendation",
+  "ce:GetSavingsPlanPurchaseRecommendationDetails",
   "ce:GetSavingsPlansCoverage",
   "ce:GetSavingsPlansPurchaseRecommendation",
   "ce:GetSavingsPlansUtilization",

@@ -15,10 +15,14 @@
  "?": [
   "globalaccelerator:AdvertiseByoipCidr",
   "globalaccelerator:CreateAccelerator",
+  "globalaccelerator:CreateCrossAccountAttachment",
   "globalaccelerator:CreateCustomRoutingAccelerator",
   "globalaccelerator:DeprovisionByoipCidr",
   "globalaccelerator:ListAccelerators",
   "globalaccelerator:ListByoipCidrs",
+  "globalaccelerator:ListCrossAccountAttachments",
+  "globalaccelerator:ListCrossAccountResourceAccounts",
+  "globalaccelerator:ListCrossAccountResources",
   "globalaccelerator:ListCustomRoutingAccelerators",
   "globalaccelerator:ListCustomRoutingPortMappingsByDestination",
   "globalaccelerator:ProvisionByoipCidr",
@@ -52,6 +56,11 @@
   "globalaccelerator:UpdateAcceleratorAttributes",
   "globalaccelerator:UpdateCustomRoutingAccelerator",
   "globalaccelerator:UpdateCustomRoutingAcceleratorAttributes"
+ ],
+ "attachment*": [
+  "globalaccelerator:DeleteCrossAccountAttachment",
+  "globalaccelerator:DescribeCrossAccountAttachment",
+  "globalaccelerator:UpdateCrossAccountAttachment"
  ],
  "accelerator": [
   "globalaccelerator:ListTagsForResource",

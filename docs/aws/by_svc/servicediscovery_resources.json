@@ -4,6 +4,7 @@
   "servicediscovery:CreatePrivateDnsNamespace",
   "servicediscovery:CreatePublicDnsNamespace",
   "servicediscovery:DiscoverInstances",
+  "servicediscovery:DiscoverInstancesRevision",
   "servicediscovery:GetInstance",
   "servicediscovery:GetInstancesHealthStatus",
   "servicediscovery:GetOperation",

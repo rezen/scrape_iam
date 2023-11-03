@@ -7,6 +7,9 @@
  "scn:DescribeInstance",
  "scn:ListAdminUsers",
  "scn:ListInstances",
+ "scn:ListTagsForResource",
  "scn:RemoveAdminPermissionsForUser",
+ "scn:TagResource",
+ "scn:UntagResource",
  "scn:UpdateInstance"
 ]

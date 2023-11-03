@@ -15,12 +15,18 @@
   "personalize:GetRecommendations",
   "personalize:UpdateCampaign"
  ],
+ "dataInsightsJob*": [
+  "personalize:CreateDataInsightsJob",
+  "personalize:DescribeDataInsightsJob",
+  "personalize:GetDataInsights"
+ ],
  "dataset*": [
   "personalize:CreateDataset",
   "personalize:DeleteDataset",
   "personalize:DescribeDataset",
   "personalize:PutItems",
-  "personalize:PutUsers"
+  "personalize:PutUsers",
+  "personalize:UpdateDataset"
  ],
  "datasetExportJob*": [
   "personalize:CreateDatasetExportJob",
@@ -86,6 +92,7 @@
   "personalize:ListBatchInferenceJobs",
   "personalize:ListBatchSegmentJobs",
   "personalize:ListCampaigns",
+  "personalize:ListDataInsightsJobs",
   "personalize:ListDatasetExportJobs",
   "personalize:ListDatasetGroups",
   "personalize:ListDatasetImportJobs",

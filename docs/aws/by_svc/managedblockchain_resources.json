@@ -2,6 +2,8 @@
  "?": [
   "managedblockchain:CreateAccessor",
   "managedblockchain:CreateNetwork",
+  "managedblockchain:InvokeRpcBitcoinMainnet",
+  "managedblockchain:InvokeRpcBitcoinTestnet",
   "managedblockchain:ListAccessors",
   "managedblockchain:ListInvitations",
   "managedblockchain:ListNetworks"

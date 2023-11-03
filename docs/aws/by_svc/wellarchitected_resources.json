@@ -1,11 +1,13 @@
 {
  "workload*": [
   "wellarchitected:AssociateLenses",
+  "wellarchitected:AssociateProfiles",
   "wellarchitected:CreateMilestone",
   "wellarchitected:CreateWorkloadShare",
   "wellarchitected:DeleteWorkload",
   "wellarchitected:DeleteWorkloadShare",
   "wellarchitected:DisassociateLenses",
+  "wellarchitected:DisassociateProfiles",
   "wellarchitected:GetAnswer",
   "wellarchitected:GetLensReview",
   "wellarchitected:GetLensReviewReport",
@@ -35,14 +37,44 @@
   "wellarchitected:ListLensShares"
  ],
  "?": [
+  "wellarchitected:CreateProfile",
+  "wellarchitected:CreateReviewTemplate",
   "wellarchitected:CreateWorkload",
+  "wellarchitected:GetConsolidatedReport",
+  "wellarchitected:GetProfileTemplate",
   "wellarchitected:ImportLens",
   "wellarchitected:ListLenses",
   "wellarchitected:ListNotifications",
+  "wellarchitected:ListProfileNotifications",
+  "wellarchitected:ListProfiles",
+  "wellarchitected:ListReviewTemplates",
   "wellarchitected:ListShareInvitations",
   "wellarchitected:ListWorkloads",
   "wellarchitected:UpdateGlobalSettings",
   "wellarchitected:UpdateShareInvitation"
+ ],
+ "profile*": [
+  "wellarchitected:CreateProfileShare",
+  "wellarchitected:DeleteProfile",
+  "wellarchitected:DeleteProfileShare",
+  "wellarchitected:GetProfile",
+  "wellarchitected:ListProfileShares",
+  "wellarchitected:UpdateProfile",
+  "wellarchitected:UpgradeProfileVersion"
+ ],
+ "review-template*": [
+  "wellarchitected:CreateTemplateShare",
+  "wellarchitected:DeleteReviewTemplate",
+  "wellarchitected:DeleteTemplateShare",
+  "wellarchitected:GetReviewTemplate",
+  "wellarchitected:GetReviewTemplateAnswer",
+  "wellarchitected:GetReviewTemplateLensReview",
+  "wellarchitected:ListReviewTemplateAnswers",
+  "wellarchitected:ListTemplateShares",
+  "wellarchitected:UpdateReviewTemplate",
+  "wellarchitected:UpdateReviewTemplateAnswer",
+  "wellarchitected:UpdateReviewTemplateLensReview",
+  "wellarchitected:UpgradeReviewTemplateLensReview"
  ],
  "lens": [
   "wellarchitected:ListTagsForResource",

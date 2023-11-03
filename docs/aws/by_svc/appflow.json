@@ -1,4 +1,5 @@
 [
+ "appflow:CancelFlowExecutions",
  "appflow:CreateConnectorProfile",
  "appflow:CreateFlow",
  "appflow:DeleteConnectorProfile",
@@ -14,6 +15,7 @@
  "appflow:ListFlows",
  "appflow:ListTagsForResource",
  "appflow:RegisterConnector",
+ "appflow:ResetConnectorMetadataCache",
  "appflow:StartFlow",
  "appflow:StopFlow",
  "appflow:TagResource",

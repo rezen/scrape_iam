@@ -15,6 +15,7 @@
  ],
  "stream*": [
   "kinesisvideo:CreateStream",
+  "kinesisvideo:DeleteEdgeConfiguration",
   "kinesisvideo:DeleteStream",
   "kinesisvideo:DescribeEdgeConfiguration",
   "kinesisvideo:DescribeImageGenerationConfiguration",
@@ -40,6 +41,7 @@
   "kinesisvideo:UpdateStream"
  ],
  "?": [
+  "kinesisvideo:ListEdgeAgentConfigurations",
   "kinesisvideo:ListSignalingChannels",
   "kinesisvideo:ListStreams"
  ],

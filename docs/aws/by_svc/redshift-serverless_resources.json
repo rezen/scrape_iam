@@ -4,6 +4,17 @@
   "redshift-serverless:GetRecoveryPoint",
   "redshift-serverless:RestoreFromRecoveryPoint"
  ],
+ "workgroup*": [
+  "redshift-serverless:CreateCustomDomainAssociation",
+  "redshift-serverless:CreateWorkgroup",
+  "redshift-serverless:DeleteCustomDomainAssociation",
+  "redshift-serverless:DeleteWorkgroup",
+  "redshift-serverless:GetCredentials",
+  "redshift-serverless:GetCustomDomainAssociation",
+  "redshift-serverless:GetWorkgroup",
+  "redshift-serverless:UpdateCustomDomainAssociation",
+  "redshift-serverless:UpdateWorkgroup"
+ ],
  "endpointAccess*": [
   "redshift-serverless:CreateEndpointAccess",
   "redshift-serverless:DeleteEndpointAccess",
@@ -33,19 +44,13 @@
   "redshift-serverless:GetResourcePolicy",
   "redshift-serverless:GetTableRestoreStatus",
   "redshift-serverless:GetUsageLimit",
+  "redshift-serverless:ListCustomDomainAssociations",
   "redshift-serverless:ListNamespaces",
   "redshift-serverless:ListTableRestoreStatus",
   "redshift-serverless:ListUsageLimits",
   "redshift-serverless:ListWorkgroups",
   "redshift-serverless:PutResourcePolicy",
   "redshift-serverless:UpdateUsageLimit"
- ],
- "workgroup*": [
-  "redshift-serverless:CreateWorkgroup",
-  "redshift-serverless:DeleteWorkgroup",
-  "redshift-serverless:GetCredentials",
-  "redshift-serverless:GetWorkgroup",
-  "redshift-serverless:UpdateWorkgroup"
  ],
  "namespace": [
   "redshift-serverless:ListRecoveryPoints",

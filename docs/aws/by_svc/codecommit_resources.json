@@ -41,6 +41,7 @@
   "codecommit:GetRepositoryTriggers",
   "codecommit:ListAssociatedApprovalRuleTemplatesForRepository",
   "codecommit:ListBranches",
+  "codecommit:ListFileCommitHistory",
   "codecommit:ListPullRequests",
   "codecommit:MergeBranchesByFastForward",
   "codecommit:MergeBranchesBySquash",

@@ -64,5 +64,6 @@
  "elasticache:ResetCacheParameterGroup",
  "elasticache:RevokeCacheSecurityGroupIngress",
  "elasticache:StartMigration",
- "elasticache:TestFailover"
+ "elasticache:TestFailover",
+ "elasticache:TestMigration"
 ]

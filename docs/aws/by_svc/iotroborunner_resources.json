@@ -4,13 +4,13 @@
   "iotroborunner:CreateWorkerFleet",
   "iotroborunner:DeleteSite",
   "iotroborunner:GetSite",
+  "iotroborunner:ListDestinations",
   "iotroborunner:ListWorkerFleets",
   "iotroborunner:ListWorkers",
   "iotroborunner:UpdateSite"
  ],
  "?": [
   "iotroborunner:CreateSite",
-  "iotroborunner:ListDestinations",
   "iotroborunner:ListSites"
  ],
  "WorkerFleetResource*": [

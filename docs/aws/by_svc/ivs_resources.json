@@ -1,6 +1,7 @@
 {
  "Channel*": [
   "ivs:BatchGetChannel",
+  "ivs:BatchStartViewerSessionRevocation",
   "ivs:CreateChannel",
   "ivs:DeleteChannel",
   "ivs:GetChannel",
@@ -11,6 +12,7 @@
   "ivs:ListStreamSessions",
   "ivs:ListStreams",
   "ivs:PutMetadata",
+  "ivs:StartViewerSessionRevocation",
   "ivs:StopStream",
   "ivs:UpdateChannel"
  ],
@@ -19,6 +21,20 @@
   "ivs:CreateStreamKey",
   "ivs:DeleteStreamKey",
   "ivs:GetStreamKey"
+ ],
+ "Stage*": [
+  "ivs:CreateParticipantToken",
+  "ivs:CreateStage",
+  "ivs:DeleteStage",
+  "ivs:DisconnectParticipant",
+  "ivs:GetParticipant",
+  "ivs:GetStage",
+  "ivs:GetStageSession",
+  "ivs:ListParticipantEvents",
+  "ivs:ListParticipants",
+  "ivs:ListStageSessions",
+  "ivs:ListStages",
+  "ivs:UpdateStage"
  ],
  "Recording-Configuration*": [
   "ivs:CreateRecordingConfiguration",

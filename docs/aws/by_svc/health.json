@@ -3,6 +3,7 @@
  "health:DescribeAffectedEntities",
  "health:DescribeAffectedEntitiesForOrganization",
  "health:DescribeEntityAggregates",
+ "health:DescribeEntityAggregatesForOrganization",
  "health:DescribeEventAggregates",
  "health:DescribeEventDetails",
  "health:DescribeEventDetailsForOrganization",

@@ -29,6 +29,11 @@
   "workspaces:Stream",
   "workspaces:UpdateConnectClientAddIn"
  ],
+ "workspaceapplication*": [
+  "workspaces:AssociateWorkspaceApplication",
+  "workspaces:DescribeApplicationAssociations",
+  "workspaces:DisassociateWorkspaceApplication"
+ ],
  "workspaceipgroup*": [
   "workspaces:AuthorizeIpRules",
   "workspaces:DeleteIpGroup",
@@ -40,6 +45,7 @@
   "workspaces:CopyWorkspaceImage",
   "workspaces:CreateUpdatedWorkspaceImage",
   "workspaces:DeleteWorkspaceImage",
+  "workspaces:DescribeImageAssociations",
   "workspaces:DescribeWorkspaceImagePermissions",
   "workspaces:UpdateWorkspaceImagePermission"
  ],
@@ -50,6 +56,7 @@
   "workspaces:DeleteTags",
   "workspaces:DescribeAccount",
   "workspaces:DescribeAccountModifications",
+  "workspaces:DescribeApplications",
   "workspaces:DescribeConnectionAliases",
   "workspaces:DescribeTags",
   "workspaces:DescribeWorkspaceBundles",
@@ -64,11 +71,14 @@
  "workspacebundle*": [
   "workspaces:CreateWorkspaceBundle",
   "workspaces:DeleteWorkspaceBundle",
+  "workspaces:DescribeBundleAssociations",
   "workspaces:MigrateWorkspace",
   "workspaces:UpdateWorkspaceBundle"
  ],
  "workspaceid*": [
   "workspaces:CreateWorkspaceImage",
+  "workspaces:DeployWorkspaceApplications",
+  "workspaces:DescribeWorkspaceAssociations",
   "workspaces:DescribeWorkspaceSnapshots",
   "workspaces:ModifyWorkspaceProperties",
   "workspaces:ModifyWorkspaceState",

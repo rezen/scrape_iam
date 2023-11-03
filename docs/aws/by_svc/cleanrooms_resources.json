@@ -1,24 +1,28 @@
 {
- "Collaboration*": [
+ "analysistemplate*": [
+  "cleanrooms:BatchGetCollaborationAnalysisTemplate",
+  "cleanrooms:CreateAnalysisTemplate",
+  "cleanrooms:DeleteAnalysisTemplate",
+  "cleanrooms:GetAnalysisTemplate",
+  "cleanrooms:GetCollaborationAnalysisTemplate",
+  "cleanrooms:UpdateAnalysisTemplate"
+ ],
+ "collaboration*": [
   "cleanrooms:BatchGetSchema",
+  "cleanrooms:CreateCollaboration",
   "cleanrooms:CreateMembership",
   "cleanrooms:DeleteCollaboration",
   "cleanrooms:DeleteMember",
   "cleanrooms:GetCollaboration",
   "cleanrooms:GetSchema",
   "cleanrooms:GetSchemaAnalysisRule",
+  "cleanrooms:ListCollaborationAnalysisTemplates",
   "cleanrooms:ListMembers",
   "cleanrooms:ListSchemas",
   "cleanrooms:UpdateCollaboration"
  ],
- "?": [
-  "cleanrooms:CreateCollaboration",
+ "configuredtable*": [
   "cleanrooms:CreateConfiguredTable",
-  "cleanrooms:ListCollaborations",
-  "cleanrooms:ListConfiguredTables",
-  "cleanrooms:ListMemberships"
- ],
- "ConfiguredTable*": [
   "cleanrooms:CreateConfiguredTableAnalysisRule",
   "cleanrooms:CreateConfiguredTableAssociation",
   "cleanrooms:DeleteConfiguredTable",
@@ -28,20 +32,31 @@
   "cleanrooms:UpdateConfiguredTable",
   "cleanrooms:UpdateConfiguredTableAnalysisRule"
  ],
- "ConfiguredTableAssociation*": [
+ "configuredtableassociation*": [
   "cleanrooms:DeleteConfiguredTableAssociation",
   "cleanrooms:GetConfiguredTableAssociation",
+  "cleanrooms:StartProtectedQuery",
   "cleanrooms:UpdateConfiguredTableAssociation"
  ],
- "Membership*": [
+ "membership*": [
   "cleanrooms:DeleteMembership",
   "cleanrooms:GetMembership",
   "cleanrooms:GetProtectedQuery",
+  "cleanrooms:ListAnalysisTemplates",
   "cleanrooms:ListConfiguredTableAssociations",
   "cleanrooms:ListProtectedQueries",
-  "cleanrooms:StartProtectedQuery",
   "cleanrooms:UpdateMembership",
   "cleanrooms:UpdateProtectedQuery"
+ ],
+ "?": [
+  "cleanrooms:ListCollaborations",
+  "cleanrooms:ListConfiguredTables",
+  "cleanrooms:ListMemberships"
+ ],
+ "analysistemplate": [
+  "cleanrooms:ListTagsForResource",
+  "cleanrooms:TagResource",
+  "cleanrooms:UntagResource"
  ],
  "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awscleanrooms.html"
 }

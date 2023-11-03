@@ -12,19 +12,19 @@
  ],
  "application*": [
   "refactor-spaces:DeleteApplication",
-  "refactor-spaces:GetApplication"
+  "refactor-spaces:GetApplication",
+  "refactor-spaces:ListApplications"
  ],
  "environment*": [
   "refactor-spaces:DeleteEnvironment",
   "refactor-spaces:GetEnvironment",
-  "refactor-spaces:ListApplications",
   "refactor-spaces:ListEnvironmentVpcs",
-  "refactor-spaces:ListRoutes",
   "refactor-spaces:ListServices"
  ],
  "route*": [
   "refactor-spaces:DeleteRoute",
   "refactor-spaces:GetRoute",
+  "refactor-spaces:ListRoutes",
   "refactor-spaces:UpdateRoute"
  ],
  "service*": [

@@ -2,28 +2,38 @@
  "?": [
   "rolesanywhere:CreateProfile",
   "rolesanywhere:CreateTrustAnchor",
-  "rolesanywhere:DeleteCrl",
-  "rolesanywhere:DeleteProfile",
-  "rolesanywhere:DeleteTrustAnchor",
-  "rolesanywhere:DisableCrl",
-  "rolesanywhere:DisableProfile",
-  "rolesanywhere:DisableTrustAnchor",
-  "rolesanywhere:EnableCrl",
-  "rolesanywhere:EnableProfile",
-  "rolesanywhere:EnableTrustAnchor",
-  "rolesanywhere:GetCrl",
-  "rolesanywhere:GetProfile",
-  "rolesanywhere:GetSubject",
-  "rolesanywhere:GetTrustAnchor",
   "rolesanywhere:ImportCrl",
   "rolesanywhere:ListCrls",
   "rolesanywhere:ListProfiles",
   "rolesanywhere:ListSubjects",
   "rolesanywhere:ListTagsForResource",
-  "rolesanywhere:ListTrustAnchors",
-  "rolesanywhere:UpdateCrl",
-  "rolesanywhere:UpdateProfile",
+  "rolesanywhere:ListTrustAnchors"
+ ],
+ "crl*": [
+  "rolesanywhere:DeleteCrl",
+  "rolesanywhere:DisableCrl",
+  "rolesanywhere:EnableCrl",
+  "rolesanywhere:GetCrl",
+  "rolesanywhere:UpdateCrl"
+ ],
+ "profile*": [
+  "rolesanywhere:DeleteProfile",
+  "rolesanywhere:DisableProfile",
+  "rolesanywhere:EnableProfile",
+  "rolesanywhere:GetProfile",
+  "rolesanywhere:UpdateProfile"
+ ],
+ "trust-anchor*": [
+  "rolesanywhere:DeleteTrustAnchor",
+  "rolesanywhere:DisableTrustAnchor",
+  "rolesanywhere:EnableTrustAnchor",
+  "rolesanywhere:GetTrustAnchor",
+  "rolesanywhere:PutNotificationSettings",
+  "rolesanywhere:ResetNotificationSettings",
   "rolesanywhere:UpdateTrustAnchor"
+ ],
+ "subject*": [
+  "rolesanywhere:GetSubject"
  ],
  "crl": [
   "rolesanywhere:TagResource",

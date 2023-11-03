@@ -45,6 +45,7 @@
   "transfer:DeleteConnector",
   "transfer:DescribeConnector",
   "transfer:StartFileTransfer",
+  "transfer:TestConnection",
   "transfer:UpdateConnector"
  ],
  "host-key*": [

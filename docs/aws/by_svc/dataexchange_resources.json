@@ -17,6 +17,7 @@
   "dataexchange:DeleteDataSet",
   "dataexchange:GetDataSet",
   "dataexchange:ListDataSetRevisions",
+  "dataexchange:SendDataSetNotification",
   "dataexchange:UpdateDataSet"
  ],
  "assets*": [

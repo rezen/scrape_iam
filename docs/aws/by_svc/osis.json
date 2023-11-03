@@ -1,0 +1,17 @@
+[
+ "osis:CreatePipeline",
+ "osis:DeletePipeline",
+ "osis:GetPipeline",
+ "osis:GetPipelineBlueprint",
+ "osis:GetPipelineChangeProgress",
+ "osis:Ingest",
+ "osis:ListPipelineBlueprints",
+ "osis:ListPipelines",
+ "osis:ListTagsForResource",
+ "osis:StartPipeline",
+ "osis:StopPipeline",
+ "osis:TagResource",
+ "osis:UntagResource",
+ "osis:UpdatePipeline",
+ "osis:ValidatePipeline"
+]

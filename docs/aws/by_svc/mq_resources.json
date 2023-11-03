@@ -19,6 +19,7 @@
   "mq:DescribeBroker",
   "mq:DescribeUser",
   "mq:ListUsers",
+  "mq:Promote",
   "mq:RebootBroker",
   "mq:UpdateBroker",
   "mq:UpdateUser"

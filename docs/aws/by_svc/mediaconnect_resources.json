@@ -1,4 +1,18 @@
 {
+ "Bridge*": [
+  "mediaconnect:AddBridgeOutputs",
+  "mediaconnect:AddBridgeSources",
+  "mediaconnect:CreateBridge",
+  "mediaconnect:DeleteBridge",
+  "mediaconnect:DescribeBridge",
+  "mediaconnect:ListBridges",
+  "mediaconnect:RemoveBridgeOutput",
+  "mediaconnect:RemoveBridgeSource",
+  "mediaconnect:UpdateBridge",
+  "mediaconnect:UpdateBridgeOutput",
+  "mediaconnect:UpdateBridgeSource",
+  "mediaconnect:UpdateBridgeState"
+ ],
  "?": [
   "mediaconnect:AddFlowMediaStreams",
   "mediaconnect:AddFlowOutputs",
@@ -9,12 +23,15 @@
   "mediaconnect:DescribeFlow",
   "mediaconnect:DescribeOffering",
   "mediaconnect:DescribeReservation",
+  "mediaconnect:DiscoverGatewayPollEndpoint",
   "mediaconnect:GrantFlowEntitlements",
   "mediaconnect:ListEntitlements",
   "mediaconnect:ListFlows",
+  "mediaconnect:ListGateways",
   "mediaconnect:ListOfferings",
   "mediaconnect:ListReservations",
   "mediaconnect:ListTagsForResource",
+  "mediaconnect:PollGateway",
   "mediaconnect:PurchaseOffering",
   "mediaconnect:RemoveFlowMediaStream",
   "mediaconnect:RemoveFlowOutput",
@@ -23,6 +40,7 @@
   "mediaconnect:RevokeFlowEntitlement",
   "mediaconnect:StartFlow",
   "mediaconnect:StopFlow",
+  "mediaconnect:SubmitGatewayStateChange",
   "mediaconnect:TagResource",
   "mediaconnect:UntagResource",
   "mediaconnect:UpdateFlow",
@@ -30,6 +48,17 @@
   "mediaconnect:UpdateFlowMediaStream",
   "mediaconnect:UpdateFlowOutput",
   "mediaconnect:UpdateFlowSource"
+ ],
+ "Gateway*": [
+  "mediaconnect:CreateGateway",
+  "mediaconnect:DeleteGateway",
+  "mediaconnect:DescribeGateway"
+ ],
+ "GatewayInstance*": [
+  "mediaconnect:DeregisterGatewayInstance",
+  "mediaconnect:DescribeGatewayInstance",
+  "mediaconnect:ListGatewayInstances",
+  "mediaconnect:UpdateGatewayInstance"
  ],
  "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awselementalmediaconnect.html"
 }

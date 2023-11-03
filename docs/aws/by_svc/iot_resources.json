@@ -88,6 +88,7 @@
   "iot:DetachThingPrincipal",
   "iot:GetIndexingConfiguration",
   "iot:GetLoggingOptions",
+  "iot:GetPackageConfiguration",
   "iot:GetRegistrationCode",
   "iot:GetV2LoggingOptions",
   "iot:ListAttachedPolicies",
@@ -113,6 +114,8 @@
   "iot:ListMitigationActions",
   "iot:ListOTAUpdates",
   "iot:ListOutgoingCertificates",
+  "iot:ListPackageVersions",
+  "iot:ListPackages",
   "iot:ListPolicies",
   "iot:ListPolicyPrincipals",
   "iot:ListPrincipalPolicies",
@@ -150,6 +153,7 @@
   "iot:UpdateAuditSuppression",
   "iot:UpdateEventConfigurations",
   "iot:UpdateIndexingConfiguration",
+  "iot:UpdatePackageConfiguration",
   "iot:ValidateSecurityProfileBehaviors"
  ],
  "tunnel*": [
@@ -220,6 +224,16 @@
   "iot:CreateOTAUpdate",
   "iot:DeleteOTAUpdate",
   "iot:GetOTAUpdate"
+ ],
+ "package*": [
+  "iot:CreatePackage",
+  "iot:CreatePackageVersion",
+  "iot:DeletePackage",
+  "iot:DeletePackageVersion",
+  "iot:GetPackage",
+  "iot:GetPackageVersion",
+  "iot:UpdatePackage",
+  "iot:UpdatePackageVersion"
  ],
  "policy*": [
   "iot:CreatePolicy",

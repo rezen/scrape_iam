@@ -1,4 +1,16 @@
 {
+ "?": [
+  "braket:AcceptUserAgreement",
+  "braket:AccessBraketFeature",
+  "braket:CreateJob",
+  "braket:CreateQuantumTask",
+  "braket:GetDevice",
+  "braket:GetServiceLinkedRoleStatus",
+  "braket:GetUserAgreementStatus",
+  "braket:SearchDevices",
+  "braket:SearchJobs",
+  "braket:SearchQuantumTasks"
+ ],
  "job*": [
   "braket:CancelJob",
   "braket:GetJob"
@@ -7,20 +19,10 @@
   "braket:CancelQuantumTask",
   "braket:GetQuantumTask"
  ],
- "?": [
-  "braket:CreateJob",
-  "braket:CreateQuantumTask",
-  "braket:GetDevice",
-  "braket:SearchDevices",
-  "braket:SearchJobs",
-  "braket:SearchQuantumTasks"
- ],
  "job": [
   "braket:ListTagsForResource",
+  "braket:TagResource",
   "braket:UntagResource"
- ],
- "quantum-task": [
-  "braket:TagResource"
  ],
  "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonbraket.html"
 }

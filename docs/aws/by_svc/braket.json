@@ -1,4 +1,6 @@
 [
+ "braket:AcceptUserAgreement",
+ "braket:AccessBraketFeature",
  "braket:CancelJob",
  "braket:CancelQuantumTask",
  "braket:CreateJob",
@@ -6,6 +8,8 @@
  "braket:GetDevice",
  "braket:GetJob",
  "braket:GetQuantumTask",
+ "braket:GetServiceLinkedRoleStatus",
+ "braket:GetUserAgreementStatus",
  "braket:ListTagsForResource",
  "braket:SearchDevices",
  "braket:SearchJobs",

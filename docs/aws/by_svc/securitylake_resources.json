@@ -1,36 +1,42 @@
 {
- "?": [
+ "data-lake*": [
   "securitylake:CreateAwsLogSource",
   "securitylake:CreateCustomLogSource",
-  "securitylake:CreateDatalake",
-  "securitylake:CreateDatalakeAutoEnable",
-  "securitylake:CreateDatalakeDelegatedAdmin",
-  "securitylake:CreateDatalakeExceptionsSubscription",
-  "securitylake:CreateSubscriber",
-  "securitylake:CreateSubscriptionNotificationConfiguration",
+  "securitylake:CreateDataLake",
+  "securitylake:CreateDataLakeOrganizationConfiguration",
   "securitylake:DeleteAwsLogSource",
   "securitylake:DeleteCustomLogSource",
-  "securitylake:DeleteDatalake",
-  "securitylake:DeleteDatalakeAutoEnable",
-  "securitylake:DeleteDatalakeDelegatedAdmin",
-  "securitylake:DeleteDatalakeExceptionsSubscription",
-  "securitylake:DeleteSubscriber",
-  "securitylake:DeleteSubscriptionNotificationConfiguration",
-  "securitylake:GetDatalake",
-  "securitylake:GetDatalakeAutoEnable",
-  "securitylake:GetDatalakeExceptionsExpiry",
-  "securitylake:GetDatalakeExceptionsSubscription",
-  "securitylake:GetDatalakeStatus",
-  "securitylake:GetSubscriber",
-  "securitylake:GetSubscriptionNotificationConfiguration",
-  "securitylake:ListDatalakeExceptions",
+  "securitylake:DeleteDataLake",
+  "securitylake:DeleteDataLakeOrganizationConfiguration",
+  "securitylake:GetDataLakeOrganizationConfiguration",
+  "securitylake:GetDataLakeSources",
+  "securitylake:UpdateDataLake"
+ ],
+ "?": [
+  "securitylake:CreateDataLakeExceptionSubscription",
+  "securitylake:CreateSubscriber",
+  "securitylake:DeleteDataLakeExceptionSubscription",
+  "securitylake:DeregisterDataLakeDelegatedAdministrator",
+  "securitylake:GetDataLakeExceptionSubscription",
+  "securitylake:ListDataLakeExceptions",
+  "securitylake:ListDataLakes",
   "securitylake:ListLogSources",
   "securitylake:ListSubscribers",
-  "securitylake:UpdateDatalake",
-  "securitylake:UpdateDatalakeExceptionsExpiry",
-  "securitylake:UpdateDatalakeExceptionsSubscription",
+  "securitylake:RegisterDataLakeDelegatedAdministrator",
+  "securitylake:UpdateDataLakeExceptionSubscription"
+ ],
+ "subscriber*": [
+  "securitylake:CreateSubscriberNotification",
+  "securitylake:DeleteSubscriber",
+  "securitylake:DeleteSubscriberNotification",
+  "securitylake:GetSubscriber",
   "securitylake:UpdateSubscriber",
-  "securitylake:UpdateSubscriptionNotificationConfiguration"
+  "securitylake:UpdateSubscriberNotification"
+ ],
+ "data-lake": [
+  "securitylake:ListTagsForResource",
+  "securitylake:TagResource",
+  "securitylake:UntagResource"
  ],
  "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonsecuritylake.html"
 }

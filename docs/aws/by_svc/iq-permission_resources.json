@@ -1,3 +1,14 @@
 {
+ "permission*": [
+  "iq-permission:ApproveAccessGrant",
+  "iq-permission:ApprovePermissionRequest",
+  "iq-permission:AssumePermissionRole",
+  "iq-permission:CreatePermissionRequest",
+  "iq-permission:GetPermissionRequest",
+  "iq-permission:ListPermissionRequests",
+  "iq-permission:RejectPermissionRequest",
+  "iq-permission:RevokePermissionRequest",
+  "iq-permission:WithdrawPermissionRequest"
+ ],
  "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsiqpermissions.html"
 }

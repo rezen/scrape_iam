@@ -1,12 +1,7 @@
 {
- "discoverer*": [
+ "?": [
   "schemas:CreateDiscoverer",
-  "schemas:DeleteDiscoverer",
-  "schemas:DescribeDiscoverer",
-  "schemas:ListDiscoverers",
-  "schemas:StartDiscoverer",
-  "schemas:StopDiscoverer",
-  "schemas:UpdateDiscoverer"
+  "schemas:GetDiscoveredSchema"
  ],
  "registry*": [
   "schemas:CreateRegistry",
@@ -32,8 +27,13 @@
   "schemas:SearchSchemas",
   "schemas:UpdateSchema"
  ],
- "?": [
-  "schemas:GetDiscoveredSchema"
+ "discoverer*": [
+  "schemas:DeleteDiscoverer",
+  "schemas:DescribeDiscoverer",
+  "schemas:ListDiscoverers",
+  "schemas:StartDiscoverer",
+  "schemas:StopDiscoverer",
+  "schemas:UpdateDiscoverer"
  ],
  "discoverer": [
   "schemas:ListTagsForResource",

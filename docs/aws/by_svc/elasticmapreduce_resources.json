@@ -28,6 +28,7 @@
   "elasticmapreduce:RemoveAutoTerminationPolicy",
   "elasticmapreduce:RemoveManagedScalingPolicy",
   "elasticmapreduce:SetTerminationProtection",
+  "elasticmapreduce:SetVisibleToAllUsers",
   "elasticmapreduce:StartNotebookExecution",
   "elasticmapreduce:TerminateJobFlows"
  ],
@@ -49,6 +50,7 @@
   "elasticmapreduce:ListSecurityConfigurations",
   "elasticmapreduce:ListStudioSessionMappings",
   "elasticmapreduce:ListStudios",
+  "elasticmapreduce:ListSupportedInstanceTypes",
   "elasticmapreduce:PutBlockPublicAccessConfiguration",
   "elasticmapreduce:RunJobFlow"
  ],

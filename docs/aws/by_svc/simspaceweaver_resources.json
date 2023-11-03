@@ -1,5 +1,6 @@
 {
  "Simulation*": [
+  "simspaceweaver:CreateSnapshot",
   "simspaceweaver:DeleteApp",
   "simspaceweaver:DeleteSimulation",
   "simspaceweaver:DescribeApp",

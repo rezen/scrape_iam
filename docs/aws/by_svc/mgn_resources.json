@@ -24,15 +24,19 @@
   "mgn:GetReplicationConfiguration",
   "mgn:ListSourceServerActions",
   "mgn:MarkAsArchived",
+  "mgn:PauseReplication",
   "mgn:PutSourceServerAction",
   "mgn:RemoveSourceServerAction",
+  "mgn:ResumeReplication",
   "mgn:RetryDataReplication",
   "mgn:StartCutover",
   "mgn:StartReplication",
   "mgn:StartTest",
+  "mgn:StopReplication",
   "mgn:TerminateTargetInstances",
   "mgn:UpdateLaunchConfiguration",
   "mgn:UpdateReplicationConfiguration",
+  "mgn:UpdateSourceServer",
   "mgn:UpdateSourceServerReplicationType"
  ],
  "?": [
@@ -47,9 +51,18 @@
   "mgn:DescribeVcenterClients",
   "mgn:InitializeService",
   "mgn:ListApplications",
+  "mgn:ListConnectors",
+  "mgn:ListExports",
+  "mgn:ListImports",
+  "mgn:ListManagedAccounts",
   "mgn:ListTagsForResource",
   "mgn:ListWaves",
-  "mgn:VerifyClientRoleForMgn"
+  "mgn:StartExport",
+  "mgn:StartImport"
+ ],
+ "ConnectorResource*": [
+  "mgn:DeleteConnector",
+  "mgn:UpdateConnector"
  ],
  "JobResource*": [
   "mgn:DeleteJob",
@@ -69,8 +82,11 @@
  "VcenterClientResource*": [
   "mgn:DeleteVcenterClient"
  ],
- "SourceServerResource": [
-  "mgn:IssueClientCertificateForMgn"
+ "ExportResource*": [
+  "mgn:ListExportErrors"
+ ],
+ "ImportResource*": [
+  "mgn:ListImportErrors"
  ],
  "ApplicationResource": [
   "mgn:TagResource",

@@ -1,10 +1,22 @@
 {
+ "SourceNetworkResource*": [
+  "drs:AssociateSourceNetworkStack",
+  "drs:DeleteSourceNetwork",
+  "drs:ExportSourceNetworkCfnTemplate",
+  "drs:StartSourceNetworkRecovery",
+  "drs:StartSourceNetworkReplication",
+  "drs:StopSourceNetworkReplication"
+ ],
  "?": [
   "drs:CreateExtendedSourceServer",
+  "drs:CreateLaunchConfigurationTemplate",
   "drs:CreateReplicationConfigurationTemplate",
+  "drs:CreateSourceNetwork",
   "drs:DescribeJobs",
+  "drs:DescribeLaunchConfigurationTemplates",
   "drs:DescribeRecoveryInstances",
   "drs:DescribeReplicationConfigurationTemplates",
+  "drs:DescribeSourceNetworks",
   "drs:DescribeSourceServers",
   "drs:InitializeService",
   "drs:ListExtensibleSourceServers",
@@ -14,6 +26,15 @@
  "JobResource*": [
   "drs:DeleteJob",
   "drs:DescribeJobLogItems"
+ ],
+ "LaunchConfigurationTemplateResource": [
+  "drs:DeleteLaunchAction",
+  "drs:ListLaunchActions",
+  "drs:PutLaunchAction"
+ ],
+ "LaunchConfigurationTemplateResource*": [
+  "drs:DeleteLaunchConfigurationTemplate",
+  "drs:UpdateLaunchConfigurationTemplate"
  ],
  "RecoveryInstanceResource*": [
   "drs:DeleteRecoveryInstance",

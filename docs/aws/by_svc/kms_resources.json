@@ -23,7 +23,6 @@
   "kms:ListGrants",
   "kms:ListKeyPolicies",
   "kms:ListResourceTags",
-  "kms:ListRetirableGrants",
   "kms:PutKeyPolicy",
   "kms:ReEncryptFrom",
   "kms:ReEncryptTo",
@@ -49,6 +48,7 @@
   "kms:GenerateRandom",
   "kms:ListAliases",
   "kms:ListKeys",
+  "kms:ListRetirableGrants",
   "kms:UpdateCustomKeyStore"
  ],
  "alias*": [

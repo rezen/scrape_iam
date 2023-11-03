@@ -25,7 +25,8 @@
   "elasticache:ModifyReplicationGroup",
   "elasticache:ModifyReplicationGroupShardConfiguration",
   "elasticache:StartMigration",
-  "elasticache:TestFailover"
+  "elasticache:TestFailover",
+  "elasticache:TestMigration"
  ],
  "snapshot*": [
   "elasticache:CopySnapshot",

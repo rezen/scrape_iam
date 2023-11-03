@@ -1,0 +1,41 @@
+{
+ "appbundle*": [
+  "appfabric:BatchGetUserAccessTasks",
+  "appfabric:CreateAppAuthorization",
+  "appfabric:CreateAppBundle",
+  "appfabric:CreateIngestion",
+  "appfabric:CreateIngestionDestination",
+  "appfabric:DeleteAppBundle",
+  "appfabric:GetAppBundle",
+  "appfabric:GetIngestion",
+  "appfabric:GetIngestionDestination",
+  "appfabric:ListAppAuthorizations",
+  "appfabric:ListIngestionDestinations",
+  "appfabric:ListIngestions",
+  "appfabric:StartUserAccessTasks",
+  "appfabric:UpdateIngestionDestination"
+ ],
+ "appauthorization*": [
+  "appfabric:ConnectAppAuthorization",
+  "appfabric:DeleteAppAuthorization",
+  "appfabric:GetAppAuthorization",
+  "appfabric:UpdateAppAuthorization"
+ ],
+ "ingestion*": [
+  "appfabric:DeleteIngestion",
+  "appfabric:StartIngestion",
+  "appfabric:StopIngestion"
+ ],
+ "ingestiondestination*": [
+  "appfabric:DeleteIngestionDestination"
+ ],
+ "?": [
+  "appfabric:ListAppBundles"
+ ],
+ "appauthorization": [
+  "appfabric:ListTagsForResource",
+  "appfabric:TagResource",
+  "appfabric:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsappfabric.html"
+}

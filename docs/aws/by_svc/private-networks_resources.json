@@ -17,7 +17,8 @@
  ],
  "network-resource*": [
   "private-networks:ConfigureAccessPoint",
-  "private-networks:GetNetworkResource"
+  "private-networks:GetNetworkResource",
+  "private-networks:StartNetworkResourceUpdate"
  ],
  "network*": [
   "private-networks:CreateNetwork",

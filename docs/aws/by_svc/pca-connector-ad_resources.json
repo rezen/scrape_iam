@@ -1,0 +1,38 @@
+{
+ "?": [
+  "pca-connector-ad:CreateConnector",
+  "pca-connector-ad:CreateDirectoryRegistration",
+  "pca-connector-ad:ListConnectors",
+  "pca-connector-ad:ListDirectoryRegistrations",
+  "pca-connector-ad:ListTagsForResource"
+ ],
+ "DirectoryRegistration*": [
+  "pca-connector-ad:CreateServicePrincipalName",
+  "pca-connector-ad:DeleteDirectoryRegistration",
+  "pca-connector-ad:DeleteServicePrincipalName",
+  "pca-connector-ad:GetDirectoryRegistration",
+  "pca-connector-ad:GetServicePrincipalName",
+  "pca-connector-ad:ListServicePrincipalNames"
+ ],
+ "Connector*": [
+  "pca-connector-ad:CreateTemplate",
+  "pca-connector-ad:DeleteConnector",
+  "pca-connector-ad:GetConnector",
+  "pca-connector-ad:ListTemplates"
+ ],
+ "Template*": [
+  "pca-connector-ad:CreateTemplateGroupAccessControlEntry",
+  "pca-connector-ad:DeleteTemplate",
+  "pca-connector-ad:DeleteTemplateGroupAccessControlEntry",
+  "pca-connector-ad:GetTemplate",
+  "pca-connector-ad:GetTemplateGroupAccessControlEntry",
+  "pca-connector-ad:ListTemplateGroupAccessControlEntries",
+  "pca-connector-ad:UpdateTemplate",
+  "pca-connector-ad:UpdateTemplateGroupAccessControlEntry"
+ ],
+ "Connector": [
+  "pca-connector-ad:TagResource",
+  "pca-connector-ad:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsprivatecaconnectorforactivedirectory.html"
+}

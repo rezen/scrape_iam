@@ -22,7 +22,9 @@
  "s3-outposts:GetObject",
  "s3-outposts:GetObjectTagging",
  "s3-outposts:GetObjectVersion",
+ "s3-outposts:GetObjectVersionForReplication",
  "s3-outposts:GetObjectVersionTagging",
+ "s3-outposts:GetReplicationConfiguration",
  "s3-outposts:ListAccessPoints",
  "s3-outposts:ListBucket",
  "s3-outposts:ListBucketMultipartUploads",
@@ -40,5 +42,9 @@
  "s3-outposts:PutObject",
  "s3-outposts:PutObjectAcl",
  "s3-outposts:PutObjectTagging",
- "s3-outposts:PutObjectVersionTagging"
+ "s3-outposts:PutObjectVersionTagging",
+ "s3-outposts:PutReplicationConfiguration",
+ "s3-outposts:ReplicateDelete",
+ "s3-outposts:ReplicateObject",
+ "s3-outposts:ReplicateTags"
 ]

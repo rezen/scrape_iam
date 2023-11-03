@@ -16,6 +16,7 @@
   "groundstation:ListGroundStations",
   "groundstation:ListMissionProfiles",
   "groundstation:ListSatellites",
+  "groundstation:RegisterAgent",
   "groundstation:ReserveContact"
  ],
  "Config*": [
@@ -36,6 +37,10 @@
   "groundstation:DeleteMissionProfile",
   "groundstation:GetMissionProfile",
   "groundstation:UpdateMissionProfile"
+ ],
+ "Agent*": [
+  "groundstation:GetAgentConfiguration",
+  "groundstation:UpdateAgentStatus"
  ],
  "Satellite*": [
   "groundstation:GetSatellite"

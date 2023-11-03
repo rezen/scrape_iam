@@ -32,6 +32,7 @@
  "rds:DeleteBlueGreenDeployment",
  "rds:DeleteCustomDBEngineVersion",
  "rds:DeleteDBCluster",
+ "rds:DeleteDBClusterAutomatedBackup",
  "rds:DeleteDBClusterEndpoint",
  "rds:DeleteDBClusterParameterGroup",
  "rds:DeleteDBClusterSnapshot",
@@ -50,6 +51,7 @@
  "rds:DescribeAccountAttributes",
  "rds:DescribeBlueGreenDeployments",
  "rds:DescribeCertificates",
+ "rds:DescribeDBClusterAutomatedBackups",
  "rds:DescribeDBClusterBacktracks",
  "rds:DescribeDBClusterEndpoints",
  "rds:DescribeDBClusterParameterGroups",
@@ -140,5 +142,6 @@
  "rds:StopDBInstance",
  "rds:StopDBInstanceAutomatedBackupsReplication",
  "rds:SwitchoverBlueGreenDeployment",
+ "rds:SwitchoverGlobalCluster",
  "rds:SwitchoverReadReplica"
 ]

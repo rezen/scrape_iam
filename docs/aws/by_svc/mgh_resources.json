@@ -13,6 +13,7 @@
  ],
  "?": [
   "mgh:CreateHomeRegionControl",
+  "mgh:DeleteHomeRegionControl",
   "mgh:DescribeApplicationState",
   "mgh:DescribeHomeRegionControls",
   "mgh:GetHomeRegion",

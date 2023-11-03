@@ -7,12 +7,14 @@
   "signer:ListTagsForResource",
   "signer:RemoveProfilePermission",
   "signer:RevokeSigningProfile",
+  "signer:SignPayload",
   "signer:StartSigningJob",
   "signer:TagResource",
   "signer:UntagResource"
  ],
  "signing-job*": [
   "signer:DescribeSigningJob",
+  "signer:GetRevocationStatus",
   "signer:RevokeSignature"
  ],
  "?": [

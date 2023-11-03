@@ -6,8 +6,11 @@
   "fms:DisassociateAdminAccount",
   "fms:DisassociateThirdPartyFirewall",
   "fms:GetAdminAccount",
+  "fms:GetAdminScope",
   "fms:GetNotificationChannel",
   "fms:GetThirdPartyFirewallAssociationStatus",
+  "fms:ListAdminAccountsForOrganization",
+  "fms:ListAdminsManagingAccount",
   "fms:ListAppsLists",
   "fms:ListDiscoveredResources",
   "fms:ListMemberAccounts",
@@ -15,6 +18,7 @@
   "fms:ListProtocolsLists",
   "fms:ListResourceSets",
   "fms:ListThirdPartyFirewallFirewallPolicies",
+  "fms:PutAdminAccount",
   "fms:PutNotificationChannel"
  ],
  "resource-set*": [

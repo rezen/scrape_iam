@@ -2,7 +2,8 @@
  "cluster*": [
   "route53-recovery-control-config:CreateCluster",
   "route53-recovery-control-config:DeleteCluster",
-  "route53-recovery-control-config:DescribeCluster"
+  "route53-recovery-control-config:DescribeCluster",
+  "route53-recovery-control-config:GetResourcePolicy"
  ],
  "controlpanel*": [
   "route53-recovery-control-config:CreateControlPanel",

@@ -30,6 +30,7 @@
   "securityhub:EnableSecurityHub",
   "securityhub:GetAdministratorAccount",
   "securityhub:GetEnabledStandards",
+  "securityhub:GetFindingHistory",
   "securityhub:GetFindings",
   "securityhub:GetInsightResults",
   "securityhub:GetInsights",
@@ -48,11 +49,18 @@
   "securityhub:UpdateSecurityHubConfiguration",
   "securityhub:UpdateStandardsControl"
  ],
+ "automation-rule*": [
+  "securityhub:BatchDeleteAutomationRules",
+  "securityhub:BatchGetAutomationRules",
+  "securityhub:BatchUpdateAutomationRules"
+ ],
  "?": [
   "securityhub:BatchGetSecurityControls",
   "securityhub:BatchGetStandardsControlAssociations",
   "securityhub:BatchUpdateStandardsControlAssociations",
+  "securityhub:CreateAutomationRule",
   "securityhub:CreateFindingAggregator",
+  "securityhub:ListAutomationRules",
   "securityhub:ListFindingAggregators",
   "securityhub:ListSecurityControlDefinitions",
   "securityhub:ListStandardsControlAssociations"
@@ -65,7 +73,7 @@
   "securityhub:GetFindingAggregator",
   "securityhub:UpdateFindingAggregator"
  ],
- "hub*": [
+ "automation-rule": [
   "securityhub:ListTagsForResource",
   "securityhub:TagResource",
   "securityhub:UntagResource"

@@ -23,7 +23,8 @@
  ],
  "managedEndpoint*": [
   "emr-containers:DeleteManagedEndpoint",
-  "emr-containers:DescribeManagedEndpoint"
+  "emr-containers:DescribeManagedEndpoint",
+  "emr-containers:GetManagedEndpointSessionCredentials"
  ],
  "jobRun": [
   "emr-containers:ListTagsForResource",

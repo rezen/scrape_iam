@@ -5,6 +5,12 @@
   "workspaces-web:GetBrowserSettings",
   "workspaces-web:UpdateBrowserSettings"
  ],
+ "ipAccessSettings*": [
+  "workspaces-web:AssociateIpAccessSettings",
+  "workspaces-web:DeleteIpAccessSettings",
+  "workspaces-web:GetIpAccessSettings",
+  "workspaces-web:UpdateIpAccessSettings"
+ ],
  "networkSettings*": [
   "workspaces-web:AssociateNetworkSettings",
   "workspaces-web:DeleteNetworkSettings",
@@ -15,9 +21,9 @@
   "workspaces-web:AssociateTrustStore",
   "workspaces-web:AssociateUserAccessLoggingSettings",
   "workspaces-web:AssociateUserSettings",
-  "workspaces-web:CreateIdentityProvider",
   "workspaces-web:DeletePortal",
   "workspaces-web:DisassociateBrowserSettings",
+  "workspaces-web:DisassociateIpAccessSettings",
   "workspaces-web:DisassociateNetworkSettings",
   "workspaces-web:DisassociateTrustStore",
   "workspaces-web:DisassociateUserAccessLoggingSettings",
@@ -28,22 +34,27 @@
  ],
  "?": [
   "workspaces-web:CreateBrowserSettings",
+  "workspaces-web:CreateIpAccessSettings",
   "workspaces-web:CreateNetworkSettings",
   "workspaces-web:CreatePortal",
   "workspaces-web:CreateTrustStore",
   "workspaces-web:CreateUserAccessLoggingSettings",
   "workspaces-web:CreateUserSettings",
-  "workspaces-web:DeleteIdentityProvider",
-  "workspaces-web:GetIdentityProvider",
   "workspaces-web:ListBrowserSettings",
-  "workspaces-web:ListIdentityProviders",
+  "workspaces-web:ListIpAccessSettings",
   "workspaces-web:ListNetworkSettings",
   "workspaces-web:ListPortals",
   "workspaces-web:ListTagsForResource",
   "workspaces-web:ListTrustStoreCertificates",
   "workspaces-web:ListTrustStores",
   "workspaces-web:ListUserAccessLoggingSettings",
-  "workspaces-web:ListUserSettings",
+  "workspaces-web:ListUserSettings"
+ ],
+ "identityProvider*": [
+  "workspaces-web:CreateIdentityProvider",
+  "workspaces-web:DeleteIdentityProvider",
+  "workspaces-web:GetIdentityProvider",
+  "workspaces-web:ListIdentityProviders",
   "workspaces-web:UpdateIdentityProvider"
  ],
  "trustStore*": [

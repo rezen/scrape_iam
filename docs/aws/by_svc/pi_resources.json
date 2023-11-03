@@ -1,4 +1,13 @@
 {
+ "perf-reports-resource*": [
+  "pi:CreatePerformanceAnalysisReport",
+  "pi:DeletePerformanceAnalysisReport",
+  "pi:GetPerformanceAnalysisReport",
+  "pi:ListPerformanceAnalysisReports",
+  "pi:ListTagsForResource",
+  "pi:TagResource",
+  "pi:UntagResource"
+ ],
  "metric-resource*": [
   "pi:DescribeDimensionKeys",
   "pi:GetDimensionKeyDetails",

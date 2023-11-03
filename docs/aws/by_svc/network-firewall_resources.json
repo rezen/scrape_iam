@@ -29,6 +29,13 @@
   "network-firewall:DescribeRuleGroupMetadata",
   "network-firewall:UpdateRuleGroup"
  ],
+ "TLSInspectionConfiguration*": [
+  "network-firewall:CreateTLSInspectionConfiguration",
+  "network-firewall:DeleteTLSInspectionConfiguration",
+  "network-firewall:DescribeTLSInspectionConfiguration",
+  "network-firewall:ListTLSInspectionConfigurations",
+  "network-firewall:UpdateTLSInspectionConfiguration"
+ ],
  "FirewallPolicy": [
   "network-firewall:DeleteResourcePolicy",
   "network-firewall:DescribeResourcePolicy",

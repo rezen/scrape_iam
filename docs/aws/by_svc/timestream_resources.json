@@ -22,6 +22,7 @@
   "timestream:Select",
   "timestream:StartAwsBackupJob",
   "timestream:StartAwsRestoreJob",
+  "timestream:Unload",
   "timestream:UpdateTable",
   "timestream:WriteRecords"
  ],

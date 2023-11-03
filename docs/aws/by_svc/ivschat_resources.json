@@ -18,7 +18,9 @@
   "ivschat:UpdateLoggingConfiguration"
  ],
  "Room": [
-  "ivschat:ListTagsForResource",
+  "ivschat:ListTagsForResource"
+ ],
+ "Logging-Configuration": [
   "ivschat:TagResource",
   "ivschat:UntagResource"
  ],

@@ -1,4 +1,5 @@
 [
+ "applicationinsights:AddWorkload",
  "applicationinsights:CreateApplication",
  "applicationinsights:CreateComponent",
  "applicationinsights:CreateLogPattern",
@@ -13,6 +14,7 @@
  "applicationinsights:DescribeObservation",
  "applicationinsights:DescribeProblem",
  "applicationinsights:DescribeProblemObservations",
+ "applicationinsights:DescribeWorkload",
  "applicationinsights:ListApplications",
  "applicationinsights:ListComponents",
  "applicationinsights:ListConfigurationHistory",
@@ -20,10 +22,14 @@
  "applicationinsights:ListLogPatterns",
  "applicationinsights:ListProblems",
  "applicationinsights:ListTagsForResource",
+ "applicationinsights:ListWorkloads",
+ "applicationinsights:RemoveWorkload",
  "applicationinsights:TagResource",
  "applicationinsights:UntagResource",
  "applicationinsights:UpdateApplication",
  "applicationinsights:UpdateComponent",
  "applicationinsights:UpdateComponentConfiguration",
- "applicationinsights:UpdateLogPattern"
+ "applicationinsights:UpdateLogPattern",
+ "applicationinsights:UpdateProblem",
+ "applicationinsights:UpdateWorkload"
 ]

@@ -24,10 +24,12 @@
   "iotwireless:ListPositionConfigurations",
   "iotwireless:ListQueuedMessages",
   "iotwireless:ListServiceProfiles",
+  "iotwireless:ListWirelessDeviceImportTasks",
   "iotwireless:ListWirelessDevices",
   "iotwireless:ListWirelessGatewayTaskDefinitions",
   "iotwireless:ListWirelessGateways",
   "iotwireless:ResetAllResourceLogLevels",
+  "iotwireless:StartSingleWirelessDeviceImportTask",
   "iotwireless:UpdateEventConfigurationByResourceTypes",
   "iotwireless:UpdateLogLevelsByResourceTypes"
  ],
@@ -45,6 +47,7 @@
  "MulticastGroup*": [
   "iotwireless:AssociateWirelessDeviceWithMulticastGroup",
   "iotwireless:CancelMulticastGroupSession",
+  "iotwireless:CreateNetworkAnalyzerConfiguration",
   "iotwireless:DeleteMulticastGroup",
   "iotwireless:DisassociateWirelessDeviceFromMulticastGroup",
   "iotwireless:GetMulticastGroup",
@@ -53,12 +56,13 @@
   "iotwireless:StartBulkAssociateWirelessDeviceWithMulticastGroup",
   "iotwireless:StartBulkDisassociateWirelessDeviceFromMulticastGroup",
   "iotwireless:StartMulticastGroupSession",
-  "iotwireless:UpdateMulticastGroup"
+  "iotwireless:UpdateMulticastGroup",
+  "iotwireless:UpdateNetworkAnalyzerConfiguration"
  ],
  "WirelessDevice*": [
   "iotwireless:AssociateWirelessDeviceWithThing",
-  "iotwireless:CreateNetworkAnalyzerConfiguration",
   "iotwireless:DeleteWirelessDevice",
+  "iotwireless:DeregisterWirelessDevice",
   "iotwireless:DisassociateWirelessDeviceFromThing",
   "iotwireless:GetWirelessDevice",
   "iotwireless:GetWirelessDeviceStatistics",
@@ -93,12 +97,18 @@
  "NetworkAnalyzerConfiguration*": [
   "iotwireless:DeleteNetworkAnalyzerConfiguration",
   "iotwireless:GetNetworkAnalyzerConfiguration",
-  "iotwireless:StartNetworkAnalyzerStream",
-  "iotwireless:UpdateNetworkAnalyzerConfiguration"
+  "iotwireless:StartNetworkAnalyzerStream"
  ],
  "ServiceProfile*": [
   "iotwireless:DeleteServiceProfile",
   "iotwireless:GetServiceProfile"
+ ],
+ "ImportTask*": [
+  "iotwireless:DeleteWirelessDeviceImportTask",
+  "iotwireless:GetWirelessDeviceImportTask",
+  "iotwireless:ListDevicesForWirelessDeviceImportTask",
+  "iotwireless:StartWirelessDeviceImportTask",
+  "iotwireless:UpdateWirelessDeviceImportTask"
  ],
  "WirelessGatewayTaskDefinition*": [
   "iotwireless:DeleteWirelessGatewayTaskDefinition",
@@ -129,5 +139,5 @@
   "iotwireless:TagResource",
   "iotwireless:UntagResource"
  ],
- "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsiotcoreforlorawan.html"
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsiotwireless.html"
 }

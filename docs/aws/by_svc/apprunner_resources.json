@@ -16,7 +16,9 @@
  "autoscalingconfiguration*": [
   "apprunner:CreateAutoScalingConfiguration",
   "apprunner:DeleteAutoScalingConfiguration",
-  "apprunner:DescribeAutoScalingConfiguration"
+  "apprunner:DescribeAutoScalingConfiguration",
+  "apprunner:ListServicesForAutoScalingConfiguration",
+  "apprunner:UpdateDefaultAutoScalingConfiguration"
  ],
  "connection*": [
   "apprunner:CreateConnection",

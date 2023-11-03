@@ -98,7 +98,7 @@
   "waf:ListWebACLs",
   "waf:ListXssMatchSets"
  ],
- "rule": [
+ "webacl": [
   "waf:GetSampledRequests"
  ],
  "ratebasedrule": [

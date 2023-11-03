@@ -17,7 +17,10 @@
   "dms:CancelMetadataModelAssessment",
   "dms:CancelMetadataModelConversion",
   "dms:CancelMetadataModelExport",
+  "dms:CreateDataMigration",
   "dms:DeleteMigrationProject",
+  "dms:DescribeConversionConfiguration",
+  "dms:DescribeMetadataModelImports",
   "dms:DisassociateExtensionPack",
   "dms:StartMetadataModelAssessment",
   "dms:StartMetadataModelConversion",
@@ -41,9 +44,11 @@
   "dms:DescribeAccountAttributes",
   "dms:DescribeCertificates",
   "dms:DescribeConnections",
+  "dms:DescribeDataMigrations",
   "dms:DescribeEndpointSettings",
   "dms:DescribeEndpointTypes",
   "dms:DescribeEndpoints",
+  "dms:DescribeEngineVersions",
   "dms:DescribeEventCategories",
   "dms:DescribeEventSubscriptions",
   "dms:DescribeEvents",
@@ -56,9 +61,11 @@
   "dms:DescribePendingMaintenanceActions",
   "dms:DescribeRecommendationLimitations",
   "dms:DescribeRecommendations",
+  "dms:DescribeReplicationConfigs",
   "dms:DescribeReplicationInstances",
   "dms:DescribeReplicationSubnetGroups",
   "dms:DescribeReplicationTasks",
+  "dms:DescribeReplications",
   "dms:ImportCertificate",
   "dms:ModifyEventSubscription",
   "dms:ModifyReplicationSubnetGroup",
@@ -76,6 +83,7 @@
   "dms:UpdateDataProvider"
  ],
  "Endpoint*": [
+  "dms:CreateReplicationConfig",
   "dms:CreateReplicationTask",
   "dms:DeleteConnection",
   "dms:DeleteEndpoint",
@@ -88,12 +96,26 @@
  "Certificate*": [
   "dms:DeleteCertificate"
  ],
+ "DataMigration*": [
+  "dms:DeleteDataMigration",
+  "dms:ModifyDataMigration",
+  "dms:StartDataMigration",
+  "dms:StopDataMigration"
+ ],
  "EventSubscription*": [
   "dms:DeleteEventSubscription"
  ],
  "InstanceProfile*": [
   "dms:DeleteInstanceProfile",
   "dms:UpdateInstanceProfile"
+ ],
+ "ReplicationConfig*": [
+  "dms:DeleteReplicationConfig",
+  "dms:DescribeReplicationTableStatistics",
+  "dms:ModifyReplicationConfig",
+  "dms:ReloadReplicationTables",
+  "dms:StartReplication",
+  "dms:StopReplication"
  ],
  "ReplicationSubnetGroup*": [
   "dms:DeleteReplicationSubnetGroup"

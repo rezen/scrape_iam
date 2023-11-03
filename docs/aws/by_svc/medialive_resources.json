@@ -7,7 +7,9 @@
   "medialive:DescribeInputDeviceThumbnail",
   "medialive:RebootInputDevice",
   "medialive:RejectInputDeviceTransfer",
+  "medialive:StartInputDevice",
   "medialive:StartInputDeviceMaintenanceWindow",
+  "medialive:StopInputDevice",
   "medialive:TransferInputDevice",
   "medialive:UpdateInputDevice"
  ],
@@ -15,6 +17,7 @@
   "medialive:BatchDelete",
   "medialive:BatchStart",
   "medialive:BatchStop",
+  "medialive:DescribeAccountConfiguration",
   "medialive:ListChannels",
   "medialive:ListInputDeviceTransfers",
   "medialive:ListInputDevices",
@@ -23,7 +26,8 @@
   "medialive:ListMultiplexPrograms",
   "medialive:ListMultiplexes",
   "medialive:ListOfferings",
-  "medialive:ListReservations"
+  "medialive:ListReservations",
+  "medialive:UpdateAccountConfiguration"
  ],
  "channel*": [
   "medialive:BatchUpdateSchedule",
@@ -32,6 +36,7 @@
   "medialive:DeleteSchedule",
   "medialive:DescribeChannel",
   "medialive:DescribeSchedule",
+  "medialive:DescribeThumbnails",
   "medialive:StartChannel",
   "medialive:StopChannel",
   "medialive:UpdateChannel",

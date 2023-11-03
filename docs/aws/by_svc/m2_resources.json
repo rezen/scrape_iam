@@ -25,6 +25,7 @@
  "?": [
   "m2:CreateApplication",
   "m2:CreateEnvironment",
+  "m2:GetSignedBluinsightsUrl",
   "m2:ListApplications",
   "m2:ListEngineVersions",
   "m2:ListEnvironments",

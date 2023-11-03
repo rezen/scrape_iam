@@ -1,5 +1,6 @@
 [
  "memorydb:BatchUpdateCluster",
+ "memorydb:Connect",
  "memorydb:CopySnapshot",
  "memorydb:CreateAcl",
  "memorydb:CreateCluster",

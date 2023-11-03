@@ -1,0 +1,10 @@
+[
+ "managedblockchain-query:BatchGetTokenBalance",
+ "managedblockchain-query:GetAssetContract",
+ "managedblockchain-query:GetTokenBalance",
+ "managedblockchain-query:GetTransaction",
+ "managedblockchain-query:ListAssetContracts",
+ "managedblockchain-query:ListTokenBalances",
+ "managedblockchain-query:ListTransactionEvents",
+ "managedblockchain-query:ListTransactions"
+]

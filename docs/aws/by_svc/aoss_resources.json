@@ -1,13 +1,22 @@
 {
+ "Collection*": [
+  "aoss:APIAccessAll",
+  "aoss:DeleteCollection",
+  "aoss:UpdateCollection"
+ ],
  "?": [
   "aoss:BatchGetCollection",
+  "aoss:BatchGetEffectiveLifecyclePolicy",
+  "aoss:BatchGetLifecyclePolicy",
   "aoss:BatchGetVpcEndpoint",
   "aoss:CreateAccessPolicy",
   "aoss:CreateCollection",
+  "aoss:CreateLifecyclePolicy",
   "aoss:CreateSecurityConfig",
   "aoss:CreateSecurityPolicy",
   "aoss:CreateVpcEndpoint",
   "aoss:DeleteAccessPolicy",
+  "aoss:DeleteLifecyclePolicy",
   "aoss:DeleteSecurityConfig",
   "aoss:DeleteSecurityPolicy",
   "aoss:DeleteVpcEndpoint",
@@ -18,6 +27,7 @@
   "aoss:GetSecurityPolicy",
   "aoss:ListAccessPolicies",
   "aoss:ListCollections",
+  "aoss:ListLifecyclePolicies",
   "aoss:ListSecurityConfigs",
   "aoss:ListSecurityPolicies",
   "aoss:ListTagsForResource",
@@ -26,13 +36,13 @@
   "aoss:UntagResource",
   "aoss:UpdateAccessPolicy",
   "aoss:UpdateAccountSettings",
+  "aoss:UpdateLifecyclePolicy",
   "aoss:UpdateSecurityConfig",
   "aoss:UpdateSecurityPolicy",
   "aoss:UpdateVpcEndpoint"
  ],
- "Collection*": [
-  "aoss:DeleteCollection",
-  "aoss:UpdateCollection"
+ "Dashboards*": [
+  "aoss:DashboardsAccessAll"
  ],
  "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonopensearchserverless.html"
 }

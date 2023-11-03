@@ -3,13 +3,11 @@
   "logs:AssociateKmsKey",
   "logs:CreateExportTask",
   "logs:CreateLogGroup",
-  "logs:CreateLogStream",
   "logs:DeleteDataProtectionPolicy",
   "logs:DeleteLogGroup",
   "logs:DeleteMetricFilter",
   "logs:DeleteRetentionPolicy",
   "logs:DeleteSubscriptionFilter",
-  "logs:DescribeLogGroups",
   "logs:DescribeLogStreams",
   "logs:DescribeMetricFilters",
   "logs:DescribeSubscriptionFilters",
@@ -17,6 +15,8 @@
   "logs:FilterLogEvents",
   "logs:GetDataProtectionPolicy",
   "logs:GetLogGroupFields",
+  "logs:GetLogRecord",
+  "logs:GetQueryResults",
   "logs:ListTagsLogGroup",
   "logs:PutDataProtectionPolicy",
   "logs:PutMetricFilter",
@@ -28,29 +28,32 @@
  ],
  "?": [
   "logs:CancelExportTask",
+  "logs:DeleteAccountPolicy",
   "logs:DeleteQueryDefinition",
   "logs:DeleteResourcePolicy",
+  "logs:DescribeAccountPolicies",
   "logs:DescribeDestinations",
   "logs:DescribeExportTasks",
+  "logs:DescribeLogGroups",
   "logs:DescribeQueries",
   "logs:DescribeQueryDefinitions",
   "logs:DescribeResourcePolicies",
-  "logs:GetLogRecord",
-  "logs:GetQueryResults",
+  "logs:PutAccountPolicy",
   "logs:PutQueryDefinition",
   "logs:PutResourcePolicy",
   "logs:StopQuery",
   "logs:TestMetricFilter"
  ],
+ "log-stream*": [
+  "logs:CreateLogStream",
+  "logs:DeleteLogStream",
+  "logs:GetLogEvents",
+  "logs:PutLogEvents"
+ ],
  "destination*": [
   "logs:DeleteDestination",
   "logs:PutDestination",
   "logs:PutDestinationPolicy"
- ],
- "log-stream*": [
-  "logs:DeleteLogStream",
-  "logs:GetLogEvents",
-  "logs:PutLogEvents"
  ],
  "destination": [
   "logs:ListTagsForResource",

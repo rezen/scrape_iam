@@ -20,6 +20,7 @@
  "private-networks:ListOrders",
  "private-networks:ListTagsForResource",
  "private-networks:Ping",
+ "private-networks:StartNetworkResourceUpdate",
  "private-networks:TagResource",
  "private-networks:UntagResource",
  "private-networks:UpdateNetworkSite",

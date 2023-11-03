@@ -34,6 +34,7 @@
   "auditmanager:DeregisterOrganizationAdminAccount",
   "auditmanager:GetAccountStatus",
   "auditmanager:GetDelegations",
+  "auditmanager:GetEvidenceFileUploadUrl",
   "auditmanager:GetInsights",
   "auditmanager:GetInsightsByAssessment",
   "auditmanager:GetOrganizationAdminAccount",

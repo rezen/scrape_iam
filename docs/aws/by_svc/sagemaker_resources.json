@@ -14,7 +14,6 @@
  ],
  "experiment-trial*": [
   "sagemaker:AssociateTrialComponent",
-  "sagemaker:CreateTrial",
   "sagemaker:DeleteTrial",
   "sagemaker:DescribeTrial",
   "sagemaker:DisassociateTrialComponent",
@@ -69,7 +68,9 @@
  ],
  "automl-job*": [
   "sagemaker:CreateAutoMLJob",
+  "sagemaker:CreateAutoMLJobV2",
   "sagemaker:DescribeAutoMLJob",
+  "sagemaker:DescribeAutoMLJobV2",
   "sagemaker:StopAutoMLJob"
  ],
  "code-repository*": [
@@ -137,6 +138,7 @@
  ],
  "experiment*": [
   "sagemaker:CreateExperiment",
+  "sagemaker:CreateTrial",
   "sagemaker:DeleteExperiment",
   "sagemaker:DescribeExperiment",
   "sagemaker:UpdateExperiment"
@@ -189,6 +191,7 @@
  "inference-recommendations-job*": [
   "sagemaker:CreateInferenceRecommendationsJob",
   "sagemaker:DescribeInferenceRecommendationsJob",
+  "sagemaker:GetScalingConfigurationRecommendation",
   "sagemaker:StopInferenceRecommendationsJob"
  ],
  "labeling-job*": [
@@ -253,6 +256,7 @@
   "sagemaker:ListPipelines",
   "sagemaker:ListProcessingJobs",
   "sagemaker:ListProjects",
+  "sagemaker:ListResourceCatalogs",
   "sagemaker:ListSpaces",
   "sagemaker:ListStageDevices",
   "sagemaker:ListStudioLifecycleConfigs",
@@ -294,7 +298,8 @@
   "sagemaker:DescribeModelExplainabilityJobDefinition"
  ],
  "model-package": [
-  "sagemaker:CreateModelPackage"
+  "sagemaker:CreateModelPackage",
+  "sagemaker:ListModelPackages"
  ],
  "model-package-group*": [
   "sagemaker:CreateModelPackageGroup",
@@ -427,9 +432,6 @@
   "sagemaker:SendPipelineExecutionStepSuccess",
   "sagemaker:StopPipelineExecution",
   "sagemaker:UpdatePipelineExecution"
- ],
- "model-package-group": [
-  "sagemaker:ListModelPackages"
  ],
  "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonsagemaker.html"
 }

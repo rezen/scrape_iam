@@ -1,13 +1,22 @@
 [
  "freertos:CreateSoftwareConfiguration",
+ "freertos:CreateSubscription",
  "freertos:DeleteSoftwareConfiguration",
  "freertos:DescribeHardwarePlatform",
  "freertos:DescribeSoftwareConfiguration",
+ "freertos:DescribeSubscription",
+ "freertos:GetEmpPatchUrl",
  "freertos:GetSoftwareURL",
  "freertos:GetSoftwareURLForConfiguration",
+ "freertos:GetSubscriptionBillingAmount",
  "freertos:ListFreeRTOSVersions",
  "freertos:ListHardwarePlatforms",
  "freertos:ListHardwareVendors",
  "freertos:ListSoftwareConfigurations",
- "freertos:UpdateSoftwareConfiguration"
+ "freertos:ListSoftwarePatches",
+ "freertos:ListSubscriptionEmails",
+ "freertos:ListSubscriptions",
+ "freertos:UpdateEmailRecipients",
+ "freertos:UpdateSoftwareConfiguration",
+ "freertos:VerifyEmail"
 ]

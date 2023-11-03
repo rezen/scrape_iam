@@ -132,6 +132,11 @@
   "ssm:RegisterPatchBaselineForPatchGroup",
   "ssm:UpdatePatchBaseline"
  ],
+ "resourcearn*": [
+  "ssm:DeleteResourcePolicy",
+  "ssm:GetResourcePolicies",
+  "ssm:PutResourcePolicy"
+ ],
  "managed-instance*": [
   "ssm:DeregisterManagedInstance",
   "ssm:UpdateManagedInstanceRole"

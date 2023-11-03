@@ -1,7 +1,11 @@
 [
  "chatbot:CreateChimeWebhookConfiguration",
+ "chatbot:CreateMicrosoftTeamsChannelConfiguration",
  "chatbot:CreateSlackChannelConfiguration",
  "chatbot:DeleteChimeWebhookConfiguration",
+ "chatbot:DeleteMicrosoftTeamsChannelConfiguration",
+ "chatbot:DeleteMicrosoftTeamsConfiguredTeam",
+ "chatbot:DeleteMicrosoftTeamsUserIdentity",
  "chatbot:DeleteSlackChannelConfiguration",
  "chatbot:DeleteSlackUserIdentity",
  "chatbot:DeleteSlackWorkspaceAuthorization",
@@ -11,9 +15,16 @@
  "chatbot:DescribeSlackUserIdentities",
  "chatbot:DescribeSlackWorkspaces",
  "chatbot:GetAccountPreferences",
+ "chatbot:GetMicrosoftTeamsChannelConfiguration",
+ "chatbot:GetMicrosoftTeamsOauthParameters",
  "chatbot:GetSlackOauthParameters",
+ "chatbot:ListMicrosoftTeamsChannelConfigurations",
+ "chatbot:ListMicrosoftTeamsConfiguredTeams",
+ "chatbot:ListMicrosoftTeamsUserIdentities",
+ "chatbot:RedeemMicrosoftTeamsOauthCode",
  "chatbot:RedeemSlackOauthCode",
  "chatbot:UpdateAccountPreferences",
  "chatbot:UpdateChimeWebhookConfiguration",
+ "chatbot:UpdateMicrosoftTeamsChannelConfiguration",
  "chatbot:UpdateSlackChannelConfiguration"
 ]

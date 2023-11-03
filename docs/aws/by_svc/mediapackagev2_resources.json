@@ -1,0 +1,40 @@
+{
+ "Channel*": [
+  "mediapackagev2:CreateChannel",
+  "mediapackagev2:DeleteChannel",
+  "mediapackagev2:DeleteChannelPolicy",
+  "mediapackagev2:GetChannel",
+  "mediapackagev2:GetChannelPolicy",
+  "mediapackagev2:ListOriginEndpoints",
+  "mediapackagev2:PutChannelPolicy",
+  "mediapackagev2:PutObject",
+  "mediapackagev2:UpdateChannel"
+ ],
+ "ChannelGroup*": [
+  "mediapackagev2:CreateChannelGroup",
+  "mediapackagev2:DeleteChannelGroup",
+  "mediapackagev2:GetChannelGroup",
+  "mediapackagev2:ListChannels",
+  "mediapackagev2:UpdateChannelGroup"
+ ],
+ "OriginEndpoint*": [
+  "mediapackagev2:CreateOriginEndpoint",
+  "mediapackagev2:DeleteOriginEndpoint",
+  "mediapackagev2:DeleteOriginEndpointPolicy",
+  "mediapackagev2:GetHeadObject",
+  "mediapackagev2:GetObject",
+  "mediapackagev2:GetOriginEndpoint",
+  "mediapackagev2:GetOriginEndpointPolicy",
+  "mediapackagev2:PutOriginEndpointPolicy",
+  "mediapackagev2:UpdateOriginEndpoint"
+ ],
+ "?": [
+  "mediapackagev2:ListChannelGroups"
+ ],
+ "Channel": [
+  "mediapackagev2:ListTagsForResource",
+  "mediapackagev2:TagResource",
+  "mediapackagev2:UntagResource"
+ ],
+ "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awselementalmediapackagev2.html"
+}

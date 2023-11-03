@@ -1,4 +1,10 @@
 {
+ "app-block*": [
+  "appstream:AssociateAppBlockBuilderAppBlock",
+  "appstream:CreateApplication",
+  "appstream:DeleteAppBlock",
+  "appstream:DisassociateAppBlockBuilderAppBlock"
+ ],
  "application*": [
   "appstream:AssociateApplicationFleet",
   "appstream:DeleteApplication",
@@ -59,9 +65,13 @@
   "appstream:ListTagsForResource",
   "appstream:UpdateDirectoryConfig"
  ],
- "app-block*": [
-  "appstream:CreateApplication",
-  "appstream:DeleteAppBlock"
+ "app-block-builder*": [
+  "appstream:CreateAppBlockBuilder",
+  "appstream:CreateAppBlockBuilderStreamingURL",
+  "appstream:DeleteAppBlockBuilder",
+  "appstream:StartAppBlockBuilder",
+  "appstream:StopAppBlockBuilder",
+  "appstream:UpdateAppBlockBuilder"
  ],
  "image-builder*": [
   "appstream:CreateImageBuilderStreamingURL",
@@ -70,9 +80,13 @@
   "appstream:StopImageBuilder"
  ],
  "app-block": [
+  "appstream:DescribeAppBlockBuilderAppBlockAssociations",
   "appstream:DescribeAppBlocks",
   "appstream:TagResource",
   "appstream:UntagResource"
+ ],
+ "app-block-builder": [
+  "appstream:DescribeAppBlockBuilders"
  ],
  "application": [
   "appstream:DescribeApplicationFleetAssociations",

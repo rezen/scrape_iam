@@ -10,8 +10,7 @@
   "cloudfront:GetInvalidation",
   "cloudfront:ListConflictingAliases",
   "cloudfront:ListInvalidations",
-  "cloudfront:UpdateDistribution",
-  "cloudfront:UpdateDistributionWithStagingConfig"
+  "cloudfront:UpdateDistribution"
  ],
  "cache-policy*": [
   "cloudfront:CreateCachePolicy",

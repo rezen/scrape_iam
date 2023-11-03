@@ -7,11 +7,19 @@
  ],
  "statemachine*": [
   "states:CreateStateMachine",
+  "states:CreateStateMachineAlias",
   "states:DeleteStateMachine",
+  "states:DeleteStateMachineAlias",
+  "states:DeleteStateMachineVersion",
   "states:DescribeStateMachine",
+  "states:DescribeStateMachineAlias",
+  "states:ListStateMachineAliases",
+  "states:ListStateMachineVersions",
+  "states:PublishStateMachineVersion",
   "states:StartExecution",
   "states:StartSyncExecution",
-  "states:UpdateStateMachine"
+  "states:UpdateStateMachine",
+  "states:UpdateStateMachineAlias"
  ],
  "execution*": [
   "states:DescribeExecution",

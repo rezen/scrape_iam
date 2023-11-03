@@ -13,7 +13,9 @@
   "cloudtrail:GetQueryResults",
   "cloudtrail:ListQueries",
   "cloudtrail:RestoreEventDataStore",
+  "cloudtrail:StartEventDataStoreIngestion",
   "cloudtrail:StartQuery",
+  "cloudtrail:StopEventDataStoreIngestion",
   "cloudtrail:UpdateEventDataStore"
  ],
  "channel*": [

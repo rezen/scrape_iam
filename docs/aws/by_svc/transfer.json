@@ -47,6 +47,7 @@
  "transfer:StartServer",
  "transfer:StopServer",
  "transfer:TagResource",
+ "transfer:TestConnection",
  "transfer:TestIdentityProvider",
  "transfer:UntagResource",
  "transfer:UpdateAccess",

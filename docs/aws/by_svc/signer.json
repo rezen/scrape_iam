@@ -2,6 +2,7 @@
  "signer:AddProfilePermission",
  "signer:CancelSigningProfile",
  "signer:DescribeSigningJob",
+ "signer:GetRevocationStatus",
  "signer:GetSigningPlatform",
  "signer:GetSigningProfile",
  "signer:ListProfilePermissions",
@@ -13,6 +14,7 @@
  "signer:RemoveProfilePermission",
  "signer:RevokeSignature",
  "signer:RevokeSigningProfile",
+ "signer:SignPayload",
  "signer:StartSigningJob",
  "signer:TagResource",
  "signer:UntagResource"

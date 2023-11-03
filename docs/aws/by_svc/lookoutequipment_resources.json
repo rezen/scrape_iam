@@ -4,6 +4,8 @@
   "lookoutequipment:CreateModel",
   "lookoutequipment:DeleteDataset",
   "lookoutequipment:DescribeDataset",
+  "lookoutequipment:ImportDataset",
+  "lookoutequipment:ImportModelVersion",
   "lookoutequipment:ListDataIngestionJobs",
   "lookoutequipment:ListSensorStatistics",
   "lookoutequipment:StartDataIngestionJob"
@@ -30,19 +32,35 @@
   "lookoutequipment:UpdateLabelGroup"
  ],
  "model*": [
+  "lookoutequipment:CreateRetrainingScheduler",
   "lookoutequipment:DeleteModel",
-  "lookoutequipment:DescribeModel"
+  "lookoutequipment:DeleteRetrainingScheduler",
+  "lookoutequipment:DescribeModel",
+  "lookoutequipment:DescribeRetrainingScheduler",
+  "lookoutequipment:ListModelVersions",
+  "lookoutequipment:StartRetrainingScheduler",
+  "lookoutequipment:StopRetrainingScheduler",
+  "lookoutequipment:UpdateActiveModelVersion",
+  "lookoutequipment:UpdateModel",
+  "lookoutequipment:UpdateRetrainingScheduler"
+ ],
+ "dataset": [
+  "lookoutequipment:DeleteResourcePolicy",
+  "lookoutequipment:DescribeResourcePolicy",
+  "lookoutequipment:ListTagsForResource",
+  "lookoutequipment:PutResourcePolicy",
+  "lookoutequipment:TagResource",
+  "lookoutequipment:UntagResource"
  ],
  "?": [
   "lookoutequipment:DescribeDataIngestionJob",
   "lookoutequipment:ListDatasets",
   "lookoutequipment:ListInferenceSchedulers",
-  "lookoutequipment:ListModels"
+  "lookoutequipment:ListModels",
+  "lookoutequipment:ListRetrainingSchedulers"
  ],
- "dataset": [
-  "lookoutequipment:ListTagsForResource",
-  "lookoutequipment:TagResource",
-  "lookoutequipment:UntagResource"
+ "model-version*": [
+  "lookoutequipment:DescribeModelVersion"
  ],
  "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonlookoutforequipment.html"
 }

@@ -6,13 +6,24 @@
   "freertos:UpdateSoftwareConfiguration"
  ],
  "?": [
+  "freertos:CreateSubscription",
   "freertos:DescribeHardwarePlatform",
+  "freertos:GetEmpPatchUrl",
   "freertos:GetSoftwareURL",
   "freertos:GetSoftwareURLForConfiguration",
+  "freertos:GetSubscriptionBillingAmount",
   "freertos:ListFreeRTOSVersions",
   "freertos:ListHardwarePlatforms",
   "freertos:ListHardwareVendors",
-  "freertos:ListSoftwareConfigurations"
+  "freertos:ListSoftwareConfigurations",
+  "freertos:ListSoftwarePatches",
+  "freertos:ListSubscriptionEmails",
+  "freertos:ListSubscriptions",
+  "freertos:UpdateEmailRecipients",
+  "freertos:VerifyEmail"
+ ],
+ "subscription*": [
+  "freertos:DescribeSubscription"
  ],
  "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonfreertos.html"
 }
