@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pluralize/8.0.0/pluralize.min.js" integrity="sha512-4uLji4UnTkA9AWSkIT2+sTQyRqox+O/e+JVkJA7zf+11CJDTxNEaMq13LRvYsu8Mv0kfpnePOIoS0Z0f8VlGgw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="importmap">
       {
         "imports": {
@@ -91,7 +92,7 @@
             </nav>
             <div class="parent-container">
               <div class="column">
-                <div class="resource-match" v-for="item in filteredItems">
+                <div class="resource-match" v-for="item in filteredItems" :title="'entity: '+ item.entityType">
                   <span  @click="focusItem(item)" style="cursor: pointer;">{{ item.action }}</span>
                   <a :href="item.url" class="external-link">
                     &#9756;
@@ -182,12 +183,26 @@
           const tmp = action.split(":");
           const svc = tmp[0];
           const api = tmp[1];
-          const match = Object.keys(actionTypes).find(k => api.indexOf(k) === 0);
+          let actionTmp = api;
+          if (actionTmp.startsWith("Batch")) {
+            actionTmp = actionTmp.replace("Batch", "")
+          }
+
+          if (actionTmp.indexOf("With") !== -1) {
+            actionTmp = actionTmp.split('With')[0];
+          }
+          const match = Object.keys(actionTypes).find(k => actionTmp.indexOf(k) === 0);
+          let entityType = '';
+          if (match) {
+            entityType = actionTmp.replace(match, "")
+            entityType = pluralize.singular(entityType)
+          }
           return {
             action,
             svc,
             url: serviceUrls[svc],
             api,
+            entityType,
             crud: match ? actionTypes[match] : '?',
           }
         }
