@@ -192,17 +192,20 @@
             actionTmp = actionTmp.split('With')[0];
           }
           const match = Object.keys(actionTypes).find(k => actionTmp.indexOf(k) === 0);
+          /*
+          // Revisit at a later time ... wrecking performance
           let entityType = '';
           if (match) {
             entityType = actionTmp.replace(match, "")
             entityType = pluralize.singular(entityType)
           }
+          */
           return {
             action,
             svc,
             url: serviceUrls[svc],
             api,
-            entityType,
+            // entityType,
             crud: match ? actionTypes[match] : '?',
           }
         }
