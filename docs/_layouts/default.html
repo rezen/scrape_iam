@@ -90,7 +90,7 @@
             <nav style="background: rgb(50 65 82 / 90%);padding:12px 20px;position:fixed;width:100%;left:0;z-index:5;top:0px;">
               <select v-model="filterService" style="display:inline-block;width:200px;padding:10px;" @change="search">
                 <option value=""></option>
-                <option v-for="option in serviceOptions" :value="option">
+                <option v-for="option in serviceNames" :value="option">
                   {{ option }}
                 </option>
               </select>
@@ -99,7 +99,6 @@
             </nav>
             <div class="parent-container">
               <div class="column">
-     
 
                 <div class="resource-match" v-for="item in filteredIamRecords" :title="'entity: '+ item.entityType">
                   <span  @click="focusItem(item)" style="cursor: pointer;">{{ item.svc }}:{{ item.action }}</span>
@@ -175,6 +174,7 @@ function parseQueryPart(q, filterAttrs) {
   }
 
   terms = q.split("|")
+
   return {negate, attr, terms};
 }
 
@@ -187,11 +187,17 @@ function queryData(queries, rows, defaultAttr) {
   const matches = rows.filter(row => queries.filter(q => {
        let hasMatch = false;
        let attrValue = '';
-       if (!q.attr) {
-        attrValue = typeof defaultAttr === 'function' ? defaultAttr(row) :  row[defaultAttr]; 
+       
+       if (q.attr) {
+        attrValue = row[q.attr];
+       } else if (typeof defaultAttr === 'function') {
+        attrValue = defaultAttr(row)
+       } else if (typeof row === 'string') {
+        attrValue = row
        } else {
-          attrValue = row[q.attr];
-        }
+        attrValue = row[defaultAttr]; 
+      }
+
       if (typeof attrValue === 'string') {
           hasMatch = !!q.terms.find(t => attrValue.toLowerCase().indexOf(t.toLowerCase()) !== -1);
       } else if (Array.isArray(attrValue)) {
@@ -211,26 +217,6 @@ function queryData(queries, rows, defaultAttr) {
         return guess;
       }
 
-      function buildFilter(queries) {
-        const count = queries.length;
-        return (i) => {
-          return queries.filter(q => {
-            if (q.indexOf("|") !== -1) {
-              return q.split("|").find(x => i.toLowerCase().indexOf(x) !== -1);
-            }
-            let invert = q[0] === "-";
-            if (invert) {
-              q = q.slice(1, q.length);
-            }
-            let hasMatch = i.toLowerCase().indexOf(q) !== -1;
-            if (invert) {
-              hasMatch = !hasMatch;
-            }
-            return hasMatch;
-          }).length === count;
-        };
-      }
-
       const camelToSnakeCase = str => (str.charAt(0).toLowerCase() + str.slice(1)).replace(/[A-Z]+/g, letter => `_${letter.toLowerCase()}`).replace("a-w-s", "aws");
       const debounce = (callback, wait) => {
         let timeoutId = null;
@@ -243,38 +229,6 @@ function queryData(queries, rows, defaultAttr) {
       };
 
       const serviceDetailsTmpl = "https://raw.githubusercontent.com/boto/botocore/develop/botocore/data/$svc/$version/service-2.json";
-      function actionToData(serviceUrls) {
-        return function(action) {
-          const tmp = action.split(":");
-          const svc = tmp[0];
-          const api = tmp[1];
-          let actionTmp = api;
-          if (actionTmp.startsWith("Batch")) {
-            actionTmp = actionTmp.replace("Batch", "")
-          }
-
-          if (actionTmp.indexOf("With") !== -1) {
-            actionTmp = actionTmp.split('With')[0];
-          }
-          const match = Object.keys(actionTypes).find(k => actionTmp.indexOf(k) === 0);
-          /*
-          // Revisit at a later time ... wrecking performance
-          let entityType = '';
-          if (match) {
-            entityType = actionTmp.replace(match, "")
-            entityType = pluralize.singular(entityType)
-          }
-          */
-          return {
-            action,
-            svc,
-            url: serviceUrls[svc],
-            api,
-            // entityType,
-            crud: match ? actionTypes[match] : '?',
-          }
-        }
-      }
 
       // Fix for local testing
       if (window.awsData.indexOf("{{") !== -1){
@@ -351,6 +305,8 @@ function queryData(queries, rows, defaultAttr) {
               fetch(awsData + "/service_urls.json")
                   .then((response) => response.json())
                   .then((data) => {
+                      self.serviceNames = Object.keys(data)
+                      self.serviceNames.sort()
                       self.serviceUrls = data;
                   });
 
@@ -361,13 +317,6 @@ function queryData(queries, rows, defaultAttr) {
                 });
           },
           computed: {
-            serviceOptions() {
-              const opts = Object.keys(this.serviceUrls);
-              opts.sort();
-              return opts;
-            },
-          
-          
             filteredIamRecords() {
               if (this.filter.length < 2 && !this.filterService) {
                 return this.allIamRecords
@@ -385,7 +334,6 @@ function queryData(queries, rows, defaultAttr) {
                   terms: [this.filterService],
                 })
               }
-
               return queryData(queries, this.allIamRecords, (r) => `${r.svc}:${r.action}`)
             },
 
@@ -393,10 +341,8 @@ function queryData(queries, rows, defaultAttr) {
               if (this.filter.length < 2) {
                 return this.terraformResources.map(r => r);
               }
-              const queries = this.filter.split(" ").map(e => e.trim()).filter(e => !!e);
-              const xFilter = buildFilter(queries);
-              return this.terraformResources
-                .filter(xFilter);
+              const queries = buildQueries(this.filter.toLowerCase());
+              return queryData(queries, this.terraformResources || [])
             }
           },
           methods: {
@@ -427,6 +373,7 @@ function queryData(queries, rows, defaultAttr) {
                   terraformResource: '',
                   inputTimer: null,
                   serviceUrls: {},
+                  serviceNames: [],
                   serviceVersions: {},
                   terraformResources: [],
                   filter: '',
