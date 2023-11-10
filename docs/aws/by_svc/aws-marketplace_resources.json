@@ -1,6 +1,0 @@
-{
- "SellerDashboard*": [
-  "aws-marketplace:GetSellerDashboard"
- ],
- "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsmarketplacesellerreporting.html"
-}

@@ -1,5 +1,0 @@
-[
- "deepracer:ListTagsForResource",
- "deepracer:TagResource",
- "deepracer:UntagResource"
-]

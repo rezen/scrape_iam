@@ -1,5 +1,0 @@
-[
- "mobileanalytics:GetFinancialReports",
- "mobileanalytics:GetReports",
- "mobileanalytics:PutEvents"
-]

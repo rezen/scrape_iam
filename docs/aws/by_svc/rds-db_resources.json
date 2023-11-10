@@ -1,6 +1,0 @@
-{
- "db-user*": [
-  "rds-db:connect"
- ],
- "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonrdsiamauthentication.html"
-}

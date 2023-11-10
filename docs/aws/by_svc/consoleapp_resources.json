@@ -1,9 +1,0 @@
-{
- "DeviceIdentity*": [
-  "consoleapp:GetDeviceIdentity"
- ],
- "?": [
-  "consoleapp:ListDeviceIdentities"
- ],
- "_url": "https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsconsolemobileapp.html"
-}

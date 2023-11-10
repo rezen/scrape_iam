@@ -1,8 +1,0 @@
-[
- "ebs:CompleteSnapshot",
- "ebs:GetSnapshotBlock",
- "ebs:ListChangedBlocks",
- "ebs:ListSnapshotBlocks",
- "ebs:PutSnapshotBlock",
- "ebs:StartSnapshot"
-]

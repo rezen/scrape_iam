@@ -1,8 +1,0 @@
-[
- "importexport:CancelJob",
- "importexport:CreateJob",
- "importexport:GetShippingLabel",
- "importexport:GetStatus",
- "importexport:ListJobs",
- "importexport:UpdateJob"
-]

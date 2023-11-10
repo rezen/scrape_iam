@@ -21,8 +21,9 @@
       }
       .resource-match {
         font-family: 'Courier New', Courier, monospace;
-        padding: 2px 0px 2px 22px;
+        padding: 2px 0px 4px 22px;
         position: relative;
+        border-bottom: solid 1px #ccc;
       }
       .bubble {
         border-radius: 8px;
@@ -31,6 +32,12 @@
         padding: 4px 8px;
         font-size: 11px;
       }
+
+      [data-access-level="write"] { 
+        background-color: #fddbdb;
+       }
+
+
       a {
         text-decoration: none;
       }
@@ -92,11 +99,20 @@
             </nav>
             <div class="parent-container">
               <div class="column">
-                <div class="resource-match" v-for="item in filteredItems" :title="'entity: '+ item.entityType">
-                  <span  @click="focusItem(item)" style="cursor: pointer;">{{ item.action }}</span>
-                  <a :href="item.url" class="external-link">
+     
+
+                <div class="resource-match" v-for="item in filteredIamRecords" :title="'entity: '+ item.entityType">
+                  <span  @click="focusItem(item)" style="cursor: pointer;">{{ item.svc }}:{{ item.action }}</span>
+                  <a :href="urlForAwsService(item.svc)" class="external-link">
                     &#9756;
                   </a>
+                  <span :class="{'bubble': true}" 
+                    @click="filterAccessLevel(item.access_level)" 
+                    :data-access-level="item.access_level.toLowerCase()" 
+                    style="position: absolute;right:0;cursor:pointer;">
+                    {{ item.access_level.toLowerCase() }}
+                  </span>
+
                 </div>
               </div>
               <div class="column">
@@ -140,9 +156,58 @@
     <script type="module">
       import Vue from 'vue';
 
+
+function parseQueryPart(q, filterAttrs) {
+  let negate = false;
+  let attr = null;
+  let terms = [];
+  if (q[0] === "-") {
+    negate = true;
+    q = q.slice(1, q.length -1)
+  }
+  
+  if (q.indexOf(":") !== -1 && Array.isArray(filterAttrs)) {
+    const parts = q.split(":")
+    if (filterAttrs.indexOf(parts[0]) !== -1) {
+      attr = parts[0];
+      q = parts[1];
+    }
+  }
+
+  terms = q.split("|")
+  return {negate, attr, terms};
+}
+
+function buildQueries(q, filterAttrs) {
+  return q.split(" ").filter(p => p.length > 0).map((x) => parseQueryPart(x, filterAttrs))
+}
+
+function queryData(queries, rows, defaultAttr) {  
+  const queryCount = queries.length
+  const matches = rows.filter(row => queries.filter(q => {
+       let hasMatch = false;
+       let attrValue = '';
+       if (!q.attr) {
+        attrValue = typeof defaultAttr === 'function' ? defaultAttr(row) :  row[defaultAttr]; 
+       } else {
+          attrValue = row[q.attr];
+        }
+      if (typeof attrValue === 'string') {
+          hasMatch = !!q.terms.find(t => attrValue.toLowerCase().indexOf(t.toLowerCase()) !== -1);
+      } else if (Array.isArray(attrValue)) {
+         hasMatch = !!q.terms.find(t => !!attrValue.find(a => a.toLowerCase().indexOf(t.toLowerCase()) !== -1));
+       }
+      
+       return q.negate ? !hasMatch : hasMatch;
+     }).length === queryCount);
+  
+   return matches;
+}
+
+
       function guessResource(item, data) {
-        const prefix = Object.keys(actionTypes).find(v => item.api.indexOf(v) === 0);
-        let guess = item.api.replace(prefix, "");
+        const prefix = Object.keys(actionTypes).find(v => item.action.indexOf(v) === 0);
+        let guess = item.action.replace(prefix, "");
         return guess;
       }
 
@@ -166,7 +231,7 @@
         };
       }
 
-      const camelToSnakeCase = str => (str.charAt(0).toLowerCase() + str.slice(1)).replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`).replace("a-w-s", "aws");
+      const camelToSnakeCase = str => (str.charAt(0).toLowerCase() + str.slice(1)).replace(/[A-Z]+/g, letter => `_${letter.toLowerCase()}`).replace("a-w-s", "aws");
       const debounce = (callback, wait) => {
         let timeoutId = null;
         return (...args) => {
@@ -243,8 +308,11 @@
                   fetch(detailsUrl, {cache: "force-cache"})
                     .then((response) => response.json())
                     .then((data) => {
-                      const botoCall = camelToSnakeCase(item.api);
-                      const requestShape = data.shapes[item.api + "Request"];
+                      const botoCall = camelToSnakeCase(item.action);
+                      self.focusedApi = botoCall;
+                      self.focusedSvc = svc;
+
+                      const requestShape = data.shapes[item.action + "Request"];
                       if (!requestShape) {
                         return;
                       }
@@ -254,8 +322,6 @@
                       let terraform = svc + "_" + camelToSnakeCase(resource);
                       const isValidTerraform = (self.terraformResources||[]).indexOf(terraform) !== -1;
                       const tfArgs = requiredArgs.map(x => "   " + camelToSnakeCase(x).replace(/_/g, '-') + " = ?");
-
-
                       const cliSubcommand = botoCall.replace(/_/g, '-');
                       const cliArgs = requiredArgs.map(x => "--" + camelToSnakeCase(x).replace(/_/g, '-') + " <value>");
                       const cliSnippet = "aws " + svc + " " + cliSubcommand + " " + cliArgs.join(" ");
@@ -266,22 +332,20 @@
                       this.terraformResource = terraform;
                       this.cliSnippet = cliSnippet
                       this.snippet = snippet;
-                      this.focusedApi = botoCall;
-                      this.focusedSvc = svc;
+                   
                     });
                 }, 400)
-
+              
+              fetch(awsData + "/iam_all_records.json")
+                .then((response) => response.json())
+                    .then((data) => {
+                       self.allIamRecords = data;
+                    });
+              
               fetch(awsData + "/service_versions.json")
                   .then((response) => response.json())
                   .then((data) => {
                       self.serviceVersions = data
-                  });
-
-              fetch(awsData + "/actions.json")
-                  .then((response) => response.json())
-                  .then((data) => {
-                      self.items = data;
-                      self.message = "Done!";
                   });
 
               fetch(awsData + "/service_urls.json")
@@ -293,7 +357,7 @@
               fetch(awsData + "/terraform_resources.json")
                 .then(r => r.json())
                 .then((data) => {
-                  self.terraformResources = data;
+                  self.terraformResources = data.map(r => r[0])
                 });
           },
           computed: {
@@ -302,16 +366,27 @@
               opts.sort();
               return opts;
             },
-            filteredItems() {
+          
+          
+            filteredIamRecords() {
               if (this.filter.length < 2 && !this.filterService) {
-                return this.items.map(actionToData(this.serviceUrls));
+                return this.allIamRecords
               }
-              const queries = this.filter.toLowerCase().split(" ").map(e => e.trim()).filter(e => !!e);
-              const xFilter = buildFilter(queries);
-              return this.items
-                .filter(xFilter)
-                .map(actionToData(this.serviceUrls))
-                .filter(i => !this.filterService  || i.svc === this.filterService)
+
+              if (!Array.isArray(this.allIamRecords)) {
+                return [];
+              }
+
+              const filterAttrs = Object.keys(this.allIamRecords[0] || {});
+              const queries = buildQueries(this.filter.toLowerCase(), filterAttrs);
+              if (this.filterService) {
+                queries.push({
+                  attr: 'svc',
+                  terms: [this.filterService],
+                })
+              }
+
+              return queryData(queries, this.allIamRecords, (r) => `${r.svc}:${r.action}`)
             },
 
             filteredTerraform() {
@@ -325,18 +400,24 @@
             }
           },
           methods: {
+            filterAccessLevel(access) {
+              if (this.filter.indexOf("access_level:") !== -1) {
+                this.filter  = this.filter.replace(/access_level\:[^\s]+/, '')
+                return;
+              }
 
-
+              this.filter =this.filter + " access_level:"+access.toLowerCase()
+            },
+            urlForAwsService(svc) {
+              return this.serviceUrls[svc];
+            }
           },
           data() {
-            /*
-            const x =
-                */
-
               return {
                   search: debounce(() => {
                     window.location.hash = (this.filterService || '') + "@" + this.filter;
                   }, 700),
+                  allIamRecords: [],
                   focused: false,
                   focusedSvc: "",
                   focusedApi: "",
@@ -350,7 +431,6 @@
                   terraformResources: [],
                   filter: '',
                   filterService: null,
-                  items: [],
               }
           }
       });

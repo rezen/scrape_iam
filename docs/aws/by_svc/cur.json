@@ -1,6 +1,0 @@
-[
- "cur:DeleteReportDefinition",
- "cur:DescribeReportDefinitions",
- "cur:ModifyReportDefinition",
- "cur:PutReportDefinition"
-]

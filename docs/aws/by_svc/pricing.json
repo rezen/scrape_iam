@@ -1,7 +1,0 @@
-[
- "pricing:DescribeServices",
- "pricing:GetAttributeValues",
- "pricing:GetPriceListFileUrl",
- "pricing:GetProducts",
- "pricing:ListPriceLists"
-]
