@@ -348,7 +348,7 @@ function queryData(queries, rows, defaultAttr) {
           methods: {
             filterAccessLevel(access) {
               if (this.filter.indexOf("access_level:") !== -1) {
-                this.filter  = this.filter.replace(/access_level\:[^\s]+/, '')
+                this.filter  = this.filter.replace(/\-?access_level\:[^\s]+/, '')
                 return;
               }
 
