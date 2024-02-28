@@ -1,0 +1,4 @@
+{
+    "logs": "cloudwatch_log",
+    "es": "opensearch"
+}

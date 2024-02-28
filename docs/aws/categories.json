@@ -1,0 +1,357 @@
+[
+    {
+        "category": "compute",
+        "services": [
+            "apprunner",
+            "batch",
+            "ec2",
+            "elasticbeanstalk",
+            "imagebuilder",
+            "lambda",
+            "outposts",
+            "serverlessrepo",
+            "simspaceweaver"
+        ]
+    },
+    {
+        "category": "containers",
+        "services": [
+            "ecr",
+            "ecs",
+            "eks",
+            "rosa"
+        ]
+    },
+    {
+        "category": "storage",
+        "services": [
+            "backup",
+            "drs",
+            "efs",
+            "fsx",
+            "glacier",
+            "s3",
+            "storagegateway"
+        ]
+    },
+    {
+        "category": "database",
+        "services": [
+            "docdb",
+            "dynamodbv2",
+            "elasticache",
+            "keyspaces",
+            "memorydb",
+            "neptune",
+            "qldb",
+            "rds",
+            "timestream"
+        ]
+    },
+    {
+        "category": "migration_transfer",
+        "services": [
+            "datasync",
+            "discovery",
+            "dms",
+            "m2",
+            "mgn",
+            "migrationhub",
+            "snowfamily",
+            "transfer"
+        ]
+    },
+    {
+        "category": "networking_content_delivery",
+        "services": [
+            "apigateway",
+            "appmesh",
+            "cloudfront",
+            "cloudmap",
+            "directconnect",
+            "globalaccelerator",
+            "private-networks",
+            "route53",
+            "route53recovery",
+            "vpc"
+        ]
+    },
+    {
+        "category": "developer_tools",
+        "services": [
+            "cloud9",
+            "cloudshell",
+            "codecatalyst",
+            "codecommit",
+            "codesuite",
+            "codewhisperer",
+            "composer",
+            "fis",
+            "systems-manager",
+            "xray"
+        ]
+    },
+    {
+        "category": "customer_enablement",
+        "services": [
+            "activate",
+            "managedservices",
+            "repost-private",
+            "support"
+        ]
+    },
+    {
+        "category": "robotics",
+        "services": [
+            "robomaker"
+        ]
+    },
+    {
+        "category": "blockchain",
+        "services": [
+            "managedblockchain"
+        ]
+    },
+    {
+        "category": "satellite",
+        "services": [
+            "groundstation"
+        ]
+    },
+    {
+        "category": "quantum_technologies",
+        "services": [
+            "braket"
+        ]
+    },
+    {
+        "category": "management_governance",
+        "services": [
+            "awsautoscaling",
+            "chatbot",
+            "cloudformation",
+            "cloudtrail",
+            "cloudwatch",
+            "compute-optimizer",
+            "config",
+            "controltower",
+            "grafana",
+            "health",
+            "launchwizard",
+            "license-manager",
+            "notifications",
+            "opsworks",
+            "organizations",
+            "prometheus",
+            "proton",
+            "resiliencehub",
+            "resource-explorer",
+            "resource-groups",
+            "servicecatalog",
+            "servicequotas",
+            "systems-manager",
+            "tnb",
+            "trustedadvisor",
+            "wellarchitected"
+        ]
+    },
+    {
+        "category": "media_services",
+        "services": [
+            "elastictranscoder",
+            "elemental-appliances-software",
+            "ivs",
+            "kinesisvideo",
+            "mediaconnect",
+            "mediaconvert",
+            "medialive",
+            "mediapackage",
+            "mediastore",
+            "mediatailor",
+            "nimblestudio"
+        ]
+    },
+    {
+        "category": "machine_learning",
+        "services": [
+            "a2i",
+            "amazonq",
+            "bedrock",
+            "codeguru",
+            "comprehend",
+            "comprehendmedical",
+            "deepcomposer",
+            "deepracer",
+            "devops-guru",
+            "forecast",
+            "frauddetector",
+            "healthlake",
+            "kendra",
+            "lexv2",
+            "lookoutequipment",
+            "lookoutmetrics",
+            "lookoutvision",
+            "medical-imaging",
+            "monitron",
+            "omics",
+            "panorama",
+            "personalize",
+            "polly",
+            "rekognition",
+            "sagemaker",
+            "textract",
+            "transcribe",
+            "translate"
+        ]
+    },
+    {
+        "category": "analytics",
+        "services": [
+            "aos",
+            "athena",
+            "cleanrooms",
+            "cloudsearch",
+            "databrew",
+            "dataexchange",
+            "datapipeline",
+            "datazone",
+            "emr",
+            "entityresolution",
+            "finspace",
+            "firehose",
+            "flink",
+            "glue",
+            "kinesis",
+            "lakeformation",
+            "msk",
+            "redshiftv2"
+        ]
+    },
+    {
+        "category": "cryptography",
+        "services": [
+            "acm",
+            "acm-pca",
+            "cloudhsm",
+            "kms",
+            "payment-cryptography",
+            "signer"
+        ]
+    },
+    {
+        "category": "firewall",
+        "services": [
+            "wafv2",
+            "wafv2"
+        ]
+    },
+    {
+        "category": "identity",
+        "services": [
+            "ram",
+            "cognito",
+            "directoryservicev2",
+            "iam",
+            "signer",
+            "singlesignon",
+            "verifiedpermissions"
+        ]
+    },
+    {
+        "category": "security",
+        "services": [
+            "detective",
+            "guardduty",
+            "inspector",
+            "macie",
+            "secretsmanager",
+            "securityhub",
+            "securitylake"
+        ]
+    },
+    {
+        "category": "compliance",
+        "services": [
+            "artifact",
+            "auditmanager"
+        ]
+    },
+    {
+        "category": "cloud_financial_management",
+        "services": [
+            "billingconductor",
+            "costmanagement",
+            "marketplace"
+        ]
+    },
+    {
+        "category": "front-end_web_mobile",
+        "services": [
+            "amplify",
+            "appsync",
+            "devicefarm",
+            "location"
+        ]
+    },
+    {
+        "category": "application_integration",
+        "services": [
+            "amazon-mq",
+            "appflow",
+            "b2bi",
+            "events",
+            "mwaa",
+            "sns",
+            "sqs",
+            "states",
+            "swf"
+        ]
+    },
+    {
+        "category": "business_applications",
+        "services": [
+            "appfabric",
+            "chime-sdk",
+            "connect",
+            "honeycode",
+            "one-enterprise",
+            "pinpointv2",
+            "scn",
+            "ses",
+            "wickr",
+            "workmail",
+            "zocalo"
+        ]
+    },
+    {
+        "category": "end_user_computing",
+        "services": [
+            "appstream2",
+            "workspaces",
+            "workspaces-thin-client",
+            "workspaces-web"
+        ]
+    },
+    {
+        "category": "iot",
+        "services": [
+            "devicedefender",
+            "greengrass",
+            "iot",
+            "iot1click",
+            "iotanalytics",
+            "iotdm",
+            "iotevents",
+            "iotfleetwise",
+            "iotroborunner",
+            "iotsitewise",
+            "iottwinmaker"
+        ]
+    },
+    {
+        "category": "game_development",
+        "services": [
+            "gamelift"
+        ]
+    }
+]

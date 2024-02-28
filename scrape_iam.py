@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """ It is nice having a list of all the IAM actions in a text file """
 import os
+import re
 import json
 from concurrent import futures
 import requests
@@ -19,6 +20,15 @@ def camelize(s):
 
 
 def entity_name(x):
+    splitters = ["Without", "By", "From", "With"]
+    words = re.findall('[A-Z][^A-Z]*', x)
+    for w in splitters:
+        if w in words:
+            x = x.split(w).pop(0)
+            break
+    if x.endswith("tatus"):
+        return x
+
     return Inflector().singularize(x)
 
 
@@ -79,6 +89,7 @@ def parse_actions(ref_url):
             data["resource_types"] = (
                 data["resource_types"] if data["resource_types"] else ["?"]
             )
+            data["resource_types"] = [r.replace("_", "").replace("-", "").lower() for r in data["resource_types"]]
             data["condition_keys"] = [x for x in cols[4].text.strip().split("\n") if x]
 
             tmp_action = data["action"]
@@ -120,7 +131,7 @@ def download_boto_docs(data_dir):
         fh.write(json.dumps(aws_service_versions(), indent=True))
 
 
-def download_terraform_resources():
+def download_terraform_resources(validate_services=[]):
     response = requests.get(
         "https://registry.terraform.io/v2/provider-versions/34748?include=provider-docs"
     )
@@ -130,21 +141,48 @@ def download_terraform_resources():
         attrs = resource["attributes"]
         if not attrs.get("subcategory"):
             continue
+        slug = attrs["slug"]
         subcategory = attrs["subcategory"].split("(").pop(0).strip()
-        resources.add((attrs["slug"], subcategory))
+        sub_slug = subcategory.replace(" ", "-").lower()
+        tmp = slug.split("_")
+        obj_label = None
+        svc = None
+        original_service = None
+        if sub_slug == "vpc":
+            svc = "ec2"
+        elif sub_slug == "opensearch":
+            svc = "es"
+        elif slug.startswith("cloudwatch_log"):
+            svc = "logs"
+            original_service = "cloudwatch"
+        elif sub_slug == "api-gateway-v2":
+            svc = "apigateway"
+        elif sub_slug == "elb":
+            svc = "elasticloadbalancing"
+        elif tmp[0] in validate_services:
+            svc = tmp[0]
+        elif sub_slug in validate_services:
+            svc = sub_slug
+        elif sub_slug.replace("-", "") in validate_services:
+            svc = sub_slug.replace("-", "")
+        else:
+            pass
+
+        if svc:
+            wo_prefix = slug.lstrip(original_service if original_service else svc).lstrip("_")
+            obj_label = entity_name(''.join(x for x in wo_prefix.title() if not x.isspace()).replace("_", ""))
+        resources.add((slug, subcategory, svc, obj_label))
 
     return sorted(list(resources))
 
 
+root = "https://docs.aws.amazon.com/service-authorization/latest/reference/"
 data_dir = os.path.expanduser("~/vcs/scrape_iam/docs")
 
 with open(data_dir + "/aws/action_type.json", "r") as fh:
     action_types = json.loads(fh.read())
 
 ensure_dir(f"{data_dir}/aws/by_svc/")
-tf_resources = download_terraform_resources()
-download_boto_docs(data_dir)
-root = "https://docs.aws.amazon.com/service-authorization/latest/reference/"
 
 response = requests.get(
     f"{root}/reference_policies_actions-resources-contextkeys.html", timeout=5
@@ -164,6 +202,10 @@ for idx, promise in enumerate(promises):
 
 with open(f"{data_dir}/aws/iam_all_records.json", "w+") as fh:
     fh.write(json.dumps(all_records))
+
+
+tf_resources = download_terraform_resources(list(service_docs.keys()))
+download_boto_docs(data_dir)
 
 with open(f"{data_dir}/aws/terraform_resources.json", "w+") as fh:
     fh.write(json.dumps(tf_resources))
